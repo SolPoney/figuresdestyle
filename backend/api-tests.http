@@ -1,0 +1,76 @@
+### Backend API Tests - Figures de Style
+### Utilisez l'extension REST Client de VSCode pour exécuter ces requêtes
+
+@baseUrl = http://localhost:3000/api
+@email = test@example.com
+@password = test123
+
+###############################################
+# 1. INSCRIPTION
+###############################################
+
+# @name signup
+POST {{baseUrl}}/auth/signup
+Content-Type: application/json
+
+{
+  "email": "{{email}}",
+  "name": "Test User",
+  "password": "{{password}}"
+}
+
+###############################################
+# 2. CONNEXION
+###############################################
+
+# @name login
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "{{email}}",
+  "password": "{{password}}"
+}
+
+###############################################
+# 3. SAUVEGARDER LE TOKEN
+###############################################
+
+@token = {{login.response.body.token}}
+
+###############################################
+# 4. CRÉER SESSION STRIPE (PROTÉGÉ)
+###############################################
+
+POST {{baseUrl}}/stripe/create-checkout-session
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "priceId": "price_premium_monthly",
+  "plan": "premium"
+}
+
+###############################################
+# 5. TEST MAUVAIS MOT DE PASSE
+###############################################
+
+POST {{baseUrl}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "{{email}}",
+  "password": "wrongpassword"
+}
+
+###############################################
+# 6. TEST SANS TOKEN (DOIT ÉCHOUER)
+###############################################
+
+POST {{baseUrl}}/stripe/create-checkout-session
+Content-Type: application/json
+
+{
+  "priceId": "price_test",
+  "plan": "premium"
+}

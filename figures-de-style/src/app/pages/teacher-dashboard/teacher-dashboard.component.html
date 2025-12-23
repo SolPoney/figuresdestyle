@@ -1,0 +1,449 @@
+<div class="min-h-screen bg-dark-bg px-4 py-8">
+  <div class="max-w-7xl mx-auto">
+    <!-- Vérification accès enseignant -->
+    <div
+      *ngIf="!currentUser || currentUser.plan !== 'school'"
+      class="text-center py-20"
+    >
+      <svg
+        class="w-20 h-20 mx-auto mb-6 text-yellow-500"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+        />
+      </svg>
+      <h2 class="text-3xl font-bold text-dark-text mb-4">
+        Accès réservé aux enseignants
+      </h2>
+      <p class="text-dark-textSecondary mb-8">
+        Le tableau de bord enseignant est disponible uniquement avec le plan
+        École
+      </p>
+      <a
+        routerLink="/auth"
+        class="inline-flex items-center px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors duration-200"
+      >
+        Passer au plan École
+      </a>
+    </div>
+
+    <!-- Dashboard enseignant -->
+    <div *ngIf="currentUser && currentUser.plan === 'school'">
+      <!-- En-tête -->
+      <header class="mb-8">
+        <div class="flex items-center justify-between">
+          <div>
+            <h1 class="text-4xl font-bold text-dark-text mb-2">
+              Tableau de bord enseignant
+            </h1>
+            <p class="text-dark-textSecondary">
+              Gérez vos élèves et suivez leur progression
+            </p>
+          </div>
+          <a
+            routerLink="/"
+            class="inline-flex items-center px-4 py-2 bg-dark-surface border border-dark-border hover:border-blue-500 text-dark-text rounded-lg transition-colors duration-200"
+          >
+            <svg
+              class="w-5 h-5 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M10 19l-7-7m0 0l7-7m-7 7h18"
+              />
+            </svg>
+            Retour à l'accueil
+          </a>
+        </div>
+      </header>
+
+      <!-- Statistiques globales -->
+      <div class="grid gap-6 md:grid-cols-3 mb-8">
+        <div class="bg-dark-surface border border-dark-border rounded-lg p-6">
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="text-dark-textSecondary text-sm font-medium">
+              Total élèves
+            </h3>
+            <svg
+              class="w-8 h-8 text-blue-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+              />
+            </svg>
+          </div>
+          <p class="text-3xl font-bold text-dark-text">
+            {{ stats.totalStudents }}/30
+          </p>
+        </div>
+
+        <div class="bg-dark-surface border border-dark-border rounded-lg p-6">
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="text-dark-textSecondary text-sm font-medium">
+              Élèves actifs
+            </h3>
+            <svg
+              class="w-8 h-8 text-green-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+          </div>
+          <p class="text-3xl font-bold text-dark-text">
+            {{ stats.activeStudents }}
+          </p>
+          <p class="text-sm text-dark-textSecondary mt-1">7 derniers jours</p>
+        </div>
+
+        <div class="bg-dark-surface border border-dark-border rounded-lg p-6">
+          <div class="flex items-center justify-between mb-2">
+            <h3 class="text-dark-textSecondary text-sm font-medium">
+              Score moyen
+            </h3>
+            <svg
+              class="w-8 h-8 text-yellow-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+              />
+            </svg>
+          </div>
+          <p class="text-3xl font-bold text-dark-text">
+            {{ stats.averageScore }}%
+          </p>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-2xl font-bold text-dark-text">Liste des élèves</h2>
+        <div class="flex gap-3">
+          <button
+            (click)="exportResults()"
+            class="inline-flex items-center px-4 py-2 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-colors duration-200"
+          >
+            <svg
+              class="w-5 h-5 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+              />
+            </svg>
+            Exporter CSV
+          </button>
+          <button
+            (click)="showAddStudentForm = true"
+            [disabled]="students.length >= 30"
+            class="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            <svg
+              class="w-5 h-5 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+            Ajouter un élève
+          </button>
+        </div>
+      </div>
+
+      <!-- Formulaire ajout élève -->
+      <div
+        *ngIf="showAddStudentForm"
+        class="bg-dark-surface border border-blue-500 rounded-lg p-6 mb-6"
+      >
+        <h3 class="text-xl font-bold text-dark-text mb-4">Ajouter un élève</h3>
+        <div class="grid gap-4 md:grid-cols-2">
+          <div>
+            <label class="block text-sm font-medium text-dark-text mb-2"
+              >Nom complet</label
+            >
+            <input
+              type="text"
+              [(ngModel)]="newStudentName"
+              placeholder="Jean Dupont"
+              class="w-full px-4 py-2 bg-dark-bg border border-dark-border rounded-lg text-dark-text focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-dark-text mb-2"
+              >Email</label
+            >
+            <input
+              type="email"
+              [(ngModel)]="newStudentEmail"
+              placeholder="jean.dupont@example.com"
+              class="w-full px-4 py-2 bg-dark-bg border border-dark-border rounded-lg text-dark-text focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+        </div>
+        <div class="flex gap-3 mt-4">
+          <button
+            (click)="addStudent()"
+            class="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200"
+          >
+            Ajouter
+          </button>
+          <button
+            (click)="
+              showAddStudentForm = false;
+              newStudentEmail = '';
+              newStudentName = ''
+            "
+            class="px-6 py-2 bg-gray-600 hover:bg-gray-700 text-white font-semibold rounded-lg transition-colors duration-200"
+          >
+            Annuler
+          </button>
+        </div>
+      </div>
+
+      <!-- Liste des élèves -->
+      <div
+        *ngIf="students.length === 0"
+        class="text-center py-20 bg-dark-surface border border-dark-border rounded-lg"
+      >
+        <svg
+          class="w-16 h-16 mx-auto mb-4 text-dark-textSecondary"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+          />
+        </svg>
+        <h3 class="text-xl font-bold text-dark-text mb-2">Aucun élève</h3>
+        <p class="text-dark-textSecondary">
+          Commencez par ajouter des élèves à votre classe
+        </p>
+      </div>
+
+      <div class="grid gap-4" *ngIf="students.length > 0">
+        <div
+          *ngFor="let student of students"
+          class="bg-dark-surface border border-dark-border rounded-lg p-6 hover:border-blue-500 transition-colors duration-200"
+        >
+          <div class="flex items-center justify-between">
+            <div class="flex-1">
+              <h3 class="text-xl font-bold text-dark-text mb-1">
+                {{ student.name }}
+              </h3>
+              <p class="text-sm text-dark-textSecondary mb-3">
+                {{ student.email }}
+              </p>
+
+              <div class="flex items-center gap-4">
+                <div class="flex items-center">
+                  <svg
+                    class="w-5 h-5 mr-2 text-blue-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                    />
+                  </svg>
+                  <span class="text-dark-text"
+                    >{{ student.completedModules }} modules</span
+                  >
+                </div>
+
+                <div class="flex items-center">
+                  <svg
+                    class="w-5 h-5 mr-2 text-yellow-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                    />
+                  </svg>
+                  <span
+                    class="text-dark-text font-semibold"
+                    [class]="getScoreColor(student.averageScore)"
+                  >
+                    {{ student.averageScore }}%
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex gap-2">
+              <button
+                (click)="viewStudentDetails(student)"
+                class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200"
+              >
+                Détails
+              </button>
+              <button
+                (click)="removeStudent(student.id)"
+                class="px-4 py-2 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg transition-colors duration-200"
+              >
+                Supprimer
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal détails élève -->
+<div
+  *ngIf="selectedStudent"
+  class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+  (click)="closeStudentDetails()"
+>
+  <div
+    class="bg-dark-surface border border-dark-border rounded-lg max-w-3xl w-full max-h-[90vh] overflow-y-auto"
+    (click)="$event.stopPropagation()"
+  >
+    <div class="p-6">
+      <div class="flex items-center justify-between mb-6">
+        <div>
+          <h2 class="text-3xl font-bold text-dark-text">
+            {{ selectedStudent.name }}
+          </h2>
+          <p class="text-dark-textSecondary">{{ selectedStudent.email }}</p>
+        </div>
+        <button
+          (click)="closeStudentDetails()"
+          class="text-dark-textSecondary hover:text-dark-text"
+        >
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="mb-6">
+        <h3 class="text-xl font-bold text-dark-text mb-4">
+          Résumé de la progression
+        </h3>
+        <div class="grid gap-4 md:grid-cols-3">
+          <div class="bg-dark-bg border border-dark-border rounded-lg p-4">
+            <p class="text-sm text-dark-textSecondary mb-1">
+              Modules complétés
+            </p>
+            <p class="text-2xl font-bold text-dark-text">
+              {{ selectedStudent.completedModules }}
+            </p>
+          </div>
+          <div class="bg-dark-bg border border-dark-border rounded-lg p-4">
+            <p class="text-sm text-dark-textSecondary mb-1">Score moyen</p>
+            <p
+              class="text-2xl font-bold"
+              [class]="getScoreColor(selectedStudent.averageScore)"
+            >
+              {{ selectedStudent.averageScore }}%
+            </p>
+          </div>
+          <div class="bg-dark-bg border border-dark-border rounded-lg p-4">
+            <p class="text-sm text-dark-textSecondary mb-1">
+              Dernière activité
+            </p>
+            <p class="text-2xl font-bold text-dark-text">
+              {{
+                selectedStudent.lastActive
+                  ? (selectedStudent.lastActive | date : "dd/MM")
+                  : "N/A"
+              }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-bold text-dark-text mb-4">Scores par module</h3>
+        <div class="space-y-2">
+          <div
+            *ngFor="let moduleScore of studentModuleScores"
+            class="flex items-center justify-between bg-dark-bg border border-dark-border rounded-lg p-4"
+          >
+            <span class="text-dark-text font-medium">{{
+              moduleScore.moduleName
+            }}</span>
+            <span
+              *ngIf="moduleScore.score !== null"
+              class="px-3 py-1 rounded font-semibold text-white"
+              [class]="getScoreBadgeClass(moduleScore.score)"
+            >
+              {{ moduleScore.score }}%
+            </span>
+            <span
+              *ngIf="moduleScore.score === null"
+              class="text-dark-textSecondary text-sm"
+            >
+              Non complété
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

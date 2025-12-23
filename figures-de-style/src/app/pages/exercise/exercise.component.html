@@ -1,0 +1,325 @@
+<div
+  class="h-screen bg-dark-bg px-4 py-4 overflow-y-auto"
+  *ngIf="questions.length > 0 && currentQuestion && !showResult"
+>
+  <div class="max-w-4xl mx-auto">
+    <!-- Navigation et progression compactes -->
+    <nav class="mb-3 flex justify-between items-center" role="navigation">
+      <a
+        [routerLink]="['/module', moduleId]"
+        class="inline-flex items-center text-blue-500 hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1 text-sm"
+        aria-label="Retour au module"
+      >
+        <svg
+          class="w-4 h-4 mr-1"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M10 19l-7-7m0 0l7-7m-7 7h18"
+          />
+        </svg>
+        <span>Retour</span>
+      </a>
+
+      <div class="text-dark-textSecondary text-sm">
+        Question {{ currentQuestionIndex + 1 }} / {{ questions.length }}
+      </div>
+    </nav>
+
+    <!-- Barre de progression compacte -->
+    <div
+      class="mb-4"
+      role="progressbar"
+      [attr.aria-valuenow]="currentQuestionIndex + 1"
+      [attr.aria-valuemin]="1"
+      [attr.aria-valuemax]="questions.length"
+      aria-label="Progression"
+    >
+      <div class="bg-dark-surface h-2 rounded-full overflow-hidden">
+        <div
+          class="bg-blue-600 h-full transition-all duration-300"
+          [style.width.%]="
+            ((currentQuestionIndex + 1) / questions.length) * 100
+          "
+        ></div>
+      </div>
+    </div>
+
+    <!-- Question compacte -->
+    <section
+      class="bg-dark-surface border border-dark-border rounded-lg p-4 mb-4"
+    >
+      <blockquote
+        class="text-lg text-dark-text italic border-l-4 border-blue-500 pl-4"
+      >
+        « {{ currentQuestion.question }} »
+      </blockquote>
+    </section>
+
+    <!-- Options de réponse compactes -->
+    <div class="space-y-2 mb-3">
+      <button
+        *ngFor="let option of currentQuestion.reponses"
+        (click)="selectAnswer(option)"
+        [disabled]="isAnswered()"
+        [class.ring-2]="selectedAnswer === option && !isAnswered()"
+        [class.ring-blue-500]="selectedAnswer === option && !isAnswered()"
+        [class.bg-green-700]="
+          isAnswered() &&
+          option === currentQuestion.reponses[currentQuestion.correct]
+        "
+        [class.bg-red-700]="
+          isAnswered() &&
+          option === getCurrentAnswer()?.answer &&
+          !getCurrentAnswer()?.isCorrect
+        "
+        [class.hover:bg-dark-border]="!isAnswered()"
+        class="w-full text-left px-4 py-3 bg-dark-surface border border-dark-border rounded-lg text-dark-text transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-blue-500 disabled:cursor-not-allowed"
+        [attr.aria-pressed]="selectedAnswer === option"
+      >
+        <span class="flex items-center justify-between">
+          <span>{{ option }}</span>
+          <span
+            *ngIf="
+              isAnswered() &&
+              option === currentQuestion.reponses[currentQuestion.correct]
+            "
+            class="text-green-400"
+            >✓</span
+          >
+          <span
+            *ngIf="
+              isAnswered() &&
+              option === getCurrentAnswer()?.answer &&
+              !getCurrentAnswer()?.isCorrect
+            "
+            class="text-red-400"
+            >✗</span
+          >
+        </span>
+      </button>
+    </div>
+
+    <!-- Indice et feedback : affichage inline compact -->
+    <div class="mb-3">
+      <!-- Bouton indice compact -->
+      <button
+        *ngIf="!isAnswered()"
+        (click)="toggleHint()"
+        class="inline-flex items-center px-4 py-2 bg-dark-surface border border-dark-border hover:border-yellow-500 text-dark-text text-sm rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+        [attr.aria-expanded]="showHint"
+      >
+        <svg
+          class="w-4 h-4 mr-1"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+          />
+        </svg>
+        <span>{{ showHint ? "Masquer" : "Indice" }}</span>
+      </button>
+
+      <!-- Indice compact -->
+      <div
+        *ngIf="showHint"
+        class="mt-2 bg-yellow-900 bg-opacity-20 border border-yellow-600 rounded-lg p-3 text-sm text-dark-text"
+      >
+        💡 {{ currentQuestion.indice }}
+      </div>
+
+      <!-- Feedback compact après réponse -->
+      <div *ngIf="isAnswered()">
+        <div
+          [class.bg-green-900]="getCurrentAnswer()?.isCorrect"
+          [class.bg-red-900]="!getCurrentAnswer()?.isCorrect"
+          class="bg-opacity-20 border rounded-lg p-3"
+          [class.border-green-600]="getCurrentAnswer()?.isCorrect"
+          [class.border-red-600]="!getCurrentAnswer()?.isCorrect"
+        >
+          <p
+            class="text-sm font-semibold mb-1"
+            [class.text-green-400]="getCurrentAnswer()?.isCorrect"
+            [class.text-red-400]="!getCurrentAnswer()?.isCorrect"
+          >
+            {{ getCurrentAnswer()?.isCorrect ? "✓ Correct !" : "✗ Incorrect" }}
+          </p>
+          <p class="text-dark-text text-sm mb-1">
+            {{ currentQuestion.explication }}
+          </p>
+          <p
+            class="text-dark-text text-sm"
+            *ngIf="!getCurrentAnswer()?.isCorrect"
+          >
+            Réponse :
+            <strong>{{
+              currentQuestion.reponses[currentQuestion.correct]
+            }}</strong>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Boutons d'action fixés en bas -->
+    <div class="flex gap-3 justify-end">
+      <button
+        *ngIf="!isAnswered()"
+        (click)="submitAnswer()"
+        [disabled]="!selectedAnswer"
+        class="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
+      >
+        Valider
+      </button>
+
+      <button
+        *ngIf="isAnswered()"
+        (click)="nextQuestion()"
+        class="px-6 py-2 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-green-500"
+      >
+        {{
+          currentQuestionIndex < questions.length - 1 ? "Suivant" : "Résultats"
+        }}
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Écran de résultat -->
+<div class="min-h-screen bg-dark-bg px-4 py-8" *ngIf="showResult">
+  <div class="max-w-4xl mx-auto">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold text-dark-text mb-4">
+        Exercice terminé !
+      </h1>
+    </header>
+
+    <!-- Score -->
+    <div class="mb-12">
+      <div
+        class="bg-dark-surface border border-dark-border rounded-lg p-8 text-center"
+      >
+        <h2 class="text-2xl font-semibold text-dark-text mb-6">
+          Votre résultat
+        </h2>
+        <div class="relative inline-flex items-center justify-center mb-6">
+          <svg class="w-48 h-48 transform -rotate-90">
+            <circle
+              cx="96"
+              cy="96"
+              r="88"
+              stroke="currentColor"
+              stroke-width="12"
+              fill="transparent"
+              class="text-dark-border"
+            />
+            <circle
+              cx="96"
+              cy="96"
+              r="88"
+              stroke="currentColor"
+              stroke-width="12"
+              fill="transparent"
+              [attr.stroke-dasharray]="552.92"
+              [attr.stroke-dashoffset]="
+                552.92 - (552.92 * getScorePercentage()) / 100
+              "
+              [class.text-green-500]="getScorePercentage() >= 70"
+              [class.text-yellow-500]="
+                getScorePercentage() >= 50 && getScorePercentage() < 70
+              "
+              [class.text-red-500]="getScorePercentage() < 50"
+              class="transition-all duration-1000"
+            />
+          </svg>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <div class="text-center">
+              <div
+                class="text-5xl font-bold"
+                [class.text-green-500]="getScorePercentage() >= 70"
+                [class.text-yellow-500]="
+                  getScorePercentage() >= 50 && getScorePercentage() < 70
+                "
+                [class.text-red-500]="getScorePercentage() < 50"
+              >
+                {{ getScorePercentage() }}%
+              </div>
+              <div class="text-dark-textSecondary text-sm mt-2">
+                {{ score }} / {{ questions.length }}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p
+          class="text-lg text-dark-text mb-4"
+          [class.text-green-400]="getScorePercentage() >= 70"
+          [class.text-yellow-400]="
+            getScorePercentage() >= 50 && getScorePercentage() < 70
+          "
+          [class.text-red-400]="getScorePercentage() < 50"
+        >
+          {{
+            getScorePercentage() >= 70
+              ? "Excellent ! Vous maîtrisez bien ces figures de style."
+              : getScorePercentage() >= 50
+              ? "Pas mal ! Continuez à vous exercer pour progresser."
+              : "Pas de panique ! Relisez le module et réessayez."
+          }}
+        </p>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <button
+        (click)="restartExercise()"
+        class="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-500"
+      >
+        Recommencer l'exercice
+      </button>
+      <button
+        (click)="goToModule()"
+        class="px-8 py-3 bg-dark-surface border border-dark-border hover:border-blue-500 text-dark-text font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-500"
+      >
+        Retour au module
+      </button>
+      <button
+        (click)="goHome()"
+        class="px-8 py-3 bg-dark-surface border border-dark-border hover:border-blue-500 text-dark-text font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-500"
+      >
+        Retour à l'accueil
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Message si aucune question -->
+<div
+  class="min-h-screen bg-dark-bg px-4 py-8 flex items-center justify-center"
+  *ngIf="questions.length === 0 && !showResult"
+>
+  <div class="max-w-2xl mx-auto text-center">
+    <h1 class="text-3xl font-bold text-dark-text mb-4">
+      Aucun exercice disponible
+    </h1>
+    <p class="text-dark-textSecondary mb-8">
+      Il n'y a pas d'exercices pour ce module pour le moment.
+    </p>
+    <button
+      (click)="goHome()"
+      class="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-500"
+    >
+      Retour à l'accueil
+    </button>
+  </div>
+</div>

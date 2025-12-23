@@ -1,0 +1,359 @@
+<div
+  class="min-h-screen bg-dark-bg px-4 py-8"
+  *ngIf="exercice && currentQuestion && !showResult"
+>
+  <div class="max-w-4xl mx-auto">
+    <!-- Navigation et progression -->
+    <nav class="mb-8 flex justify-between items-center" role="navigation">
+      <a
+        [routerLink]="['/module', moduleId]"
+        class="inline-flex items-center text-blue-500 hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
+        aria-label="Retour au module"
+      >
+        <svg
+          class="w-5 h-5 mr-2"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M10 19l-7-7m0 0l7-7m-7 7h18"
+          />
+        </svg>
+        <span>Retour au module</span>
+      </a>
+
+      <div
+        class="text-dark-textSecondary text-sm"
+        role="status"
+        aria-live="polite"
+      >
+        Question {{ currentQuestionIndex + 1 }} sur
+        {{ exercice.questions.length }}
+      </div>
+    </nav>
+
+    <!-- Barre de progression -->
+    <div
+      class="mb-8"
+      role="progressbar"
+      [attr.aria-valuenow]="currentQuestionIndex + 1"
+      [attr.aria-valuemin]="1"
+      [attr.aria-valuemax]="exercice.questions.length"
+    >
+      <div class="bg-dark-surface h-3 rounded-full overflow-hidden">
+        <div
+          class="bg-blue-600 h-full transition-all duration-300"
+          [style.width.%]="
+            ((currentQuestionIndex + 1) / exercice.questions.length) * 100
+          "
+        ></div>
+      </div>
+    </div>
+
+    <!-- En-tête -->
+    <header class="mb-8">
+      <h1 class="text-3xl md:text-4xl font-bold text-dark-text mb-4">
+        Figures de style – Module {{ moduleId }} – Exercice
+        {{ currentQuestionIndex + 1 }} de {{ exercice.questions.length }}
+      </h1>
+      <p class="text-lg text-dark-textSecondary">
+        Indiquez quelle figure de style est employée dans l'exemple suivant.
+      </p>
+    </header>
+
+    <!-- Question -->
+    <section
+      class="bg-dark-surface border border-dark-border rounded-lg p-8 mb-8"
+      aria-labelledby="question-title"
+    >
+      <h2 id="question-title" class="sr-only">Exemple à analyser</h2>
+      <blockquote
+        class="text-2xl text-dark-text italic border-l-4 border-blue-500 pl-6"
+      >
+        « {{ currentQuestion.exemple }} »
+      </blockquote>
+    </section>
+
+    <!-- Options de réponse -->
+    <section class="space-y-4 mb-8" aria-labelledby="options-title">
+      <h2 id="options-title" class="text-xl font-semibold text-dark-text mb-4">
+        Choisissez la bonne réponse :
+      </h2>
+
+      <div class="space-y-3">
+        <button
+          *ngFor="let option of currentQuestion.options"
+          (click)="selectAnswer(option)"
+          [disabled]="isAnswered()"
+          [class.ring-2]="selectedAnswer === option && !isAnswered()"
+          [class.ring-blue-500]="selectedAnswer === option && !isAnswered()"
+          [class.bg-green-700]="
+            isAnswered() && option === currentQuestion.reponseCorrecte
+          "
+          [class.bg-red-700]="
+            isAnswered() &&
+            option === getCurrentAnswer()?.answer &&
+            !getCurrentAnswer()?.isCorrect
+          "
+          [class.hover:bg-dark-border]="!isAnswered()"
+          class="w-full text-left px-6 py-4 bg-dark-surface border border-dark-border rounded-lg text-dark-text text-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-blue-500 disabled:cursor-not-allowed"
+          [attr.aria-pressed]="selectedAnswer === option"
+          [attr.aria-label]="
+            'Sélectionner ' +
+            option +
+            (isAnswered() && option === currentQuestion.reponseCorrecte
+              ? ' - Bonne réponse'
+              : '')
+          "
+        >
+          <span class="flex items-center justify-between">
+            <span>{{ option }}</span>
+            <span
+              *ngIf="isAnswered() && option === currentQuestion.reponseCorrecte"
+              class="text-green-400"
+              aria-hidden="true"
+              >✓</span
+            >
+            <span
+              *ngIf="
+                isAnswered() &&
+                option === getCurrentAnswer()?.answer &&
+                !getCurrentAnswer()?.isCorrect
+              "
+              class="text-red-400"
+              aria-hidden="true"
+              >✗</span
+            >
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Bouton afficher les indices -->
+    <div class="mb-8" *ngIf="!isAnswered()">
+      <button
+        (click)="toggleIndices()"
+        class="inline-flex items-center px-6 py-3 bg-dark-surface border border-dark-border hover:border-yellow-500 text-dark-text rounded-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-yellow-500"
+        [attr.aria-expanded]="showIndices"
+        aria-controls="indices-section"
+      >
+        <svg
+          class="w-5 h-5 mr-2"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+          />
+        </svg>
+        <span>{{ showIndices ? "Masquer" : "Afficher" }} les indices</span>
+      </button>
+
+      <!-- Section des indices -->
+      <div
+        *ngIf="showIndices"
+        id="indices-section"
+        class="mt-4 bg-yellow-900 bg-opacity-20 border border-yellow-600 rounded-lg p-6"
+        role="region"
+        aria-label="Indices pour répondre à la question"
+      >
+        <h3
+          class="text-lg font-semibold text-yellow-400 mb-3 flex items-center"
+        >
+          <svg
+            class="w-5 h-5 mr-2"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+          Indices
+        </h3>
+        <ul class="space-y-2">
+          <li
+            *ngFor="let indice of currentQuestion.indices; let i = index"
+            class="text-dark-text flex items-start"
+          >
+            <span class="text-yellow-400 mr-2 font-bold">{{ i + 1 }}.</span>
+            <span>{{ indice }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Feedback après réponse -->
+    <div *ngIf="isAnswered()" class="mb-8">
+      <div
+        [class.bg-green-900]="getCurrentAnswer()?.isCorrect"
+        [class.bg-red-900]="!getCurrentAnswer()?.isCorrect"
+        class="bg-opacity-20 border rounded-lg p-6"
+        [class.border-green-600]="getCurrentAnswer()?.isCorrect"
+        [class.border-red-600]="!getCurrentAnswer()?.isCorrect"
+        role="alert"
+        [attr.aria-live]="'polite'"
+      >
+        <p
+          class="text-lg font-semibold mb-2"
+          [class.text-green-400]="getCurrentAnswer()?.isCorrect"
+          [class.text-red-400]="!getCurrentAnswer()?.isCorrect"
+        >
+          {{
+            getCurrentAnswer()?.isCorrect
+              ? "✓ Bonne réponse !"
+              : "✗ Réponse incorrecte"
+          }}
+        </p>
+        <p class="text-dark-text" *ngIf="!getCurrentAnswer()?.isCorrect">
+          La bonne réponse était :
+          <strong>{{ currentQuestion.reponseCorrecte }}</strong>
+        </p>
+      </div>
+    </div>
+
+    <!-- Boutons d'action -->
+    <div class="flex gap-4 justify-end">
+      <button
+        *ngIf="!isAnswered()"
+        (click)="submitAnswer()"
+        [disabled]="!selectedAnswer"
+        class="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
+        [attr.aria-disabled]="!selectedAnswer"
+      >
+        Valider la réponse
+      </button>
+
+      <button
+        *ngIf="isAnswered()"
+        (click)="nextQuestion()"
+        class="px-8 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-green-500"
+      >
+        {{
+          currentQuestionIndex < exercice.questions.length - 1
+            ? "Question suivante"
+            : "Voir les résultats"
+        }}
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Écran de résultats -->
+<div
+  class="min-h-screen bg-dark-bg px-4 py-8 flex items-center justify-center"
+  *ngIf="showResult && exercice"
+>
+  <div class="max-w-2xl w-full">
+    <div
+      class="bg-dark-surface border border-dark-border rounded-lg p-8 text-center"
+    >
+      <h1 class="text-4xl font-bold text-dark-text mb-6">Exercice terminé !</h1>
+
+      <div class="mb-8">
+        <div
+          class="text-6xl font-bold mb-4"
+          [class.text-green-400]="getScorePercentage() >= 70"
+          [class.text-yellow-400]="
+            getScorePercentage() >= 50 && getScorePercentage() < 70
+          "
+          [class.text-red-400]="getScorePercentage() < 50"
+        >
+          {{ getScorePercentage() }}%
+        </div>
+        <p class="text-xl text-dark-textSecondary">
+          {{ score }} bonne(s) réponse(s) sur {{ exercice.questions.length }}
+        </p>
+      </div>
+
+      <div
+        class="mb-8 p-6 rounded-lg"
+        [class.bg-green-900]="getScorePercentage() >= 70"
+        [class.bg-yellow-900]="
+          getScorePercentage() >= 50 && getScorePercentage() < 70
+        "
+        [class.bg-red-900]="getScorePercentage() < 50"
+        [class.bg-opacity-20]="true"
+      >
+        <p class="text-lg text-dark-text" *ngIf="getScorePercentage() >= 70">
+          🎉 Excellent ! Vous maîtrisez les figures de style de ce module.
+        </p>
+        <p
+          class="text-lg text-dark-text"
+          *ngIf="getScorePercentage() >= 50 && getScorePercentage() < 70"
+        >
+          👍 Pas mal ! Vous pouvez encore vous améliorer.
+        </p>
+        <p class="text-lg text-dark-text" *ngIf="getScorePercentage() < 50">
+          📚 Continuez à vous entraîner pour mieux maîtriser ces figures de
+          style.
+        </p>
+      </div>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <button
+          (click)="restartExercise()"
+          class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-500"
+        >
+          Recommencer l'exercice
+        </button>
+        <button
+          (click)="goToModule()"
+          class="px-6 py-3 bg-dark-border hover:bg-dark-surface text-dark-text font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-gray-500"
+        >
+          Retour au module
+        </button>
+        <button
+          (click)="goHome()"
+          class="px-6 py-3 bg-dark-border hover:bg-dark-surface text-dark-text font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-gray-500"
+        >
+          Accueil
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Message si exercice non trouvé -->
+<div
+  class="min-h-screen bg-dark-bg px-4 py-8 flex items-center justify-center"
+  *ngIf="!exercice"
+>
+  <div class="text-center">
+    <h1 class="text-3xl font-bold text-dark-text mb-4">
+      Exercice non disponible
+    </h1>
+    <p class="text-dark-textSecondary mb-6">
+      Cet exercice n'est pas encore disponible pour ce module.
+    </p>
+    <div class="flex gap-4 justify-center">
+      <a
+        [routerLink]="['/module', moduleId]"
+        class="inline-flex items-center px-6 py-3 text-blue-500 hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded"
+      >
+        Retour au module
+      </a>
+      <a
+        routerLink="/"
+        class="inline-flex items-center px-6 py-3 text-blue-500 hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded"
+      >
+        Retour à l'accueil
+      </a>
+    </div>
+  </div>
+</div>

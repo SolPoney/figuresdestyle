@@ -1,0 +1,149 @@
+// This is your Prisma schema file
+// Learn more: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  name      String
+  password  String
+  plan      PlanType @default(FREE)
+  
+  // Stripe
+  stripeCustomerId       String?   @unique
+  stripeSubscriptionId   String?   @unique
+  premiumUntil          DateTime?
+  
+  // Timestamps
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  lastActive DateTime @default(now())
+  
+  // Relations
+  scores    Score[]
+  students  Student[]
+  referral  Referral?
+  
+  @@index([email])
+  @@index([stripeCustomerId])
+}
+
+enum PlanType {
+  FREE
+  PREMIUM
+  SCHOOL
+}
+
+model Score {
+  id              String   @id @default(uuid())
+  userId          String
+  moduleId        String
+  score           Int
+  totalQuestions  Int
+  percentage      Float
+  attempts        Int      @default(1)
+  completedAt     DateTime @default(now())
+  
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([userId, moduleId])
+  @@index([completedAt])
+}
+
+model Student {
+  id         String   @id @default(uuid())
+  teacherId  String
+  email      String
+  name       String
+  createdAt  DateTime @default(now())
+  lastActive DateTime?
+  
+  teacher  User               @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+  progress StudentProgress[]
+  
+  @@unique([teacherId, email])
+  @@index([teacherId])
+}
+
+model StudentProgress {
+  id              String   @id @default(uuid())
+  studentId       String
+  moduleId        String
+  score           Int
+  totalQuestions  Int
+  percentage      Float
+  completedAt     DateTime @default(now())
+  
+  student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  
+  @@index([studentId, moduleId])
+}
+
+model ContactMessage {
+  id        String   @id @default(uuid())
+  name      String
+  email     String
+  subject   String?
+  message   String
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+  
+  @@index([read, createdAt])
+}
+
+model ActivityLog {
+  id        String       @id @default(uuid())
+  type      ActivityType
+  userId    String?
+  email     String?
+  details   Json?
+  createdAt DateTime     @default(now())
+  
+  @@index([type, createdAt])
+  @@index([userId])
+}
+
+enum ActivityType {
+  SIGNUP
+  LOGIN
+  LOGOUT
+  UPGRADE
+  DOWNGRADE
+  ERROR
+  CONTACT
+}
+
+model PromoCode {
+  id              String   @id @default(uuid())
+  code            String   @unique
+  discountPercent Int
+  validFrom       DateTime
+  validUntil      DateTime
+  usageCount      Int      @default(0)
+  maxUsage        Int?
+  active          Boolean  @default(true)
+  
+  @@index([code, active])
+}
+
+model Referral {
+  id                String   @id @default(uuid())
+  userId            String   @unique
+  code              String   @unique
+  commissionPercent Float    @default(20.0)
+  totalSales        Float    @default(0)
+  totalCommission   Float    @default(0)
+  createdAt         DateTime @default(now())
+  
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([code])
+}

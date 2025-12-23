@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+figures-de-style/node_modules/
+
+# Build outputs
+dist/
+backend/dist/
+figures-de-style/dist/
+*.log
+
+# Environment variables
+.env
+backend/.env
+figures-de-style/.env
+
+# Database
+*.db
+backend/*.db
+backend/prisma/*.db
+
+# Logs
+logs/
+*.log
+/tmp/figures-logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Angular
+figures-de-style/.angular/
+
+# Prisma
+backend/prisma/migrations/
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp

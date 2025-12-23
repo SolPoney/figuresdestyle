@@ -1,0 +1,360 @@
+<div class="min-h-screen bg-dark-bg px-4 py-8">
+  <div class="max-w-4xl mx-auto">
+    <!-- Utilisateur non connecté -->
+    <div *ngIf="!currentUser" class="text-center">
+      <header class="mb-12">
+        <h1 class="text-4xl md:text-5xl font-bold text-dark-text mb-4">
+          {{ isLoginMode ? "Connexion" : "Inscription" }}
+        </h1>
+        <p class="text-lg text-dark-textSecondary">
+          {{
+            isLoginMode
+              ? "Connectez-vous pour accéder à vos données"
+              : "Créez votre compte gratuitement"
+          }}
+        </p>
+      </header>
+
+      <!-- Formulaire -->
+      <div
+        class="bg-dark-surface border border-dark-border rounded-lg p-8 max-w-md mx-auto"
+      >
+        <div class="space-y-4">
+          <!-- Email -->
+          <div>
+            <label class="block text-sm font-medium text-dark-text mb-2"
+              >Email</label
+            >
+            <input
+              type="email"
+              [(ngModel)]="email"
+              placeholder="votre@email.com"
+              class="w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-lg text-dark-text focus:outline-none focus:ring-2 focus:ring-blue-500"
+              [disabled]="isLoading"
+            />
+          </div>
+
+          <!-- Nom (seulement en inscription) -->
+          <div *ngIf="!isLoginMode">
+            <label class="block text-sm font-medium text-dark-text mb-2"
+              >Nom</label
+            >
+            <input
+              type="text"
+              [(ngModel)]="name"
+              placeholder="Votre nom"
+              class="w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-lg text-dark-text focus:outline-none focus:ring-2 focus:ring-blue-500"
+              [disabled]="isLoading"
+            />
+          </div>
+
+          <!-- Mot de passe -->
+          <div>
+            <label class="block text-sm font-medium text-dark-text mb-2"
+              >Mot de passe</label
+            >
+            <input
+              type="password"
+              [(ngModel)]="password"
+              placeholder="••••••••"
+              class="w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-lg text-dark-text focus:outline-none focus:ring-2 focus:ring-blue-500"
+              [disabled]="isLoading"
+              (keyup.enter)="onSubmit()"
+            />
+          </div>
+
+          <!-- Message d'erreur -->
+          <div
+            *ngIf="errorMessage"
+            class="bg-red-900/20 border border-red-500 rounded-lg p-3"
+          >
+            <p class="text-red-400 text-sm">{{ errorMessage }}</p>
+          </div>
+
+          <!-- Bouton de soumission -->
+          <button
+            (click)="onSubmit()"
+            [disabled]="isLoading"
+            class="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            <span *ngIf="!isLoading">{{
+              isLoginMode ? "Se connecter" : "S'inscrire"
+            }}</span>
+            <span *ngIf="isLoading">Chargement...</span>
+          </button>
+
+          <!-- Toggle mode -->
+          <div class="text-center">
+            <button
+              (click)="toggleMode()"
+              class="text-blue-500 hover:text-blue-400 text-sm"
+              [disabled]="isLoading"
+            >
+              {{
+                isLoginMode
+                  ? "Pas de compte ? S'inscrire"
+                  : "Déjà un compte ? Se connecter"
+              }}
+            </button>
+          </div>
+        </div>
+
+        <p class="text-sm text-dark-textSecondary mt-4 text-center">
+          Modules 1-2 gratuits • Aucune carte bancaire requise
+        </p>
+      </div>
+
+      <!-- Bouton retour -->
+      <a
+        routerLink="/"
+        class="inline-block mt-8 text-blue-500 hover:text-blue-400"
+      >
+        ← Retour à l'accueil
+      </a>
+    </div>
+
+    <!-- Utilisateur connecté -->
+    <div *ngIf="currentUser">
+      <header class="mb-12 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold text-dark-text mb-4">
+          Mon compte
+        </h1>
+        <p class="text-lg text-dark-textSecondary">
+          {{ currentUser.name || currentUser.email }}
+        </p>
+      </header>
+
+      <div class="grid gap-6 md:grid-cols-2 mb-8">
+        <!-- Informations du compte -->
+        <div class="bg-dark-surface border border-dark-border rounded-lg p-6">
+          <h2 class="text-xl font-bold text-dark-text mb-4">Informations</h2>
+
+          <div class="space-y-3">
+            <div>
+              <p class="text-sm text-dark-textSecondary">Email</p>
+              <p class="text-dark-text">{{ currentUser.email }}</p>
+            </div>
+
+            <div>
+              <p class="text-sm text-dark-textSecondary">Plan actuel</p>
+              <p [class]="getPlanColor()" class="font-semibold">
+                {{ getPlanLabel() }}
+              </p>
+            </div>
+
+            <div *ngIf="currentUser.premiumUntil">
+              <p class="text-sm text-dark-textSecondary">Valide jusqu'au</p>
+              <p class="text-dark-text">
+                {{ currentUser.premiumUntil | date : "dd/MM/yyyy" }}
+              </p>
+            </div>
+          </div>
+
+          <button
+            (click)="logout()"
+            class="mt-6 w-full px-4 py-2 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg transition-colors duration-200"
+          >
+            Se déconnecter
+          </button>
+
+          <!-- Bouton Dashboard enseignant -->
+          <a
+            *ngIf="currentUser.plan === 'school'"
+            routerLink="/teacher-dashboard"
+            class="mt-4 w-full inline-flex items-center justify-center px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors duration-200"
+          >
+            <svg
+              class="w-5 h-5 mr-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+              />
+            </svg>
+            Tableau de bord enseignant
+          </a>
+        </div>
+
+        <!-- Plans d'abonnement -->
+        <div class="space-y-4">
+          <!-- Plan Premium -->
+          <div
+            class="bg-dark-surface border border-dark-border rounded-lg p-6"
+            [class.border-yellow-500]="currentUser.plan === 'premium'"
+          >
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-xl font-bold text-dark-text">Premium</h3>
+              <span
+                class="px-3 py-1 bg-yellow-600 text-white text-sm font-semibold rounded-full"
+              >
+                9,99€
+              </span>
+            </div>
+
+            <ul class="space-y-2 mb-6">
+              <li class="flex items-center text-dark-text">
+                <svg
+                  class="w-5 h-5 mr-2 text-green-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span>Tous les modules (33 figures)</span>
+              </li>
+              <li class="flex items-center text-dark-text">
+                <svg
+                  class="w-5 h-5 mr-2 text-green-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span>Exercices illimités</span>
+              </li>
+              <li class="flex items-center text-dark-text">
+                <svg
+                  class="w-5 h-5 mr-2 text-green-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span>Stats détaillées</span>
+              </li>
+            </ul>
+
+            <button
+              *ngIf="currentUser.plan === 'free'"
+              (click)="upgradeToPremium()"
+              class="w-full px-6 py-3 bg-yellow-600 hover:bg-yellow-700 text-white font-semibold rounded-lg transition-colors duration-200"
+            >
+              Passer Premium
+            </button>
+
+            <div
+              *ngIf="currentUser.plan === 'premium'"
+              class="text-center py-3 text-green-400 font-semibold"
+            >
+              ✓ Plan actif
+            </div>
+          </div>
+
+          <!-- Plan École -->
+          <div
+            class="bg-dark-surface border border-dark-border rounded-lg p-6"
+            [class.border-purple-500]="currentUser.plan === 'school'"
+          >
+            <div class="flex items-center justify-between mb-4">
+              <h3 class="text-xl font-bold text-dark-text">École</h3>
+              <span
+                class="px-3 py-1 bg-purple-600 text-white text-sm font-semibold rounded-full"
+              >
+                199€/an
+              </span>
+            </div>
+
+            <ul class="space-y-2 mb-6">
+              <li class="flex items-center text-dark-text">
+                <svg
+                  class="w-5 h-5 mr-2 text-green-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span>30 comptes élèves</span>
+              </li>
+              <li class="flex items-center text-dark-text">
+                <svg
+                  class="w-5 h-5 mr-2 text-green-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span>Tableau de bord enseignant</span>
+              </li>
+              <li class="flex items-center text-dark-text">
+                <svg
+                  class="w-5 h-5 mr-2 text-green-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  ></path>
+                </svg>
+                <span>Export des résultats</span>
+              </li>
+            </ul>
+
+            <button
+              *ngIf="currentUser.plan !== 'school'"
+              (click)="upgradeToSchool()"
+              class="w-full px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg transition-colors duration-200"
+            >
+              Demander un devis
+            </button>
+
+            <div
+              *ngIf="currentUser.plan === 'school'"
+              class="text-center py-3 text-green-400 font-semibold"
+            >
+              ✓ Plan actif
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bouton retour -->
+      <div class="text-center">
+        <a
+          routerLink="/"
+          class="inline-block text-blue-500 hover:text-blue-400"
+        >
+          ← Retour à l'accueil
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
