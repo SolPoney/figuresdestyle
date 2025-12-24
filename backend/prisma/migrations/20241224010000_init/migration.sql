@@ -10,9 +10,10 @@ CREATE TABLE "User" (
     "plan" "PlanType" NOT NULL DEFAULT 'FREE',
     "stripeCustomerId" TEXT,
     "stripeSubscriptionId" TEXT,
-    "subscriptionEndDate" TIMESTAMP(3),
+    "premiumUntil" TIMESTAMP(3),
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
+    "lastActive" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
     CONSTRAINT "User_pkey" PRIMARY KEY ("id")
 );
@@ -103,6 +104,12 @@ CREATE TABLE "StudentProgress" (
 
 -- CreateIndex
 CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "User_stripeCustomerId_key" ON "User"("stripeCustomerId");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "User_stripeSubscriptionId_key" ON "User"("stripeSubscriptionId");
 
 -- CreateIndex
 CREATE INDEX "Score_userId_idx" ON "Score"("userId");
