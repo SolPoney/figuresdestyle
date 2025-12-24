@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://figures-style.netlify.app/sitemap.xml
