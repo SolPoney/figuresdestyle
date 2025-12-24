@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd figures-de-style && npm install && npm run build",
+  "outputDirectory": "figures-de-style/dist/figures-de-style/browser",
+  "installCommand": "npm install",
+  "framework": "angular",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

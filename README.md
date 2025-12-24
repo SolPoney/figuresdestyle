@@ -92,6 +92,7 @@ npx prisma db push
 ```
 
 Ce script démarre automatiquement :
+
 - Backend NestJS sur `http://localhost:3000/api`
 - Frontend Angular sur `http://localhost:4200`
 - Prisma Studio sur `http://localhost:5555`
@@ -99,18 +100,21 @@ Ce script démarre automatiquement :
 ### Option 2 : Démarrage manuel
 
 **Terminal 1 - Backend :**
+
 ```bash
 cd backend
 npm run start:dev
 ```
 
 **Terminal 2 - Frontend :**
+
 ```bash
 cd figures-de-style
 npm start
 ```
 
 **Terminal 3 - Prisma Studio (optionnel) :**
+
 ```bash
 cd backend
 npx prisma studio
@@ -119,6 +123,7 @@ npx prisma studio
 ## 📊 Base de données
 
 Le schéma Prisma comprend :
+
 - `User` - Utilisateurs avec plans (FREE, PREMIUM, SCHOOL)
 - `Score` - Scores des modules
 - `Student` - Élèves du plan École
@@ -157,6 +162,7 @@ npm run start:prod
 ## 🌐 Déploiement
 
 ### Frontend (Vercel/Netlify)
+
 ```bash
 cd figures-de-style
 npm run build
@@ -164,6 +170,7 @@ npm run build
 ```
 
 ### Backend (Railway/Heroku)
+
 ```bash
 cd backend
 # Configurez DATABASE_URL avec PostgreSQL
