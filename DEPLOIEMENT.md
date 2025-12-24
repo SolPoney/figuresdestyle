@@ -11,24 +11,30 @@
 ## 1️⃣ Déploiement du Frontend sur Netlify
 
 ### Étape 1 : Connecter GitHub
+
 1. Allez sur https://app.netlify.com
 2. Cliquez sur **"Add new site"** → **"Import an existing project"**
 3. Choisissez **GitHub** et autorisez Netlify
 4. Sélectionnez le dépôt **`SolPoney/figuresdestyle`**
 
 ### Étape 2 : Configuration du build
+
 Netlify détectera automatiquement le fichier `netlify.toml`. Vérifiez :
+
 - **Base directory** : `figures-de-style`
 - **Build command** : `npm install && npm run build`
 - **Publish directory** : `dist/figures-de-style/browser`
 
 ### Étape 3 : Variables d'environnement (optionnelles)
+
 Si vous voulez utiliser le backend en production :
+
 - Allez dans **Site settings** → **Environment variables**
 - Ajoutez :
   - `NG_APP_API_URL` = `https://votre-backend.onrender.com/api`
 
 ### Étape 4 : Déployer
+
 1. Cliquez sur **"Deploy site"**
 2. Attendez 2-3 minutes
 3. Votre site sera disponible sur `https://random-name-123.netlify.app`
@@ -39,6 +45,7 @@ Si vous voulez utiliser le backend en production :
 ## 2️⃣ Déploiement du Backend sur Render
 
 ### Étape 1 : Créer la base de données PostgreSQL
+
 1. Allez sur https://dashboard.render.com
 2. Cliquez sur **"New +"** → **"PostgreSQL"**
 3. Configuration :
@@ -51,6 +58,7 @@ Si vous voulez utiliser le backend en production :
 5. **Copiez l'URL de connexion interne** (Internal Database URL) - vous en aurez besoin !
 
 ### Étape 2 : Créer le service backend
+
 1. Cliquez sur **"New +"** → **"Web Service"**
 2. Connectez votre dépôt GitHub **`SolPoney/figuresdestyle`**
 3. Configuration :
@@ -64,6 +72,7 @@ Si vous voulez utiliser le backend en production :
    - **Plan** : Free
 
 ### Étape 3 : Variables d'environnement
+
 Ajoutez ces variables dans **Environment** :
 
 ```
@@ -77,11 +86,13 @@ PORT=3000
 ```
 
 **Générer JWT_SECRET** :
+
 ```bash
 openssl rand -base64 32
 ```
 
 ### Étape 4 : Déployer
+
 1. Cliquez sur **"Create Web Service"**
 2. Attendez 5-10 minutes pour le premier build
 3. Votre backend sera disponible sur `https://figuresdestyle-backend.onrender.com`
@@ -91,12 +102,14 @@ openssl rand -base64 32
 ## 3️⃣ Connecter Frontend et Backend
 
 ### Mettre à jour le frontend
+
 1. Dans Netlify, allez dans **Site settings** → **Environment variables**
 2. Ajoutez :
    - `NG_APP_API_URL` = `https://figuresdestyle-backend.onrender.com/api`
 3. Redéployez le site : **Deploys** → **Trigger deploy** → **Deploy site**
 
 ### Mettre à jour le backend
+
 1. Dans Render, allez dans le service backend
 2. Modifiez la variable `FRONTEND_URL` :
    - `FRONTEND_URL` = `https://votre-site.netlify.app`
@@ -107,6 +120,7 @@ openssl rand -base64 32
 ## 4️⃣ Configuration Stripe (Webhooks)
 
 ### Pour les paiements en production
+
 1. Allez sur https://dashboard.stripe.com/webhooks
 2. Cliquez sur **"Add endpoint"**
 3. **URL** : `https://figuresdestyle-backend.onrender.com/api/stripe/webhook`
@@ -123,15 +137,18 @@ openssl rand -base64 32
 ## 5️⃣ Vérification du déploiement
 
 ### Frontend
+
 ✅ Ouvrez `https://votre-site.netlify.app`
 ✅ Vérifiez que le site charge correctement
 ✅ Testez la navigation entre les pages
 
 ### Backend
+
 ✅ Testez l'API : `curl https://figuresdestyle-backend.onrender.com/api`
 ✅ Devrait retourner : `Hello World!`
 
 ### Base de données
+
 ✅ Dans Render PostgreSQL, vérifiez que les tables sont créées
 ✅ Onglet **"Info"** → Cliquez sur **"Connect"** → **"External Connection"**
 ✅ Utilisez un client PostgreSQL (DBeaver, pgAdmin) pour voir les tables
@@ -141,6 +158,7 @@ openssl rand -base64 32
 ## 🎯 URLs finales
 
 Après déploiement, vous aurez :
+
 - 🌐 **Frontend** : `https://figuresdestyle.netlify.app`
 - 🔙 **Backend** : `https://figuresdestyle-backend.onrender.com`
 - 📊 **Base de données** : PostgreSQL hébergé sur Render
@@ -150,11 +168,13 @@ Après déploiement, vous aurez :
 ## ⚠️ Limitations du plan gratuit
 
 ### Netlify
+
 - ✅ 100 GB de bande passante/mois
 - ✅ Build illimités
 - ✅ SSL automatique
 
 ### Render
+
 - ⚠️ Le service s'endort après 15 min d'inactivité
 - ⚠️ Premier appel après sommeil : 30-60 secondes
 - ✅ 750h/mois (suffisant pour 1 service)
@@ -179,16 +199,19 @@ Netlify et Render détecteront le changement et redéploieront automatiquement. 
 ## 🐛 Dépannage
 
 ### Backend ne démarre pas
+
 1. Vérifiez les logs dans Render → **Logs**
 2. Vérifiez que `DATABASE_URL` est correcte
 3. Vérifiez que Prisma génère bien le client
 
 ### Frontend n'accède pas au backend
+
 1. Vérifiez que `NG_APP_API_URL` est définie dans Netlify
 2. Vérifiez le CORS dans le backend (devrait autoriser votre domaine Netlify)
 3. Testez l'API directement : `curl https://votre-backend.onrender.com/api`
 
 ### Base de données vide
+
 1. Connectez-vous au backend via Render Shell
 2. Lancez manuellement : `npx prisma migrate deploy`
 3. Vérifiez les logs de déploiement
