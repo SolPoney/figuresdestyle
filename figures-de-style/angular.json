@@ -27,6 +27,7 @@
               "src/manifest.json",
               "src/sitemap.xml",
               "src/robots.txt",
+              "src/googlea6bde28068c7e4c4.html",
               {
                 "glob": "**/*",
                 "input": "src/flavicon",
