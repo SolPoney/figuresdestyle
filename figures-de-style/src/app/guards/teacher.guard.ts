@@ -1,17 +1,17 @@
-import { inject } from '@angular/core';
-import { CanActivateFn, Router } from '@angular/router';
-import { AuthService } from '../services/auth.service';
+import { inject } from "@angular/core";
+import { CanActivateFn, Router } from "@angular/router";
+import { AuthService } from "../services/auth.service";
 
 export const teacherGuard: CanActivateFn = () => {
-  const authService = inject(AuthService);
-  const router = inject(Router);
+	const authService = inject(AuthService);
+	const router = inject(Router);
 
-  const user = authService.currentUserValue;
+	const user = authService.currentUserValue;
 
-  if (user && user.plan === 'school') {
-    return true;
-  }
+	if (user && user.plan === "school") {
+		return true;
+	}
 
-  router.navigate(['/auth']);
-  return false;
+	router.navigate(["/auth"]);
+	return false;
 };

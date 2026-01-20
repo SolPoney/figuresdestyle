@@ -1,115 +1,115 @@
 {
-  "id": "zeugma",
-  "titre": "Zeugma",
-  "description": "Exerce-toi à reconnaître le zeugma à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Il prit son chapeau et congé.",
-      "reponses": ["Zeugma", "Synecdoque", "Hyperbole", "Métaphore"],
-      "correct": 0,
-      "indice": "Un mot est lié à deux compléments de nature différente."
-    },
-    {
-      "question": "Elle ouvrit son cœur et la fenêtre.",
-      "reponses": ["Zeugma", "Personnification", "Oxymore", "Ironie"],
-      "correct": 0,
-      "indice": "Un même verbe s'applique à deux éléments différents."
-    },
-    {
-      "question": "Il prit ses responsabilités et son sac.",
-      "reponses": ["Zeugma", "Gradation", "Parallélisme", "Litote"],
-      "correct": 0,
-      "indice": "Le lien grammatical unit des mots concrets et abstraits."
-    },
-    {
-      "question": "Elle jeta un regard et un sort.",
-      "reponses": ["Zeugma", "Personnification", "Hyperbole", "Comparaison"],
-      "correct": 0,
-      "indice": "Un mot relie deux compléments de sens différents."
-    },
-    {
-      "question": "Il supportait sa femme et ses idées.",
-      "reponses": ["Zeugma", "Oxymore", "Ironie", "Gradation"],
-      "correct": 0,
-      "indice": "Le même verbe s'applique à deux objets de nature différente."
-    },
+	"id": "zeugma",
+	"titre": "Zeugma",
+	"description": "Exerce-toi à reconnaître le zeugma à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Il prit son chapeau et congé.",
+			"reponses": ["Zeugma", "Synecdoque", "Hyperbole", "Métaphore"],
+			"correct": 0,
+			"indice": "Un mot est lié à deux compléments de nature différente."
+		},
+		{
+			"question": "Elle ouvrit son cœur et la fenêtre.",
+			"reponses": ["Zeugma", "Personnification", "Oxymore", "Ironie"],
+			"correct": 0,
+			"indice": "Un même verbe s'applique à deux éléments différents."
+		},
+		{
+			"question": "Il prit ses responsabilités et son sac.",
+			"reponses": ["Zeugma", "Gradation", "Parallélisme", "Litote"],
+			"correct": 0,
+			"indice": "Le lien grammatical unit des mots concrets et abstraits."
+		},
+		{
+			"question": "Elle jeta un regard et un sort.",
+			"reponses": ["Zeugma", "Personnification", "Hyperbole", "Comparaison"],
+			"correct": 0,
+			"indice": "Un mot relie deux compléments de sens différents."
+		},
+		{
+			"question": "Il supportait sa femme et ses idées.",
+			"reponses": ["Zeugma", "Oxymore", "Ironie", "Gradation"],
+			"correct": 0,
+			"indice": "Le même verbe s'applique à deux objets de nature différente."
+		},
 
-    {
-      "question": "Elle porta sa robe et son courage.",
-      "reponses": ["Zeugma", "Personnification", "Gradation", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Il gagna la bataille et son cœur.",
-      "reponses": ["Zeugma", "Oxymore", "Comparaison", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle perdit son temps et ses clés.",
-      "reponses": ["Zeugma", "Hyperbole", "Gradation", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Il fit tomber les rideaux et le silence.",
-      "reponses": ["Zeugma", "Personnification", "Oxymore", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Elle embrassa sa mère et la vie.",
-      "reponses": ["Zeugma", "Hyperbole", "Comparaison", "Parallélisme"],
-      "correct": 0
-    },
+		{
+			"question": "Elle porta sa robe et son courage.",
+			"reponses": ["Zeugma", "Personnification", "Gradation", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Il gagna la bataille et son cœur.",
+			"reponses": ["Zeugma", "Oxymore", "Comparaison", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle perdit son temps et ses clés.",
+			"reponses": ["Zeugma", "Hyperbole", "Gradation", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Il fit tomber les rideaux et le silence.",
+			"reponses": ["Zeugma", "Personnification", "Oxymore", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Elle embrassa sa mère et la vie.",
+			"reponses": ["Zeugma", "Hyperbole", "Comparaison", "Parallélisme"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il a pris son manteau et la fuite.",
-      "reponses": ["Zeugma", "Ironie", "Oxymore", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Elle a perdu son calme et ses chaussures.",
-      "reponses": ["Zeugma", "Hyperbole", "Personnification", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Il supportait ses erreurs et sa douleur.",
-      "reponses": ["Zeugma", "Oxymore", "Gradation", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Elle a jeté un cri et son manteau.",
-      "reponses": ["Zeugma", "Personnification", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Il prit son temps et son courage.",
-      "reponses": ["Zeugma", "Gradation", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
+		{
+			"question": "Il a pris son manteau et la fuite.",
+			"reponses": ["Zeugma", "Ironie", "Oxymore", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Elle a perdu son calme et ses chaussures.",
+			"reponses": ["Zeugma", "Hyperbole", "Personnification", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Il supportait ses erreurs et sa douleur.",
+			"reponses": ["Zeugma", "Oxymore", "Gradation", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Elle a jeté un cri et son manteau.",
+			"reponses": ["Zeugma", "Personnification", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Il prit son temps et son courage.",
+			"reponses": ["Zeugma", "Gradation", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle perdit ses clés et son calme.",
-      "reponses": ["Zeugma", "Ironie", "Personnification", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Il attrapa son chapeau et la maladie.",
-      "reponses": ["Zeugma", "Hyperbole", "Oxymore", "Parallélisme"],
-      "correct": 0
-    },
-    {
-      "question": "Elle gagna le prix et son cœur.",
-      "reponses": ["Zeugma", "Gradation", "Personnification", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Il prit son sac et ses responsabilités.",
-      "reponses": ["Zeugma", "Comparaison", "Hyperbole", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Elle ouvrit la porte et son esprit.",
-      "reponses": ["Zeugma", "Personnification", "Oxymore", "Gradation"],
-      "correct": 0
-    }
-  ]
+		{
+			"question": "Elle perdit ses clés et son calme.",
+			"reponses": ["Zeugma", "Ironie", "Personnification", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Il attrapa son chapeau et la maladie.",
+			"reponses": ["Zeugma", "Hyperbole", "Oxymore", "Parallélisme"],
+			"correct": 0
+		},
+		{
+			"question": "Elle gagna le prix et son cœur.",
+			"reponses": ["Zeugma", "Gradation", "Personnification", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Il prit son sac et ses responsabilités.",
+			"reponses": ["Zeugma", "Comparaison", "Hyperbole", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Elle ouvrit la porte et son esprit.",
+			"reponses": ["Zeugma", "Personnification", "Oxymore", "Gradation"],
+			"correct": 0
+		}
+	]
 }

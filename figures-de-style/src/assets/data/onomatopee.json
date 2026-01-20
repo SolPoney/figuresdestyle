@@ -1,239 +1,239 @@
 {
-  "id": "onomatopee",
-  "titre": "Onomatopée",
-  "description": "Exerce-toi à reconnaître l’onomatopée à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Le chat faisait « miaou ».",
-      "reponses": ["Onomatopée", "Métaphore", "Hyperbole", "Personnification"],
-      "correct": 0
-    },
-    {
-      "question": "La porte a crié « grincement ».",
-      "reponses": ["Onomatopée", "Oxymore", "Ironie", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Le téléphone a sonné « dring ».",
-      "reponses": ["Onomatopée", "Comparaison", "Hyperbole", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "La pluie tombait « ploc ploc » sur le toit.",
-      "reponses": ["Onomatopée", "Personnification", "Hyperbole", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Le coq chantait « cocorico ».",
-      "reponses": ["Onomatopée", "Comparaison", "Ironie", "Oxymore"],
-      "correct": 0
-    },
+	"id": "onomatopee",
+	"titre": "Onomatopée",
+	"description": "Exerce-toi à reconnaître l’onomatopée à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Le chat faisait « miaou ».",
+			"reponses": ["Onomatopée", "Métaphore", "Hyperbole", "Personnification"],
+			"correct": 0
+		},
+		{
+			"question": "La porte a crié « grincement ».",
+			"reponses": ["Onomatopée", "Oxymore", "Ironie", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Le téléphone a sonné « dring ».",
+			"reponses": ["Onomatopée", "Comparaison", "Hyperbole", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "La pluie tombait « ploc ploc » sur le toit.",
+			"reponses": ["Onomatopée", "Personnification", "Hyperbole", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Le coq chantait « cocorico ».",
+			"reponses": ["Onomatopée", "Comparaison", "Ironie", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Le moteur faisait « vroom ».",
-      "reponses": ["Onomatopée", "Gradation", "Hyperbole", "Personnification"],
-      "correct": 0
-    },
-    {
-      "question": "Le chien aboyait « ouaf ouaf ».",
-      "reponses": ["Onomatopée", "Comparaison", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Le feu crépitait « crackle ».",
-      "reponses": ["Onomatopée", "Hyperbole", "Oxymore", "Euphémisme"],
-      "correct": 0
-    },
-    {
-      "question": "La cloche tinta « ding dong ».",
-      "reponses": [
-        "Onomatopée",
-        "Personnification",
-        "Gradation",
-        "Comparaison"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Le vent sifflait « ssssh ».",
-      "reponses": ["Onomatopée", "Oxymore", "Ironie", "Ellipse"],
-      "correct": 0
-    },
+		{
+			"question": "Le moteur faisait « vroom ».",
+			"reponses": ["Onomatopée", "Gradation", "Hyperbole", "Personnification"],
+			"correct": 0
+		},
+		{
+			"question": "Le chien aboyait « ouaf ouaf ».",
+			"reponses": ["Onomatopée", "Comparaison", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Le feu crépitait « crackle ».",
+			"reponses": ["Onomatopée", "Hyperbole", "Oxymore", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "La cloche tinta « ding dong ».",
+			"reponses": [
+				"Onomatopée",
+				"Personnification",
+				"Gradation",
+				"Comparaison"
+			],
+			"correct": 0
+		},
+		{
+			"question": "Le vent sifflait « ssssh ».",
+			"reponses": ["Onomatopée", "Oxymore", "Ironie", "Ellipse"],
+			"correct": 0
+		},
 
-    {
-      "question": "Le tonnerre gronda « boum ».",
-      "reponses": ["Onomatopée", "Hyperbole", "Gradation", "Personnification"],
-      "correct": 0
-    },
-    {
-      "question": "Le bébé gazouillait « bababa ».",
-      "reponses": ["Onomatopée", "Comparaison", "Oxymore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "La flamme crépitait « crack ».",
-      "reponses": ["Onomatopée", "Gradation", "Hyperbole", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Le vent hurlait « whooo ».",
-      "reponses": ["Onomatopée", "Personnification", "Ironie", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "La balle fit « pan ».",
-      "reponses": ["Onomatopée", "Comparaison", "Hyperbole", "Litote"],
-      "correct": 0
-    },
+		{
+			"question": "Le tonnerre gronda « boum ».",
+			"reponses": ["Onomatopée", "Hyperbole", "Gradation", "Personnification"],
+			"correct": 0
+		},
+		{
+			"question": "Le bébé gazouillait « bababa ».",
+			"reponses": ["Onomatopée", "Comparaison", "Oxymore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "La flamme crépitait « crack ».",
+			"reponses": ["Onomatopée", "Gradation", "Hyperbole", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Le vent hurlait « whooo ».",
+			"reponses": ["Onomatopée", "Personnification", "Ironie", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "La balle fit « pan ».",
+			"reponses": ["Onomatopée", "Comparaison", "Hyperbole", "Litote"],
+			"correct": 0
+		},
 
-    {
-      "question": "Le papier froissé fit « crac ».",
-      "reponses": ["Onomatopée", "Gradation", "Personnification", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Le train siffla « tttt ».",
-      "reponses": ["Onomatopée", "Oxymore", "Ellipse", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Le cochon grogna « groin groin ».",
-      "reponses": ["Onomatopée", "Gradation", "Personnification", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Le sablier fit « tic tac ».",
-      "reponses": ["Onomatopée", "Oxymore", "Hyperbole", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Le tonnerre gronda « rrrr ».",
-      "reponses": ["Onomatopée", "Personnification", "Comparaison", "Ironie"],
-      "correct": 0
-    },
+		{
+			"question": "Le papier froissé fit « crac ».",
+			"reponses": ["Onomatopée", "Gradation", "Personnification", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Le train siffla « tttt ».",
+			"reponses": ["Onomatopée", "Oxymore", "Ellipse", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Le cochon grogna « groin groin ».",
+			"reponses": ["Onomatopée", "Gradation", "Personnification", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Le sablier fit « tic tac ».",
+			"reponses": ["Onomatopée", "Oxymore", "Hyperbole", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Le tonnerre gronda « rrrr ».",
+			"reponses": ["Onomatopée", "Personnification", "Comparaison", "Ironie"],
+			"correct": 0
+		},
 
-    {
-      "question": "La pluie frappait « plic plic ».",
-      "reponses": ["Onomatopée", "Gradation", "Ellipse", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Le feu faisait « crackle crack ».",
-      "reponses": ["Onomatopée", "Personnification", "Ironie", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "La cloche sonna « ding ».",
-      "reponses": ["Onomatopée", "Gradation", "Oxymore", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Le vent soufflait « fff ».",
-      "reponses": ["Onomatopée", "Personnification", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Le chien gémissait « ouuuh ».",
-      "reponses": ["Onomatopée", "Gradation", "Ironie", "Ellipse"],
-      "correct": 0
-    },
+		{
+			"question": "La pluie frappait « plic plic ».",
+			"reponses": ["Onomatopée", "Gradation", "Ellipse", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Le feu faisait « crackle crack ».",
+			"reponses": ["Onomatopée", "Personnification", "Ironie", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "La cloche sonna « ding ».",
+			"reponses": ["Onomatopée", "Gradation", "Oxymore", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Le vent soufflait « fff ».",
+			"reponses": ["Onomatopée", "Personnification", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Le chien gémissait « ouuuh ».",
+			"reponses": ["Onomatopée", "Gradation", "Ironie", "Ellipse"],
+			"correct": 0
+		},
 
-    {
-      "question": "Le train arriva avec « tchou tchou ».",
-      "reponses": [
-        "Onomatopée",
-        "Hyperbole",
-        "Personnification",
-        "Comparaison"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Le chat ronronnait « rrrr ».",
-      "reponses": ["Onomatopée", "Oxymore", "Gradation", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "La balle fit « bang ».",
-      "reponses": ["Onomatopée", "Comparaison", "Hyperbole", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Le coq chantait « cocorico ».",
-      "reponses": ["Onomatopée", "Personnification", "Gradation", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Le vent siffla « sss ».",
-      "reponses": ["Onomatopée", "Ironie", "Hyperbole", "Comparaison"],
-      "correct": 0
-    },
+		{
+			"question": "Le train arriva avec « tchou tchou ».",
+			"reponses": [
+				"Onomatopée",
+				"Hyperbole",
+				"Personnification",
+				"Comparaison"
+			],
+			"correct": 0
+		},
+		{
+			"question": "Le chat ronronnait « rrrr ».",
+			"reponses": ["Onomatopée", "Oxymore", "Gradation", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "La balle fit « bang ».",
+			"reponses": ["Onomatopée", "Comparaison", "Hyperbole", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Le coq chantait « cocorico ».",
+			"reponses": ["Onomatopée", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Le vent siffla « sss ».",
+			"reponses": ["Onomatopée", "Ironie", "Hyperbole", "Comparaison"],
+			"correct": 0
+		},
 
-    {
-      "question": "Le moteur fit « vroom vroom ».",
-      "reponses": ["Onomatopée", "Gradation", "Ellipse", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Le papier froissé fit « crac crac ».",
-      "reponses": ["Onomatopée", "Personnification", "Ironie", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Le téléphone sonna « bip bip ».",
-      "reponses": ["Onomatopée", "Gradation", "Hyperbole", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "La pluie tombait « plouf plouf ».",
-      "reponses": ["Onomatopée", "Personnification", "Comparaison", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Le chien aboyait « wouf wouf ».",
-      "reponses": ["Onomatopée", "Oxymore", "Gradation", "Hyperbole"],
-      "correct": 0
-    },
+		{
+			"question": "Le moteur fit « vroom vroom ».",
+			"reponses": ["Onomatopée", "Gradation", "Ellipse", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Le papier froissé fit « crac crac ».",
+			"reponses": ["Onomatopée", "Personnification", "Ironie", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Le téléphone sonna « bip bip ».",
+			"reponses": ["Onomatopée", "Gradation", "Hyperbole", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "La pluie tombait « plouf plouf ».",
+			"reponses": ["Onomatopée", "Personnification", "Comparaison", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Le chien aboyait « wouf wouf ».",
+			"reponses": ["Onomatopée", "Oxymore", "Gradation", "Hyperbole"],
+			"correct": 0
+		},
 
-    {
-      "question": "Le feu crépitait « crack crack ».",
-      "reponses": [
-        "Onomatopée",
-        "Gradation",
-        "Personnification",
-        "Comparaison"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Le tonnerre fit « boom ».",
-      "reponses": ["Onomatopée", "Hyperbole", "Ellipse", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Le chat miaula « miau ».",
-      "reponses": [
-        "Onomatopée",
-        "Comparaison",
-        "Personnification",
-        "Gradation"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "La cloche tinta « ding dong ».",
-      "reponses": ["Onomatopée", "Ironie", "Gradation", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Le vent hurlait « whooo ».",
-      "reponses": [
-        "Onomatopée",
-        "Personnification",
-        "Comparaison",
-        "Hyperbole"
-      ],
-      "correct": 0
-    }
-  ]
+		{
+			"question": "Le feu crépitait « crack crack ».",
+			"reponses": [
+				"Onomatopée",
+				"Gradation",
+				"Personnification",
+				"Comparaison"
+			],
+			"correct": 0
+		},
+		{
+			"question": "Le tonnerre fit « boom ».",
+			"reponses": ["Onomatopée", "Hyperbole", "Ellipse", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Le chat miaula « miau ».",
+			"reponses": [
+				"Onomatopée",
+				"Comparaison",
+				"Personnification",
+				"Gradation"
+			],
+			"correct": 0
+		},
+		{
+			"question": "La cloche tinta « ding dong ».",
+			"reponses": ["Onomatopée", "Ironie", "Gradation", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Le vent hurlait « whooo ».",
+			"reponses": [
+				"Onomatopée",
+				"Personnification",
+				"Comparaison",
+				"Hyperbole"
+			],
+			"correct": 0
+		}
+	]
 }

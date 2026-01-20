@@ -1,29 +1,30 @@
 export interface FigureDeStyle {
-  nom: string;
-  definition: string;
-  exemple: string;
+	nom: string;
+	definition: string;
+	exemple: string;
 }
 
 export interface Module {
-  id: string;
-  titre: string;
-  description: string;
-  figures: (string | FigureDeStyle)[];
-  isRecap?: boolean;
-  requiredModules?: string[];
-  minPercentage?: number;
-  isLocked?: boolean;
+	id: string;
+	titre: string;
+	description: string;
+	type?: string; // ← AJOUT DE CETTE LIGNE
+	figures: (string | FigureDeStyle)[];
+	isRecap?: boolean;
+	requiredModules?: string[];
+	minPercentage?: number;
+	isLocked?: boolean;
 }
 
 export interface Question {
-  question: string;
-  reponses: string[];
-  correct: number;
-  explication: string;
-  indice: string;
+	question: string;
+	reponses: string[];
+	correct: number;
+	explication: string;
+	indice: string;
 }
 
 export interface ExerciceModule {
-  moduleId: string;
-  questions: Question[];
+	moduleId: string;
+	questions: Question[];
 }

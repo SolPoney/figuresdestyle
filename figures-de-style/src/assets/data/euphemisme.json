@@ -1,292 +1,292 @@
 {
-  "id": "euphemisme",
-  "titre": "Euphémisme",
-  "description": "Exerce-toi à reconnaître l’euphémisme à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Il nous a quittés hier.",
-      "reponses": ["Euphémisme", "Métaphore", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle n’est plus de ce monde.",
-      "reponses": ["Euphémisme", "Litote", "Oxymore", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Il a quelques difficultés financières.",
-      "reponses": ["Euphémisme", "Hyperbole", "Ironie", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Ce quartier n’est pas très sûr.",
-      "reponses": ["Euphémisme", "Litote", "Antiphrase", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il est un peu lent à comprendre.",
-      "reponses": ["Euphémisme", "Ironie", "Sarcasme", "Hyperbole"],
-      "correct": 0
-    },
+	"id": "euphemisme",
+	"titre": "Euphémisme",
+	"description": "Exerce-toi à reconnaître l’euphémisme à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Il nous a quittés hier.",
+			"reponses": ["Euphémisme", "Métaphore", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle n’est plus de ce monde.",
+			"reponses": ["Euphémisme", "Litote", "Oxymore", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Il a quelques difficultés financières.",
+			"reponses": ["Euphémisme", "Hyperbole", "Ironie", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Ce quartier n’est pas très sûr.",
+			"reponses": ["Euphémisme", "Litote", "Antiphrase", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il est un peu lent à comprendre.",
+			"reponses": ["Euphémisme", "Ironie", "Sarcasme", "Hyperbole"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle a pris de l’âge.",
-      "reponses": ["Euphémisme", "Comparaison", "Métaphore", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Ce n’est pas son meilleur jour.",
-      "reponses": ["Euphémisme", "Antiphrase", "Hyperbole", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Il a fait une erreur de jugement.",
-      "reponses": ["Euphémisme", "Ironie", "Hyperbole", "Chiasme"],
-      "correct": 0
-    },
-    {
-      "question": "Le projet est perfectible.",
-      "reponses": ["Euphémisme", "Litote", "Antiphrase", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il a un caractère bien trempé.",
-      "reponses": ["Euphémisme", "Ironie", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
+		{
+			"question": "Elle a pris de l’âge.",
+			"reponses": ["Euphémisme", "Comparaison", "Métaphore", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Ce n’est pas son meilleur jour.",
+			"reponses": ["Euphémisme", "Antiphrase", "Hyperbole", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Il a fait une erreur de jugement.",
+			"reponses": ["Euphémisme", "Ironie", "Hyperbole", "Chiasme"],
+			"correct": 0
+		},
+		{
+			"question": "Le projet est perfectible.",
+			"reponses": ["Euphémisme", "Litote", "Antiphrase", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il a un caractère bien trempé.",
+			"reponses": ["Euphémisme", "Ironie", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle traverse une période compliquée.",
-      "reponses": ["Euphémisme", "Gradation", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Le repas était… original.",
-      "reponses": ["Euphémisme", "Antiphrase", "Hyperbole", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il n’est pas très ponctuel.",
-      "reponses": ["Euphémisme", "Litote", "Ironie", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Le résultat est en demi-teinte.",
-      "reponses": ["Euphémisme", "Métaphore", "Hyperbole", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Elle a un style vestimentaire particulier.",
-      "reponses": ["Euphémisme", "Ironie", "Antiphrase", "Oxymore"],
-      "correct": 0
-    },
+		{
+			"question": "Elle traverse une période compliquée.",
+			"reponses": ["Euphémisme", "Gradation", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Le repas était… original.",
+			"reponses": ["Euphémisme", "Antiphrase", "Hyperbole", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il n’est pas très ponctuel.",
+			"reponses": ["Euphémisme", "Litote", "Ironie", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Le résultat est en demi-teinte.",
+			"reponses": ["Euphémisme", "Métaphore", "Hyperbole", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Elle a un style vestimentaire particulier.",
+			"reponses": ["Euphémisme", "Ironie", "Antiphrase", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il est parti sans prévenir.",
-      "reponses": ["Euphémisme", "Ellipse", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Ce n’est pas une réussite totale.",
-      "reponses": ["Euphémisme", "Litote", "Antiphrase", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Il a un peu forcé sur la boisson.",
-      "reponses": ["Euphémisme", "Hyperbole", "Ironie", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle a des formes généreuses.",
-      "reponses": ["Euphémisme", "Comparaison", "Métaphore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Le discours manquait de clarté.",
-      "reponses": ["Euphémisme", "Litote", "Hyperbole", "Oxymore"],
-      "correct": 0
-    },
+		{
+			"question": "Il est parti sans prévenir.",
+			"reponses": ["Euphémisme", "Ellipse", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Ce n’est pas une réussite totale.",
+			"reponses": ["Euphémisme", "Litote", "Antiphrase", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Il a un peu forcé sur la boisson.",
+			"reponses": ["Euphémisme", "Hyperbole", "Ironie", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle a des formes généreuses.",
+			"reponses": ["Euphémisme", "Comparaison", "Métaphore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Le discours manquait de clarté.",
+			"reponses": ["Euphémisme", "Litote", "Hyperbole", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il a été remercié de ses fonctions.",
-      "reponses": ["Euphémisme", "Antiphrase", "Ironie", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Le candidat n’a pas convaincu.",
-      "reponses": ["Euphémisme", "Litote", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle est d’une franchise désarmante.",
-      "reponses": ["Euphémisme", "Oxymore", "Ironie", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Le service laisse à désirer.",
-      "reponses": ["Euphémisme", "Litote", "Hyperbole", "Antiphrase"],
-      "correct": 0
-    },
-    {
-      "question": "Il a un humour particulier.",
-      "reponses": ["Euphémisme", "Ironie", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
+		{
+			"question": "Il a été remercié de ses fonctions.",
+			"reponses": ["Euphémisme", "Antiphrase", "Ironie", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Le candidat n’a pas convaincu.",
+			"reponses": ["Euphémisme", "Litote", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle est d’une franchise désarmante.",
+			"reponses": ["Euphémisme", "Oxymore", "Ironie", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Le service laisse à désirer.",
+			"reponses": ["Euphémisme", "Litote", "Hyperbole", "Antiphrase"],
+			"correct": 0
+		},
+		{
+			"question": "Il a un humour particulier.",
+			"reponses": ["Euphémisme", "Ironie", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "La situation est délicate.",
-      "reponses": ["Euphémisme", "Hyperbole", "Gradation", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle n’est pas très organisée.",
-      "reponses": ["Euphémisme", "Litote", "Antiphrase", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Le film est un peu long.",
-      "reponses": ["Euphémisme", "Ironie", "Hyperbole", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Il a une santé fragile.",
-      "reponses": ["Euphémisme", "Litote", "Hyperbole", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Ce travail mérite d’être retravaillé.",
-      "reponses": ["Euphémisme", "Gradation", "Ironie", "Antiphrase"],
-      "correct": 0
-    },
+		{
+			"question": "La situation est délicate.",
+			"reponses": ["Euphémisme", "Hyperbole", "Gradation", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle n’est pas très organisée.",
+			"reponses": ["Euphémisme", "Litote", "Antiphrase", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Le film est un peu long.",
+			"reponses": ["Euphémisme", "Ironie", "Hyperbole", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Il a une santé fragile.",
+			"reponses": ["Euphémisme", "Litote", "Hyperbole", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Ce travail mérite d’être retravaillé.",
+			"reponses": ["Euphémisme", "Gradation", "Ironie", "Antiphrase"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle a un tempérament vif.",
-      "reponses": ["Euphémisme", "Hyperbole", "Ironie", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Le résultat est en dessous des attentes.",
-      "reponses": ["Euphémisme", "Litote", "Antiphrase", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Il n’est pas très motivé.",
-      "reponses": ["Euphémisme", "Ironie", "Hyperbole", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "La réponse est approximative.",
-      "reponses": ["Euphémisme", "Litote", "Oxymore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle a un rire discret.",
-      "reponses": ["Euphémisme", "Antiphrase", "Hyperbole", "Comparaison"],
-      "correct": 0
-    },
+		{
+			"question": "Elle a un tempérament vif.",
+			"reponses": ["Euphémisme", "Hyperbole", "Ironie", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Le résultat est en dessous des attentes.",
+			"reponses": ["Euphémisme", "Litote", "Antiphrase", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Il n’est pas très motivé.",
+			"reponses": ["Euphémisme", "Ironie", "Hyperbole", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "La réponse est approximative.",
+			"reponses": ["Euphémisme", "Litote", "Oxymore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle a un rire discret.",
+			"reponses": ["Euphémisme", "Antiphrase", "Hyperbole", "Comparaison"],
+			"correct": 0
+		},
 
-    {
-      "question": "Le candidat a un profil atypique.",
-      "reponses": ["Euphémisme", "Ironie", "Hyperbole", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il est un peu envahissant.",
-      "reponses": ["Euphémisme", "Litote", "Antiphrase", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Ce plat est surprenant.",
-      "reponses": ["Euphémisme", "Ironie", "Hyperbole", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle a un sens de l’orientation limité.",
-      "reponses": ["Euphémisme", "Litote", "Ironie", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Le débat était animé.",
-      "reponses": ["Euphémisme", "Antiphrase", "Hyperbole", "Oxymore"],
-      "correct": 0
-    },
+		{
+			"question": "Le candidat a un profil atypique.",
+			"reponses": ["Euphémisme", "Ironie", "Hyperbole", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il est un peu envahissant.",
+			"reponses": ["Euphémisme", "Litote", "Antiphrase", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Ce plat est surprenant.",
+			"reponses": ["Euphémisme", "Ironie", "Hyperbole", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle a un sens de l’orientation limité.",
+			"reponses": ["Euphémisme", "Litote", "Ironie", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Le débat était animé.",
+			"reponses": ["Euphémisme", "Antiphrase", "Hyperbole", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il a une vision personnelle des règles.",
-      "reponses": ["Euphémisme", "Ironie", "Hyperbole", "Chiasme"],
-      "correct": 0
-    },
-    {
-      "question": "Elle n’est pas très bavarde.",
-      "reponses": ["Euphémisme", "Litote", "Antiphrase", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Le climat est tendu.",
-      "reponses": ["Euphémisme", "Hyperbole", "Gradation", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Il a une allure décontractée.",
-      "reponses": ["Euphémisme", "Ironie", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Ce n’est pas l’idée du siècle.",
-      "reponses": ["Euphémisme", "Antiphrase", "Hyperbole", "Gradation"],
-      "correct": 0
-    },
+		{
+			"question": "Il a une vision personnelle des règles.",
+			"reponses": ["Euphémisme", "Ironie", "Hyperbole", "Chiasme"],
+			"correct": 0
+		},
+		{
+			"question": "Elle n’est pas très bavarde.",
+			"reponses": ["Euphémisme", "Litote", "Antiphrase", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Le climat est tendu.",
+			"reponses": ["Euphémisme", "Hyperbole", "Gradation", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Il a une allure décontractée.",
+			"reponses": ["Euphémisme", "Ironie", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Ce n’est pas l’idée du siècle.",
+			"reponses": ["Euphémisme", "Antiphrase", "Hyperbole", "Gradation"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle est un peu susceptible.",
-      "reponses": ["Euphémisme", "Litote", "Ironie", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Le rapport est incomplet.",
-      "reponses": ["Euphémisme", "Litote", "Hyperbole", "Antiphrase"],
-      "correct": 0
-    },
-    {
-      "question": "Il a une mémoire sélective.",
-      "reponses": ["Euphémisme", "Ironie", "Oxymore", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "La solution est temporaire.",
-      "reponses": ["Euphémisme", "Litote", "Gradation", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle est dans une situation inconfortable.",
-      "reponses": ["Euphémisme", "Hyperbole", "Oxymore", "Antiphrase"],
-      "correct": 0
-    },
+		{
+			"question": "Elle est un peu susceptible.",
+			"reponses": ["Euphémisme", "Litote", "Ironie", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Le rapport est incomplet.",
+			"reponses": ["Euphémisme", "Litote", "Hyperbole", "Antiphrase"],
+			"correct": 0
+		},
+		{
+			"question": "Il a une mémoire sélective.",
+			"reponses": ["Euphémisme", "Ironie", "Oxymore", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "La solution est temporaire.",
+			"reponses": ["Euphémisme", "Litote", "Gradation", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle est dans une situation inconfortable.",
+			"reponses": ["Euphémisme", "Hyperbole", "Oxymore", "Antiphrase"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il a un comportement discutable.",
-      "reponses": ["Euphémisme", "Litote", "Ironie", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Le spectacle était inégal.",
-      "reponses": ["Euphémisme", "Oxymore", "Ironie", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Elle a un talent à développer.",
-      "reponses": ["Euphémisme", "Litote", "Antiphrase", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Il est parfois maladroit.",
-      "reponses": ["Euphémisme", "Ironie", "Gradation", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Le discours était dense.",
-      "reponses": ["Euphémisme", "Antiphrase", "Hyperbole", "Oxymore"],
-      "correct": 0
-    }
-  ]
+		{
+			"question": "Il a un comportement discutable.",
+			"reponses": ["Euphémisme", "Litote", "Ironie", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Le spectacle était inégal.",
+			"reponses": ["Euphémisme", "Oxymore", "Ironie", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Elle a un talent à développer.",
+			"reponses": ["Euphémisme", "Litote", "Antiphrase", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Il est parfois maladroit.",
+			"reponses": ["Euphémisme", "Ironie", "Gradation", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Le discours était dense.",
+			"reponses": ["Euphémisme", "Antiphrase", "Hyperbole", "Oxymore"],
+			"correct": 0
+		}
+	]
 }

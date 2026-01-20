@@ -1,492 +1,492 @@
 {
-  "id": "climax",
-  "titre": "Climax",
-  "description": "Exerce-toi à reconnaître le climax à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Va, cours, vole et nous venge",
-      "reponses": ["Climax", "Gradation", "Énumération", "Impératif"],
-      "correct": 0
-    },
-    {
-      "question": "Je suis perdu, je suis mort, je suis enterré",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Accumulation"],
-      "correct": 0
-    },
-    {
-      "question": "Un souffle, une ombre, un rien, tout lui donnait la fièvre",
-      "reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Il marche, il court, il vole",
-      "reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "C'est bien, c'est très bien, c'est parfait, c'est sublime",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Je me meurs, je suis mort, je suis enterré",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Un murmure, un cri, un hurlement, un tonnerre",
-      "reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Je l'aime, je l'adore, je l'idolâtre, je le vénère",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Répétition"],
-      "correct": 0
-    },
-    {
-      "question": "Un village, une ville, une capitale, un empire",
-      "reponses": ["Climax", "Gradation", "Énumération", "Expansion"],
-      "correct": 0
-    },
-    {
-      "question": "C'en est fait, je n'en puis plus, je me meurs, je suis mort, je suis enterré",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Pathétique"],
-      "correct": 0
-    },
-    {
-      "question": "Surpris, stupéfait, sidéré, pétrifié",
-      "reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Une étincelle, une flamme, un brasier, un incendie",
-      "reponses": ["Climax", "Gradation", "Métaphore", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Un homme, un héros, un demi-dieu, un dieu",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Irrité, furieux, enragé, fou de rage",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Pâle, blême, livide, cadavérique",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Grand, immense, gigantesque, colossal, titanesque",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Inquiet, anxieux, angoissé, terrorisé",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Une brise, un vent, une tempête, un ouragan",
-      "reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Triste, malheureux, désespéré, anéanti",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Bon, excellent, exceptionnel, parfait",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Seul, isolé, abandonné, perdu",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Un frisson, un tremblement, une convulsion, une secousse",
-      "reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Un instant, une minute, une heure, une éternité",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Mentir, tromper, trahir, assassiner",
-      "reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Blessé, mutilé, massacré, détruit",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Pathétique"],
-      "correct": 0
-    },
-    {
-      "question": "Malade, souffrant, agonisant, mourant",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Riche, fortuné, opulent, milliardaire",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Troublé, bouleversé, dévasté, anéanti",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Pathétique"],
-      "correct": 0
-    },
-    {
-      "question": "Paris, la France, l'Europe, le monde, l'univers",
-      "reponses": ["Climax", "Gradation", "Expansion", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Un désaccord, un conflit, une bataille, une guerre",
-      "reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Demander, supplier, implorer, adjurer",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Pauvre, misérable, indigent, déshérité",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Un grondement, un fracas, un vacarme, un tonnerre",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Craindre, redouter, appréhender, terrifier",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Admirer, vénérer, adorer, idolâtrer",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Un frémissement, une secousse, une convulsion, un séisme",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Conquérir, dominer, soumettre, anéantir",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Innocent, victime, martyr, saint",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Étonné, ébahi, stupéfait, pétrifié",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Des larmes, des sanglots, des pleurs, des convulsions",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Croire, espérer, désirer, implorer",
-      "reponses": ["Climax", "Gradation", "Énumération", "Pathétique"],
-      "correct": 0
-    },
-    {
-      "question": "Perdu, damné, condamné, anéanti",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Un souffle, une brise, un vent, un ouragan",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Dégoûté, écœuré, répugné, révulsé",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Puissant, omnipotent, tout-puissant, invincible",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Horrifié, terrorisé, paniqué, paralysé de peur",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Pathétique"],
-      "correct": 0
-    },
-    {
-      "question": "Brûler, consumer, carboniser, réduire en cendres",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Gémir, pleurer, sangloter, se lamenter",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Beau, magnifique, splendide, sublime, divin",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Faiblir, chanceler, vaciller, s'effondrer",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Ténèbres, obscurité, noirceur, nuit éternelle",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Resplendir, briller, éblouir, aveugler",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Détester, haïr, abhorrer, exécrer",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Forcer, violer, saccager, profaner",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Déchu, humilié, avili, anéanti dans la boue",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Indifférent, froid, glacial, de marbre",
-      "reponses": ["Climax", "Gradation", "Métaphore", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Incertain, perplexe, confus, éperdu",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Soupçonner, accuser, condamner, exécuter",
-      "reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Outragé, blessé, massacré, assassiné",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Pathétique"],
-      "correct": 0
-    },
-    {
-      "question": "Ébranlé, renversé, brisé, pulvérisé",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Plier, briser, fracasser, réduire en poudre",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Déshonoré, avili, sali, souillé",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Affolé, hagard, fou, dément",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Pathétique"],
-      "correct": 0
-    },
-    {
-      "question": "Ébranler, fissurer, fendre, démolir",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Vaincu, humilié, écrasé, traîné dans la poussière",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Noir, sombre, lugubre, funèbre",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "S'affaiblir, décliner, défaillir, expirer",
-      "reponses": ["Climax", "Gradation", "Euphémisme", "Pathétique"],
-      "correct": 0
-    },
-    {
-      "question": "Ensevelir, enterrer, inhumer, engloutir dans l'oubli",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Une goutte, un filet, un ruisseau, un torrent",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Souffrir, agoniser, se tordre, mourir",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Un choc, un traumatisme, un cataclysme, une catastrophe",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Hésiter, douter, vaciller, désespérer",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Un gémissement, un cri, un hurlement, un rugissement de douleur",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Content, ravi, enchanté, fou de joie",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Frais, froid, glacial, polaire",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Difficile, très difficile, impossible, inimaginable",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Sourire, rire, s'esclaffer, se tordre de rire",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Joli, ravissant, magnifique, splendide",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "De la fumée, des flammes, un feu, un brasier",
-      "reponses": ["Climax", "Gradation", "Métaphore", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Un soupir, un sanglot, un hoquet, un cri déchirant",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Un sourire, un regard, un geste, un baiser",
-      "reponses": ["Climax", "Gradation", "Énumération", "Romantique"],
-      "correct": 0
-    },
-    {
-      "question": "Douteux, suspect, louche, criminel",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Gentil, aimable, charmant, adorable",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Une ride, une fissure, une crevasse, un gouffre",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Ignorer, mépriser, détester, haïr",
-      "reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Un murmure, une plainte, un gémissement, une lamentation",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Un souffle, un murmure, un chuchotement, un cri",
-      "reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Agacé, énervé, irrité, furieux",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Endormi, assoupi, plongé dans le sommeil, mort au monde",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Une maison, un manoir, un palais, un château",
-      "reponses": ["Climax", "Gradation", "Énumération", "Expansion"],
-      "correct": 0
-    },
-    {
-      "question": "Heureux, joyeux, radieux, extatique",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Fatigué, épuisé, exténué, à bout de forces",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Un pas, une marche, une course, une fuite",
-      "reponses": ["Climax", "Gradation", "Énumération", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Ému, touché, bouleversé, déchiré",
-      "reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Un frôlement, une caresse, une étreinte, une fusion",
-      "reponses": ["Climax", "Gradation", "Énumération", "Romantique"],
-      "correct": 0
-    },
-    {
-      "question": "Chaud, brûlant, torride, infernal",
-      "reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
-      "correct": 0
-    },
-    {
-      "question": "Un point, une tache, une marque, une cicatrice",
-      "reponses": ["Climax", "Gradation", "Énumération", "Métaphore"],
-      "correct": 0
-    }
-  ]
+	"id": "climax",
+	"titre": "Climax",
+	"description": "Exerce-toi à reconnaître le climax à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Va, cours, vole et nous venge",
+			"reponses": ["Climax", "Gradation", "Énumération", "Impératif"],
+			"correct": 0
+		},
+		{
+			"question": "Je suis perdu, je suis mort, je suis enterré",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Accumulation"],
+			"correct": 0
+		},
+		{
+			"question": "Un souffle, une ombre, un rien, tout lui donnait la fièvre",
+			"reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Il marche, il court, il vole",
+			"reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "C'est bien, c'est très bien, c'est parfait, c'est sublime",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Je me meurs, je suis mort, je suis enterré",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Un murmure, un cri, un hurlement, un tonnerre",
+			"reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Je l'aime, je l'adore, je l'idolâtre, je le vénère",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Répétition"],
+			"correct": 0
+		},
+		{
+			"question": "Un village, une ville, une capitale, un empire",
+			"reponses": ["Climax", "Gradation", "Énumération", "Expansion"],
+			"correct": 0
+		},
+		{
+			"question": "C'en est fait, je n'en puis plus, je me meurs, je suis mort, je suis enterré",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Pathétique"],
+			"correct": 0
+		},
+		{
+			"question": "Surpris, stupéfait, sidéré, pétrifié",
+			"reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Une étincelle, une flamme, un brasier, un incendie",
+			"reponses": ["Climax", "Gradation", "Métaphore", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Un homme, un héros, un demi-dieu, un dieu",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Irrité, furieux, enragé, fou de rage",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Pâle, blême, livide, cadavérique",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Grand, immense, gigantesque, colossal, titanesque",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Inquiet, anxieux, angoissé, terrorisé",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Une brise, un vent, une tempête, un ouragan",
+			"reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Triste, malheureux, désespéré, anéanti",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Bon, excellent, exceptionnel, parfait",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Seul, isolé, abandonné, perdu",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Un frisson, un tremblement, une convulsion, une secousse",
+			"reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Un instant, une minute, une heure, une éternité",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Mentir, tromper, trahir, assassiner",
+			"reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Blessé, mutilé, massacré, détruit",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Pathétique"],
+			"correct": 0
+		},
+		{
+			"question": "Malade, souffrant, agonisant, mourant",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Riche, fortuné, opulent, milliardaire",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Troublé, bouleversé, dévasté, anéanti",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Pathétique"],
+			"correct": 0
+		},
+		{
+			"question": "Paris, la France, l'Europe, le monde, l'univers",
+			"reponses": ["Climax", "Gradation", "Expansion", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Un désaccord, un conflit, une bataille, une guerre",
+			"reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Demander, supplier, implorer, adjurer",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Pauvre, misérable, indigent, déshérité",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Un grondement, un fracas, un vacarme, un tonnerre",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Craindre, redouter, appréhender, terrifier",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Admirer, vénérer, adorer, idolâtrer",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Un frémissement, une secousse, une convulsion, un séisme",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Conquérir, dominer, soumettre, anéantir",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Innocent, victime, martyr, saint",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Étonné, ébahi, stupéfait, pétrifié",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Des larmes, des sanglots, des pleurs, des convulsions",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Croire, espérer, désirer, implorer",
+			"reponses": ["Climax", "Gradation", "Énumération", "Pathétique"],
+			"correct": 0
+		},
+		{
+			"question": "Perdu, damné, condamné, anéanti",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Un souffle, une brise, un vent, un ouragan",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Dégoûté, écœuré, répugné, révulsé",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Puissant, omnipotent, tout-puissant, invincible",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Horrifié, terrorisé, paniqué, paralysé de peur",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Pathétique"],
+			"correct": 0
+		},
+		{
+			"question": "Brûler, consumer, carboniser, réduire en cendres",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Gémir, pleurer, sangloter, se lamenter",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Beau, magnifique, splendide, sublime, divin",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Faiblir, chanceler, vaciller, s'effondrer",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Ténèbres, obscurité, noirceur, nuit éternelle",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Resplendir, briller, éblouir, aveugler",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Détester, haïr, abhorrer, exécrer",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Forcer, violer, saccager, profaner",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Déchu, humilié, avili, anéanti dans la boue",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Indifférent, froid, glacial, de marbre",
+			"reponses": ["Climax", "Gradation", "Métaphore", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Incertain, perplexe, confus, éperdu",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Soupçonner, accuser, condamner, exécuter",
+			"reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Outragé, blessé, massacré, assassiné",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Pathétique"],
+			"correct": 0
+		},
+		{
+			"question": "Ébranlé, renversé, brisé, pulvérisé",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Plier, briser, fracasser, réduire en poudre",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Déshonoré, avili, sali, souillé",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Affolé, hagard, fou, dément",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Pathétique"],
+			"correct": 0
+		},
+		{
+			"question": "Ébranler, fissurer, fendre, démolir",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Vaincu, humilié, écrasé, traîné dans la poussière",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Noir, sombre, lugubre, funèbre",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "S'affaiblir, décliner, défaillir, expirer",
+			"reponses": ["Climax", "Gradation", "Euphémisme", "Pathétique"],
+			"correct": 0
+		},
+		{
+			"question": "Ensevelir, enterrer, inhumer, engloutir dans l'oubli",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Une goutte, un filet, un ruisseau, un torrent",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Souffrir, agoniser, se tordre, mourir",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Un choc, un traumatisme, un cataclysme, une catastrophe",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Hésiter, douter, vaciller, désespérer",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Un gémissement, un cri, un hurlement, un rugissement de douleur",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Content, ravi, enchanté, fou de joie",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Frais, froid, glacial, polaire",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Difficile, très difficile, impossible, inimaginable",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Sourire, rire, s'esclaffer, se tordre de rire",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Joli, ravissant, magnifique, splendide",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "De la fumée, des flammes, un feu, un brasier",
+			"reponses": ["Climax", "Gradation", "Métaphore", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Un soupir, un sanglot, un hoquet, un cri déchirant",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Un sourire, un regard, un geste, un baiser",
+			"reponses": ["Climax", "Gradation", "Énumération", "Romantique"],
+			"correct": 0
+		},
+		{
+			"question": "Douteux, suspect, louche, criminel",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Gentil, aimable, charmant, adorable",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Une ride, une fissure, une crevasse, un gouffre",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Ignorer, mépriser, détester, haïr",
+			"reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Un murmure, une plainte, un gémissement, une lamentation",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Un souffle, un murmure, un chuchotement, un cri",
+			"reponses": ["Climax", "Gradation", "Énumération", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Agacé, énervé, irrité, furieux",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Endormi, assoupi, plongé dans le sommeil, mort au monde",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Une maison, un manoir, un palais, un château",
+			"reponses": ["Climax", "Gradation", "Énumération", "Expansion"],
+			"correct": 0
+		},
+		{
+			"question": "Heureux, joyeux, radieux, extatique",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Fatigué, épuisé, exténué, à bout de forces",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Un pas, une marche, une course, une fuite",
+			"reponses": ["Climax", "Gradation", "Énumération", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Ému, touché, bouleversé, déchiré",
+			"reponses": ["Climax", "Gradation", "Pathétique", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Un frôlement, une caresse, une étreinte, une fusion",
+			"reponses": ["Climax", "Gradation", "Énumération", "Romantique"],
+			"correct": 0
+		},
+		{
+			"question": "Chaud, brûlant, torride, infernal",
+			"reponses": ["Climax", "Gradation", "Hyperbole", "Énumération"],
+			"correct": 0
+		},
+		{
+			"question": "Un point, une tache, une marque, une cicatrice",
+			"reponses": ["Climax", "Gradation", "Énumération", "Métaphore"],
+			"correct": 0
+		}
+	]
 }

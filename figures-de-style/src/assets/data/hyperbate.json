@@ -1,292 +1,292 @@
 {
-  "id": "hyperbate",
-  "titre": "Hyperbate",
-  "description": "Exerce-toi à reconnaître l’hyperbate à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Il partit sans un mot, furieux.",
-      "reponses": ["Hyperbate", "Ellipse", "Anaphore", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle souriait, malgré la fatigue.",
-      "reponses": ["Hyperbate", "Comparaison", "Gradation", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Il accepta la décision, à contrecœur.",
-      "reponses": ["Hyperbate", "Antithèse", "Ellipse", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Il continua à parler, sans conviction.",
-      "reponses": ["Hyperbate", "Hyperbole", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle referma la porte, doucement.",
-      "reponses": ["Hyperbate", "Anaphore", "Ellipse", "Gradation"],
-      "correct": 0
-    },
+	"id": "hyperbate",
+	"titre": "Hyperbate",
+	"description": "Exerce-toi à reconnaître l’hyperbate à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Il partit sans un mot, furieux.",
+			"reponses": ["Hyperbate", "Ellipse", "Anaphore", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle souriait, malgré la fatigue.",
+			"reponses": ["Hyperbate", "Comparaison", "Gradation", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Il accepta la décision, à contrecœur.",
+			"reponses": ["Hyperbate", "Antithèse", "Ellipse", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Il continua à parler, sans conviction.",
+			"reponses": ["Hyperbate", "Hyperbole", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle referma la porte, doucement.",
+			"reponses": ["Hyperbate", "Anaphore", "Ellipse", "Gradation"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il répondit à la question, vaguement.",
-      "reponses": ["Hyperbate", "Ironie", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Ils avancèrent dans la nuit, silencieux.",
-      "reponses": ["Hyperbate", "Personnification", "Anaphore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Elle quitta la pièce, bouleversée.",
-      "reponses": ["Hyperbate", "Gradation", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il termina son discours, épuisé.",
-      "reponses": ["Hyperbate", "Hyperbole", "Anaphore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle accepta l’offre, hésitante.",
-      "reponses": ["Hyperbate", "Comparaison", "Ellipse", "Oxymore"],
-      "correct": 0
-    },
+		{
+			"question": "Il répondit à la question, vaguement.",
+			"reponses": ["Hyperbate", "Ironie", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Ils avancèrent dans la nuit, silencieux.",
+			"reponses": ["Hyperbate", "Personnification", "Anaphore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Elle quitta la pièce, bouleversée.",
+			"reponses": ["Hyperbate", "Gradation", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il termina son discours, épuisé.",
+			"reponses": ["Hyperbate", "Hyperbole", "Anaphore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle accepta l’offre, hésitante.",
+			"reponses": ["Hyperbate", "Comparaison", "Ellipse", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il entra dans la salle, confiant.",
-      "reponses": ["Hyperbate", "Anaphore", "Gradation", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle regardait le paysage, songeuse.",
-      "reponses": ["Hyperbate", "Comparaison", "Personnification", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il poursuivit son chemin, déterminé.",
-      "reponses": ["Hyperbate", "Gradation", "Anaphore", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle répondit à l’appel, troublée.",
-      "reponses": ["Hyperbate", "Ironie", "Comparaison", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Ils prirent une décision, risquée.",
-      "reponses": ["Hyperbate", "Hyperbole", "Oxymore", "Anaphore"],
-      "correct": 0
-    },
+		{
+			"question": "Il entra dans la salle, confiant.",
+			"reponses": ["Hyperbate", "Anaphore", "Gradation", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle regardait le paysage, songeuse.",
+			"reponses": ["Hyperbate", "Comparaison", "Personnification", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il poursuivit son chemin, déterminé.",
+			"reponses": ["Hyperbate", "Gradation", "Anaphore", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle répondit à l’appel, troublée.",
+			"reponses": ["Hyperbate", "Ironie", "Comparaison", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Ils prirent une décision, risquée.",
+			"reponses": ["Hyperbate", "Hyperbole", "Oxymore", "Anaphore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il se leva de sa chaise, brusquement.",
-      "reponses": ["Hyperbate", "Gradation", "Ellipse", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Elle ouvrit la lettre, tremblante.",
-      "reponses": ["Hyperbate", "Personnification", "Anaphore", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il annonça la nouvelle, embarrassé.",
-      "reponses": ["Hyperbate", "Ironie", "Comparaison", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Elle continua à marcher, obstinée.",
-      "reponses": ["Hyperbate", "Anaphore", "Oxymore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il posa la question, inquiet.",
-      "reponses": ["Hyperbate", "Comparaison", "Ironie", "Anaphore"],
-      "correct": 0
-    },
+		{
+			"question": "Il se leva de sa chaise, brusquement.",
+			"reponses": ["Hyperbate", "Gradation", "Ellipse", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Elle ouvrit la lettre, tremblante.",
+			"reponses": ["Hyperbate", "Personnification", "Anaphore", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il annonça la nouvelle, embarrassé.",
+			"reponses": ["Hyperbate", "Ironie", "Comparaison", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Elle continua à marcher, obstinée.",
+			"reponses": ["Hyperbate", "Anaphore", "Oxymore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il posa la question, inquiet.",
+			"reponses": ["Hyperbate", "Comparaison", "Ironie", "Anaphore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle accepta la réalité, résignée.",
-      "reponses": ["Hyperbate", "Gradation", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il observa la scène, perplexe.",
-      "reponses": ["Hyperbate", "Personnification", "Anaphore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle termina son travail, satisfaite.",
-      "reponses": ["Hyperbate", "Comparaison", "Gradation", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il ferma les yeux, soulagé.",
-      "reponses": ["Hyperbate", "Anaphore", "Oxymore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle entra dans la discussion, prudemment.",
-      "reponses": ["Hyperbate", "Comparaison", "Ellipse", "Gradation"],
-      "correct": 0
-    },
+		{
+			"question": "Elle accepta la réalité, résignée.",
+			"reponses": ["Hyperbate", "Gradation", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il observa la scène, perplexe.",
+			"reponses": ["Hyperbate", "Personnification", "Anaphore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle termina son travail, satisfaite.",
+			"reponses": ["Hyperbate", "Comparaison", "Gradation", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il ferma les yeux, soulagé.",
+			"reponses": ["Hyperbate", "Anaphore", "Oxymore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle entra dans la discussion, prudemment.",
+			"reponses": ["Hyperbate", "Comparaison", "Ellipse", "Gradation"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il poursuivit son récit, passionné.",
-      "reponses": ["Hyperbate", "Hyperbole", "Anaphore", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle sortit du silence, décidée.",
-      "reponses": ["Hyperbate", "Gradation", "Comparaison", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Il aborda le sujet, maladroitement.",
-      "reponses": ["Hyperbate", "Ellipse", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle continua à sourire, nerveuse.",
-      "reponses": ["Hyperbate", "Oxymore", "Anaphore", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Il quitta la réunion, contrarié.",
-      "reponses": ["Hyperbate", "Ironie", "Comparaison", "Ellipse"],
-      "correct": 0
-    },
+		{
+			"question": "Il poursuivit son récit, passionné.",
+			"reponses": ["Hyperbate", "Hyperbole", "Anaphore", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle sortit du silence, décidée.",
+			"reponses": ["Hyperbate", "Gradation", "Comparaison", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Il aborda le sujet, maladroitement.",
+			"reponses": ["Hyperbate", "Ellipse", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle continua à sourire, nerveuse.",
+			"reponses": ["Hyperbate", "Oxymore", "Anaphore", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Il quitta la réunion, contrarié.",
+			"reponses": ["Hyperbate", "Ironie", "Comparaison", "Ellipse"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle s’installa à sa place, discrètement.",
-      "reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il prononça ces mots, solennel.",
-      "reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Elle observa la foule, anxieuse.",
-      "reponses": ["Hyperbate", "Personnification", "Anaphore", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il reprit la parole, confus.",
-      "reponses": ["Hyperbate", "Gradation", "Comparaison", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle acheva son récit, émue.",
-      "reponses": ["Hyperbate", "Ellipse", "Anaphore", "Oxymore"],
-      "correct": 0
-    },
+		{
+			"question": "Elle s’installa à sa place, discrètement.",
+			"reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il prononça ces mots, solennel.",
+			"reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Elle observa la foule, anxieuse.",
+			"reponses": ["Hyperbate", "Personnification", "Anaphore", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il reprit la parole, confus.",
+			"reponses": ["Hyperbate", "Gradation", "Comparaison", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle acheva son récit, émue.",
+			"reponses": ["Hyperbate", "Ellipse", "Anaphore", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il continua d’avancer, épuisé.",
-      "reponses": ["Hyperbate", "Hyperbole", "Comparaison", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle tourna la tête, surprise.",
-      "reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il salua l’assemblée, respectueux.",
-      "reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Elle accepta la critique, calmement.",
-      "reponses": ["Hyperbate", "Gradation", "Anaphore", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il acheva sa phrase, hésitant.",
-      "reponses": ["Hyperbate", "Ellipse", "Comparaison", "Ironie"],
-      "correct": 0
-    },
+		{
+			"question": "Il continua d’avancer, épuisé.",
+			"reponses": ["Hyperbate", "Hyperbole", "Comparaison", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle tourna la tête, surprise.",
+			"reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il salua l’assemblée, respectueux.",
+			"reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Elle accepta la critique, calmement.",
+			"reponses": ["Hyperbate", "Gradation", "Anaphore", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il acheva sa phrase, hésitant.",
+			"reponses": ["Hyperbate", "Ellipse", "Comparaison", "Ironie"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle s’éloigna du groupe, silencieuse.",
-      "reponses": ["Hyperbate", "Oxymore", "Anaphore", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Il poursuivit son travail, méthodique.",
-      "reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Elle répondit à la provocation, sèchement.",
-      "reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il observa le résultat, satisfait.",
-      "reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Elle continua à espérer, malgré tout.",
-      "reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
-      "correct": 0
-    },
+		{
+			"question": "Elle s’éloigna du groupe, silencieuse.",
+			"reponses": ["Hyperbate", "Oxymore", "Anaphore", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Il poursuivit son travail, méthodique.",
+			"reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Elle répondit à la provocation, sèchement.",
+			"reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il observa le résultat, satisfait.",
+			"reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Elle continua à espérer, malgré tout.",
+			"reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il accepta le verdict, dignement.",
-      "reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Elle ferma le livre, pensive.",
-      "reponses": ["Hyperbate", "Anaphore", "Oxymore", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Il poursuivit la discussion, tendu.",
-      "reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Elle acheva sa tâche, consciencieuse.",
-      "reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il se retourna vers elle, surpris.",
-      "reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
-      "correct": 0
-    },
+		{
+			"question": "Il accepta le verdict, dignement.",
+			"reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Elle ferma le livre, pensive.",
+			"reponses": ["Hyperbate", "Anaphore", "Oxymore", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Il poursuivit la discussion, tendu.",
+			"reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Elle acheva sa tâche, consciencieuse.",
+			"reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il se retourna vers elle, surpris.",
+			"reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle entra dans la pièce, méfiante.",
-      "reponses": ["Hyperbate", "Anaphore", "Oxymore", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Il termina la lecture, pensif.",
-      "reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Elle poursuivit sa route, déterminée.",
-      "reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il répondit à l’accusation, fermement.",
-      "reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Elle referma la conversation, lasse.",
-      "reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
-      "correct": 0
-    }
-  ]
+		{
+			"question": "Elle entra dans la pièce, méfiante.",
+			"reponses": ["Hyperbate", "Anaphore", "Oxymore", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Il termina la lecture, pensif.",
+			"reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Elle poursuivit sa route, déterminée.",
+			"reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il répondit à l’accusation, fermement.",
+			"reponses": ["Hyperbate", "Comparaison", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Elle referma la conversation, lasse.",
+			"reponses": ["Hyperbate", "Anaphore", "Gradation", "Oxymore"],
+			"correct": 0
+		}
+	]
 }

@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule, ActivatedRoute, Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
+import { Module, Question } from '../../models/module.model';
 import { ModuleDataService } from '../../services/module-data.service';
-import { Question, Module } from '../../models/module.model';
 
 @Component({
   selector: 'app-exercise',

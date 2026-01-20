@@ -1,496 +1,496 @@
 {
-  "id": "antiphrase",
-  "titre": "Antiphrase",
-  "description": "Exerce-toi à reconnaître l'antiphrase à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Quel temps magnifique ! (alors qu'il pleut des cordes)",
-      "reponses": ["Antiphrase", "Ironie", "Litote", "Euphémisme"],
-      "correct": 0,
-      "indice": "Le sens réel est opposé à l'expression utilisée."
-    },
-    {
-      "question": "Bravo, c'est du beau travail ! (devant un désastre)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0,
-      "indice": "L'énoncé dit le contraire de ce que l'on pense."
-    },
-    {
-      "question": "Quelle belle intelligence ! (à quelqu'un de stupide)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Euphémisme"],
-      "correct": 0,
-      "indice": "On utilise une formule positive pour signifier le négatif."
-    },
-    {
-      "question": "C'est du propre ! (devant un grand désordre)",
-      "reponses": ["Antiphrase", "Ironie", "Litote", "Euphémisme"],
-      "correct": 0,
-      "indice": "L'ironie repose sur l'opposition entre les mots et la réalité."
-    },
-    {
-      "question": "Tu es vraiment génial ! (après une grosse bêtise)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0,
-      "indice": "L'expression positive masque une critique."
-    },
-    {
-      "question": "Quel courage ! (à un lâche)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Euphémisme"],
-      "correct": 0,
-      "indice": "On dit le contraire de ce que l'on pense réellement."
-    },
-    {
-      "question": "Quelle rapidité ! (à quelqu'un de très lent)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0,
-      "indice": "L'ironie est basée sur l'opposition entre l'expression et la réalité."
-    },
-    {
-      "question": "Tu t'es surpassé ! (après un échec)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0,
-      "indice": "L'expression positive souligne l'échec."
-    },
-    {
-      "question": "Quelle délicatesse ! (à quelqu'un de brutal)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Euphémisme"],
-      "correct": 0,
-      "indice": "On emploie un terme positif pour désigner un défaut."
-    },
-    {
-      "question": "C'est très réussi ! (devant un échec)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle journée formidable ! (après une journée horrible)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es en pleine forme ! (à quelqu'un de très malade)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Euphémisme"],
-      "correct": 0
-    },
-    {
-      "question": "Quel grand homme ! (à un individu méprisable)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu as été très discret ! (à quelqu'un de bruyant)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle ponctualité ! (à quelqu'un en retard)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quel festin ! (devant un repas immangeable)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es d'une aide précieuse ! (à quelqu'un d'inutile)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle beauté ! (devant quelque chose de laid)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est tout à fait charmant ! (devant quelque chose d'horrible)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle finesse d'esprit ! (à quelqu'un de lourd)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très organisé ! (devant un chaos total)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quel homme de parole ! (à quelqu'un qui ne tient jamais ses promesses)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est vraiment original ! (devant quelque chose de banal)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle sincérité ! (à un menteur)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très modeste ! (à quelqu'un de prétentieux)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle générosité ! (à un avare)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est du grand art ! (devant quelque chose de médiocre)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle perspicacité ! (à quelqu'un qui ne comprend rien)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es vraiment drôle ! (à quelqu'un de très ennuyeux)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle élégance ! (à quelqu'un de mal habillé)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très confortable ! (dans un endroit inconfortable)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle honnêteté ! (à quelqu'un de malhonnête)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu as été très poli ! (à quelqu'un de grossier)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle clarté ! (devant quelque chose de confus)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est d'une logique imparable ! (devant une absurdité)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle patience ! (à quelqu'un d'impatient)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es vraiment concentré ! (à quelqu'un de distrait)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle prudence ! (à quelqu'un de téméraire)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est vraiment silencieux ici ! (dans un endroit bruyant)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle sobriété ! (devant quelque chose d'extravagant)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu as été très économe ! (à quelqu'un qui a tout dépensé)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle simplicité ! (devant quelque chose de compliqué)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très appétissant ! (devant un plat dégoûtant)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle douceur ! (à quelqu'un de violent)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très sympathique ! (à quelqu'un d'antipathique)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle efficacité ! (devant une incompétence)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est vraiment pratique ! (devant quelque chose d'inutile)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle fraîcheur ! (devant quelque chose de rassis)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu as été très attentif ! (à quelqu'un d'inattentif)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle propreté ! (dans un endroit sale)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très lumineux ! (dans un endroit sombre)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle maturité ! (à quelqu'un d'immature)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très responsable ! (à quelqu'un d'irresponsable)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle santé ! (à quelqu'un de malade)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Euphémisme"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très spacieux ! (dans un endroit exigu)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle créativité ! (devant quelque chose de banal)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très sportif ! (à quelqu'un de sédentaire)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle jeunesse ! (à quelqu'un de très vieux)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Euphémisme"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très moderne ! (devant quelque chose de démodé)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle sagesse ! (à quelqu'un de stupide)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très calme ! (à quelqu'un d'agité)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle gaieté ! (dans une ambiance lugubre)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très sûr ! (devant quelque chose de dangereux)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle discrétion ! (à quelqu'un de tapageur)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très flexible ! (à quelqu'un de rigide)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle chaleur ! (quand il fait très froid)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très agréable ! (dans une situation désagréable)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle vigueur ! (à quelqu'un de faible)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très cultivé ! (à quelqu'un d'inculte)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle harmonie ! (dans le désordre)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très accessible ! (devant quelque chose de compliqué)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle précision ! (à quelqu'un d'imprécis)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très optimiste ! (à quelqu'un de pessimiste)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle vivacité ! (à quelqu'un de lent)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très nutritif ! (devant de la malbouffe)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle légèreté ! (devant quelque chose de lourd)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très réaliste ! (à quelqu'un d'utopiste)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle stabilité ! (dans l'instabilité)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très durable ! (devant quelque chose de fragile)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle indépendance ! (à quelqu'un de dépendant)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très fidèle ! (à quelqu'un d'infidèle)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle richesse ! (dans la pauvreté)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très sain ! (devant quelque chose de malsain)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle tranquillité ! (dans l'agitation)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très équilibré ! (à quelqu'un de déséquilibré)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle solidité ! (devant quelque chose de fragile)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très naturel ! (devant quelque chose d'artificiel)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle pureté ! (devant quelque chose de corrompu)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très humble ! (à quelqu'un d'arrogant)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle authenticité ! (devant quelque chose de faux)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très cohérent ! (devant des contradictions)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle fidélité ! (à un traître)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Tu es très diplomate ! (à quelqu'un de brutal)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle subtilité ! (à quelqu'un de grossier)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "C'est très raffiné ! (devant quelque chose de vulgaire)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Quelle sensibilité ! (à quelqu'un d'insensible)",
-      "reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
-      "correct": 0
-    }
-  ]
+	"id": "antiphrase",
+	"titre": "Antiphrase",
+	"description": "Exerce-toi à reconnaître l'antiphrase à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Quel temps magnifique ! (alors qu'il pleut des cordes)",
+			"reponses": ["Antiphrase", "Ironie", "Litote", "Euphémisme"],
+			"correct": 0,
+			"indice": "Le sens réel est opposé à l'expression utilisée."
+		},
+		{
+			"question": "Bravo, c'est du beau travail ! (devant un désastre)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0,
+			"indice": "L'énoncé dit le contraire de ce que l'on pense."
+		},
+		{
+			"question": "Quelle belle intelligence ! (à quelqu'un de stupide)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Euphémisme"],
+			"correct": 0,
+			"indice": "On utilise une formule positive pour signifier le négatif."
+		},
+		{
+			"question": "C'est du propre ! (devant un grand désordre)",
+			"reponses": ["Antiphrase", "Ironie", "Litote", "Euphémisme"],
+			"correct": 0,
+			"indice": "L'ironie repose sur l'opposition entre les mots et la réalité."
+		},
+		{
+			"question": "Tu es vraiment génial ! (après une grosse bêtise)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0,
+			"indice": "L'expression positive masque une critique."
+		},
+		{
+			"question": "Quel courage ! (à un lâche)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Euphémisme"],
+			"correct": 0,
+			"indice": "On dit le contraire de ce que l'on pense réellement."
+		},
+		{
+			"question": "Quelle rapidité ! (à quelqu'un de très lent)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0,
+			"indice": "L'ironie est basée sur l'opposition entre l'expression et la réalité."
+		},
+		{
+			"question": "Tu t'es surpassé ! (après un échec)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0,
+			"indice": "L'expression positive souligne l'échec."
+		},
+		{
+			"question": "Quelle délicatesse ! (à quelqu'un de brutal)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Euphémisme"],
+			"correct": 0,
+			"indice": "On emploie un terme positif pour désigner un défaut."
+		},
+		{
+			"question": "C'est très réussi ! (devant un échec)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle journée formidable ! (après une journée horrible)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es en pleine forme ! (à quelqu'un de très malade)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "Quel grand homme ! (à un individu méprisable)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu as été très discret ! (à quelqu'un de bruyant)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle ponctualité ! (à quelqu'un en retard)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quel festin ! (devant un repas immangeable)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es d'une aide précieuse ! (à quelqu'un d'inutile)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle beauté ! (devant quelque chose de laid)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est tout à fait charmant ! (devant quelque chose d'horrible)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle finesse d'esprit ! (à quelqu'un de lourd)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très organisé ! (devant un chaos total)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quel homme de parole ! (à quelqu'un qui ne tient jamais ses promesses)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est vraiment original ! (devant quelque chose de banal)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle sincérité ! (à un menteur)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très modeste ! (à quelqu'un de prétentieux)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle générosité ! (à un avare)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est du grand art ! (devant quelque chose de médiocre)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle perspicacité ! (à quelqu'un qui ne comprend rien)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es vraiment drôle ! (à quelqu'un de très ennuyeux)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle élégance ! (à quelqu'un de mal habillé)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très confortable ! (dans un endroit inconfortable)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle honnêteté ! (à quelqu'un de malhonnête)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu as été très poli ! (à quelqu'un de grossier)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle clarté ! (devant quelque chose de confus)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est d'une logique imparable ! (devant une absurdité)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle patience ! (à quelqu'un d'impatient)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es vraiment concentré ! (à quelqu'un de distrait)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle prudence ! (à quelqu'un de téméraire)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est vraiment silencieux ici ! (dans un endroit bruyant)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle sobriété ! (devant quelque chose d'extravagant)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu as été très économe ! (à quelqu'un qui a tout dépensé)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle simplicité ! (devant quelque chose de compliqué)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très appétissant ! (devant un plat dégoûtant)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle douceur ! (à quelqu'un de violent)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très sympathique ! (à quelqu'un d'antipathique)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle efficacité ! (devant une incompétence)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est vraiment pratique ! (devant quelque chose d'inutile)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle fraîcheur ! (devant quelque chose de rassis)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu as été très attentif ! (à quelqu'un d'inattentif)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle propreté ! (dans un endroit sale)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très lumineux ! (dans un endroit sombre)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle maturité ! (à quelqu'un d'immature)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très responsable ! (à quelqu'un d'irresponsable)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle santé ! (à quelqu'un de malade)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très spacieux ! (dans un endroit exigu)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle créativité ! (devant quelque chose de banal)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très sportif ! (à quelqu'un de sédentaire)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle jeunesse ! (à quelqu'un de très vieux)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très moderne ! (devant quelque chose de démodé)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle sagesse ! (à quelqu'un de stupide)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très calme ! (à quelqu'un d'agité)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle gaieté ! (dans une ambiance lugubre)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très sûr ! (devant quelque chose de dangereux)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle discrétion ! (à quelqu'un de tapageur)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très flexible ! (à quelqu'un de rigide)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle chaleur ! (quand il fait très froid)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très agréable ! (dans une situation désagréable)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle vigueur ! (à quelqu'un de faible)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très cultivé ! (à quelqu'un d'inculte)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle harmonie ! (dans le désordre)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très accessible ! (devant quelque chose de compliqué)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle précision ! (à quelqu'un d'imprécis)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très optimiste ! (à quelqu'un de pessimiste)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle vivacité ! (à quelqu'un de lent)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très nutritif ! (devant de la malbouffe)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle légèreté ! (devant quelque chose de lourd)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très réaliste ! (à quelqu'un d'utopiste)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle stabilité ! (dans l'instabilité)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très durable ! (devant quelque chose de fragile)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle indépendance ! (à quelqu'un de dépendant)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très fidèle ! (à quelqu'un d'infidèle)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle richesse ! (dans la pauvreté)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très sain ! (devant quelque chose de malsain)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle tranquillité ! (dans l'agitation)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très équilibré ! (à quelqu'un de déséquilibré)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle solidité ! (devant quelque chose de fragile)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très naturel ! (devant quelque chose d'artificiel)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle pureté ! (devant quelque chose de corrompu)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très humble ! (à quelqu'un d'arrogant)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle authenticité ! (devant quelque chose de faux)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très cohérent ! (devant des contradictions)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle fidélité ! (à un traître)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Tu es très diplomate ! (à quelqu'un de brutal)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle subtilité ! (à quelqu'un de grossier)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "C'est très raffiné ! (devant quelque chose de vulgaire)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Quelle sensibilité ! (à quelqu'un d'insensible)",
+			"reponses": ["Antiphrase", "Ironie", "Sarcasme", "Litote"],
+			"correct": 0
+		}
+	]
 }

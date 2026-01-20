@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { CommonModule } from "@angular/common";
+import { Component } from "@angular/core";
+import { RouterModule } from "@angular/router";
 
 @Component({
-  selector: 'app-footer',
-  standalone: true,
-  imports: [CommonModule, RouterModule],
-  template: `
+	selector: "app-footer",
+	standalone: true,
+	imports: [CommonModule, RouterModule],
+	template: `
     <footer class="bg-dark-surface border-t border-dark-border mt-auto">
       <div class="max-w-6xl mx-auto px-4 py-8">
         <div class="grid gap-8 md:grid-cols-3">
@@ -97,14 +97,14 @@ import { RouterModule } from '@angular/router';
       </div>
     </footer>
   `,
-  styles: [
-    `
+	styles: [
+		`
       :host {
         display: block;
       }
     `,
-  ],
+	],
 })
 export class FooterComponent {
-  currentYear = new Date().getFullYear();
+	currentYear = new Date().getFullYear();
 }

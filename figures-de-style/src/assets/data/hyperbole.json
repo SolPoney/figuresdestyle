@@ -1,347 +1,347 @@
 {
-  "id": "hyperbole",
-  "titre": "Hyperbole",
-  "description": "Exerce-toi à reconnaître l’hyperbole à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Je meurs de faim.",
-      "reponses": ["Hyperbole", "Euphémisme", "Ironie", "Comparaison"],
-      "correct": 0,
-      "indice": "Cette phrase exagère la faim ressentie."
-    },
-    {
-      "question": "Il a couru plus vite que le vent.",
-      "reponses": ["Hyperbole", "Métaphore", "Personnification", "Antiphrase"],
-      "correct": 0,
-      "indice": "On utilise une comparaison extrême pour décrire sa vitesse."
-    },
-    {
-      "question": "Je t’ai appelé un million de fois !",
-      "reponses": ["Hyperbole", "Ironie", "Gradation", "Ellipse"],
-      "correct": 0,
-      "indice": "Le nombre d'appels est exagéré pour insister sur la fréquence."
-    },
-    {
-      "question": "Cet effort est énorme, presque insurmontable.",
-      "reponses": ["Hyperbole", "Litote", "Comparaison", "Euphémisme"],
-      "correct": 0,
-      "indice": "L'adjectif 'énorme' amplifie la difficulté de l'effort."
-    },
-    {
-      "question": "Je pleure toutes les larmes de mon corps.",
-      "reponses": ["Hyperbole", "Euphémisme", "Ironie", "Oxymore"],
-      "correct": 0,
-      "indice": "L'expression exagère l'idée de pleurer abondamment."
-    },
+	"id": "hyperbole",
+	"titre": "Hyperbole",
+	"description": "Exerce-toi à reconnaître l’hyperbole à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Je meurs de faim.",
+			"reponses": ["Hyperbole", "Euphémisme", "Ironie", "Comparaison"],
+			"correct": 0,
+			"indice": "Cette phrase exagère la faim ressentie."
+		},
+		{
+			"question": "Il a couru plus vite que le vent.",
+			"reponses": ["Hyperbole", "Métaphore", "Personnification", "Antiphrase"],
+			"correct": 0,
+			"indice": "On utilise une comparaison extrême pour décrire sa vitesse."
+		},
+		{
+			"question": "Je t’ai appelé un million de fois !",
+			"reponses": ["Hyperbole", "Ironie", "Gradation", "Ellipse"],
+			"correct": 0,
+			"indice": "Le nombre d'appels est exagéré pour insister sur la fréquence."
+		},
+		{
+			"question": "Cet effort est énorme, presque insurmontable.",
+			"reponses": ["Hyperbole", "Litote", "Comparaison", "Euphémisme"],
+			"correct": 0,
+			"indice": "L'adjectif 'énorme' amplifie la difficulté de l'effort."
+		},
+		{
+			"question": "Je pleure toutes les larmes de mon corps.",
+			"reponses": ["Hyperbole", "Euphémisme", "Ironie", "Oxymore"],
+			"correct": 0,
+			"indice": "L'expression exagère l'idée de pleurer abondamment."
+		},
 
-    {
-      "question": "Il est plus riche que Crésus.",
-      "reponses": ["Hyperbole", "Comparaison", "Métaphore", "Litote"],
-      "correct": 0,
-      "indice": "On compare sa richesse à celle d'un roi légendaire."
-    },
-    {
-      "question": "J’ai une montagne de travail à finir.",
-      "reponses": ["Hyperbole", "Ironie", "Euphémisme", "Gradation"],
-      "correct": 0,
-      "indice": "L'image d'une 'montagne' souligne l'énormité de la tâche."
-    },
-    {
-      "question": "Il a une mémoire d’éléphant.",
-      "reponses": ["Hyperbole", "Comparaison", "Personnification", "Oxymore"],
-      "correct": 0,
-      "indice": "On attribue une caractéristique animale à une personne pour insister sur sa mémoire."
-    },
-    {
-      "question": "Cette salle est remplie jusqu’au plafond.",
-      "reponses": ["Hyperbole", "Gradation", "Euphémisme", "Ironie"],
-      "correct": 0,
-      "indice": "L'expression indique un remplissage excessif de la salle."
-    },
-    {
-      "question": "J’ai attendu une éternité.",
-      "reponses": ["Hyperbole", "Ellipse", "Antiphrase", "Comparaison"],
-      "correct": 0,
-      "indice": "Le temps d'attente est exagéré pour exprimer l'impatience."
-    },
+		{
+			"question": "Il est plus riche que Crésus.",
+			"reponses": ["Hyperbole", "Comparaison", "Métaphore", "Litote"],
+			"correct": 0,
+			"indice": "On compare sa richesse à celle d'un roi légendaire."
+		},
+		{
+			"question": "J’ai une montagne de travail à finir.",
+			"reponses": ["Hyperbole", "Ironie", "Euphémisme", "Gradation"],
+			"correct": 0,
+			"indice": "L'image d'une 'montagne' souligne l'énormité de la tâche."
+		},
+		{
+			"question": "Il a une mémoire d’éléphant.",
+			"reponses": ["Hyperbole", "Comparaison", "Personnification", "Oxymore"],
+			"correct": 0,
+			"indice": "On attribue une caractéristique animale à une personne pour insister sur sa mémoire."
+		},
+		{
+			"question": "Cette salle est remplie jusqu’au plafond.",
+			"reponses": ["Hyperbole", "Gradation", "Euphémisme", "Ironie"],
+			"correct": 0,
+			"indice": "L'expression indique un remplissage excessif de la salle."
+		},
+		{
+			"question": "J’ai attendu une éternité.",
+			"reponses": ["Hyperbole", "Ellipse", "Antiphrase", "Comparaison"],
+			"correct": 0,
+			"indice": "Le temps d'attente est exagéré pour exprimer l'impatience."
+		},
 
-    {
-      "question": "Il est plus fort que dix hommes.",
-      "reponses": ["Hyperbole", "Comparaison", "Oxymore", "Ironie"],
-      "correct": 0,
-      "indice": "On exagère sa force en la comparant à celle de plusieurs hommes."
-    },
-    {
-      "question": "Je meurs de froid.",
-      "reponses": ["Hyperbole", "Euphémisme", "Litote", "Gradation"],
-      "correct": 0,
-      "indice": "L'expression amplifie la sensation de froid."
-    },
-    {
-      "question": "Ses pleurs remplissaient tout l’océan.",
-      "reponses": ["Hyperbole", "Personnification", "Ironie", "Métaphore"],
-      "correct": 0,
-      "indice": "L'image évoque une quantité excessive de larmes."
-    },
-    {
-      "question": "Il a une voiture qui roule à la vitesse de la lumière.",
-      "reponses": ["Hyperbole", "Comparaison", "Oxymore", "Ellipse"],
-      "correct": 0,
-      "indice": "La vitesse de la voiture est exagérée pour souligner sa rapidité."
-    },
-    {
-      "question": "Cette montagne de dettes m’écrase.",
-      "reponses": ["Hyperbole", "Gradation", "Euphémisme", "Ironie"],
-      "correct": 0,
-      "indice": "L'image de la montagne souligne le poids écrasant des dettes."
-    },
+		{
+			"question": "Il est plus fort que dix hommes.",
+			"reponses": ["Hyperbole", "Comparaison", "Oxymore", "Ironie"],
+			"correct": 0,
+			"indice": "On exagère sa force en la comparant à celle de plusieurs hommes."
+		},
+		{
+			"question": "Je meurs de froid.",
+			"reponses": ["Hyperbole", "Euphémisme", "Litote", "Gradation"],
+			"correct": 0,
+			"indice": "L'expression amplifie la sensation de froid."
+		},
+		{
+			"question": "Ses pleurs remplissaient tout l’océan.",
+			"reponses": ["Hyperbole", "Personnification", "Ironie", "Métaphore"],
+			"correct": 0,
+			"indice": "L'image évoque une quantité excessive de larmes."
+		},
+		{
+			"question": "Il a une voiture qui roule à la vitesse de la lumière.",
+			"reponses": ["Hyperbole", "Comparaison", "Oxymore", "Ellipse"],
+			"correct": 0,
+			"indice": "La vitesse de la voiture est exagérée pour souligner sa rapidité."
+		},
+		{
+			"question": "Cette montagne de dettes m’écrase.",
+			"reponses": ["Hyperbole", "Gradation", "Euphémisme", "Ironie"],
+			"correct": 0,
+			"indice": "L'image de la montagne souligne le poids écrasant des dettes."
+		},
 
-    {
-      "question": "Il est l’homme le plus intelligent du monde.",
-      "reponses": ["Hyperbole", "Comparaison", "Antiphrase", "Litote"],
-      "correct": 0,
-      "indice": "On exagère son intelligence en la comparant à celle de tous les hommes."
-    },
-    {
-      "question": "J’ai des millions d’amis.",
-      "reponses": ["Hyperbole", "Hyperbate", "Oxymore", "Ironie"],
-      "correct": 0,
-      "indice": "Le nombre d'amis est exagéré pour insister sur sa popularité."
-    },
-    {
-      "question": "Sa colère était plus grande que le ciel.",
-      "reponses": ["Hyperbole", "Métaphore", "Comparaison", "Personnification"],
-      "correct": 0,
-      "indice": "On amplifie l'intensité de sa colère par une comparaison grandiose."
-    },
-    {
-      "question": "Je suis mort de rire.",
-      "reponses": ["Hyperbole", "Ironie", "Oxymore", "Euphémisme"],
-      "correct": 0,
-      "indice": "L'expression exagère la réaction face à une situation comique."
-    },
-    {
-      "question": "Il a plu des trombes d’eau.",
-      "reponses": ["Hyperbole", "Comparaison", "Euphémisme", "Litote"],
-      "correct": 0,
-      "indice": "On exagère la quantité de pluie tombée."
-    },
+		{
+			"question": "Il est l’homme le plus intelligent du monde.",
+			"reponses": ["Hyperbole", "Comparaison", "Antiphrase", "Litote"],
+			"correct": 0,
+			"indice": "On exagère son intelligence en la comparant à celle de tous les hommes."
+		},
+		{
+			"question": "J’ai des millions d’amis.",
+			"reponses": ["Hyperbole", "Hyperbate", "Oxymore", "Ironie"],
+			"correct": 0,
+			"indice": "Le nombre d'amis est exagéré pour insister sur sa popularité."
+		},
+		{
+			"question": "Sa colère était plus grande que le ciel.",
+			"reponses": ["Hyperbole", "Métaphore", "Comparaison", "Personnification"],
+			"correct": 0,
+			"indice": "On amplifie l'intensité de sa colère par une comparaison grandiose."
+		},
+		{
+			"question": "Je suis mort de rire.",
+			"reponses": ["Hyperbole", "Ironie", "Oxymore", "Euphémisme"],
+			"correct": 0,
+			"indice": "L'expression exagère la réaction face à une situation comique."
+		},
+		{
+			"question": "Il a plu des trombes d’eau.",
+			"reponses": ["Hyperbole", "Comparaison", "Euphémisme", "Litote"],
+			"correct": 0,
+			"indice": "On exagère la quantité de pluie tombée."
+		},
 
-    {
-      "question": "Je suis le roi du monde.",
-      "reponses": ["Hyperbole", "Hyperbate", "Ironie", "Comparaison"],
-      "correct": 0,
-      "indice": "L'expression souligne un sentiment de puissance ou de contrôle total."
-    },
-    {
-      "question": "Il a la plus grande maison du pays.",
-      "reponses": ["Hyperbole", "Comparaison", "Oxymore", "Litote"],
-      "correct": 0,
-      "indice": "On exagère la taille de sa maison par rapport aux autres."
-    },
-    {
-      "question": "Je t’appellerai cent fois par jour.",
-      "reponses": ["Hyperbole", "Ellipse", "Ironie", "Euphémisme"],
-      "correct": 0,
-      "indice": "Le nombre d'appels est exagéré pour insister sur la fréquence."
-    },
-    {
-      "question": "Il a une force surhumaine.",
-      "reponses": ["Hyperbole", "Comparaison", "Gradation", "Oxymore"],
-      "correct": 0,
-      "indice": "On amplifie sa force en lui attribuant une caractéristique surhumaine."
-    },
-    {
-      "question": "Le froid était à couper le souffle.",
-      "reponses": ["Hyperbole", "Personnification", "Oxymore", "Ironie"],
-      "correct": 0,
-      "indice": "L'expression exagère l'intensité du froid ressenti."
-    },
+		{
+			"question": "Je suis le roi du monde.",
+			"reponses": ["Hyperbole", "Hyperbate", "Ironie", "Comparaison"],
+			"correct": 0,
+			"indice": "L'expression souligne un sentiment de puissance ou de contrôle total."
+		},
+		{
+			"question": "Il a la plus grande maison du pays.",
+			"reponses": ["Hyperbole", "Comparaison", "Oxymore", "Litote"],
+			"correct": 0,
+			"indice": "On exagère la taille de sa maison par rapport aux autres."
+		},
+		{
+			"question": "Je t’appellerai cent fois par jour.",
+			"reponses": ["Hyperbole", "Ellipse", "Ironie", "Euphémisme"],
+			"correct": 0,
+			"indice": "Le nombre d'appels est exagéré pour insister sur la fréquence."
+		},
+		{
+			"question": "Il a une force surhumaine.",
+			"reponses": ["Hyperbole", "Comparaison", "Gradation", "Oxymore"],
+			"correct": 0,
+			"indice": "On amplifie sa force en lui attribuant une caractéristique surhumaine."
+		},
+		{
+			"question": "Le froid était à couper le souffle.",
+			"reponses": ["Hyperbole", "Personnification", "Oxymore", "Ironie"],
+			"correct": 0,
+			"indice": "L'expression exagère l'intensité du froid ressenti."
+		},
 
-    {
-      "question": "J’ai avalé un océan de soupe.",
-      "reponses": ["Hyperbole", "Gradation", "Comparaison", "Euphémisme"],
-      "correct": 0,
-      "indice": "L'image évoque une quantité excessive de soupe consommée."
-    },
-    {
-      "question": "Il a plus de jouets que les enfants du quartier.",
-      "reponses": ["Hyperbole", "Comparaison", "Hyperbate", "Ironie"],
-      "correct": 0,
-      "indice": "On exagère le nombre de jouets pour souligner l'abondance."
-    },
-    {
-      "question": "Cette ville est immense, infinie.",
-      "reponses": ["Hyperbole", "Gradation", "Ellipse", "Oxymore"],
-      "correct": 0,
-      "indice": "Les adjectifs amplifient la taille de la ville de manière exagérée."
-    },
-    {
-      "question": "Il court plus vite que l’éclair.",
-      "reponses": ["Hyperbole", "Comparaison", "Métaphore", "Personnification"],
-      "correct": 0,
-      "indice": "Sa vitesse est comparée à celle de la lumière de manière exagérée."
-    },
-    {
-      "question": "Je suis au bord de la folie.",
-      "reponses": ["Hyperbole", "Ironie", "Litote", "Oxymore"],
-      "correct": 0,
-      "indice": "L'expression souligne un état de stress ou d'angoisse extrême."
-    },
+		{
+			"question": "J’ai avalé un océan de soupe.",
+			"reponses": ["Hyperbole", "Gradation", "Comparaison", "Euphémisme"],
+			"correct": 0,
+			"indice": "L'image évoque une quantité excessive de soupe consommée."
+		},
+		{
+			"question": "Il a plus de jouets que les enfants du quartier.",
+			"reponses": ["Hyperbole", "Comparaison", "Hyperbate", "Ironie"],
+			"correct": 0,
+			"indice": "On exagère le nombre de jouets pour souligner l'abondance."
+		},
+		{
+			"question": "Cette ville est immense, infinie.",
+			"reponses": ["Hyperbole", "Gradation", "Ellipse", "Oxymore"],
+			"correct": 0,
+			"indice": "Les adjectifs amplifient la taille de la ville de manière exagérée."
+		},
+		{
+			"question": "Il court plus vite que l’éclair.",
+			"reponses": ["Hyperbole", "Comparaison", "Métaphore", "Personnification"],
+			"correct": 0,
+			"indice": "Sa vitesse est comparée à celle de la lumière de manière exagérée."
+		},
+		{
+			"question": "Je suis au bord de la folie.",
+			"reponses": ["Hyperbole", "Ironie", "Litote", "Oxymore"],
+			"correct": 0,
+			"indice": "L'expression souligne un état de stress ou d'angoisse extrême."
+		},
 
-    {
-      "question": "Elle pleure toutes les larmes de son corps.",
-      "reponses": ["Hyperbole", "Euphémisme", "Ironie", "Comparaison"],
-      "correct": 0,
-      "indice": "L'expression exagère l'idée de pleurer abondamment."
-    },
-    {
-      "question": "Il est toujours en retard d’une éternité.",
-      "reponses": ["Hyperbole", "Gradation", "Oxymore", "Ellipse"],
-      "correct": 0,
-      "indice": "Le temps de retard est exagéré pour insister sur la régularité du retard."
-    },
-    {
-      "question": "Cette montagne de linge ne finira jamais.",
-      "reponses": ["Hyperbole", "Comparaison", "Hyperbate", "Personnification"],
-      "correct": 0,
-      "indice": "L'image de la montagne souligne le volume excessif de linge."
-    },
-    {
-      "question": "Je suis mort de fatigue.",
-      "reponses": ["Hyperbole", "Euphémisme", "Gradation", "Oxymore"],
-      "correct": 0,
-      "indice": "L'expression exagère l'état d'épuisement."
-    },
-    {
-      "question": "Il a un appétit insatiable.",
-      "reponses": ["Hyperbole", "Comparaison", "Personnification", "Ironie"],
-      "correct": 0,
-      "indice": "On exagère son appétit pour souligner qu'il semble jamais satisfait."
-    },
+		{
+			"question": "Elle pleure toutes les larmes de son corps.",
+			"reponses": ["Hyperbole", "Euphémisme", "Ironie", "Comparaison"],
+			"correct": 0,
+			"indice": "L'expression exagère l'idée de pleurer abondamment."
+		},
+		{
+			"question": "Il est toujours en retard d’une éternité.",
+			"reponses": ["Hyperbole", "Gradation", "Oxymore", "Ellipse"],
+			"correct": 0,
+			"indice": "Le temps de retard est exagéré pour insister sur la régularité du retard."
+		},
+		{
+			"question": "Cette montagne de linge ne finira jamais.",
+			"reponses": ["Hyperbole", "Comparaison", "Hyperbate", "Personnification"],
+			"correct": 0,
+			"indice": "L'image de la montagne souligne le volume excessif de linge."
+		},
+		{
+			"question": "Je suis mort de fatigue.",
+			"reponses": ["Hyperbole", "Euphémisme", "Gradation", "Oxymore"],
+			"correct": 0,
+			"indice": "L'expression exagère l'état d'épuisement."
+		},
+		{
+			"question": "Il a un appétit insatiable.",
+			"reponses": ["Hyperbole", "Comparaison", "Personnification", "Ironie"],
+			"correct": 0,
+			"indice": "On exagère son appétit pour souligner qu'il semble jamais satisfait."
+		},
 
-    {
-      "question": "J’ai une tonne de devoirs à faire.",
-      "reponses": ["Hyperbole", "Gradation", "Euphémisme", "Comparaison"],
-      "correct": 0,
-      "indice": "Le poids des devoirs est exagéré pour insister sur leur nombre."
-    },
-    {
-      "question": "Il crie plus fort que dix hommes.",
-      "reponses": ["Hyperbole", "Hyperbate", "Oxymore", "Ironie"],
-      "correct": 0,
-      "indice": "On exagère le volume de son cri par rapport à celui de plusieurs hommes."
-    },
-    {
-      "question": "Je t’attendrai mille ans.",
-      "reponses": ["Hyperbole", "Ellipse", "Ironie", "Gradation"],
-      "correct": 0,
-      "indice": "Le temps d'attente est exagéré pour exprimer la patience ou l'impatience."
-    },
-    {
-      "question": "Il a une mémoire infinie.",
-      "reponses": ["Hyperbole", "Comparaison", "Oxymore", "Personnification"],
-      "correct": 0,
-      "indice": "On amplifie sa mémoire en lui attribuant une caractéristique infinie."
-    },
-    {
-      "question": "Elle a une beauté inégalable.",
-      "reponses": ["Hyperbole", "Hyperbate", "Gradation", "Oxymore"],
-      "correct": 0,
-      "indice": "On exagère la beauté de cette personne en la comparant à quelque chose d'inégalable."
-    },
+		{
+			"question": "J’ai une tonne de devoirs à faire.",
+			"reponses": ["Hyperbole", "Gradation", "Euphémisme", "Comparaison"],
+			"correct": 0,
+			"indice": "Le poids des devoirs est exagéré pour insister sur leur nombre."
+		},
+		{
+			"question": "Il crie plus fort que dix hommes.",
+			"reponses": ["Hyperbole", "Hyperbate", "Oxymore", "Ironie"],
+			"correct": 0,
+			"indice": "On exagère le volume de son cri par rapport à celui de plusieurs hommes."
+		},
+		{
+			"question": "Je t’attendrai mille ans.",
+			"reponses": ["Hyperbole", "Ellipse", "Ironie", "Gradation"],
+			"correct": 0,
+			"indice": "Le temps d'attente est exagéré pour exprimer la patience ou l'impatience."
+		},
+		{
+			"question": "Il a une mémoire infinie.",
+			"reponses": ["Hyperbole", "Comparaison", "Oxymore", "Personnification"],
+			"correct": 0,
+			"indice": "On amplifie sa mémoire en lui attribuant une caractéristique infinie."
+		},
+		{
+			"question": "Elle a une beauté inégalable.",
+			"reponses": ["Hyperbole", "Hyperbate", "Gradation", "Oxymore"],
+			"correct": 0,
+			"indice": "On exagère la beauté de cette personne en la comparant à quelque chose d'inégalable."
+		},
 
-    {
-      "question": "Il a une patience sans limite.",
-      "reponses": ["Hyperbole", "Personnification", "Comparaison", "Ironie"],
-      "correct": 0,
-      "indice": "On amplifie sa patience en lui attribuant une caractéristique illimitée."
-    },
-    {
-      "question": "Je suis mort de peur.",
-      "reponses": ["Hyperbole", "Ironie", "Oxymore", "Gradation"],
-      "correct": 0,
-      "indice": "L'expression exagère la réaction face à une situation effrayante."
-    },
-    {
-      "question": "Il a une énergie débordante.",
-      "reponses": ["Hyperbole", "Comparaison", "Personnification", "Hyperbate"],
-      "correct": 0,
-      "indice": "On exagère son niveau d'énergie en utilisant une métaphore."
-    },
-    {
-      "question": "Cette tempête est gigantesque.",
-      "reponses": ["Hyperbole", "Gradation", "Ellipse", "Oxymore"],
-      "correct": 0,
-      "indice": "L'adjectif 'gigantesque' amplifie la taille de la tempête."
-    },
-    {
-      "question": "J’ai une montagne de courrier.",
-      "reponses": ["Hyperbole", "Comparaison", "Euphémisme", "Ironie"],
-      "correct": 0,
-      "indice": "L'image de la montagne souligne le volume excessif de courrier."
-    },
+		{
+			"question": "Il a une patience sans limite.",
+			"reponses": ["Hyperbole", "Personnification", "Comparaison", "Ironie"],
+			"correct": 0,
+			"indice": "On amplifie sa patience en lui attribuant une caractéristique illimitée."
+		},
+		{
+			"question": "Je suis mort de peur.",
+			"reponses": ["Hyperbole", "Ironie", "Oxymore", "Gradation"],
+			"correct": 0,
+			"indice": "L'expression exagère la réaction face à une situation effrayante."
+		},
+		{
+			"question": "Il a une énergie débordante.",
+			"reponses": ["Hyperbole", "Comparaison", "Personnification", "Hyperbate"],
+			"correct": 0,
+			"indice": "On exagère son niveau d'énergie en utilisant une métaphore."
+		},
+		{
+			"question": "Cette tempête est gigantesque.",
+			"reponses": ["Hyperbole", "Gradation", "Ellipse", "Oxymore"],
+			"correct": 0,
+			"indice": "L'adjectif 'gigantesque' amplifie la taille de la tempête."
+		},
+		{
+			"question": "J’ai une montagne de courrier.",
+			"reponses": ["Hyperbole", "Comparaison", "Euphémisme", "Ironie"],
+			"correct": 0,
+			"indice": "L'image de la montagne souligne le volume excessif de courrier."
+		},
 
-    {
-      "question": "Il a plus d’idées que tous les autres réunis.",
-      "reponses": ["Hyperbole", "Gradation", "Comparaison", "Oxymore"],
-      "correct": 0,
-      "indice": "On exagère le nombre d'idées pour souligner la créativité ou l'ingéniosité."
-    },
-    {
-      "question": "Je suis submergé par le travail.",
-      "reponses": ["Hyperbole", "Euphémisme", "Ellipse", "Hyperbate"],
-      "correct": 0,
-      "indice": "L'expression indique un état d'être accablé par une charge de travail importante."
-    },
-    {
-      "question": "Elle a une voix qui porte jusqu’au ciel.",
-      "reponses": ["Hyperbole", "Comparaison", "Personnification", "Ironie"],
-      "correct": 0,
-      "indice": "On exagère la portée de sa voix par une comparaison grandiose."
-    },
-    {
-      "question": "Il a plus de chance qu’un million d’hommes.",
-      "reponses": ["Hyperbole", "Gradation", "Oxymore", "Ellipse"],
-      "correct": 0,
-      "indice": "On amplifie sa chance en la comparant à celle d'un grand nombre d'hommes."
-    },
-    {
-      "question": "Je meurs de soif.",
-      "reponses": ["Hyperbole", "Euphémisme", "Litote", "Ironie"],
-      "correct": 0,
-      "indice": "L'expression exagère la soif ressentie."
-    },
+		{
+			"question": "Il a plus d’idées que tous les autres réunis.",
+			"reponses": ["Hyperbole", "Gradation", "Comparaison", "Oxymore"],
+			"correct": 0,
+			"indice": "On exagère le nombre d'idées pour souligner la créativité ou l'ingéniosité."
+		},
+		{
+			"question": "Je suis submergé par le travail.",
+			"reponses": ["Hyperbole", "Euphémisme", "Ellipse", "Hyperbate"],
+			"correct": 0,
+			"indice": "L'expression indique un état d'être accablé par une charge de travail importante."
+		},
+		{
+			"question": "Elle a une voix qui porte jusqu’au ciel.",
+			"reponses": ["Hyperbole", "Comparaison", "Personnification", "Ironie"],
+			"correct": 0,
+			"indice": "On exagère la portée de sa voix par une comparaison grandiose."
+		},
+		{
+			"question": "Il a plus de chance qu’un million d’hommes.",
+			"reponses": ["Hyperbole", "Gradation", "Oxymore", "Ellipse"],
+			"correct": 0,
+			"indice": "On amplifie sa chance en la comparant à celle d'un grand nombre d'hommes."
+		},
+		{
+			"question": "Je meurs de soif.",
+			"reponses": ["Hyperbole", "Euphémisme", "Litote", "Ironie"],
+			"correct": 0,
+			"indice": "L'expression exagère la soif ressentie."
+		},
 
-    {
-      "question": "Il a une vitesse incroyable.",
-      "reponses": ["Hyperbole", "Comparaison", "Oxymore", "Hyperbate"],
-      "correct": 0,
-      "indice": "On exagère sa vitesse en lui attribuant une caractéristique incroyable."
-    },
-    {
-      "question": "Je t’ai attendu toute ma vie.",
-      "reponses": ["Hyperbole", "Ellipse", "Ironie", "Gradation"],
-      "correct": 0,
-      "indice": "Le temps d'attente est exagéré pour exprimer la dévotion ou l'impatience."
-    },
-    {
-      "question": "Il a un courage hors du commun.",
-      "reponses": ["Hyperbole", "Personnification", "Comparaison", "Oxymore"],
-      "correct": 0,
-      "indice": "On amplifie son courage en le comparant à quelque chose d'exceptionnel."
-    },
-    {
-      "question": "Cette pièce est immense.",
-      "reponses": ["Hyperbole", "Gradation", "Ellipse", "Ironie"],
-      "correct": 0,
-      "indice": "L'adjectif 'immense' amplifie la taille de la pièce."
-    },
-    {
-      "question": "Je t’aimerai pour l’éternité.",
-      "reponses": ["Hyperbole", "Hyperbate", "Personnification", "Oxymore"],
-      "correct": 0,
-      "indice": "L'amour est décrit comme éternel, au-delà du temps."
-    }
-  ]
+		{
+			"question": "Il a une vitesse incroyable.",
+			"reponses": ["Hyperbole", "Comparaison", "Oxymore", "Hyperbate"],
+			"correct": 0,
+			"indice": "On exagère sa vitesse en lui attribuant une caractéristique incroyable."
+		},
+		{
+			"question": "Je t’ai attendu toute ma vie.",
+			"reponses": ["Hyperbole", "Ellipse", "Ironie", "Gradation"],
+			"correct": 0,
+			"indice": "Le temps d'attente est exagéré pour exprimer la dévotion ou l'impatience."
+		},
+		{
+			"question": "Il a un courage hors du commun.",
+			"reponses": ["Hyperbole", "Personnification", "Comparaison", "Oxymore"],
+			"correct": 0,
+			"indice": "On amplifie son courage en le comparant à quelque chose d'exceptionnel."
+		},
+		{
+			"question": "Cette pièce est immense.",
+			"reponses": ["Hyperbole", "Gradation", "Ellipse", "Ironie"],
+			"correct": 0,
+			"indice": "L'adjectif 'immense' amplifie la taille de la pièce."
+		},
+		{
+			"question": "Je t’aimerai pour l’éternité.",
+			"reponses": ["Hyperbole", "Hyperbate", "Personnification", "Oxymore"],
+			"correct": 0,
+			"indice": "L'amour est décrit comme éternel, au-delà du temps."
+		}
+	]
 }

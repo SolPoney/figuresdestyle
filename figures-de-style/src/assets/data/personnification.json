@@ -1,238 +1,238 @@
 {
-  "id": "personnification",
-  "titre": "Personnification",
-  "description": "Exerce-toi à reconnaître la personnification à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Le vent hurlait dans les arbres.",
-      "reponses": ["Personnification", "Métaphore", "Hyperbole", "Oxymore"],
-      "correct": 0,
-      "indice": "Pense à une caractéristique humaine que le vent pourrait avoir."
-    },
-    {
-      "question": "La mer caressait doucement le rivage.",
-      "reponses": ["Personnification", "Onomatopée", "Ironie", "Comparaison"],
-      "correct": 0,
-      "indice": "Imagine comment la mer pourrait agir comme une personne douce."
-    },
-    {
-      "question": "Le soleil s’inclinait derrière les collines.",
-      "reponses": ["Personnification", "Gradation", "Euphémisme", "Litote"],
-      "correct": 0,
-      "indice": "Visualise le soleil montrant un geste de respect ou de fatigue."
-    },
-    {
-      "question": "La nuit étendait son manteau sur la ville.",
-      "reponses": ["Personnification", "Oxymore", "Hyperbole", "Ellipse"],
-      "correct": 0,
-      "indice": "Pense à la nuit comme une entité protectrice ou engourdissante."
-    },
-    {
-      "question": "Les fleurs dansaient sous le vent.",
-      "reponses": ["Personnification", "Métaphore", "Comparaison", "Ironie"],
-      "correct": 0,
-      "indice": "Imagine les fleurs exprimant de la joie ou de la tristesse par leurs mouvements."
-    },
+	"id": "personnification",
+	"titre": "Personnification",
+	"description": "Exerce-toi à reconnaître la personnification à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Le vent hurlait dans les arbres.",
+			"reponses": ["Personnification", "Métaphore", "Hyperbole", "Oxymore"],
+			"correct": 0,
+			"indice": "Pense à une caractéristique humaine que le vent pourrait avoir."
+		},
+		{
+			"question": "La mer caressait doucement le rivage.",
+			"reponses": ["Personnification", "Onomatopée", "Ironie", "Comparaison"],
+			"correct": 0,
+			"indice": "Imagine comment la mer pourrait agir comme une personne douce."
+		},
+		{
+			"question": "Le soleil s’inclinait derrière les collines.",
+			"reponses": ["Personnification", "Gradation", "Euphémisme", "Litote"],
+			"correct": 0,
+			"indice": "Visualise le soleil montrant un geste de respect ou de fatigue."
+		},
+		{
+			"question": "La nuit étendait son manteau sur la ville.",
+			"reponses": ["Personnification", "Oxymore", "Hyperbole", "Ellipse"],
+			"correct": 0,
+			"indice": "Pense à la nuit comme une entité protectrice ou engourdissante."
+		},
+		{
+			"question": "Les fleurs dansaient sous le vent.",
+			"reponses": ["Personnification", "Métaphore", "Comparaison", "Ironie"],
+			"correct": 0,
+			"indice": "Imagine les fleurs exprimant de la joie ou de la tristesse par leurs mouvements."
+		},
 
-    {
-      "question": "Le temps nous presse.",
-      "reponses": ["Personnification", "Hyperbole", "Oxymore", "Gradation"],
-      "correct": 0,
-      "indice": "Considere comment le temps pourrait avoir une influence sur nos actions."
-    },
-    {
-      "question": "L’ombre des arbres s’allongeait.",
-      "reponses": ["Personnification", "Comparaison", "Litote", "Euphémisme"],
-      "correct": 0,
-      "indice": "Visualise l'ombre comme un être vivant s'étirant ou se repliant."
-    },
-    {
-      "question": "La rivière chantait en descendant la vallée.",
-      "reponses": ["Personnification", "Onomatopée", "Hyperbole", "Ironie"],
-      "correct": 0,
-      "indice": "Pense à la rivière exprimant des émotions à travers des sons."
-    },
-    {
-      "question": "Le feu rugissait dans la cheminée.",
-      "reponses": ["Personnification", "Oxymore", "Gradation", "Comparaison"],
-      "correct": 0,
-      "indice": "Imagine le feu montrant sa puissance ou sa colère."
-    },
-    {
-      "question": "La ville s’éveillait doucement au matin.",
-      "reponses": ["Personnification", "Hyperbole", "Ironie", "Litote"],
-      "correct": 0,
-      "indice": "Considere comment la ville pourrait montrer des signes de vie et d'activité."
-    },
+		{
+			"question": "Le temps nous presse.",
+			"reponses": ["Personnification", "Hyperbole", "Oxymore", "Gradation"],
+			"correct": 0,
+			"indice": "Considere comment le temps pourrait avoir une influence sur nos actions."
+		},
+		{
+			"question": "L’ombre des arbres s’allongeait.",
+			"reponses": ["Personnification", "Comparaison", "Litote", "Euphémisme"],
+			"correct": 0,
+			"indice": "Visualise l'ombre comme un être vivant s'étirant ou se repliant."
+		},
+		{
+			"question": "La rivière chantait en descendant la vallée.",
+			"reponses": ["Personnification", "Onomatopée", "Hyperbole", "Ironie"],
+			"correct": 0,
+			"indice": "Pense à la rivière exprimant des émotions à travers des sons."
+		},
+		{
+			"question": "Le feu rugissait dans la cheminée.",
+			"reponses": ["Personnification", "Oxymore", "Gradation", "Comparaison"],
+			"correct": 0,
+			"indice": "Imagine le feu montrant sa puissance ou sa colère."
+		},
+		{
+			"question": "La ville s’éveillait doucement au matin.",
+			"reponses": ["Personnification", "Hyperbole", "Ironie", "Litote"],
+			"correct": 0,
+			"indice": "Considere comment la ville pourrait montrer des signes de vie et d'activité."
+		},
 
-    {
-      "question": "Le vent sifflait à travers les fissures.",
-      "reponses": [
-        "Personnification",
-        "Onomatopée",
-        "Comparaison",
-        "Gradation"
-      ],
-      "correct": 0,
-      "indice": "Pense à une mélodie que le vent pourrait jouer."
-    },
-    {
-      "question": "La forêt retenait son souffle.",
-      "reponses": ["Personnification", "Oxymore", "Ironie", "Hyperbole"],
-      "correct": 0,
-      "indice": "Imagine la forêt comme un être vivant, écoutant attentivement."
-    },
-    {
-      "question": "Le jour se leva lentement.",
-      "reponses": ["Personnification", "Gradation", "Comparaison", "Litote"],
-      "correct": 0,
-      "indice": "Visualise le jour montrant des signes de paresse ou de douceur."
-    },
-    {
-      "question": "La pluie frappait avec colère sur le toit.",
-      "reponses": ["Personnification", "Hyperbole", "Oxymore", "Ironie"],
-      "correct": 0,
-      "indice": "Considere la pluie comme exprimant une émotion forte."
-    },
-    {
-      "question": "Le vent jouait dans les branches.",
-      "reponses": [
-        "Personnification",
-        "Comparaison",
-        "Gradation",
-        "Euphémisme"
-      ],
-      "correct": 0,
-      "indice": "Pense à un enfant jouant, insouciant et libre."
-    },
+		{
+			"question": "Le vent sifflait à travers les fissures.",
+			"reponses": [
+				"Personnification",
+				"Onomatopée",
+				"Comparaison",
+				"Gradation"
+			],
+			"correct": 0,
+			"indice": "Pense à une mélodie que le vent pourrait jouer."
+		},
+		{
+			"question": "La forêt retenait son souffle.",
+			"reponses": ["Personnification", "Oxymore", "Ironie", "Hyperbole"],
+			"correct": 0,
+			"indice": "Imagine la forêt comme un être vivant, écoutant attentivement."
+		},
+		{
+			"question": "Le jour se leva lentement.",
+			"reponses": ["Personnification", "Gradation", "Comparaison", "Litote"],
+			"correct": 0,
+			"indice": "Visualise le jour montrant des signes de paresse ou de douceur."
+		},
+		{
+			"question": "La pluie frappait avec colère sur le toit.",
+			"reponses": ["Personnification", "Hyperbole", "Oxymore", "Ironie"],
+			"correct": 0,
+			"indice": "Considere la pluie comme exprimant une émotion forte."
+		},
+		{
+			"question": "Le vent jouait dans les branches.",
+			"reponses": [
+				"Personnification",
+				"Comparaison",
+				"Gradation",
+				"Euphémisme"
+			],
+			"correct": 0,
+			"indice": "Pense à un enfant jouant, insouciant et libre."
+		},
 
-    {
-      "question": "Le ciel pleurait ses larmes.",
-      "reponses": ["Personnification", "Hyperbole", "Oxymore", "Ironie"],
-      "correct": 0,
-      "indice": "Imagine le ciel exprimant une grande tristesse."
-    },
-    {
-      "question": "Le feu dévorait la maison.",
-      "reponses": ["Personnification", "Hyperbole", "Comparaison", "Gradation"],
-      "correct": 0,
-      "indice": "Visualise le feu comme une bête affamée."
-    },
-    {
-      "question": "L’océan grondait avec fureur.",
-      "reponses": ["Personnification", "Oxymore", "Ironie", "Gradation"],
-      "correct": 0,
-      "indice": "Pense à l'océan montrant sa puissance et sa colère."
-    },
-    {
-      "question": "Les étoiles scintillaient comme des yeux curieux.",
-      "reponses": ["Personnification", "Comparaison", "Oxymore", "Hyperbole"],
-      "correct": 0,
-      "indice": "Imagine les étoiles observant et jugeant."
-    },
-    {
-      "question": "Le vent hurlait dans la nuit noire.",
-      "reponses": ["Personnification", "Onomatopée", "Hyperbole", "Gradation"],
-      "correct": 0,
-      "indice": "Pense à un cri perçant dans le silence de la nuit."
-    },
+		{
+			"question": "Le ciel pleurait ses larmes.",
+			"reponses": ["Personnification", "Hyperbole", "Oxymore", "Ironie"],
+			"correct": 0,
+			"indice": "Imagine le ciel exprimant une grande tristesse."
+		},
+		{
+			"question": "Le feu dévorait la maison.",
+			"reponses": ["Personnification", "Hyperbole", "Comparaison", "Gradation"],
+			"correct": 0,
+			"indice": "Visualise le feu comme une bête affamée."
+		},
+		{
+			"question": "L’océan grondait avec fureur.",
+			"reponses": ["Personnification", "Oxymore", "Ironie", "Gradation"],
+			"correct": 0,
+			"indice": "Pense à l'océan montrant sa puissance et sa colère."
+		},
+		{
+			"question": "Les étoiles scintillaient comme des yeux curieux.",
+			"reponses": ["Personnification", "Comparaison", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"indice": "Imagine les étoiles observant et jugeant."
+		},
+		{
+			"question": "Le vent hurlait dans la nuit noire.",
+			"reponses": ["Personnification", "Onomatopée", "Hyperbole", "Gradation"],
+			"correct": 0,
+			"indice": "Pense à un cri perçant dans le silence de la nuit."
+		},
 
-    {
-      "question": "Le temps file à toute allure.",
-      "reponses": ["Personnification", "Hyperbole", "Oxymore", "Litote"],
-      "correct": 0,
-      "indice": "Considere le temps comme une entité ayant une vitesse propre."
-    },
-    {
-      "question": "La mer accueillait les bateaux.",
-      "reponses": ["Personnification", "Comparaison", "Gradation", "Ironie"],
-      "correct": 0,
-      "indice": "Imagine la mer comme une hôtesse accueillante."
-    },
-    {
-      "question": "Le soleil souriait à l’horizon.",
-      "reponses": ["Personnification", "Oxymore", "Hyperbole", "Litote"],
-      "correct": 0,
-      "indice": "Pense à une expression amicale ou chaleureuse du soleil."
-    },
-    {
-      "question": "Le vent caressait mon visage.",
-      "reponses": [
-        "Personnification",
-        "Onomatopée",
-        "Comparaison",
-        "Gradation"
-      ],
-      "correct": 0,
-      "indice": "Visualise le vent comme une main douce et légère."
-    },
-    {
-      "question": "La forêt murmurait des secrets.",
-      "reponses": ["Personnification", "Ironie", "Oxymore", "Hyperbole"],
-      "correct": 0,
-      "indice": "Imagine la forêt partageant des histoires anciennes."
-    },
+		{
+			"question": "Le temps file à toute allure.",
+			"reponses": ["Personnification", "Hyperbole", "Oxymore", "Litote"],
+			"correct": 0,
+			"indice": "Considere le temps comme une entité ayant une vitesse propre."
+		},
+		{
+			"question": "La mer accueillait les bateaux.",
+			"reponses": ["Personnification", "Comparaison", "Gradation", "Ironie"],
+			"correct": 0,
+			"indice": "Imagine la mer comme une hôtesse accueillante."
+		},
+		{
+			"question": "Le soleil souriait à l’horizon.",
+			"reponses": ["Personnification", "Oxymore", "Hyperbole", "Litote"],
+			"correct": 0,
+			"indice": "Pense à une expression amicale ou chaleureuse du soleil."
+		},
+		{
+			"question": "Le vent caressait mon visage.",
+			"reponses": [
+				"Personnification",
+				"Onomatopée",
+				"Comparaison",
+				"Gradation"
+			],
+			"correct": 0,
+			"indice": "Visualise le vent comme une main douce et légère."
+		},
+		{
+			"question": "La forêt murmurait des secrets.",
+			"reponses": ["Personnification", "Ironie", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"indice": "Imagine la forêt partageant des histoires anciennes."
+		},
 
-    {
-      "question": "La rivière s’endormait au crépuscule.",
-      "reponses": ["Personnification", "Gradation", "Comparaison", "Ellipse"],
-      "correct": 0,
-      "indice": "Pense à la rivière montrant des signes de fatigue."
-    },
-    {
-      "question": "Le vent chuchotait entre les feuilles.",
-      "reponses": ["Personnification", "Onomatopée", "Oxymore", "Hyperbole"],
-      "correct": 0,
-      "indice": "Imagine le vent partageant des secrets avec les feuilles."
-    },
-    {
-      "question": "La montagne dominait la vallée.",
-      "reponses": ["Personnification", "Comparaison", "Ironie", "Gradation"],
-      "correct": 0,
-      "indice": "Visualise la montagne comme un roi surveillant son royaume."
-    },
-    {
-      "question": "Le jour se couche lentement.",
-      "reponses": ["Personnification", "Gradation", "Hyperbole", "Oxymore"],
-      "correct": 0,
-      "indice": "Pense à une fin de journée paisible et douce."
-    },
-    {
-      "question": "Le feu jouait avec les flammes.",
-      "reponses": ["Personnification", "Oxymore", "Comparaison", "Gradation"],
-      "correct": 0,
-      "indice": "Imagine le feu comme un artiste manipulant ses outils."
-    },
+		{
+			"question": "La rivière s’endormait au crépuscule.",
+			"reponses": ["Personnification", "Gradation", "Comparaison", "Ellipse"],
+			"correct": 0,
+			"indice": "Pense à la rivière montrant des signes de fatigue."
+		},
+		{
+			"question": "Le vent chuchotait entre les feuilles.",
+			"reponses": ["Personnification", "Onomatopée", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"indice": "Imagine le vent partageant des secrets avec les feuilles."
+		},
+		{
+			"question": "La montagne dominait la vallée.",
+			"reponses": ["Personnification", "Comparaison", "Ironie", "Gradation"],
+			"correct": 0,
+			"indice": "Visualise la montagne comme un roi surveillant son royaume."
+		},
+		{
+			"question": "Le jour se couche lentement.",
+			"reponses": ["Personnification", "Gradation", "Hyperbole", "Oxymore"],
+			"correct": 0,
+			"indice": "Pense à une fin de journée paisible et douce."
+		},
+		{
+			"question": "Le feu jouait avec les flammes.",
+			"reponses": ["Personnification", "Oxymore", "Comparaison", "Gradation"],
+			"correct": 0,
+			"indice": "Imagine le feu comme un artiste manipulant ses outils."
+		},
 
-    {
-      "question": "La pluie dansait sur les toits.",
-      "reponses": ["Personnification", "Gradation", "Onomatopée", "Ironie"],
-      "correct": 0,
-      "indice": "Pense à la pluie exprimant de la joie ou de l'excitation."
-    },
-    {
-      "question": "Le vent emportait mes pensées.",
-      "reponses": ["Personnification", "Hyperbole", "Comparaison", "Oxymore"],
-      "correct": 0,
-      "indice": "Imagine le vent comme un voleur subtil."
-    },
-    {
-      "question": "Le soleil se cachait derrière les nuages.",
-      "reponses": ["Personnification", "Oxymore", "Gradation", "Ironie"],
-      "correct": 0,
-      "indice": "Pense à une cachette temporaire et ludique."
-    },
-    {
-      "question": "La lune veillait sur la terre.",
-      "reponses": ["Personnification", "Hyperbole", "Comparaison", "Oxymore"],
-      "correct": 0,
-      "indice": "Visualise la lune comme une mère veillant sur son enfant."
-    },
-    {
-      "question": "Les feuilles frémissaient sous le vent.",
-      "reponses": ["Personnification", "Onomatopée", "Gradation", "Litote"],
-      "correct": 0,
-      "indice": "Pense à une réaction de peur ou d'excitation."
-    }
-  ]
+		{
+			"question": "La pluie dansait sur les toits.",
+			"reponses": ["Personnification", "Gradation", "Onomatopée", "Ironie"],
+			"correct": 0,
+			"indice": "Pense à la pluie exprimant de la joie ou de l'excitation."
+		},
+		{
+			"question": "Le vent emportait mes pensées.",
+			"reponses": ["Personnification", "Hyperbole", "Comparaison", "Oxymore"],
+			"correct": 0,
+			"indice": "Imagine le vent comme un voleur subtil."
+		},
+		{
+			"question": "Le soleil se cachait derrière les nuages.",
+			"reponses": ["Personnification", "Oxymore", "Gradation", "Ironie"],
+			"correct": 0,
+			"indice": "Pense à une cachette temporaire et ludique."
+		},
+		{
+			"question": "La lune veillait sur la terre.",
+			"reponses": ["Personnification", "Hyperbole", "Comparaison", "Oxymore"],
+			"correct": 0,
+			"indice": "Visualise la lune comme une mère veillant sur son enfant."
+		},
+		{
+			"question": "Les feuilles frémissaient sous le vent.",
+			"reponses": ["Personnification", "Onomatopée", "Gradation", "Litote"],
+			"correct": 0,
+			"indice": "Pense à une réaction de peur ou d'excitation."
+		}
+	]
 }

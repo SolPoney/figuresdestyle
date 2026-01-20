@@ -1,219 +1,219 @@
 {
-  "id": "gradation",
-  "titre": "Gradation",
-  "description": "Exerce-toi à reconnaître la gradation à travers 50 exemples variés.",
-  "questions": [
-    {
-      "question": "Il murmure, il parle, il crie.",
-      "reponses": ["Gradation", "Anaphore", "Comparaison", "Ellipse"],
-      "correct": 0,
-      "indice": "Les actions ou sentiments progressent par intensité."
-    },
-    {
-      "question": "Un doute, une peur, une panique.",
-      "reponses": ["Gradation", "Asyndète", "Hyperbole", "Oxymore"],
-      "correct": 0,
-      "indice": "On observe une montée ou une descente graduelle."
-    },
-    {
-      "question": "Il regarde, observe, analyse.",
-      "reponses": ["Gradation", "Comparaison", "Anaphore", "Chiasme"],
-      "correct": 0,
-      "indice": "Les termes sont ordonnés selon une progression."
-    },
-    {
-      "question": "Une étincelle, une flamme, un incendie.",
-      "reponses": ["Gradation", "Métaphore", "Hyperbole", "Ellipse"],
-      "correct": 0,
-      "indice": "Chaque élément est plus fort que le précédent."
-    },
-    {
-      "question": "Il hésite, recule, fuit.",
-      "reponses": ["Gradation", "Ironie", "Anaphore", "Comparaison"],
-      "correct": 0,
-      "indice": "On passe d'une action faible à une action forte ou inversement."
-    },
+	"id": "gradation",
+	"titre": "Gradation",
+	"description": "Exerce-toi à reconnaître la gradation à travers 50 exemples variés.",
+	"questions": [
+		{
+			"question": "Il murmure, il parle, il crie.",
+			"reponses": ["Gradation", "Anaphore", "Comparaison", "Ellipse"],
+			"correct": 0,
+			"indice": "Les actions ou sentiments progressent par intensité."
+		},
+		{
+			"question": "Un doute, une peur, une panique.",
+			"reponses": ["Gradation", "Asyndète", "Hyperbole", "Oxymore"],
+			"correct": 0,
+			"indice": "On observe une montée ou une descente graduelle."
+		},
+		{
+			"question": "Il regarde, observe, analyse.",
+			"reponses": ["Gradation", "Comparaison", "Anaphore", "Chiasme"],
+			"correct": 0,
+			"indice": "Les termes sont ordonnés selon une progression."
+		},
+		{
+			"question": "Une étincelle, une flamme, un incendie.",
+			"reponses": ["Gradation", "Métaphore", "Hyperbole", "Ellipse"],
+			"correct": 0,
+			"indice": "Chaque élément est plus fort que le précédent."
+		},
+		{
+			"question": "Il hésite, recule, fuit.",
+			"reponses": ["Gradation", "Ironie", "Anaphore", "Comparaison"],
+			"correct": 0,
+			"indice": "On passe d'une action faible à une action forte ou inversement."
+		},
 
-    {
-      "question": "Un frisson, un tremblement, une terreur.",
-      "reponses": ["Gradation", "Hyperbole", "Oxymore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Elle sourit, rit, éclate de rire.",
-      "reponses": ["Gradation", "Comparaison", "Anaphore", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Il marche, court, s’élance.",
-      "reponses": ["Gradation", "Hyperbole", "Asyndète", "Chiasme"],
-      "correct": 0
-    },
-    {
-      "question": "Un regard, un geste, une déclaration.",
-      "reponses": ["Gradation", "Comparaison", "Ellipse", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "La pluie tombe, s’intensifie, déferle.",
-      "reponses": ["Gradation", "Personnification", "Anaphore", "Comparaison"],
-      "correct": 0
-    },
+		{
+			"question": "Un frisson, un tremblement, une terreur.",
+			"reponses": ["Gradation", "Hyperbole", "Oxymore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Elle sourit, rit, éclate de rire.",
+			"reponses": ["Gradation", "Comparaison", "Anaphore", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Il marche, court, s’élance.",
+			"reponses": ["Gradation", "Hyperbole", "Asyndète", "Chiasme"],
+			"correct": 0
+		},
+		{
+			"question": "Un regard, un geste, une déclaration.",
+			"reponses": ["Gradation", "Comparaison", "Ellipse", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "La pluie tombe, s’intensifie, déferle.",
+			"reponses": ["Gradation", "Personnification", "Anaphore", "Comparaison"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il se méfie, se défie, attaque.",
-      "reponses": ["Gradation", "Chiasme", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Un mot, une phrase, un discours.",
-      "reponses": ["Gradation", "Anaphore", "Comparaison", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "La douleur gêne, brûle, détruit.",
-      "reponses": ["Gradation", "Métaphore", "Oxymore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il voit, comprend, accepte.",
-      "reponses": ["Gradation", "Anaphore", "Comparaison", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Un bruit, un vacarme, un chaos.",
-      "reponses": ["Gradation", "Hyperbole", "Oxymore", "Asyndète"],
-      "correct": 0
-    },
+		{
+			"question": "Il se méfie, se défie, attaque.",
+			"reponses": ["Gradation", "Chiasme", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Un mot, une phrase, un discours.",
+			"reponses": ["Gradation", "Anaphore", "Comparaison", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "La douleur gêne, brûle, détruit.",
+			"reponses": ["Gradation", "Métaphore", "Oxymore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il voit, comprend, accepte.",
+			"reponses": ["Gradation", "Anaphore", "Comparaison", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Un bruit, un vacarme, un chaos.",
+			"reponses": ["Gradation", "Hyperbole", "Oxymore", "Asyndète"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle doute, craint, désespère.",
-      "reponses": ["Gradation", "Comparaison", "Ellipse", "Chiasme"],
-      "correct": 0
-    },
-    {
-      "question": "La colère naît, grandit, explose.",
-      "reponses": ["Gradation", "Personnification", "Hyperbole", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Il demande, insiste, exige.",
-      "reponses": ["Gradation", "Ironie", "Comparaison", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Un effort, un sacrifice, un renoncement.",
-      "reponses": ["Gradation", "Hyperbole", "Oxymore", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle parle doucement, fermement, violemment.",
-      "reponses": ["Gradation", "Comparaison", "Chiasme", "Ellipse"],
-      "correct": 0
-    },
+		{
+			"question": "Elle doute, craint, désespère.",
+			"reponses": ["Gradation", "Comparaison", "Ellipse", "Chiasme"],
+			"correct": 0
+		},
+		{
+			"question": "La colère naît, grandit, explose.",
+			"reponses": ["Gradation", "Personnification", "Hyperbole", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Il demande, insiste, exige.",
+			"reponses": ["Gradation", "Ironie", "Comparaison", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Un effort, un sacrifice, un renoncement.",
+			"reponses": ["Gradation", "Hyperbole", "Oxymore", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle parle doucement, fermement, violemment.",
+			"reponses": ["Gradation", "Comparaison", "Chiasme", "Ellipse"],
+			"correct": 0
+		},
 
-    {
-      "question": "La lumière baisse, disparaît, s’éteint.",
-      "reponses": ["Gradation", "Personnification", "Oxymore", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Il tente, échoue, renonce.",
-      "reponses": ["Gradation", "Hyperbole", "Comparaison", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Une inquiétude, une angoisse, une terreur.",
-      "reponses": ["Gradation", "Oxymore", "Ellipse", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle avance, accélère, fonce.",
-      "reponses": ["Gradation", "Comparaison", "Hyperbole", "Chiasme"],
-      "correct": 0
-    },
-    {
-      "question": "Le silence s’installe, pèse, oppresse.",
-      "reponses": ["Gradation", "Personnification", "Métaphore", "Anaphore"],
-      "correct": 0
-    },
+		{
+			"question": "La lumière baisse, disparaît, s’éteint.",
+			"reponses": ["Gradation", "Personnification", "Oxymore", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Il tente, échoue, renonce.",
+			"reponses": ["Gradation", "Hyperbole", "Comparaison", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Une inquiétude, une angoisse, une terreur.",
+			"reponses": ["Gradation", "Oxymore", "Ellipse", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle avance, accélère, fonce.",
+			"reponses": ["Gradation", "Comparaison", "Hyperbole", "Chiasme"],
+			"correct": 0
+		},
+		{
+			"question": "Le silence s’installe, pèse, oppresse.",
+			"reponses": ["Gradation", "Personnification", "Métaphore", "Anaphore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il regarde, fixe, défie.",
-      "reponses": ["Gradation", "Ironie", "Comparaison", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Un désir, une passion, une obsession.",
-      "reponses": ["Gradation", "Hyperbole", "Oxymore", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle pleure, sanglote, hurle.",
-      "reponses": ["Gradation", "Comparaison", "Métaphore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "La rumeur enfle, circule, explose.",
-      "reponses": ["Gradation", "Personnification", "Hyperbole", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Il soupçonne, accuse, condamne.",
-      "reponses": ["Gradation", "Ironie", "Comparaison", "Chiasme"],
-      "correct": 0
-    },
+		{
+			"question": "Il regarde, fixe, défie.",
+			"reponses": ["Gradation", "Ironie", "Comparaison", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Un désir, une passion, une obsession.",
+			"reponses": ["Gradation", "Hyperbole", "Oxymore", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle pleure, sanglote, hurle.",
+			"reponses": ["Gradation", "Comparaison", "Métaphore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "La rumeur enfle, circule, explose.",
+			"reponses": ["Gradation", "Personnification", "Hyperbole", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Il soupçonne, accuse, condamne.",
+			"reponses": ["Gradation", "Ironie", "Comparaison", "Chiasme"],
+			"correct": 0
+		},
 
-    {
-      "question": "Une idée, un projet, une révolution.",
-      "reponses": ["Gradation", "Hyperbole", "Ellipse", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle observe, analyse, comprend.",
-      "reponses": ["Gradation", "Comparaison", "Anaphore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Le froid surprend, mord, paralyse.",
-      "reponses": ["Gradation", "Personnification", "Métaphore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il parle, proteste, se révolte.",
-      "reponses": ["Gradation", "Hyperbole", "Comparaison", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Une faute, une trahison, un crime.",
-      "reponses": ["Gradation", "Oxymore", "Ellipse", "Anaphore"],
-      "correct": 0
-    },
+		{
+			"question": "Une idée, un projet, une révolution.",
+			"reponses": ["Gradation", "Hyperbole", "Ellipse", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle observe, analyse, comprend.",
+			"reponses": ["Gradation", "Comparaison", "Anaphore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Le froid surprend, mord, paralyse.",
+			"reponses": ["Gradation", "Personnification", "Métaphore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il parle, proteste, se révolte.",
+			"reponses": ["Gradation", "Hyperbole", "Comparaison", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Une faute, une trahison, un crime.",
+			"reponses": ["Gradation", "Oxymore", "Ellipse", "Anaphore"],
+			"correct": 0
+		},
 
-    {
-      "question": "La peur naît, progresse, domine.",
-      "reponses": ["Gradation", "Personnification", "Hyperbole", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Il hésite, décide, agit.",
-      "reponses": ["Gradation", "Ironie", "Anaphore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Un pas, une course, une fuite.",
-      "reponses": ["Gradation", "Comparaison", "Hyperbole", "Chiasme"],
-      "correct": 0
-    },
-    {
-      "question": "Elle espère, attend, désespère.",
-      "reponses": ["Gradation", "Oxymore", "Anaphore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Le conflit commence, s’aggrave, explose.",
-      "reponses": ["Gradation", "Hyperbole", "Personnification", "Comparaison"],
-      "correct": 0
-    }
-  ]
+		{
+			"question": "La peur naît, progresse, domine.",
+			"reponses": ["Gradation", "Personnification", "Hyperbole", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Il hésite, décide, agit.",
+			"reponses": ["Gradation", "Ironie", "Anaphore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Un pas, une course, une fuite.",
+			"reponses": ["Gradation", "Comparaison", "Hyperbole", "Chiasme"],
+			"correct": 0
+		},
+		{
+			"question": "Elle espère, attend, désespère.",
+			"reponses": ["Gradation", "Oxymore", "Anaphore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Le conflit commence, s’aggrave, explose.",
+			"reponses": ["Gradation", "Hyperbole", "Personnification", "Comparaison"],
+			"correct": 0
+		}
+	]
 }

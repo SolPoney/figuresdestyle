@@ -1,151 +1,151 @@
 {
-  "id": "polysyndete",
-  "titre": "Polysyndète",
-  "description": "Exerce-toi à reconnaître la polysyndète à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Il courait et sautait et criait de joie.",
-      "reponses": ["Polysyndète", "Asyndète", "Gradation", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle rit et parle et chante sans cesse.",
-      "reponses": ["Polysyndète", "Ellipse", "Parallélisme", "Antithèse"],
-      "correct": 0
-    },
-    {
-      "question": "Nous avons marché et couru et nagé toute la journée.",
-      "reponses": ["Polysyndète", "Gradation", "Onomatopée", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il pleurait et criait et suppliait en même temps.",
-      "reponses": ["Polysyndète", "Ironie", "Euphémisme", "Personnification"],
-      "correct": 0
-    },
-    {
-      "question": "Elle a acheté du pain et du fromage et du vin.",
-      "reponses": ["Polysyndète", "Asyndète", "Comparaison", "Litote"],
-      "correct": 0
-    },
+	"id": "polysyndete",
+	"titre": "Polysyndète",
+	"description": "Exerce-toi à reconnaître la polysyndète à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Il courait et sautait et criait de joie.",
+			"reponses": ["Polysyndète", "Asyndète", "Gradation", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle rit et parle et chante sans cesse.",
+			"reponses": ["Polysyndète", "Ellipse", "Parallélisme", "Antithèse"],
+			"correct": 0
+		},
+		{
+			"question": "Nous avons marché et couru et nagé toute la journée.",
+			"reponses": ["Polysyndète", "Gradation", "Onomatopée", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il pleurait et criait et suppliait en même temps.",
+			"reponses": ["Polysyndète", "Ironie", "Euphémisme", "Personnification"],
+			"correct": 0
+		},
+		{
+			"question": "Elle a acheté du pain et du fromage et du vin.",
+			"reponses": ["Polysyndète", "Asyndète", "Comparaison", "Litote"],
+			"correct": 0
+		},
 
-    {
-      "question": "Je veux la paix et l’amour et la joie.",
-      "reponses": ["Polysyndète", "Gradation", "Ellipse", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il lisait et écrivait et réfléchissait toute la nuit.",
-      "reponses": ["Polysyndète", "Parallélisme", "Ironie", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Nous avons chanté et dansé et joué ensemble.",
-      "reponses": [
-        "Polysyndète",
-        "Gradation",
-        "Personnification",
-        "Comparaison"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Elle pleurait et hurlait et gémit de douleur.",
-      "reponses": ["Polysyndète", "Onomatopée", "Oxymore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Il travaille et étudie et médite tous les jours.",
-      "reponses": ["Polysyndète", "Gradation", "Hyperbole", "Ellipse"],
-      "correct": 0
-    },
+		{
+			"question": "Je veux la paix et l’amour et la joie.",
+			"reponses": ["Polysyndète", "Gradation", "Ellipse", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il lisait et écrivait et réfléchissait toute la nuit.",
+			"reponses": ["Polysyndète", "Parallélisme", "Ironie", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Nous avons chanté et dansé et joué ensemble.",
+			"reponses": [
+				"Polysyndète",
+				"Gradation",
+				"Personnification",
+				"Comparaison"
+			],
+			"correct": 0
+		},
+		{
+			"question": "Elle pleurait et hurlait et gémit de douleur.",
+			"reponses": ["Polysyndète", "Onomatopée", "Oxymore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Il travaille et étudie et médite tous les jours.",
+			"reponses": ["Polysyndète", "Gradation", "Hyperbole", "Ellipse"],
+			"correct": 0
+		},
 
-    {
-      "question": "Je veux la vérité et la justice et la liberté.",
-      "reponses": ["Polysyndète", "Gradation", "Oxymore", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Elle aime la musique et la danse et le théâtre.",
-      "reponses": ["Polysyndète", "Ironie", "Parallélisme", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Il a couru et sauté et nagé sans relâche.",
-      "reponses": ["Polysyndète", "Gradation", "Hyperbole", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Nous avons crié et ri et pleuré ensemble.",
-      "reponses": [
-        "Polysyndète",
-        "Personnification",
-        "Comparaison",
-        "Euphémisme"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Elle a pris du pain et du fromage et du vin et des fruits.",
-      "reponses": ["Polysyndète", "Asyndète", "Gradation", "Hyperbole"],
-      "correct": 0
-    },
+		{
+			"question": "Je veux la vérité et la justice et la liberté.",
+			"reponses": ["Polysyndète", "Gradation", "Oxymore", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Elle aime la musique et la danse et le théâtre.",
+			"reponses": ["Polysyndète", "Ironie", "Parallélisme", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Il a couru et sauté et nagé sans relâche.",
+			"reponses": ["Polysyndète", "Gradation", "Hyperbole", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Nous avons crié et ri et pleuré ensemble.",
+			"reponses": [
+				"Polysyndète",
+				"Personnification",
+				"Comparaison",
+				"Euphémisme"
+			],
+			"correct": 0
+		},
+		{
+			"question": "Elle a pris du pain et du fromage et du vin et des fruits.",
+			"reponses": ["Polysyndète", "Asyndète", "Gradation", "Hyperbole"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il pense et agit et parle sans cesse.",
-      "reponses": ["Polysyndète", "Oxymore", "Gradation", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle court et saute et danse avec énergie.",
-      "reponses": [
-        "Polysyndète",
-        "Parallélisme",
-        "Personnification",
-        "Comparaison"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Nous avons voyagé et exploré et découvert de nouveaux mondes.",
-      "reponses": ["Polysyndète", "Gradation", "Hyperbole", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il rit et pleure et soupire à la fois.",
-      "reponses": ["Polysyndète", "Onomatopée", "Oxymore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle a peint et sculpté et chanté toute la journée.",
-      "reponses": ["Polysyndète", "Gradation", "Parallélisme", "Litote"],
-      "correct": 0
-    },
+		{
+			"question": "Il pense et agit et parle sans cesse.",
+			"reponses": ["Polysyndète", "Oxymore", "Gradation", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle court et saute et danse avec énergie.",
+			"reponses": [
+				"Polysyndète",
+				"Parallélisme",
+				"Personnification",
+				"Comparaison"
+			],
+			"correct": 0
+		},
+		{
+			"question": "Nous avons voyagé et exploré et découvert de nouveaux mondes.",
+			"reponses": ["Polysyndète", "Gradation", "Hyperbole", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il rit et pleure et soupire à la fois.",
+			"reponses": ["Polysyndète", "Onomatopée", "Oxymore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle a peint et sculpté et chanté toute la journée.",
+			"reponses": ["Polysyndète", "Gradation", "Parallélisme", "Litote"],
+			"correct": 0
+		},
 
-    {
-      "question": "Je veux la paix et l’harmonie et la prospérité.",
-      "reponses": ["Polysyndète", "Gradation", "Oxymore", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Il lit et écrit et dessine avec passion.",
-      "reponses": ["Polysyndète", "Parallélisme", "Ironie", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Elle a chanté et dansé et joué toute la soirée.",
-      "reponses": ["Polysyndète", "Gradation", "Personnification", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Nous avons crié et ri et pleuré de bonheur.",
-      "reponses": ["Polysyndète", "Hyperbole", "Onomatopée", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Il mangeait et buvait et parlait sans arrêt.",
-      "reponses": ["Polysyndète", "Oxymore", "Parallélisme", "Ironie"],
-      "correct": 0
-    }
-  ]
+		{
+			"question": "Je veux la paix et l’harmonie et la prospérité.",
+			"reponses": ["Polysyndète", "Gradation", "Oxymore", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Il lit et écrit et dessine avec passion.",
+			"reponses": ["Polysyndète", "Parallélisme", "Ironie", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Elle a chanté et dansé et joué toute la soirée.",
+			"reponses": ["Polysyndète", "Gradation", "Personnification", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Nous avons crié et ri et pleuré de bonheur.",
+			"reponses": ["Polysyndète", "Hyperbole", "Onomatopée", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Il mangeait et buvait et parlait sans arrêt.",
+			"reponses": ["Polysyndète", "Oxymore", "Parallélisme", "Ironie"],
+			"correct": 0
+		}
+	]
 }

@@ -1,521 +1,521 @@
 {
-  "id": "antithese",
-  "titre": "Antithèse",
-  "description": "Exerce-toi à reconnaître l'antithèse à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Paris est tout petit, c'est là sa vraie grandeur",
-      "reponses": ["Antithèse", "Paradoxe", "Oxymore", "Litote"],
-      "correct": 0,
-      "indice": "Deux idées opposées sont mises en parallèle."
-    },
-    {
-      "question": "Je vis, je meurs ; je me brûle et me noie",
-      "reponses": ["Antithèse", "Oxymore", "Paradoxe", "Hyperbole"],
-      "correct": 0,
-      "indice": "Des sentiments ou états contraires sont juxtaposés."
-    },
-    {
-      "question": "Partir, c'est mourir un peu, mais mourir, c'est partir beaucoup",
-      "reponses": ["Antithèse", "Paradoxe", "Métaphore", "Comparaison"],
-      "correct": 0,
-      "indice": "On oppose deux idées ou actions dans la même phrase."
-    },
-    {
-      "question": "Certains naissent grands, d'autres le deviennent",
-      "reponses": ["Antithèse", "Comparaison", "Parallélisme", "Gradation"],
-      "correct": 0,
-      "indice": "Deux groupes ou notions opposés sont mis en valeur."
-    },
-    {
-      "question": "L'homme est un loup pour l'homme, mais un agneau pour la femme",
-      "reponses": ["Antithèse", "Métaphore", "Comparaison", "Allégorie"],
-      "correct": 0,
-      "indice": "On met en contraste deux attitudes ou caractères."
-    },
-    {
-      "question": "Riche d'argent, pauvre d'esprit",
-      "reponses": ["Antithèse", "Parallélisme", "Oxymore", "Paradoxe"],
-      "correct": 0,
-      "indice": "Deux qualités opposées sont associées à un même sujet."
-    },
-    {
-      "question": "Il était le plus fort, mais le moins sage",
-      "reponses": ["Antithèse", "Comparaison", "Parallélisme", "Gradation"],
-      "correct": 0,
-      "indice": "On oppose la force et la sagesse dans la même phrase."
-    },
-    {
-      "question": "La nuit porte conseil, le jour apporte le travail",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Proverbe"],
-      "correct": 0,
-      "indice": "Deux moments ou notions opposés sont rapprochés."
-    },
-    {
-      "question": "Les premiers seront les derniers",
-      "reponses": ["Antithèse", "Paradoxe", "Proverbe", "Chiasme"],
-      "correct": 0,
-      "indice": "On met en avant une opposition de position ou de statut."
-    },
-    {
-      "question": "Rira bien qui rira le dernier, mais pleurera celui qui rira le premier",
-      "reponses": ["Antithèse", "Proverbe", "Parallélisme", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Dans la victoire, la modestie ; dans la défaite, la dignité",
-      "reponses": ["Antithèse", "Parallélisme", "Chiasme", "Maxime"],
-      "correct": 0
-    },
-    {
-      "question": "Le rire et les larmes, la joie et la peine",
-      "reponses": ["Antithèse", "Énumération", "Parallélisme", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "L'esprit est prompt, mais la chair est faible",
-      "reponses": ["Antithèse", "Parallélisme", "Proverbe", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Ils ne mouraient pas tous, mais tous étaient frappés",
-      "reponses": ["Antithèse", "Parallélisme", "Litote", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Tel qui rit vendredi, dimanche pleurera",
-      "reponses": ["Antithèse", "Proverbe", "Parallélisme", "Prophétie"],
-      "correct": 0
-    },
-    {
-      "question": "La guerre civile : les forts contre les faibles, les riches contre les pauvres",
-      "reponses": ["Antithèse", "Parallélisme", "Énumération", "Définition"],
-      "correct": 0
-    },
-    {
-      "question": "Le jour où tu es né, d'autres sont morts",
-      "reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Mon seul amour est né de ma seule haine",
-      "reponses": ["Antithèse", "Oxymore", "Paradoxe", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Petit par la taille, grand par le courage",
-      "reponses": ["Antithèse", "Parallélisme", "Comparaison", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Un pas en avant, deux pas en arrière",
-      "reponses": ["Antithèse", "Métaphore", "Proverbe", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Aujourd'hui roi, demain rien",
-      "reponses": ["Antithèse", "Gradation", "Métaphore", "Prophétie"],
-      "correct": 0
-    },
-    {
-      "question": "Le sage apprend de ses erreurs, le fou les répète",
-      "reponses": ["Antithèse", "Parallélisme", "Proverbe", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "On pleure en naissant, on rit en mourant",
-      "reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Chiasme"],
-      "correct": 0
-    },
-    {
-      "question": "Belle par le visage, laide par le cœur",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Heureux en public, malheureux en privé",
-      "reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "L'un construit, l'autre détruit",
-      "reponses": ["Antithèse", "Parallélisme", "Comparaison", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Il parle beaucoup mais dit peu",
-      "reponses": ["Antithèse", "Paradoxe", "Litote", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Doux comme un agneau, cruel comme un tigre",
-      "reponses": ["Antithèse", "Comparaison", "Parallélisme", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Vivre libre ou mourir",
-      "reponses": ["Antithèse", "Alternative", "Slogan", "Parallélisme"],
-      "correct": 0
-    },
-    {
-      "question": "Le ciel et l'enfer, le bien et le mal",
-      "reponses": ["Antithèse", "Énumération", "Parallélisme", "Allégorie"],
-      "correct": 0
-    },
-    {
-      "question": "Certains ont tout, d'autres n'ont rien",
-      "reponses": ["Antithèse", "Parallélisme", "Comparaison", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "La lumière naît des ténèbres",
-      "reponses": ["Antithèse", "Métaphore", "Paradoxe", "Allégorie"],
-      "correct": 0
-    },
-    {
-      "question": "L'espoir fait vivre, le désespoir fait mourir",
-      "reponses": [
-        "Antithèse",
-        "Parallélisme",
-        "Métaphore",
-        "Personnification"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "À vaincre sans péril, on triomphe sans gloire",
-      "reponses": ["Antithèse", "Parallélisme", "Citation", "Maxime"],
-      "correct": 0
-    },
-    {
-      "question": "Grand par le corps, petit par l'âme",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Les uns montent, les autres descendent",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "La paix dans les mots, la guerre dans les actes",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Jeune de corps, vieux d'esprit",
-      "reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Riche en amis, pauvre en argent",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Le début de la fin ou la fin du début",
-      "reponses": ["Antithèse", "Chiasme", "Paradoxe", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Trop de liberté tue la liberté, trop d'ordre tue la vie",
-      "reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Répétition"],
-      "correct": 0
-    },
-    {
-      "question": "L'été brûle, l'hiver gèle",
-      "reponses": [
-        "Antithèse",
-        "Parallélisme",
-        "Personnification",
-        "Métaphore"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Né dans la soie, mort dans la paille",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Proverbe"],
-      "correct": 0
-    },
-    {
-      "question": "Doux en paroles, dur en actions",
-      "reponses": ["Antithèse", "Parallélisme", "Comparaison", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "L'homme propose, Dieu dispose",
-      "reponses": ["Antithèse", "Parallélisme", "Proverbe", "Chiasme"],
-      "correct": 0
-    },
-    {
-      "question": "Facile à aimer, difficile à supporter",
-      "reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "La tête dans les étoiles, les pieds sur terre",
-      "reponses": ["Antithèse", "Métaphore", "Parallélisme", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Pleurer de joie, rire de douleur",
-      "reponses": ["Antithèse", "Oxymore", "Parallélisme", "Paradoxe"],
-      "correct": 0
-    },
-    {
-      "question": "Fort comme un bœuf, doux comme un agneau",
-      "reponses": ["Antithèse", "Comparaison", "Parallélisme", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Lent à la colère, prompt au pardon",
-      "reponses": ["Antithèse", "Parallélisme", "Comparaison", "Vertu"],
-      "correct": 0
-    },
-    {
-      "question": "Gagner la bataille, perdre la guerre",
-      "reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Mourir de rire, vivre d'amour",
-      "reponses": ["Antithèse", "Hyperbole", "Parallélisme", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "L'aube chasse la nuit",
-      "reponses": ["Antithèse", "Métaphore", "Personnification", "Allégorie"],
-      "correct": 0
-    },
-    {
-      "question": "Fort en gueule, faible en actes",
-      "reponses": ["Antithèse", "Parallélisme", "Comparaison", "Expression"],
-      "correct": 0
-    },
-    {
-      "question": "Donner d'une main, reprendre de l'autre",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Proverbe"],
-      "correct": 0
-    },
-    {
-      "question": "Né pour commander, fait pour obéir",
-      "reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Rire aux anges, pleurer aux démons",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Allégorie"],
-      "correct": 0
-    },
-    {
-      "question": "La victoire ou la mort",
-      "reponses": ["Antithèse", "Alternative", "Slogan", "Dramatique"],
-      "correct": 0
-    },
-    {
-      "question": "Proche de moi, loin de mon cœur",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Rien ne sert de courir, il faut partir à point",
-      "reponses": ["Antithèse", "Proverbe", "Fable", "Parallélisme"],
-      "correct": 0
-    },
-    {
-      "question": "Beaucoup de bruit pour rien",
-      "reponses": ["Antithèse", "Hyperbole", "Litote", "Expression"],
-      "correct": 0
-    },
-    {
-      "question": "Tout perdre pour tout gagner",
-      "reponses": ["Antithèse", "Paradoxe", "Parallélisme", "Répétition"],
-      "correct": 0
-    },
-    {
-      "question": "Monter pour mieux tomber",
-      "reponses": ["Antithèse", "Métaphore", "Paradoxe", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Le feu et la glace",
-      "reponses": ["Antithèse", "Métaphore", "Symbole", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Parler peu, agir beaucoup",
-      "reponses": ["Antithèse", "Parallélisme", "Maxime", "Conseil"],
-      "correct": 0
-    },
-    {
-      "question": "L'amour unit, la haine divise",
-      "reponses": ["Antithèse", "Parallélisme", "Personnification", "Maxime"],
-      "correct": 0
-    },
-    {
-      "question": "Absent de corps, présent d'esprit",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Expression"],
-      "correct": 0
-    },
-    {
-      "question": "Semblable en apparence, différent en essence",
-      "reponses": ["Antithèse", "Parallélisme", "Philosophie", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Les grands oublient, les petits se souviennent",
-      "reponses": ["Antithèse", "Parallélisme", "Proverbe", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "La bouche sourit, le cœur pleure",
-      "reponses": ["Antithèse", "Métonymie", "Parallélisme", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Sage dans les livres, fou dans la vie",
-      "reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Tout commence, tout finit",
-      "reponses": ["Antithèse", "Parallélisme", "Philosophie", "Répétition"],
-      "correct": 0
-    },
-    {
-      "question": "La mer calme cache des tempêtes",
-      "reponses": ["Antithèse", "Métaphore", "Paradoxe", "Proverbe"],
-      "correct": 0
-    },
-    {
-      "question": "L'habit fait le moine, mais le moine ne fait pas l'habit",
-      "reponses": ["Antithèse", "Chiasme", "Proverbe", "Répétition"],
-      "correct": 0
-    },
-    {
-      "question": "Condamné à vivre, libéré par la mort",
-      "reponses": ["Antithèse", "Paradoxe", "Parallélisme", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Simple en surface, complexe en profondeur",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Parler est d'argent, se taire est d'or",
-      "reponses": ["Antithèse", "Proverbe", "Parallélisme", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Le soleil brille pour tous, mais tous ne voient pas le soleil",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Paradoxe"],
-      "correct": 0
-    },
-    {
-      "question": "La force casse, la douceur plie",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Proverbe"],
-      "correct": 0
-    },
-    {
-      "question": "Né libre, mort esclave",
-      "reponses": ["Antithèse", "Parallélisme", "Tragique", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "La raison parle, la passion crie",
-      "reponses": [
-        "Antithèse",
-        "Parallélisme",
-        "Personnification",
-        "Métaphore"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Vieux de visage, jeune de cœur",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Le silence en dit plus que les mots",
-      "reponses": ["Antithèse", "Paradoxe", "Litote", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "L'ignorance est légère, la connaissance est un fardeau",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Paradoxe"],
-      "correct": 0
-    },
-    {
-      "question": "Tendre en amour, dur à la guerre",
-      "reponses": ["Antithèse", "Parallélisme", "Comparaison", "Portrait"],
-      "correct": 0
-    },
-    {
-      "question": "Le riche s'ennuie, le pauvre espère",
-      "reponses": ["Antithèse", "Parallélisme", "Comparaison", "Social"],
-      "correct": 0
-    },
-    {
-      "question": "Brûler de froid, geler de chaud",
-      "reponses": ["Antithèse", "Oxymore", "Parallélisme", "Paradoxe"],
-      "correct": 0
-    },
-    {
-      "question": "L'apparence trompe, la réalité révèle",
-      "reponses": ["Antithèse", "Parallélisme", "Maxime", "Philosophie"],
-      "correct": 0
-    },
-    {
-      "question": "Courageux face au danger, lâche face à l'amour",
-      "reponses": ["Antithèse", "Parallélisme", "Comparaison", "Psychologie"],
-      "correct": 0
-    },
-    {
-      "question": "Le commencement de la sagesse, la fin de la folie",
-      "reponses": ["Antithèse", "Parallélisme", "Philosophie", "Métaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Ami dans la prospérité, ennemi dans l'adversité",
-      "reponses": ["Antithèse", "Parallélisme", "Comparaison", "Proverbe"],
-      "correct": 0
-    },
-    {
-      "question": "Hier héros, aujourd'hui zéro",
-      "reponses": ["Antithèse", "Parallélisme", "Rime", "Déchéance"],
-      "correct": 0
-    },
-    {
-      "question": "La colère aveugle, la patience éclaire",
-      "reponses": [
-        "Antithèse",
-        "Parallélisme",
-        "Métaphore",
-        "Personnification"
-      ],
-      "correct": 0
-    },
-    {
-      "question": "Le sage doute, le fou affirme",
-      "reponses": ["Antithèse", "Parallélisme", "Proverbe", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Promettre monts et merveilles, donner des clopinettes",
-      "reponses": ["Antithèse", "Hyperbole", "Expression", "Parallélisme"],
-      "correct": 0
-    },
-    {
-      "question": "Glorieux dans la victoire, pathétique dans la défaite",
-      "reponses": ["Antithèse", "Parallélisme", "Comparaison", "Portrait"],
-      "correct": 0
-    },
-    {
-      "question": "Les mots blessent, le silence tue",
-      "reponses": ["Antithèse", "Parallélisme", "Métaphore", "Hyperbole"],
-      "correct": 0
-    }
-  ]
+	"id": "antithese",
+	"titre": "Antithèse",
+	"description": "Exerce-toi à reconnaître l'antithèse à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Paris est tout petit, c'est là sa vraie grandeur",
+			"reponses": ["Antithèse", "Paradoxe", "Oxymore", "Litote"],
+			"correct": 0,
+			"indice": "Deux idées opposées sont mises en parallèle."
+		},
+		{
+			"question": "Je vis, je meurs ; je me brûle et me noie",
+			"reponses": ["Antithèse", "Oxymore", "Paradoxe", "Hyperbole"],
+			"correct": 0,
+			"indice": "Des sentiments ou états contraires sont juxtaposés."
+		},
+		{
+			"question": "Partir, c'est mourir un peu, mais mourir, c'est partir beaucoup",
+			"reponses": ["Antithèse", "Paradoxe", "Métaphore", "Comparaison"],
+			"correct": 0,
+			"indice": "On oppose deux idées ou actions dans la même phrase."
+		},
+		{
+			"question": "Certains naissent grands, d'autres le deviennent",
+			"reponses": ["Antithèse", "Comparaison", "Parallélisme", "Gradation"],
+			"correct": 0,
+			"indice": "Deux groupes ou notions opposés sont mis en valeur."
+		},
+		{
+			"question": "L'homme est un loup pour l'homme, mais un agneau pour la femme",
+			"reponses": ["Antithèse", "Métaphore", "Comparaison", "Allégorie"],
+			"correct": 0,
+			"indice": "On met en contraste deux attitudes ou caractères."
+		},
+		{
+			"question": "Riche d'argent, pauvre d'esprit",
+			"reponses": ["Antithèse", "Parallélisme", "Oxymore", "Paradoxe"],
+			"correct": 0,
+			"indice": "Deux qualités opposées sont associées à un même sujet."
+		},
+		{
+			"question": "Il était le plus fort, mais le moins sage",
+			"reponses": ["Antithèse", "Comparaison", "Parallélisme", "Gradation"],
+			"correct": 0,
+			"indice": "On oppose la force et la sagesse dans la même phrase."
+		},
+		{
+			"question": "La nuit porte conseil, le jour apporte le travail",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Proverbe"],
+			"correct": 0,
+			"indice": "Deux moments ou notions opposés sont rapprochés."
+		},
+		{
+			"question": "Les premiers seront les derniers",
+			"reponses": ["Antithèse", "Paradoxe", "Proverbe", "Chiasme"],
+			"correct": 0,
+			"indice": "On met en avant une opposition de position ou de statut."
+		},
+		{
+			"question": "Rira bien qui rira le dernier, mais pleurera celui qui rira le premier",
+			"reponses": ["Antithèse", "Proverbe", "Parallélisme", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Dans la victoire, la modestie ; dans la défaite, la dignité",
+			"reponses": ["Antithèse", "Parallélisme", "Chiasme", "Maxime"],
+			"correct": 0
+		},
+		{
+			"question": "Le rire et les larmes, la joie et la peine",
+			"reponses": ["Antithèse", "Énumération", "Parallélisme", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "L'esprit est prompt, mais la chair est faible",
+			"reponses": ["Antithèse", "Parallélisme", "Proverbe", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Ils ne mouraient pas tous, mais tous étaient frappés",
+			"reponses": ["Antithèse", "Parallélisme", "Litote", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Tel qui rit vendredi, dimanche pleurera",
+			"reponses": ["Antithèse", "Proverbe", "Parallélisme", "Prophétie"],
+			"correct": 0
+		},
+		{
+			"question": "La guerre civile : les forts contre les faibles, les riches contre les pauvres",
+			"reponses": ["Antithèse", "Parallélisme", "Énumération", "Définition"],
+			"correct": 0
+		},
+		{
+			"question": "Le jour où tu es né, d'autres sont morts",
+			"reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Mon seul amour est né de ma seule haine",
+			"reponses": ["Antithèse", "Oxymore", "Paradoxe", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Petit par la taille, grand par le courage",
+			"reponses": ["Antithèse", "Parallélisme", "Comparaison", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Un pas en avant, deux pas en arrière",
+			"reponses": ["Antithèse", "Métaphore", "Proverbe", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Aujourd'hui roi, demain rien",
+			"reponses": ["Antithèse", "Gradation", "Métaphore", "Prophétie"],
+			"correct": 0
+		},
+		{
+			"question": "Le sage apprend de ses erreurs, le fou les répète",
+			"reponses": ["Antithèse", "Parallélisme", "Proverbe", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "On pleure en naissant, on rit en mourant",
+			"reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Chiasme"],
+			"correct": 0
+		},
+		{
+			"question": "Belle par le visage, laide par le cœur",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Heureux en public, malheureux en privé",
+			"reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "L'un construit, l'autre détruit",
+			"reponses": ["Antithèse", "Parallélisme", "Comparaison", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Il parle beaucoup mais dit peu",
+			"reponses": ["Antithèse", "Paradoxe", "Litote", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Doux comme un agneau, cruel comme un tigre",
+			"reponses": ["Antithèse", "Comparaison", "Parallélisme", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Vivre libre ou mourir",
+			"reponses": ["Antithèse", "Alternative", "Slogan", "Parallélisme"],
+			"correct": 0
+		},
+		{
+			"question": "Le ciel et l'enfer, le bien et le mal",
+			"reponses": ["Antithèse", "Énumération", "Parallélisme", "Allégorie"],
+			"correct": 0
+		},
+		{
+			"question": "Certains ont tout, d'autres n'ont rien",
+			"reponses": ["Antithèse", "Parallélisme", "Comparaison", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "La lumière naît des ténèbres",
+			"reponses": ["Antithèse", "Métaphore", "Paradoxe", "Allégorie"],
+			"correct": 0
+		},
+		{
+			"question": "L'espoir fait vivre, le désespoir fait mourir",
+			"reponses": [
+				"Antithèse",
+				"Parallélisme",
+				"Métaphore",
+				"Personnification"
+			],
+			"correct": 0
+		},
+		{
+			"question": "À vaincre sans péril, on triomphe sans gloire",
+			"reponses": ["Antithèse", "Parallélisme", "Citation", "Maxime"],
+			"correct": 0
+		},
+		{
+			"question": "Grand par le corps, petit par l'âme",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Les uns montent, les autres descendent",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "La paix dans les mots, la guerre dans les actes",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Jeune de corps, vieux d'esprit",
+			"reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Riche en amis, pauvre en argent",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Le début de la fin ou la fin du début",
+			"reponses": ["Antithèse", "Chiasme", "Paradoxe", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Trop de liberté tue la liberté, trop d'ordre tue la vie",
+			"reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Répétition"],
+			"correct": 0
+		},
+		{
+			"question": "L'été brûle, l'hiver gèle",
+			"reponses": [
+				"Antithèse",
+				"Parallélisme",
+				"Personnification",
+				"Métaphore"
+			],
+			"correct": 0
+		},
+		{
+			"question": "Né dans la soie, mort dans la paille",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Proverbe"],
+			"correct": 0
+		},
+		{
+			"question": "Doux en paroles, dur en actions",
+			"reponses": ["Antithèse", "Parallélisme", "Comparaison", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "L'homme propose, Dieu dispose",
+			"reponses": ["Antithèse", "Parallélisme", "Proverbe", "Chiasme"],
+			"correct": 0
+		},
+		{
+			"question": "Facile à aimer, difficile à supporter",
+			"reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "La tête dans les étoiles, les pieds sur terre",
+			"reponses": ["Antithèse", "Métaphore", "Parallélisme", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Pleurer de joie, rire de douleur",
+			"reponses": ["Antithèse", "Oxymore", "Parallélisme", "Paradoxe"],
+			"correct": 0
+		},
+		{
+			"question": "Fort comme un bœuf, doux comme un agneau",
+			"reponses": ["Antithèse", "Comparaison", "Parallélisme", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Lent à la colère, prompt au pardon",
+			"reponses": ["Antithèse", "Parallélisme", "Comparaison", "Vertu"],
+			"correct": 0
+		},
+		{
+			"question": "Gagner la bataille, perdre la guerre",
+			"reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Mourir de rire, vivre d'amour",
+			"reponses": ["Antithèse", "Hyperbole", "Parallélisme", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "L'aube chasse la nuit",
+			"reponses": ["Antithèse", "Métaphore", "Personnification", "Allégorie"],
+			"correct": 0
+		},
+		{
+			"question": "Fort en gueule, faible en actes",
+			"reponses": ["Antithèse", "Parallélisme", "Comparaison", "Expression"],
+			"correct": 0
+		},
+		{
+			"question": "Donner d'une main, reprendre de l'autre",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Proverbe"],
+			"correct": 0
+		},
+		{
+			"question": "Né pour commander, fait pour obéir",
+			"reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Rire aux anges, pleurer aux démons",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Allégorie"],
+			"correct": 0
+		},
+		{
+			"question": "La victoire ou la mort",
+			"reponses": ["Antithèse", "Alternative", "Slogan", "Dramatique"],
+			"correct": 0
+		},
+		{
+			"question": "Proche de moi, loin de mon cœur",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Rien ne sert de courir, il faut partir à point",
+			"reponses": ["Antithèse", "Proverbe", "Fable", "Parallélisme"],
+			"correct": 0
+		},
+		{
+			"question": "Beaucoup de bruit pour rien",
+			"reponses": ["Antithèse", "Hyperbole", "Litote", "Expression"],
+			"correct": 0
+		},
+		{
+			"question": "Tout perdre pour tout gagner",
+			"reponses": ["Antithèse", "Paradoxe", "Parallélisme", "Répétition"],
+			"correct": 0
+		},
+		{
+			"question": "Monter pour mieux tomber",
+			"reponses": ["Antithèse", "Métaphore", "Paradoxe", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Le feu et la glace",
+			"reponses": ["Antithèse", "Métaphore", "Symbole", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Parler peu, agir beaucoup",
+			"reponses": ["Antithèse", "Parallélisme", "Maxime", "Conseil"],
+			"correct": 0
+		},
+		{
+			"question": "L'amour unit, la haine divise",
+			"reponses": ["Antithèse", "Parallélisme", "Personnification", "Maxime"],
+			"correct": 0
+		},
+		{
+			"question": "Absent de corps, présent d'esprit",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Expression"],
+			"correct": 0
+		},
+		{
+			"question": "Semblable en apparence, différent en essence",
+			"reponses": ["Antithèse", "Parallélisme", "Philosophie", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Les grands oublient, les petits se souviennent",
+			"reponses": ["Antithèse", "Parallélisme", "Proverbe", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "La bouche sourit, le cœur pleure",
+			"reponses": ["Antithèse", "Métonymie", "Parallélisme", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Sage dans les livres, fou dans la vie",
+			"reponses": ["Antithèse", "Parallélisme", "Paradoxe", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Tout commence, tout finit",
+			"reponses": ["Antithèse", "Parallélisme", "Philosophie", "Répétition"],
+			"correct": 0
+		},
+		{
+			"question": "La mer calme cache des tempêtes",
+			"reponses": ["Antithèse", "Métaphore", "Paradoxe", "Proverbe"],
+			"correct": 0
+		},
+		{
+			"question": "L'habit fait le moine, mais le moine ne fait pas l'habit",
+			"reponses": ["Antithèse", "Chiasme", "Proverbe", "Répétition"],
+			"correct": 0
+		},
+		{
+			"question": "Condamné à vivre, libéré par la mort",
+			"reponses": ["Antithèse", "Paradoxe", "Parallélisme", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Simple en surface, complexe en profondeur",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Parler est d'argent, se taire est d'or",
+			"reponses": ["Antithèse", "Proverbe", "Parallélisme", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Le soleil brille pour tous, mais tous ne voient pas le soleil",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Paradoxe"],
+			"correct": 0
+		},
+		{
+			"question": "La force casse, la douceur plie",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Proverbe"],
+			"correct": 0
+		},
+		{
+			"question": "Né libre, mort esclave",
+			"reponses": ["Antithèse", "Parallélisme", "Tragique", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "La raison parle, la passion crie",
+			"reponses": [
+				"Antithèse",
+				"Parallélisme",
+				"Personnification",
+				"Métaphore"
+			],
+			"correct": 0
+		},
+		{
+			"question": "Vieux de visage, jeune de cœur",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Le silence en dit plus que les mots",
+			"reponses": ["Antithèse", "Paradoxe", "Litote", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "L'ignorance est légère, la connaissance est un fardeau",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Paradoxe"],
+			"correct": 0
+		},
+		{
+			"question": "Tendre en amour, dur à la guerre",
+			"reponses": ["Antithèse", "Parallélisme", "Comparaison", "Portrait"],
+			"correct": 0
+		},
+		{
+			"question": "Le riche s'ennuie, le pauvre espère",
+			"reponses": ["Antithèse", "Parallélisme", "Comparaison", "Social"],
+			"correct": 0
+		},
+		{
+			"question": "Brûler de froid, geler de chaud",
+			"reponses": ["Antithèse", "Oxymore", "Parallélisme", "Paradoxe"],
+			"correct": 0
+		},
+		{
+			"question": "L'apparence trompe, la réalité révèle",
+			"reponses": ["Antithèse", "Parallélisme", "Maxime", "Philosophie"],
+			"correct": 0
+		},
+		{
+			"question": "Courageux face au danger, lâche face à l'amour",
+			"reponses": ["Antithèse", "Parallélisme", "Comparaison", "Psychologie"],
+			"correct": 0
+		},
+		{
+			"question": "Le commencement de la sagesse, la fin de la folie",
+			"reponses": ["Antithèse", "Parallélisme", "Philosophie", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Ami dans la prospérité, ennemi dans l'adversité",
+			"reponses": ["Antithèse", "Parallélisme", "Comparaison", "Proverbe"],
+			"correct": 0
+		},
+		{
+			"question": "Hier héros, aujourd'hui zéro",
+			"reponses": ["Antithèse", "Parallélisme", "Rime", "Déchéance"],
+			"correct": 0
+		},
+		{
+			"question": "La colère aveugle, la patience éclaire",
+			"reponses": [
+				"Antithèse",
+				"Parallélisme",
+				"Métaphore",
+				"Personnification"
+			],
+			"correct": 0
+		},
+		{
+			"question": "Le sage doute, le fou affirme",
+			"reponses": ["Antithèse", "Parallélisme", "Proverbe", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Promettre monts et merveilles, donner des clopinettes",
+			"reponses": ["Antithèse", "Hyperbole", "Expression", "Parallélisme"],
+			"correct": 0
+		},
+		{
+			"question": "Glorieux dans la victoire, pathétique dans la défaite",
+			"reponses": ["Antithèse", "Parallélisme", "Comparaison", "Portrait"],
+			"correct": 0
+		},
+		{
+			"question": "Les mots blessent, le silence tue",
+			"reponses": ["Antithèse", "Parallélisme", "Métaphore", "Hyperbole"],
+			"correct": 0
+		}
+	]
 }

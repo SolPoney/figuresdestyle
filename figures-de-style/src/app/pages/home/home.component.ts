@@ -1,10 +1,10 @@
-import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ModuleService } from '../../services/module.service';
-import { AuthService } from '../../services/auth.service';
 import { Module } from '../../models/module.model';
 import { User } from '../../models/user.model';
+import { AuthService } from '../../services/auth.service';
+import { ModuleService } from '../../services/module.service';
 
 @Component({
   selector: 'app-home',

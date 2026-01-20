@@ -1,95 +1,642 @@
 {
-  "id": "assonance",
-  "titre": "Assonance",
-  "description": "Exerce-toi à reconnaître l'assonance à travers 100 exemples variés.",
-  "questions": [
-    { "question": "Tout m’enivre et m’élève.", "reponses": ["Assonance", "Allitération", "Hyperbole", "Oxymore"], "correct": 0, "indice": "On répète une même voyelle dans la phrase." },
-    { "question": "Les sanglots longs des violons de l’automne.", "reponses": ["Assonance", "Allitération", "Personnification", "Gradation"], "correct": 0, "indice": "La répétition d'un son vocalique est marquée." },
-    { "question": "J’ai vu fuir la nuit sur la prairie.", "reponses": ["Assonance", "Comparaison", "Oxymore", "Ironie"], "correct": 0, "indice": "Un son de voyelle revient plusieurs fois." },
-    { "question": "Le vent se leva et fit vibrer les feuilles.", "reponses": ["Assonance", "Personnification", "Gradation", "Litote"], "correct": 0, "indice": "La musicalité vient de la répétition d'une voyelle." },
-    { "question": "O rage ! ô désespoir ! ô vieillesse ennemie !", "reponses": ["Assonance", "Hyperbole", "Oxymore", "Ironie"], "correct": 0, "indice": "Le son 'o' est répété dans la phrase." },
-    { "question": "Tout dort dans les bois et dans les champs.", "reponses": ["Assonance", "Allitération", "Comparaison", "Oxymore"], "correct": 0, "indice": "On entend plusieurs fois la même voyelle." },
-    { "question": "Je marche, je marche et je m’acharne.", "reponses": ["Assonance", "Polysyndète", "Gradation", "Hyperbole"], "correct": 0, "indice": "La répétition d'un son vocalique rythme la phrase." },
-    { "question": "Les âmes calmes de la vallée.", "reponses": ["Assonance", "Allitération", "Personnification", "Litote"], "correct": 0, "indice": "Un même son de voyelle revient dans plusieurs mots." },
-    { "question": "Le roi boit et voit la nuit tomber.", "reponses": ["Assonance", "Zeugma", "Gradation", "Oxymore"], "correct": 0, "indice": "La voyelle 'oi' est répétée dans la phrase." },
-    { "question": "Un murmure pur court sur l’herbe.", "reponses": ["Assonance", "Personnification", "Hyperbole", "Comparaison"], "correct": 0, "indice": "On entend la répétition d'un son vocalique." },
-    { "question": "Dans la plaine, l’onde profonde gronde.", "reponses": ["Assonance", "Allitération", "Gradation", "Hyperbole"], "correct": 0 },
-    { "question": "Il dort encore sous le chêne sombre.", "reponses": ["Assonance", "Oxymore", "Comparaison", "Ironie"], "correct": 0 },
-    { "question": "Les fleurs se meurent et pleurent en silence.", "reponses": ["Assonance", "Personnification", "Gradation", "Litote"], "correct": 0 },
-    { "question": "J’ai vu fuir la nuit et la pluie.", "reponses": ["Assonance", "Comparaison", "Oxymore", "Hyperbole"], "correct": 0 },
-    { "question": "L’onde blonde et profonde se confond.", "reponses": ["Assonance", "Allitération", "Gradation", "Personnification"], "correct": 0 },
-    { "question": "La brise grise frise les feuilles.", "reponses": ["Assonance", "Allitération", "Oxymore", "Comparaison"], "correct": 0 },
-    { "question": "Je suis las mais je passe et je me lasse.", "reponses": ["Assonance", "Gradation", "Hyperbole", "Personnification"], "correct": 0 },
-    { "question": "Sous le ciel, le fiel se répand.", "reponses": ["Assonance", "Allitération", "Oxymore", "Ironie"], "correct": 0 },
-    { "question": "Le vent emporte les feuilles mortes.", "reponses": ["Assonance", "Personnification", "Gradation", "Comparaison"], "correct": 0 },
-    { "question": "Tout dort dans le port et l’accord des cordes.", "reponses": ["Assonance", "Zeugma", "Oxymore", "Hyperbole"], "correct": 0 },
-    { "question": "Le murmure du fleuve s’étire et expire.", "reponses": ["Assonance", "Personnification", "Hyperbole", "Comparaison"], "correct": 0 },
-    { "question": "L’écho de ses mots résonne et fredonne.", "reponses": ["Assonance", "Gradation", "Oxymore", "Hyperbole"], "correct": 0 },
-    { "question": "Les âmes calmes se mêlent aux flammes.", "reponses": ["Assonance", "Personnification", "Oxymore", "Litote"], "correct": 0 },
-    { "question": "Sous la lune brune, la dune s’allume.", "reponses": ["Assonance", "Comparaison", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "L’eau coule et roule dans la vallée.", "reponses": ["Assonance", "Allitération", "Personnification", "Hyperbole"], "correct": 0 },
-    { "question": "Le vent fend les dents des enfants.", "reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "La rime sublime illumine la chambre.", "reponses": ["Assonance", "Hyperbole", "Comparaison", "Litote"], "correct": 0 },
-    { "question": "Les fleurs s’effleurent et se meurent.", "reponses": ["Assonance", "Personnification", "Oxymore", "Gradation"], "correct": 0 },
-    { "question": "Il rôde et rôde dans l’ombre des bois.", "reponses": ["Assonance", "Gradation", "Personnification", "Hyperbole"], "correct": 0 },
-    { "question": "La nuit fuit et suit le jour.", "reponses": ["Assonance", "Comparaison", "Oxymore", "Gradation"], "correct": 0 },
-    { "question": "Le feu joue et bouge dans la neige.", "reponses": ["Assonance", "Personnification", "Allitération", "Hyperbole"], "correct": 0 },
-    { "question": "Le vin divin fait tourner le destin.", "reponses": ["Assonance", "Gradation", "Oxymore", "Comparaison"], "correct": 0 },
-    { "question": "Le chant des anges change la lande.", "reponses": ["Assonance", "Personnification", "Hyperbole", "Oxymore"], "correct": 0 },
-    { "question": "Les feuilles pleuvent et se meuvent.", "reponses": ["Assonance", "Gradation", "Personnification", "Oxymore"], "correct": 0 },
-    { "question": "La brume s’allume et parfume l’air.", "reponses": ["Assonance", "Personnification", "Oxymore", "Hyperbole"], "correct": 0 },
-    { "question": "Le roi voit et croit en sa loi.", "reponses": ["Assonance", "Zeugma", "Gradation", "Hyperbole"], "correct": 0 },
-    { "question": "Les eaux bleues coulent et roulent.", "reponses": ["Assonance", "Personnification", "Oxymore", "Comparaison"], "correct": 0 },
-    { "question": "Le vent lent soulève les éléments.", "reponses": ["Assonance", "Allitération", "Gradation", "Hyperbole"], "correct": 0 },
-    { "question": "Sous le ciel vermeil, le sommeil s’éveille.", "reponses": ["Assonance", "Personnification", "Comparaison", "Oxymore"], "correct": 0 },
-    { "question": "L’eau claire éclaire la terre entière.", "reponses": ["Assonance", "Allitération", "Gradation", "Hyperbole"], "correct": 0 },
-    { "question": "Les voix froides se joignent aux bois.", "reponses": ["Assonance", "Personnification", "Oxymore", "Comparaison"], "correct": 0 },
-    { "question": "Le vent tremble et assemble les branches.", "reponses": ["Assonance", "Personnification", "Gradation", "Hyperbole"], "correct": 0 },
-    { "question": "Le son monotone résonne dans la zone.", "reponses": ["Assonance", "Gradation", "Comparaison", "Oxymore"], "correct": 0 },
-    { "question": "Les flots clos coulent et roulent.", "reponses": ["Assonance", "Personnification", "Oxymore", "Gradation"], "correct": 0 },
-    { "question": "Sous la lune brune, la dune s’allume.", "reponses": ["Assonance", "Gradation", "Oxymore", "Hyperbole"], "correct": 0 },
-    { "question": "Les vents lents lèvent les herbes et les dents.", "reponses": ["Assonance", "Personnification", "Hyperbole", "Comparaison"], "correct": 0 },
-    { "question": "La mer amer coule sous la terre.", "reponses": ["Assonance", "Gradation", "Oxymore", "Ironie"], "correct": 0 },
-    { "question": "Le cri vif fait plier les ifs.", "reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "Le vent argenté change la vallée.", "reponses": ["Assonance", "Personnification", "Comparaison", "Hyperbole"], "correct": 0 },
-    { "question": "Les fleurs meurent et pleurent dans la lumière.", "reponses": ["Assonance", "Personnification", "Oxymore", "Gradation"], "correct": 0 },
-    { "question": "La pluie fuit et suit les ruisseaux.", "reponses": ["Assonance", "Comparaison", "Gradation", "Hyperbole"], "correct": 0 },
-    { "question": "Le bois froid ploie et noie la voie.", "reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "Les échos beaux flottent sur l’eau.", "reponses": ["Assonance", "Gradation", "Personnification", "Comparaison"], "correct": 0 },
-    { "question": "Sous le ciel bleu, le feu se fait lieu.", "reponses": ["Assonance", "Personnification", "Oxymore", "Hyperbole"], "correct": 0 },
-    { "question": "Le vent blanc danse et avance sur la lande.", "reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "La nuit fuit et s’ensuit le jour.", "reponses": ["Assonance", "Gradation", "Comparaison", "Oxymore"], "correct": 0 },
-    { "question": "Le fil subtil s’étire et respire.", "reponses": ["Assonance", "Personnification", "Hyperbole", "Gradation"], "correct": 0 },
-    { "question": "Les feuilles se meuvent et s’émeuvent.", "reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "Sous le vent levant, les vents se rendent.", "reponses": ["Assonance", "Gradation", "Oxymore", "Hyperbole"], "correct": 0 },
-    { "question": "La mer amère reflète la terre entière.", "reponses": ["Assonance", "Comparaison", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "Les bruits doux parcourent les joues.", "reponses": ["Assonance", "Personnification", "Gradation", "Hyperbole"], "correct": 0 },
-    { "question": "Le soleil vermeil veille sur le sommeil.", "reponses": ["Assonance", "Personnification", "Comparaison", "Oxymore"], "correct": 0 },
-    { "question": "Les flots clos roulent et bousculent.", "reponses": ["Assonance", "Gradation", "Personnification", "Hyperbole"], "correct": 0 },
-    { "question": "Le vent violent invente les éléments.", "reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "Les ombres sombres tombent et grondent.", "reponses": ["Assonance", "Gradation", "Personnification", "Comparaison"], "correct": 0 },
-    { "question": "La pluie fine ruine la colline.", "reponses": ["Assonance", "Gradation", "Oxymore", "Hyperbole"], "correct": 0 },
-    { "question": "Le vent blanc se répand et commandant.", "reponses": ["Assonance", "Personnification", "Gradation", "Hyperbole"], "correct": 0 },
-    { "question": "Le fil subtil s’étire et inspire.", "reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "Les feuilles jaunes pleurent et se meuvent.", "reponses": ["Assonance", "Personnification", "Gradation", "Comparaison"], "correct": 0 },
-    { "question": "Le ciel vermeil veille sur le sommeil.", "reponses": ["Assonance", "Personnification", "Comparaison", "Oxymore"], "correct": 0 },
-    { "question": "Les eaux bleues coulent et roulent.", "reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "Sous le vent levant, le vent géant s’étend.", "reponses": ["Assonance", "Gradation", "Personnification", "Oxymore"], "correct": 0 },
-    { "question": "La pluie fuit et suit les toits et les bois.", "reponses": ["Assonance", "Gradation", "Comparaison", "Hyperbole"], "correct": 0 },
-    { "question": "Le feu bleu brûle et roule sur la rue.", "reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "Le vent blanc se répand et commande.", "reponses": ["Assonance", "Personnification", "Gradation", "Hyperbole"], "correct": 0 },
-    { "question": "Les feuilles mortes flottent et voltent.", "reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "La mer amère reflète la terre entière.", "reponses": ["Assonance", "Comparaison", "Gradation", "Hyperbole"], "correct": 0 },
-    { "question": "Le fil subtil inspire et expire.", "reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "Sous le ciel vermeil, le sommeil s’éveille.", "reponses": ["Assonance", "Personnification", "Comparaison", "Oxymore"], "correct": 0 },
-    { "question": "Les échos beaux flottent sur l’eau.", "reponses": ["Assonance", "Gradation", "Personnification", "Comparaison"], "correct": 0 },
-    { "question": "Le bois froid ploie et noie la voie.", "reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"], "correct": 0 },
-    { "question": "Le vent argenté change la vallée.", "reponses": ["Assonance", "Personnification", "Comparaison", "Hyperbole"], "correct": 0 },
-    { "question": "Les fleurs meurent et pleurent dans la lumière.", "reponses": ["Assonance", "Personnification", "Oxymore", "Gradation"], "correct": 0 },
-    { "question": "La nuit fuit et s’ensuit le jour.", "reponses": ["Assonance", "Gradation", "Comparaison", "Oxymore"], "correct": 0 },
-    { "question": "Le feu joue et bouge dans la neige.", "reponses": ["Assonance", "Personnification", "Allitération", "Hyperbole"], "correct": 0 },
-    { "question": "Le vin divin fait tourner le destin.", "reponses": ["Assonance", "Gradation", "Oxymore", "Comparaison"], "correct": 0 },
-    { "question": "Le chant des anges change la lande.", "reponses": ["Assonance", "Personnification", "Hyperbole", "Oxymore"], "correct": 0 },
-    { "question": "Les feuilles pleuvent et se meuvent.", "reponses": ["Assonance", "Gradation", "Personnification", "Oxymore"], "correct": 0 },
-    { "question": "La brume s’allume et parfume l’air.", "reponses": ["Assonance", "Personnification", "Oxymore", "Hyperbole"], "correct": 0 },
-    { "question": "Les ombres sombres tombent et grondent.", "reponses": ["Assonance", "Gradation", "Personnification", "Comparaison
+	"id": "assonance",
+	"titre": "Assonance",
+	"description": "Exerce-toi à reconnaître l'assonance à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Tout m'enivre et m'élève.",
+			"reponses": ["Assonance", "Allitération", "Hyperbole", "Oxymore"],
+			"correct": 0,
+			"indice": "On répète une même voyelle dans la phrase.",
+			"explication": "La répétition du son 'e' crée une assonance."
+		},
+		{
+			"question": "Les sanglots longs des violons de l'automne.",
+			"reponses": [
+				"Assonance",
+				"Allitération",
+				"Personnification",
+				"Gradation"
+			],
+			"correct": 0,
+			"indice": "La répétition d'un son vocalique est marquée.",
+			"explication": "La répétition du son 'on' crée une assonance."
+		},
+		{
+			"question": "J'ai vu fuir la nuit sur la prairie.",
+			"reponses": ["Assonance", "Comparaison", "Oxymore", "Ironie"],
+			"correct": 0,
+			"indice": "Un son de voyelle revient plusieurs fois.",
+			"explication": "La répétition du son 'ui' crée une assonance."
+		},
+		{
+			"question": "Le vent se leva et fit vibrer les feuilles.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Litote"],
+			"correct": 0,
+			"indice": "La musicalité vient de la répétition d'une voyelle.",
+			"explication": "La répétition du son 'e' crée une assonance."
+		},
+		{
+			"question": "O rage ! ô désespoir ! ô vieillesse ennemie !",
+			"reponses": ["Assonance", "Hyperbole", "Oxymore", "Ironie"],
+			"correct": 0,
+			"indice": "Le son 'o' est répété dans la phrase.",
+			"explication": "La répétition du son 'o' crée une assonance."
+		},
+		{
+			"question": "Tout dort dans les bois et dans les champs.",
+			"reponses": ["Assonance", "Allitération", "Comparaison", "Oxymore"],
+			"correct": 0,
+			"indice": "On entend plusieurs fois la même voyelle.",
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "Je marche, je marche et je m'acharne.",
+			"reponses": ["Assonance", "Polysyndète", "Gradation", "Hyperbole"],
+			"correct": 0,
+			"indice": "La répétition d'un son vocalique rythme la phrase.",
+			"explication": "La répétition du son 'a' crée une assonance."
+		},
+		{
+			"question": "Les âmes calmes de la vallée.",
+			"reponses": ["Assonance", "Allitération", "Personnification", "Litote"],
+			"correct": 0,
+			"indice": "Un même son de voyelle revient dans plusieurs mots.",
+			"explication": "La répétition du son 'a' crée une assonance."
+		},
+		{
+			"question": "Le roi boit et voit la nuit tomber.",
+			"reponses": ["Assonance", "Zeugma", "Gradation", "Oxymore"],
+			"correct": 0,
+			"indice": "La voyelle 'oi' est répétée dans la phrase.",
+			"explication": "La répétition du son 'oi' crée une assonance."
+		},
+		{
+			"question": "Un murmure pur court sur l'herbe.",
+			"reponses": ["Assonance", "Personnification", "Hyperbole", "Comparaison"],
+			"correct": 0,
+			"indice": "On entend la répétition d'un son vocalique.",
+			"explication": "La répétition du son 'u' crée une assonance."
+		},
+		{
+			"question": "Dans la plaine, l'onde profonde gronde.",
+			"reponses": ["Assonance", "Allitération", "Gradation", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'on' crée une assonance."
+		},
+		{
+			"question": "Il dort encore sous le chêne sombre.",
+			"reponses": ["Assonance", "Oxymore", "Comparaison", "Ironie"],
+			"correct": 0,
+			"explication": "La répétition du son 'or' crée une assonance."
+		},
+		{
+			"question": "Les fleurs se meurent et pleurent en silence.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Litote"],
+			"correct": 0,
+			"explication": "La répétition du son 'eu' crée une assonance."
+		},
+		{
+			"question": "J'ai vu fuir la nuit et la pluie.",
+			"reponses": ["Assonance", "Comparaison", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'ui' crée une assonance."
+		},
+		{
+			"question": "L'onde blonde et profonde se confond.",
+			"reponses": [
+				"Assonance",
+				"Allitération",
+				"Gradation",
+				"Personnification"
+			],
+			"correct": 0,
+			"explication": "La répétition du son 'on' crée une assonance."
+		},
+		{
+			"question": "La brise grise frise les feuilles.",
+			"reponses": ["Assonance", "Allitération", "Oxymore", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'i' crée une assonance."
+		},
+		{
+			"question": "Je suis las mais je passe et je me lasse.",
+			"reponses": ["Assonance", "Gradation", "Hyperbole", "Personnification"],
+			"correct": 0,
+			"explication": "La répétition du son 'a' crée une assonance."
+		},
+		{
+			"question": "Sous le ciel, le fiel se répand.",
+			"reponses": ["Assonance", "Allitération", "Oxymore", "Ironie"],
+			"correct": 0,
+			"explication": "La répétition du son 'ie' crée une assonance."
+		},
+		{
+			"question": "Le vent emporte les feuilles mortes.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'e' crée une assonance."
+		},
+		{
+			"question": "Tout dort dans le port et l'accord des cordes.",
+			"reponses": ["Assonance", "Zeugma", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'or' crée une assonance."
+		},
+		{
+			"question": "Le murmure du fleuve s'étire et expire.",
+			"reponses": ["Assonance", "Personnification", "Hyperbole", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'u' crée une assonance."
+		},
+		{
+			"question": "L'écho de ses mots résonne et fredonne.",
+			"reponses": ["Assonance", "Gradation", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'o' crée une assonance."
+		},
+		{
+			"question": "Les âmes calmes se mêlent aux flammes.",
+			"reponses": ["Assonance", "Personnification", "Oxymore", "Litote"],
+			"correct": 0,
+			"explication": "La répétition du son 'a' crée une assonance."
+		},
+		{
+			"question": "Sous la lune brune, la dune s'allume.",
+			"reponses": ["Assonance", "Comparaison", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'u' crée une assonance."
+		},
+		{
+			"question": "L'eau coule et roule dans la vallée.",
+			"reponses": [
+				"Assonance",
+				"Allitération",
+				"Personnification",
+				"Hyperbole"
+			],
+			"correct": 0,
+			"explication": "La répétition du son 'ou' crée une assonance."
+		},
+		{
+			"question": "Le vent fend les dents des enfants.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "La rime sublime illumine la chambre.",
+			"reponses": ["Assonance", "Hyperbole", "Comparaison", "Litote"],
+			"correct": 0,
+			"explication": "La répétition du son 'i' crée une assonance."
+		},
+		{
+			"question": "Les fleurs s'effleurent et se meurent.",
+			"reponses": ["Assonance", "Personnification", "Oxymore", "Gradation"],
+			"correct": 0,
+			"explication": "La répétition du son 'eu' crée une assonance."
+		},
+		{
+			"question": "Il rôde et rôde dans l'ombre des bois.",
+			"reponses": ["Assonance", "Gradation", "Personnification", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'o' crée une assonance."
+		},
+		{
+			"question": "La nuit fuit et suit le jour.",
+			"reponses": ["Assonance", "Comparaison", "Oxymore", "Gradation"],
+			"correct": 0,
+			"explication": "La répétition du son 'ui' crée une assonance."
+		},
+		{
+			"question": "Le feu joue et bouge dans la neige.",
+			"reponses": [
+				"Assonance",
+				"Personnification",
+				"Allitération",
+				"Hyperbole"
+			],
+			"correct": 0,
+			"explication": "La répétition du son 'eu' crée une assonance."
+		},
+		{
+			"question": "Le vin divin fait tourner le destin.",
+			"reponses": ["Assonance", "Gradation", "Oxymore", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'in' crée une assonance."
+		},
+		{
+			"question": "Le chant des anges change la lande.",
+			"reponses": ["Assonance", "Personnification", "Hyperbole", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "Les feuilles pleuvent et se meuvent.",
+			"reponses": ["Assonance", "Gradation", "Personnification", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'eu' crée une assonance."
+		},
+		{
+			"question": "La brume s'allume et parfume l'air.",
+			"reponses": ["Assonance", "Personnification", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'u' crée une assonance."
+		},
+		{
+			"question": "Le roi voit et croit en sa loi.",
+			"reponses": ["Assonance", "Zeugma", "Gradation", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'oi' crée une assonance."
+		},
+		{
+			"question": "Les eaux bleues coulent et roulent.",
+			"reponses": ["Assonance", "Personnification", "Oxymore", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'ou' crée une assonance."
+		},
+		{
+			"question": "Le vent lent soulève les éléments.",
+			"reponses": ["Assonance", "Allitération", "Gradation", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "Sous le ciel vermeil, le sommeil s'éveille.",
+			"reponses": ["Assonance", "Personnification", "Comparaison", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'ei' crée une assonance."
+		},
+		{
+			"question": "L'eau claire éclaire la terre entière.",
+			"reponses": ["Assonance", "Allitération", "Gradation", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'e' crée une assonance."
+		},
+		{
+			"question": "Les voix froides se joignent aux bois.",
+			"reponses": ["Assonance", "Personnification", "Oxymore", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'oi' crée une assonance."
+		},
+		{
+			"question": "Le vent tremble et assemble les branches.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "Le son monotone résonne dans la zone.",
+			"reponses": ["Assonance", "Gradation", "Comparaison", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'on' crée une assonance."
+		},
+		{
+			"question": "Les flots clos coulent et roulent.",
+			"reponses": ["Assonance", "Personnification", "Oxymore", "Gradation"],
+			"correct": 0,
+			"explication": "La répétition du son 'o' crée une assonance."
+		},
+		{
+			"question": "Sous la lune brune, la dune s'allume.",
+			"reponses": ["Assonance", "Gradation", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'u' crée une assonance."
+		},
+		{
+			"question": "Les vents lents lèvent les herbes et les dents.",
+			"reponses": ["Assonance", "Personnification", "Hyperbole", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "La mer amer coule sous la terre.",
+			"reponses": ["Assonance", "Gradation", "Oxymore", "Ironie"],
+			"correct": 0,
+			"explication": "La répétition du son 'e' crée une assonance."
+		},
+		{
+			"question": "Le cri vif fait plier les ifs.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'i' crée une assonance."
+		},
+		{
+			"question": "Le vent argenté change la vallée.",
+			"reponses": ["Assonance", "Personnification", "Comparaison", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "Les fleurs meurent et pleurent dans la lumière.",
+			"reponses": ["Assonance", "Personnification", "Oxymore", "Gradation"],
+			"correct": 0,
+			"explication": "La répétition du son 'eu' crée une assonance."
+		},
+		{
+			"question": "La pluie fuit et suit les ruisseaux.",
+			"reponses": ["Assonance", "Comparaison", "Gradation", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'ui' crée une assonance."
+		},
+		{
+			"question": "Le bois froid ploie et noie la voie.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'oi' crée une assonance."
+		},
+		{
+			"question": "Les échos beaux flottent sur l'eau.",
+			"reponses": ["Assonance", "Gradation", "Personnification", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'o' crée une assonance."
+		},
+		{
+			"question": "Sous le ciel bleu, le feu se fait lieu.",
+			"reponses": ["Assonance", "Personnification", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'eu' crée une assonance."
+		},
+		{
+			"question": "Le vent blanc danse et avance sur la lande.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "La nuit fuit et s'ensuit le jour.",
+			"reponses": ["Assonance", "Gradation", "Comparaison", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'ui' crée une assonance."
+		},
+		{
+			"question": "Le fil subtil s'étire et respire.",
+			"reponses": ["Assonance", "Personnification", "Hyperbole", "Gradation"],
+			"correct": 0,
+			"explication": "La répétition du son 'i' crée une assonance."
+		},
+		{
+			"question": "Les feuilles se meuvent et s'émeuvent.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'eu' crée une assonance."
+		},
+		{
+			"question": "Sous le vent levant, les vents se rendent.",
+			"reponses": ["Assonance", "Gradation", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "La mer amère reflète la terre entière.",
+			"reponses": ["Assonance", "Comparaison", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'e' crée une assonance."
+		},
+		{
+			"question": "Les bruits doux parcourent les joues.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'ou' crée une assonance."
+		},
+		{
+			"question": "Le soleil vermeil veille sur le sommeil.",
+			"reponses": ["Assonance", "Personnification", "Comparaison", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'ei' crée une assonance."
+		},
+		{
+			"question": "Les flots clos roulent et bousculent.",
+			"reponses": ["Assonance", "Gradation", "Personnification", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'o' crée une assonance."
+		},
+		{
+			"question": "Le vent violent invente les éléments.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "Les ombres sombres tombent et grondent.",
+			"reponses": ["Assonance", "Gradation", "Personnification", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'on' crée une assonance."
+		},
+		{
+			"question": "La pluie fine ruine la colline.",
+			"reponses": ["Assonance", "Gradation", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'i' crée une assonance."
+		},
+		{
+			"question": "Le vent blanc se répand et commande.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "Le fil subtil s'étire et inspire.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'i' crée une assonance."
+		},
+		{
+			"question": "Les feuilles jaunes pleurent et se meuvent.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'eu' crée une assonance."
+		},
+		{
+			"question": "Le ciel vermeil veille sur le sommeil.",
+			"reponses": ["Assonance", "Personnification", "Comparaison", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'ei' crée une assonance."
+		},
+		{
+			"question": "Les eaux bleues coulent et roulent.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'ou' crée une assonance."
+		},
+		{
+			"question": "Sous le vent levant, le vent géant s'étend.",
+			"reponses": ["Assonance", "Gradation", "Personnification", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "La pluie fuit et suit les toits et les bois.",
+			"reponses": ["Assonance", "Gradation", "Comparaison", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'ui' crée une assonance."
+		},
+		{
+			"question": "Le feu bleu brûle et roule sur la rue.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'eu' crée une assonance."
+		},
+		{
+			"question": "Le vent blanc se répand et commande.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "Les feuilles mortes flottent et voltent.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'o' crée une assonance."
+		},
+		{
+			"question": "La mer amère reflète la terre entière.",
+			"reponses": ["Assonance", "Comparaison", "Gradation", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'e' crée une assonance."
+		},
+		{
+			"question": "Le fil subtil inspire et expire.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'i' crée une assonance."
+		},
+		{
+			"question": "Sous le ciel vermeil, le sommeil s'éveille.",
+			"reponses": ["Assonance", "Personnification", "Comparaison", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'ei' crée une assonance."
+		},
+		{
+			"question": "Les échos beaux flottent sur l'eau.",
+			"reponses": ["Assonance", "Gradation", "Personnification", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'o' crée une assonance."
+		},
+		{
+			"question": "Le bois froid ploie et noie la voie.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'oi' crée une assonance."
+		},
+		{
+			"question": "Le vent argenté change la vallée.",
+			"reponses": ["Assonance", "Personnification", "Comparaison", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "Les fleurs meurent et pleurent dans la lumière.",
+			"reponses": ["Assonance", "Personnification", "Oxymore", "Gradation"],
+			"correct": 0,
+			"explication": "La répétition du son 'eu' crée une assonance."
+		},
+		{
+			"question": "La nuit fuit et s'ensuit le jour.",
+			"reponses": ["Assonance", "Gradation", "Comparaison", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'ui' crée une assonance."
+		},
+		{
+			"question": "Le feu joue et bouge dans la neige.",
+			"reponses": [
+				"Assonance",
+				"Personnification",
+				"Allitération",
+				"Hyperbole"
+			],
+			"correct": 0,
+			"explication": "La répétition du son 'eu' crée une assonance."
+		},
+		{
+			"question": "Le vin divin fait tourner le destin.",
+			"reponses": ["Assonance", "Gradation", "Oxymore", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'in' crée une assonance."
+		},
+		{
+			"question": "Le chant des anges change la lande.",
+			"reponses": ["Assonance", "Personnification", "Hyperbole", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "Les feuilles pleuvent et se meuvent.",
+			"reponses": ["Assonance", "Gradation", "Personnification", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'eu' crée une assonance."
+		},
+		{
+			"question": "La brume s'allume et parfume l'air.",
+			"reponses": ["Assonance", "Personnification", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'u' crée une assonance."
+		},
+		{
+			"question": "Les ombres sombres tombent et grondent.",
+			"reponses": ["Assonance", "Gradation", "Personnification", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'on' crée une assonance."
+		},
+		{
+			"question": "Le lac calme reflète les branches blanches.",
+			"reponses": ["Assonance", "Personnification", "Comparaison", "Gradation"],
+			"correct": 0,
+			"explication": "La répétition du son 'an' crée une assonance."
+		},
+		{
+			"question": "Les roses closes exposent leurs poses.",
+			"reponses": ["Assonance", "Gradation", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'o' crée une assonance."
+		},
+		{
+			"question": "Le rire inspire et conspire dans l'air.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'i' crée une assonance."
+		},
+		{
+			"question": "La mer sévère libère ses mystères.",
+			"reponses": ["Assonance", "Personnification", "Oxymore", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'e' crée une assonance."
+		},
+		{
+			"question": "Le jour lourd s'étend sur le parcours.",
+			"reponses": ["Assonance", "Gradation", "Personnification", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'ou' crée une assonance."
+		},
+		{
+			"question": "Les vaguesagues divaguent et naviguent.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Oxymore"],
+			"correct": 0,
+			"explication": "La répétition du son 'a' crée une assonance."
+		},
+		{
+			"question": "Le train lointain s'éteint dans le matin.",
+			"reponses": ["Assonance", "Gradation", "Comparaison", "Hyperbole"],
+			"correct": 0,
+			"explication": "La répétition du son 'in' crée une assonance."
+		},
+		{
+			"question": "Les larmes amères se perdent dans l'air.",
+			"reponses": ["Assonance", "Personnification", "Oxymore", "Gradation"],
+			"correct": 0,
+			"explication": "La répétition du son 'e' crée une assonance."
+		},
+		{
+			"question": "Le soir noir voit l'espoir s'asseoir.",
+			"reponses": ["Assonance", "Personnification", "Gradation", "Comparaison"],
+			"correct": 0,
+			"explication": "La répétition du son 'oi' crée une assonance."
+		},
+		{
+			"question": "Les flammes infâmes réclament et proclament.",
+			"reponses": ["Assonance", "Personnification", "Hyperbole", "Gradation"],
+			"correct": 0,
+			"explication": "La répétition du son 'a' crée une assonance."
+		}
+	]
+}

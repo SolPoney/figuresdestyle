@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { CommonModule } from "@angular/common";
+import { Component } from "@angular/core";
+import { RouterModule } from "@angular/router";
 
 @Component({
-  selector: 'app-legal',
-  standalone: true,
-  imports: [CommonModule, RouterModule],
-  template: `
+	selector: "app-legal",
+	standalone: true,
+	imports: [CommonModule, RouterModule],
+	template: `
     <div class="min-h-screen bg-dark-bg px-4 py-8">
       <div class="max-w-4xl mx-auto">
         <a

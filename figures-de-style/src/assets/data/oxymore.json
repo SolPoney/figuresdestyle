@@ -1,271 +1,271 @@
 {
-  "id": "oxymore",
-  "titre": "Oxymore",
-  "description": "Exerce-toi à reconnaître l’oxymore à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Cette obscure clarté.",
-      "reponses": ["Oxymore", "Métaphore", "Ironie", "Hyperbole"],
-      "correct": 0,
-      "indice": "Deux mots de sens opposé sont associés."
-    },
-    {
-      "question": "Un silence assourdissant.",
-      "reponses": ["Oxymore", "Litote", "Comparaison", "Euphémisme"],
-      "correct": 0,
-      "indice": "L'association de termes contraires crée un effet de surprise."
-    },
-    {
-      "question": "Une douce violence.",
-      "reponses": ["Oxymore", "Hyperbole", "Personnification", "Ironie"],
-      "correct": 0,
-      "indice": "Deux notions opposées sont réunies dans la même expression."
-    },
-    {
-      "question": "Une sombre lumière.",
-      "reponses": ["Oxymore", "Comparaison", "Gradation", "Euphémisme"],
-      "correct": 0,
-      "indice": "L'effet vient du rapprochement de mots incompatibles."
-    },
-    {
-      "question": "Un instant éternel.",
-      "reponses": ["Oxymore", "Hyperbole", "Litote", "Ironie"],
-      "correct": 0,
-      "indice": "On associe deux idées contradictoires dans la même phrase."
-    },
+	"id": "oxymore",
+	"titre": "Oxymore",
+	"description": "Exerce-toi à reconnaître l’oxymore à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Cette obscure clarté.",
+			"reponses": ["Oxymore", "Métaphore", "Ironie", "Hyperbole"],
+			"correct": 0,
+			"indice": "Deux mots de sens opposé sont associés."
+		},
+		{
+			"question": "Un silence assourdissant.",
+			"reponses": ["Oxymore", "Litote", "Comparaison", "Euphémisme"],
+			"correct": 0,
+			"indice": "L'association de termes contraires crée un effet de surprise."
+		},
+		{
+			"question": "Une douce violence.",
+			"reponses": ["Oxymore", "Hyperbole", "Personnification", "Ironie"],
+			"correct": 0,
+			"indice": "Deux notions opposées sont réunies dans la même expression."
+		},
+		{
+			"question": "Une sombre lumière.",
+			"reponses": ["Oxymore", "Comparaison", "Gradation", "Euphémisme"],
+			"correct": 0,
+			"indice": "L'effet vient du rapprochement de mots incompatibles."
+		},
+		{
+			"question": "Un instant éternel.",
+			"reponses": ["Oxymore", "Hyperbole", "Litote", "Ironie"],
+			"correct": 0,
+			"indice": "On associe deux idées contradictoires dans la même phrase."
+		},
 
-    {
-      "question": "Cette obscure clarté m’éblouit.",
-      "reponses": ["Oxymore", "Gradation", "Personnification", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Une froide chaleur.",
-      "reponses": ["Oxymore", "Comparaison", "Ironie", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Un joyeux désespoir.",
-      "reponses": ["Oxymore", "Euphémisme", "Gradation", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Une triste joie.",
-      "reponses": ["Oxymore", "Ironie", "Comparaison", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Le feu glacé.",
-      "reponses": ["Oxymore", "Personnification", "Hyperbole", "Gradation"],
-      "correct": 0
-    },
+		{
+			"question": "Cette obscure clarté m’éblouit.",
+			"reponses": ["Oxymore", "Gradation", "Personnification", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Une froide chaleur.",
+			"reponses": ["Oxymore", "Comparaison", "Ironie", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Un joyeux désespoir.",
+			"reponses": ["Oxymore", "Euphémisme", "Gradation", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Une triste joie.",
+			"reponses": ["Oxymore", "Ironie", "Comparaison", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Le feu glacé.",
+			"reponses": ["Oxymore", "Personnification", "Hyperbole", "Gradation"],
+			"correct": 0
+		},
 
-    {
-      "question": "Cette douce amertume.",
-      "reponses": ["Oxymore", "Hyperbole", "Euphémisme", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Un silence bruyant.",
-      "reponses": ["Oxymore", "Comparaison", "Gradation", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Une obscure clarté éclairait la pièce.",
-      "reponses": ["Oxymore", "Personnification", "Hyperbole", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Cette obscure lumière m’éblouit.",
-      "reponses": ["Oxymore", "Gradation", "Comparaison", "Euphémisme"],
-      "correct": 0
-    },
-    {
-      "question": "Une douce torture.",
-      "reponses": ["Oxymore", "Ironie", "Hyperbole", "Gradation"],
-      "correct": 0
-    },
+		{
+			"question": "Cette douce amertume.",
+			"reponses": ["Oxymore", "Hyperbole", "Euphémisme", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Un silence bruyant.",
+			"reponses": ["Oxymore", "Comparaison", "Gradation", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Une obscure clarté éclairait la pièce.",
+			"reponses": ["Oxymore", "Personnification", "Hyperbole", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Cette obscure lumière m’éblouit.",
+			"reponses": ["Oxymore", "Gradation", "Comparaison", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "Une douce torture.",
+			"reponses": ["Oxymore", "Ironie", "Hyperbole", "Gradation"],
+			"correct": 0
+		},
 
-    {
-      "question": "Un bonheur triste.",
-      "reponses": ["Oxymore", "Personnification", "Comparaison", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Une obscure clarté scintillait.",
-      "reponses": ["Oxymore", "Hyperbole", "Gradation", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Cette douce violence régnait.",
-      "reponses": ["Oxymore", "Ironie", "Personnification", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Un instant éternel s’étirait.",
-      "reponses": ["Oxymore", "Gradation", "Hyperbole", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Une sombre clarté luisait.",
-      "reponses": ["Oxymore", "Euphémisme", "Personnification", "Ironie"],
-      "correct": 0
-    },
+		{
+			"question": "Un bonheur triste.",
+			"reponses": ["Oxymore", "Personnification", "Comparaison", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Une obscure clarté scintillait.",
+			"reponses": ["Oxymore", "Hyperbole", "Gradation", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Cette douce violence régnait.",
+			"reponses": ["Oxymore", "Ironie", "Personnification", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Un instant éternel s’étirait.",
+			"reponses": ["Oxymore", "Gradation", "Hyperbole", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Une sombre clarté luisait.",
+			"reponses": ["Oxymore", "Euphémisme", "Personnification", "Ironie"],
+			"correct": 0
+		},
 
-    {
-      "question": "Une douce mélancolie.",
-      "reponses": ["Oxymore", "Hyperbole", "Gradation", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Un murmure assourdissant.",
-      "reponses": ["Oxymore", "Ironie", "Personnification", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Cette obscure lumière m’aveuglait.",
-      "reponses": ["Oxymore", "Gradation", "Comparaison", "Euphémisme"],
-      "correct": 0
-    },
-    {
-      "question": "Une atroce douceur.",
-      "reponses": ["Oxymore", "Hyperbole", "Ironie", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Un silence oppressant.",
-      "reponses": ["Oxymore", "Personnification", "Comparaison", "Ellipse"],
-      "correct": 0
-    },
+		{
+			"question": "Une douce mélancolie.",
+			"reponses": ["Oxymore", "Hyperbole", "Gradation", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Un murmure assourdissant.",
+			"reponses": ["Oxymore", "Ironie", "Personnification", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Cette obscure lumière m’aveuglait.",
+			"reponses": ["Oxymore", "Gradation", "Comparaison", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "Une atroce douceur.",
+			"reponses": ["Oxymore", "Hyperbole", "Ironie", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Un silence oppressant.",
+			"reponses": ["Oxymore", "Personnification", "Comparaison", "Ellipse"],
+			"correct": 0
+		},
 
-    {
-      "question": "Une douce violence m’a traversé.",
-      "reponses": ["Oxymore", "Gradation", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Un bonheur amer.",
-      "reponses": ["Oxymore", "Euphémisme", "Comparaison", "Personnification"],
-      "correct": 0
-    },
-    {
-      "question": "Cette froide chaleur me surprit.",
-      "reponses": ["Oxymore", "Gradation", "Hyperbole", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Un instant douloureux et délicieux.",
-      "reponses": ["Oxymore", "Ironie", "Personnification", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Une obscure lumière éclairait la scène.",
-      "reponses": ["Oxymore", "Comparaison", "Ellipse", "Hyperbole"],
-      "correct": 0
-    },
+		{
+			"question": "Une douce violence m’a traversé.",
+			"reponses": ["Oxymore", "Gradation", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Un bonheur amer.",
+			"reponses": ["Oxymore", "Euphémisme", "Comparaison", "Personnification"],
+			"correct": 0
+		},
+		{
+			"question": "Cette froide chaleur me surprit.",
+			"reponses": ["Oxymore", "Gradation", "Hyperbole", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Un instant douloureux et délicieux.",
+			"reponses": ["Oxymore", "Ironie", "Personnification", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Une obscure lumière éclairait la scène.",
+			"reponses": ["Oxymore", "Comparaison", "Ellipse", "Hyperbole"],
+			"correct": 0
+		},
 
-    {
-      "question": "Une douce tristesse s’installa.",
-      "reponses": ["Oxymore", "Gradation", "Ironie", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Un silence vibrant.",
-      "reponses": ["Oxymore", "Personnification", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Cette obscure clarté scintillait.",
-      "reponses": ["Oxymore", "Gradation", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Une douce souffrance.",
-      "reponses": ["Oxymore", "Hyperbole", "Gradation", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Un instant terrible et magnifique.",
-      "reponses": ["Oxymore", "Ironie", "Personnification", "Ellipse"],
-      "correct": 0
-    },
+		{
+			"question": "Une douce tristesse s’installa.",
+			"reponses": ["Oxymore", "Gradation", "Ironie", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Un silence vibrant.",
+			"reponses": ["Oxymore", "Personnification", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Cette obscure clarté scintillait.",
+			"reponses": ["Oxymore", "Gradation", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Une douce souffrance.",
+			"reponses": ["Oxymore", "Hyperbole", "Gradation", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Un instant terrible et magnifique.",
+			"reponses": ["Oxymore", "Ironie", "Personnification", "Ellipse"],
+			"correct": 0
+		},
 
-    {
-      "question": "Un bonheur cruel.",
-      "reponses": ["Oxymore", "Gradation", "Hyperbole", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Une douce horreur.",
-      "reponses": ["Oxymore", "Personnification", "Ironie", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Cette obscure clarté illumina tout.",
-      "reponses": ["Oxymore", "Comparaison", "Hyperbole", "Litote"],
-      "correct": 0
-    },
-    {
-      "question": "Un instant délicieusement douloureux.",
-      "reponses": ["Oxymore", "Gradation", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Une atroce douceur s’imposa.",
-      "reponses": ["Oxymore", "Personnification", "Comparaison", "Gradation"],
-      "correct": 0
-    },
+		{
+			"question": "Un bonheur cruel.",
+			"reponses": ["Oxymore", "Gradation", "Hyperbole", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Une douce horreur.",
+			"reponses": ["Oxymore", "Personnification", "Ironie", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Cette obscure clarté illumina tout.",
+			"reponses": ["Oxymore", "Comparaison", "Hyperbole", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "Un instant délicieusement douloureux.",
+			"reponses": ["Oxymore", "Gradation", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Une atroce douceur s’imposa.",
+			"reponses": ["Oxymore", "Personnification", "Comparaison", "Gradation"],
+			"correct": 0
+		},
 
-    {
-      "question": "Une obscure clarté régnait dans la pièce.",
-      "reponses": ["Oxymore", "Hyperbole", "Ironie", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Un silence oppressant pesait sur nous.",
-      "reponses": ["Oxymore", "Gradation", "Comparaison", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Une douce violence persistait.",
-      "reponses": ["Oxymore", "Hyperbole", "Personnification", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Un instant éternel semblait durer.",
-      "reponses": ["Oxymore", "Gradation", "Ironie", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Une sombre clarté perçait la brume.",
-      "reponses": ["Oxymore", "Euphémisme", "Personnification", "Hyperbole"],
-      "correct": 0
-    },
+		{
+			"question": "Une obscure clarté régnait dans la pièce.",
+			"reponses": ["Oxymore", "Hyperbole", "Ironie", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Un silence oppressant pesait sur nous.",
+			"reponses": ["Oxymore", "Gradation", "Comparaison", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Une douce violence persistait.",
+			"reponses": ["Oxymore", "Hyperbole", "Personnification", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Un instant éternel semblait durer.",
+			"reponses": ["Oxymore", "Gradation", "Ironie", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Une sombre clarté perçait la brume.",
+			"reponses": ["Oxymore", "Euphémisme", "Personnification", "Hyperbole"],
+			"correct": 0
+		},
 
-    {
-      "question": "Une douce amertume s’installa en moi.",
-      "reponses": ["Oxymore", "Gradation", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Un murmure assourdissant venait de loin.",
-      "reponses": ["Oxymore", "Comparaison", "Personnification", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Cette obscure lumière m’éblouissait.",
-      "reponses": ["Oxymore", "Hyperbole", "Gradation", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Une atroce douceur m’envahit.",
-      "reponses": ["Oxymore", "Personnification", "Gradation", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Un instant terrible et merveilleux.",
-      "reponses": ["Oxymore", "Ironie", "Comparaison", "Gradation"],
-      "correct": 0
-    }
-  ]
+		{
+			"question": "Une douce amertume s’installa en moi.",
+			"reponses": ["Oxymore", "Gradation", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Un murmure assourdissant venait de loin.",
+			"reponses": ["Oxymore", "Comparaison", "Personnification", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Cette obscure lumière m’éblouissait.",
+			"reponses": ["Oxymore", "Hyperbole", "Gradation", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Une atroce douceur m’envahit.",
+			"reponses": ["Oxymore", "Personnification", "Gradation", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Un instant terrible et merveilleux.",
+			"reponses": ["Oxymore", "Ironie", "Comparaison", "Gradation"],
+			"correct": 0
+		}
+	]
 }

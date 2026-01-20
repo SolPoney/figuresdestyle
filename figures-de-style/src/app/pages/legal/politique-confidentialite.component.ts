@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
-import { LegalLayoutComponent } from './legal-layout.component';
+import { Component } from "@angular/core";
+import { LegalLayoutComponent } from "./legal-layout.component";
 
 @Component({
-  selector: 'app-politique-confidentialite',
-  standalone: true,
-  imports: [LegalLayoutComponent],
-  template: `
+	selector: "app-politique-confidentialite",
+	standalone: true,
+	imports: [LegalLayoutComponent],
+	template: `
     <app-legal>
       <h1 class="text-4xl font-bold text-dark-text mb-8">
         Politique de confidentialité

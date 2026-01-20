@@ -1,352 +1,352 @@
 {
-  "id": "comparaison",
-  "titre": "Comparaison",
-  "description": "Exerce-toi à reconnaître la comparaison à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Il est courageux comme un lion.",
-      "reponses": ["Comparaison", "Métaphore", "Hyperbole", "Personnification"],
-      "correct": 0,
-      "indice": "Il s'agit d'une comparaison entre deux éléments."
-    },
-    {
-      "question": "Elle est douce comme la soie.",
-      "reponses": ["Comparaison", "Allégorie", "Oxymore", "Ironie"],
-      "correct": 0,
-      "indice": "On compare la douceur de 'elle' à celle de la soie."
-    },
-    {
-      "question": "Rapide comme l’éclair, il partit.",
-      "reponses": ["Comparaison", "Métaphore", "Anaphore", "Litote"],
-      "correct": 0,
-      "indice": "La rapidité est mise en avant par rapport à l'éclair."
-    },
-    {
-      "question": "Froid comme la glace, il resta silencieux.",
-      "reponses": ["Comparaison", "Hyperbole", "Oxymore", "Personnification"],
-      "correct": 0,
-      "indice": "On souligne son froid en le comparant à la glace."
-    },
-    {
-      "question": "Il travaille comme une fourmi.",
-      "reponses": ["Comparaison", "Métaphore", "Allitération", "Ironie"],
-      "correct": 0,
-      "indice": "Sa manière de travailler est comparée à celle d'une fourmi."
-    },
+	"id": "comparaison",
+	"titre": "Comparaison",
+	"description": "Exerce-toi à reconnaître la comparaison à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Il est courageux comme un lion.",
+			"reponses": ["Comparaison", "Métaphore", "Hyperbole", "Personnification"],
+			"correct": 0,
+			"indice": "Il s'agit d'une comparaison entre deux éléments."
+		},
+		{
+			"question": "Elle est douce comme la soie.",
+			"reponses": ["Comparaison", "Allégorie", "Oxymore", "Ironie"],
+			"correct": 0,
+			"indice": "On compare la douceur de 'elle' à celle de la soie."
+		},
+		{
+			"question": "Rapide comme l’éclair, il partit.",
+			"reponses": ["Comparaison", "Métaphore", "Anaphore", "Litote"],
+			"correct": 0,
+			"indice": "La rapidité est mise en avant par rapport à l'éclair."
+		},
+		{
+			"question": "Froid comme la glace, il resta silencieux.",
+			"reponses": ["Comparaison", "Hyperbole", "Oxymore", "Personnification"],
+			"correct": 0,
+			"indice": "On souligne son froid en le comparant à la glace."
+		},
+		{
+			"question": "Il travaille comme une fourmi.",
+			"reponses": ["Comparaison", "Métaphore", "Allitération", "Ironie"],
+			"correct": 0,
+			"indice": "Sa manière de travailler est comparée à celle d'une fourmi."
+		},
 
-    {
-      "question": "Elle brille comme le soleil.",
-      "reponses": ["Comparaison", "Hyperbole", "Anaphore", "Litote"],
-      "correct": 0,
-      "indice": "La brillance est comparée à celle du soleil."
-    },
-    {
-      "question": "Fort comme un taureau, il soulève la charge.",
-      "reponses": ["Comparaison", "Métaphore", "Oxymore", "Personnification"],
-      "correct": 0,
-      "indice": "Sa force est mise en avant par rapport à celle d'un taureau."
-    },
-    {
-      "question": "Muet comme une tombe, il observait.",
-      "reponses": ["Comparaison", "Hyperbole", "Ironie", "Allégorie"],
-      "correct": 0,
-      "indice": "On insiste sur son silence en le comparant à une tombe."
-    },
-    {
-      "question": "Lent comme un escargot, il avance.",
-      "reponses": ["Comparaison", "Métaphore", "Euphémisme", "Anaphore"],
-      "correct": 0,
-      "indice": "Sa lenteur est comparée à celle d'un escargot."
-    },
-    {
-      "question": "Elle tremble comme une feuille.",
-      "reponses": ["Comparaison", "Personnification", "Hyperbole", "Oxymore"],
-      "correct": 0,
-      "indice": "La comparaison avec une feuille souligne son état."
-    },
+		{
+			"question": "Elle brille comme le soleil.",
+			"reponses": ["Comparaison", "Hyperbole", "Anaphore", "Litote"],
+			"correct": 0,
+			"indice": "La brillance est comparée à celle du soleil."
+		},
+		{
+			"question": "Fort comme un taureau, il soulève la charge.",
+			"reponses": ["Comparaison", "Métaphore", "Oxymore", "Personnification"],
+			"correct": 0,
+			"indice": "Sa force est mise en avant par rapport à celle d'un taureau."
+		},
+		{
+			"question": "Muet comme une tombe, il observait.",
+			"reponses": ["Comparaison", "Hyperbole", "Ironie", "Allégorie"],
+			"correct": 0,
+			"indice": "On insiste sur son silence en le comparant à une tombe."
+		},
+		{
+			"question": "Lent comme un escargot, il avance.",
+			"reponses": ["Comparaison", "Métaphore", "Euphémisme", "Anaphore"],
+			"correct": 0,
+			"indice": "Sa lenteur est comparée à celle d'un escargot."
+		},
+		{
+			"question": "Elle tremble comme une feuille.",
+			"reponses": ["Comparaison", "Personnification", "Hyperbole", "Oxymore"],
+			"correct": 0,
+			"indice": "La comparaison avec une feuille souligne son état."
+		},
 
-    {
-      "question": "Il est têtu comme une mule.",
-      "reponses": ["Comparaison", "Métaphore", "Ironie", "Litote"],
-      "correct": 0,
-      "indice": "Sa ténacité est comparée à celle d'une mule."
-    },
-    {
-      "question": "Libre comme l’air, il voyage.",
-      "reponses": ["Comparaison", "Allégorie", "Hyperbole", "Anaphore"],
-      "correct": 0,
-      "indice": "La liberté de 'il' est mise en avant par rapport à l'air."
-    },
-    {
-      "question": "Elle dort comme un loir.",
-      "reponses": ["Comparaison", "Métaphore", "Oxymore", "Ironie"],
-      "correct": 0,
-      "indice": "La comparaison ici souligne la profondeur du sommeil."
-    },
-    {
-      "question": "Blanc comme neige, son visage pâlit.",
-      "reponses": [
-        "Comparaison",
-        "Hyperbole",
-        "Personnification",
-        "Allitération"
-      ],
-      "correct": 0,
-      "indice": "La blancheur de son visage est comparée à celle de la neige."
-    },
-    {
-      "question": "Rusé comme un renard, il sourit.",
-      "reponses": ["Comparaison", "Métaphore", "Ironie", "Anaphore"],
-      "correct": 0,
-      "indice": "On souligne sa ruse par la comparaison avec un renard."
-    },
+		{
+			"question": "Il est têtu comme une mule.",
+			"reponses": ["Comparaison", "Métaphore", "Ironie", "Litote"],
+			"correct": 0,
+			"indice": "Sa ténacité est comparée à celle d'une mule."
+		},
+		{
+			"question": "Libre comme l’air, il voyage.",
+			"reponses": ["Comparaison", "Allégorie", "Hyperbole", "Anaphore"],
+			"correct": 0,
+			"indice": "La liberté de 'il' est mise en avant par rapport à l'air."
+		},
+		{
+			"question": "Elle dort comme un loir.",
+			"reponses": ["Comparaison", "Métaphore", "Oxymore", "Ironie"],
+			"correct": 0,
+			"indice": "La comparaison ici souligne la profondeur du sommeil."
+		},
+		{
+			"question": "Blanc comme neige, son visage pâlit.",
+			"reponses": [
+				"Comparaison",
+				"Hyperbole",
+				"Personnification",
+				"Allitération"
+			],
+			"correct": 0,
+			"indice": "La blancheur de son visage est comparée à celle de la neige."
+		},
+		{
+			"question": "Rusé comme un renard, il sourit.",
+			"reponses": ["Comparaison", "Métaphore", "Ironie", "Anaphore"],
+			"correct": 0,
+			"indice": "On souligne sa ruse par la comparaison avec un renard."
+		},
 
-    {
-      "question": "Il est malin comme un singe.",
-      "reponses": ["Comparaison", "Allégorie", "Hyperbole", "Litote"],
-      "correct": 0,
-      "indice": "Sa malice est mise en avant par rapport à celle d'un singe."
-    },
-    {
-      "question": "Elle est fière comme un paon.",
-      "reponses": ["Comparaison", "Métaphore", "Ironie", "Oxymore"],
-      "correct": 0,
-      "indice": "La fierté de 'elle' est comparée à celle d'un paon."
-    },
-    {
-      "question": "Noir comme la nuit, le ciel s’assombrit.",
-      "reponses": ["Comparaison", "Hyperbole", "Personnification", "Anaphore"],
-      "correct": 0,
-      "indice": "La noirceur du ciel est mise en avant par rapport à celle de la nuit."
-    },
-    {
-      "question": "Il bondit comme un chat.",
-      "reponses": ["Comparaison", "Métaphore", "Allitération", "Ironie"],
-      "correct": 0,
-      "indice": "Sa manière de bondir est comparée à celle d'un chat."
-    },
-    {
-      "question": "Silencieuse comme l’ombre, elle passa.",
-      "reponses": ["Comparaison", "Personnification", "Oxymore", "Litote"],
-      "correct": 0,
-      "indice": "On insiste sur le silence de son passage par cette comparaison."
-    },
+		{
+			"question": "Il est malin comme un singe.",
+			"reponses": ["Comparaison", "Allégorie", "Hyperbole", "Litote"],
+			"correct": 0,
+			"indice": "Sa malice est mise en avant par rapport à celle d'un singe."
+		},
+		{
+			"question": "Elle est fière comme un paon.",
+			"reponses": ["Comparaison", "Métaphore", "Ironie", "Oxymore"],
+			"correct": 0,
+			"indice": "La fierté de 'elle' est comparée à celle d'un paon."
+		},
+		{
+			"question": "Noir comme la nuit, le ciel s’assombrit.",
+			"reponses": ["Comparaison", "Hyperbole", "Personnification", "Anaphore"],
+			"correct": 0,
+			"indice": "La noirceur du ciel est mise en avant par rapport à celle de la nuit."
+		},
+		{
+			"question": "Il bondit comme un chat.",
+			"reponses": ["Comparaison", "Métaphore", "Allitération", "Ironie"],
+			"correct": 0,
+			"indice": "Sa manière de bondir est comparée à celle d'un chat."
+		},
+		{
+			"question": "Silencieuse comme l’ombre, elle passa.",
+			"reponses": ["Comparaison", "Personnification", "Oxymore", "Litote"],
+			"correct": 0,
+			"indice": "On insiste sur le silence de son passage par cette comparaison."
+		},
 
-    {
-      "question": "Heureux comme un enfant, il riait.",
-      "reponses": ["Comparaison", "Hyperbole", "Anaphore", "Ironie"],
-      "correct": 0,
-      "indice": "Leur bonheur est mis en avant par rapport à celui d'un enfant."
-    },
-    {
-      "question": "Tranchant comme un rasoir, son regard juge.",
-      "reponses": ["Comparaison", "Métaphore", "Oxymore", "Allégorie"],
-      "correct": 0,
-      "indice": "La précision de son regard est comparée à celle d'un rasoir."
-    },
-    {
-      "question": "Pâle comme un linge, il vacille.",
-      "reponses": ["Comparaison", "Hyperbole", "Personnification", "Anaphore"],
-      "correct": 0,
-      "indice": "La pâleur de 'il' est mise en avant par rapport à celle d'un linge."
-    },
-    {
-      "question": "Solide comme un roc, il résiste.",
-      "reponses": ["Comparaison", "Métaphore", "Ironie", "Litote"],
-      "correct": 0,
-      "indice": "Sa solidité est comparée à celle d'un roc."
-    },
-    {
-      "question": "Vif comme le vent, il disparaît.",
-      "reponses": ["Comparaison", "Personnification", "Hyperbole", "Oxymore"],
-      "correct": 0,
-      "indice": "Sa vivacité est mise en avant par rapport à celle du vent."
-    },
+		{
+			"question": "Heureux comme un enfant, il riait.",
+			"reponses": ["Comparaison", "Hyperbole", "Anaphore", "Ironie"],
+			"correct": 0,
+			"indice": "Leur bonheur est mis en avant par rapport à celui d'un enfant."
+		},
+		{
+			"question": "Tranchant comme un rasoir, son regard juge.",
+			"reponses": ["Comparaison", "Métaphore", "Oxymore", "Allégorie"],
+			"correct": 0,
+			"indice": "La précision de son regard est comparée à celle d'un rasoir."
+		},
+		{
+			"question": "Pâle comme un linge, il vacille.",
+			"reponses": ["Comparaison", "Hyperbole", "Personnification", "Anaphore"],
+			"correct": 0,
+			"indice": "La pâleur de 'il' est mise en avant par rapport à celle d'un linge."
+		},
+		{
+			"question": "Solide comme un roc, il résiste.",
+			"reponses": ["Comparaison", "Métaphore", "Ironie", "Litote"],
+			"correct": 0,
+			"indice": "Sa solidité est comparée à celle d'un roc."
+		},
+		{
+			"question": "Vif comme le vent, il disparaît.",
+			"reponses": ["Comparaison", "Personnification", "Hyperbole", "Oxymore"],
+			"correct": 0,
+			"indice": "Sa vivacité est mise en avant par rapport à celle du vent."
+		},
 
-    {
-      "question": "Calme comme un lac, il attend.",
-      "reponses": ["Comparaison", "Métaphore", "Ironie", "Anaphore"],
-      "correct": 0,
-      "indice": "Sa calme attitude est comparée à celle d'un lac."
-    },
-    {
-      "question": "Elle est légère comme une plume.",
-      "reponses": ["Comparaison", "Hyperbole", "Oxymore", "Allitération"],
-      "correct": 0,
-      "indice": "La légèreté de 'elle' est mise en avant par rapport à celle d'une plume."
-    },
-    {
-      "question": "Dur comme le fer, son cœur se ferme.",
-      "reponses": ["Comparaison", "Métaphore", "Personnification", "Ironie"],
-      "correct": 0,
-      "indice": "La dureté de son cœur est comparée à celle du fer."
-    },
-    {
-      "question": "Il fuit comme un lièvre.",
-      "reponses": ["Comparaison", "Hyperbole", "Allégorie", "Litote"],
-      "correct": 0,
-      "indice": "Sa rapidité à fuir est mise en avant par rapport à celle d'un lièvre."
-    },
-    {
-      "question": "Sombre comme un orage, son regard menace.",
-      "reponses": ["Comparaison", "Personnification", "Oxymore", "Anaphore"],
-      "correct": 0,
-      "indice": "La menace dans son regard est comparée à l'obscurité d'un orage."
-    },
+		{
+			"question": "Calme comme un lac, il attend.",
+			"reponses": ["Comparaison", "Métaphore", "Ironie", "Anaphore"],
+			"correct": 0,
+			"indice": "Sa calme attitude est comparée à celle d'un lac."
+		},
+		{
+			"question": "Elle est légère comme une plume.",
+			"reponses": ["Comparaison", "Hyperbole", "Oxymore", "Allitération"],
+			"correct": 0,
+			"indice": "La légèreté de 'elle' est mise en avant par rapport à celle d'une plume."
+		},
+		{
+			"question": "Dur comme le fer, son cœur se ferme.",
+			"reponses": ["Comparaison", "Métaphore", "Personnification", "Ironie"],
+			"correct": 0,
+			"indice": "La dureté de son cœur est comparée à celle du fer."
+		},
+		{
+			"question": "Il fuit comme un lièvre.",
+			"reponses": ["Comparaison", "Hyperbole", "Allégorie", "Litote"],
+			"correct": 0,
+			"indice": "Sa rapidité à fuir est mise en avant par rapport à celle d'un lièvre."
+		},
+		{
+			"question": "Sombre comme un orage, son regard menace.",
+			"reponses": ["Comparaison", "Personnification", "Oxymore", "Anaphore"],
+			"correct": 0,
+			"indice": "La menace dans son regard est comparée à l'obscurité d'un orage."
+		},
 
-    {
-      "question": "Fragile comme du verre, elle hésite.",
-      "reponses": ["Comparaison", "Métaphore", "Hyperbole", "Ironie"],
-      "correct": 0,
-      "indice": "Sa fragilité est mise en avant par rapport à celle du verre."
-    },
-    {
-      "question": "Serein comme un sage, il parle.",
-      "reponses": ["Comparaison", "Allégorie", "Oxymore", "Anaphore"],
-      "correct": 0,
-      "indice": "La sérénité de 'il' est comparée à celle d'un sage."
-    },
-    {
-      "question": "Il est fidèle comme un chien.",
-      "reponses": ["Comparaison", "Métaphore", "Ironie", "Litote"],
-      "correct": 0,
-      "indice": "Sa fidélité est mise en avant par rapport à celle d'un chien."
-    },
-    {
-      "question": "Lisse comme un miroir, le lac reflète.",
-      "reponses": ["Comparaison", "Personnification", "Hyperbole", "Oxymore"],
-      "correct": 0,
-      "indice": "La comparaison ici souligne la clarté du reflet."
-    },
-    {
-      "question": "Brûlant comme le feu, son regard brûle.",
-      "reponses": ["Comparaison", "Hyperbole", "Allitération", "Ironie"],
-      "correct": 0,
-      "indice": "L'intensité de son regard est comparée à celle du feu."
-    },
+		{
+			"question": "Fragile comme du verre, elle hésite.",
+			"reponses": ["Comparaison", "Métaphore", "Hyperbole", "Ironie"],
+			"correct": 0,
+			"indice": "Sa fragilité est mise en avant par rapport à celle du verre."
+		},
+		{
+			"question": "Serein comme un sage, il parle.",
+			"reponses": ["Comparaison", "Allégorie", "Oxymore", "Anaphore"],
+			"correct": 0,
+			"indice": "La sérénité de 'il' est comparée à celle d'un sage."
+		},
+		{
+			"question": "Il est fidèle comme un chien.",
+			"reponses": ["Comparaison", "Métaphore", "Ironie", "Litote"],
+			"correct": 0,
+			"indice": "Sa fidélité est mise en avant par rapport à celle d'un chien."
+		},
+		{
+			"question": "Lisse comme un miroir, le lac reflète.",
+			"reponses": ["Comparaison", "Personnification", "Hyperbole", "Oxymore"],
+			"correct": 0,
+			"indice": "La comparaison ici souligne la clarté du reflet."
+		},
+		{
+			"question": "Brûlant comme le feu, son regard brûle.",
+			"reponses": ["Comparaison", "Hyperbole", "Allitération", "Ironie"],
+			"correct": 0,
+			"indice": "L'intensité de son regard est comparée à celle du feu."
+		},
 
-    {
-      "question": "Léger comme un souffle, le vent passe.",
-      "reponses": ["Comparaison", "Personnification", "Oxymore", "Anaphore"],
-      "correct": 0,
-      "indice": "La légèreté du vent est mise en avant par cette comparaison."
-    },
-    {
-      "question": "Fier comme un roi, il s’avance.",
-      "reponses": ["Comparaison", "Métaphore", "Hyperbole", "Ironie"],
-      "correct": 0,
-      "indice": "Sa fierté est comparée à celle d'un roi."
-    },
-    {
-      "question": "Silencieux comme un chat, il entre.",
-      "reponses": ["Comparaison", "Personnification", "Anaphore", "Litote"],
-      "correct": 0,
-      "indice": "On insiste sur le silence de son entrée par cette comparaison."
-    },
-    {
-      "question": "Clair comme de l’eau de roche, son discours convainc.",
-      "reponses": ["Comparaison", "Métaphore", "Ironie", "Oxymore"],
-      "correct": 0,
-      "indice": "La clarté de son discours est mise en avant par cette comparaison."
-    },
-    {
-      "question": "Dur comme la pierre, il persiste.",
-      "reponses": ["Comparaison", "Hyperbole", "Personnification", "Allégorie"],
-      "correct": 0,
-      "indice": "Sa persistance est comparée à la dureté de la pierre."
-    },
+		{
+			"question": "Léger comme un souffle, le vent passe.",
+			"reponses": ["Comparaison", "Personnification", "Oxymore", "Anaphore"],
+			"correct": 0,
+			"indice": "La légèreté du vent est mise en avant par cette comparaison."
+		},
+		{
+			"question": "Fier comme un roi, il s’avance.",
+			"reponses": ["Comparaison", "Métaphore", "Hyperbole", "Ironie"],
+			"correct": 0,
+			"indice": "Sa fierté est comparée à celle d'un roi."
+		},
+		{
+			"question": "Silencieux comme un chat, il entre.",
+			"reponses": ["Comparaison", "Personnification", "Anaphore", "Litote"],
+			"correct": 0,
+			"indice": "On insiste sur le silence de son entrée par cette comparaison."
+		},
+		{
+			"question": "Clair comme de l’eau de roche, son discours convainc.",
+			"reponses": ["Comparaison", "Métaphore", "Ironie", "Oxymore"],
+			"correct": 0,
+			"indice": "La clarté de son discours est mise en avant par cette comparaison."
+		},
+		{
+			"question": "Dur comme la pierre, il persiste.",
+			"reponses": ["Comparaison", "Hyperbole", "Personnification", "Allégorie"],
+			"correct": 0,
+			"indice": "Sa persistance est comparée à la dureté de la pierre."
+		},
 
-    {
-      "question": "Plein comme un œuf, le sac déborde.",
-      "reponses": ["Comparaison", "Ironie", "Oxymore", "Anaphore"],
-      "correct": 0,
-      "indice": "Le sac est comparé à un œuf pour souligner qu'il est plein."
-    },
-    {
-      "question": "Vieux comme le monde, ce récit revient.",
-      "reponses": ["Comparaison", "Hyperbole", "Métaphore", "Litote"],
-      "correct": 0,
-      "indice": "La vieillesse du récit est mise en avant par cette comparaison."
-    },
-    {
-      "question": "Doux comme un agneau, il sourit.",
-      "reponses": ["Comparaison", "Ironie", "Personnification", "Anaphore"],
-      "correct": 0,
-      "indice": "La douceur de son sourire est comparée à celle d'un agneau."
-    },
-    {
-      "question": "Aveugle comme une taupe, il tâtonne.",
-      "reponses": ["Comparaison", "Hyperbole", "Oxymore", "Allégorie"],
-      "correct": 0,
-      "indice": "Sa cécité est mise en avant par rapport à celle d'une taupe."
-    },
-    {
-      "question": "Lent comme le temps, l’attente dure.",
-      "reponses": ["Comparaison", "Personnification", "Hyperbole", "Ironie"],
-      "correct": 0,
-      "indice": "La lenteur de l'attente est comparée à celle du temps."
-    },
+		{
+			"question": "Plein comme un œuf, le sac déborde.",
+			"reponses": ["Comparaison", "Ironie", "Oxymore", "Anaphore"],
+			"correct": 0,
+			"indice": "Le sac est comparé à un œuf pour souligner qu'il est plein."
+		},
+		{
+			"question": "Vieux comme le monde, ce récit revient.",
+			"reponses": ["Comparaison", "Hyperbole", "Métaphore", "Litote"],
+			"correct": 0,
+			"indice": "La vieillesse du récit est mise en avant par cette comparaison."
+		},
+		{
+			"question": "Doux comme un agneau, il sourit.",
+			"reponses": ["Comparaison", "Ironie", "Personnification", "Anaphore"],
+			"correct": 0,
+			"indice": "La douceur de son sourire est comparée à celle d'un agneau."
+		},
+		{
+			"question": "Aveugle comme une taupe, il tâtonne.",
+			"reponses": ["Comparaison", "Hyperbole", "Oxymore", "Allégorie"],
+			"correct": 0,
+			"indice": "Sa cécité est mise en avant par rapport à celle d'une taupe."
+		},
+		{
+			"question": "Lent comme le temps, l’attente dure.",
+			"reponses": ["Comparaison", "Personnification", "Hyperbole", "Ironie"],
+			"correct": 0,
+			"indice": "La lenteur de l'attente est comparée à celle du temps."
+		},
 
-    {
-      "question": "Beau comme un dieu, il attire les regards.",
-      "reponses": ["Comparaison", "Hyperbole", "Oxymore", "Litote"],
-      "correct": 0,
-      "indice": "Sa beauté est mise en avant par rapport à celle d'un dieu."
-    },
-    {
-      "question": "Froid comme l’hiver, son accueil surprend.",
-      "reponses": ["Comparaison", "Personnification", "Ironie", "Anaphore"],
-      "correct": 0,
-      "indice": "La froideur de son accueil est comparée à celle de l'hiver."
-    },
-    {
-      "question": "Léger comme l’air, il s’échappe.",
-      "reponses": ["Comparaison", "Métaphore", "Oxymore", "Allitération"],
-      "correct": 0,
-      "indice": "Sa légèreté est mise en avant par rapport à celle de l'air."
-    },
-    {
-      "question": "Immobile comme une statue, il attend.",
-      "reponses": ["Comparaison", "Hyperbole", "Personnification", "Ironie"],
-      "correct": 0,
-      "indice": "Sa immobilité est comparée à celle d'une statue."
-    },
-    {
-      "question": "Vif comme un faucon, il observe.",
-      "reponses": ["Comparaison", "Métaphore", "Oxymore", "Anaphore"],
-      "correct": 0,
-      "indice": "Sa vivacité est mise en avant par rapport à celle d'un faucon."
-    },
+		{
+			"question": "Beau comme un dieu, il attire les regards.",
+			"reponses": ["Comparaison", "Hyperbole", "Oxymore", "Litote"],
+			"correct": 0,
+			"indice": "Sa beauté est mise en avant par rapport à celle d'un dieu."
+		},
+		{
+			"question": "Froid comme l’hiver, son accueil surprend.",
+			"reponses": ["Comparaison", "Personnification", "Ironie", "Anaphore"],
+			"correct": 0,
+			"indice": "La froideur de son accueil est comparée à celle de l'hiver."
+		},
+		{
+			"question": "Léger comme l’air, il s’échappe.",
+			"reponses": ["Comparaison", "Métaphore", "Oxymore", "Allitération"],
+			"correct": 0,
+			"indice": "Sa légèreté est mise en avant par rapport à celle de l'air."
+		},
+		{
+			"question": "Immobile comme une statue, il attend.",
+			"reponses": ["Comparaison", "Hyperbole", "Personnification", "Ironie"],
+			"correct": 0,
+			"indice": "Sa immobilité est comparée à celle d'une statue."
+		},
+		{
+			"question": "Vif comme un faucon, il observe.",
+			"reponses": ["Comparaison", "Métaphore", "Oxymore", "Anaphore"],
+			"correct": 0,
+			"indice": "Sa vivacité est mise en avant par rapport à celle d'un faucon."
+		},
 
-    {
-      "question": "Pâle comme la mort, il recule.",
-      "reponses": ["Comparaison", "Hyperbole", "Personnification", "Ironie"],
-      "correct": 0,
-      "indice": "Sa pâleur est comparée à celle de la mort."
-    },
-    {
-      "question": "Calme comme un moine, il médite.",
-      "reponses": ["Comparaison", "Allégorie", "Oxymore", "Litote"],
-      "correct": 0,
-      "indice": "Sa calme méditation est comparée à celle d'un moine."
-    },
-    {
-      "question": "Rapide comme le vent, la nouvelle circule.",
-      "reponses": ["Comparaison", "Personnification", "Hyperbole", "Ironie"],
-      "correct": 0,
-      "indice": "La rapidité de la circulation de la nouvelle est comparée à celle du vent."
-    },
-    {
-      "question": "Lourd comme le plomb, le silence tombe.",
-      "reponses": ["Comparaison", "Métaphore", "Oxymore", "Anaphore"],
-      "correct": 0,
-      "indice": "La lourdeur du silence est comparée à celle du plomb."
-    },
-    {
-      "question": "Vif comme l’éclair, son esprit réagit.",
-      "reponses": ["Comparaison", "Hyperbole", "Personnification", "Ironie"],
-      "correct": 0,
-      "indice": "La rapidité de sa réaction est comparée à celle de l'éclair."
-    }
-  ]
+		{
+			"question": "Pâle comme la mort, il recule.",
+			"reponses": ["Comparaison", "Hyperbole", "Personnification", "Ironie"],
+			"correct": 0,
+			"indice": "Sa pâleur est comparée à celle de la mort."
+		},
+		{
+			"question": "Calme comme un moine, il médite.",
+			"reponses": ["Comparaison", "Allégorie", "Oxymore", "Litote"],
+			"correct": 0,
+			"indice": "Sa calme méditation est comparée à celle d'un moine."
+		},
+		{
+			"question": "Rapide comme le vent, la nouvelle circule.",
+			"reponses": ["Comparaison", "Personnification", "Hyperbole", "Ironie"],
+			"correct": 0,
+			"indice": "La rapidité de la circulation de la nouvelle est comparée à celle du vent."
+		},
+		{
+			"question": "Lourd comme le plomb, le silence tombe.",
+			"reponses": ["Comparaison", "Métaphore", "Oxymore", "Anaphore"],
+			"correct": 0,
+			"indice": "La lourdeur du silence est comparée à celle du plomb."
+		},
+		{
+			"question": "Vif comme l’éclair, son esprit réagit.",
+			"reponses": ["Comparaison", "Hyperbole", "Personnification", "Ironie"],
+			"correct": 0,
+			"indice": "La rapidité de sa réaction est comparée à celle de l'éclair."
+		}
+	]
 }

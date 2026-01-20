@@ -1,245 +1,245 @@
 {
-  "id": "metonymie",
-  "titre": "Métonymie",
-  "description": "Exerce-toi à reconnaître la métonymie à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Boire un verre.",
-      "reponses": ["Métonymie", "Métaphore", "Synecdoque", "Antiphrase"],
-      "correct": 0,
-      "indice": "On désigne le contenu par le contenant ou inversement."
-    },
-    {
-      "question": "Lire Victor Hugo.",
-      "reponses": ["Métonymie", "Comparaison", "Hyperbole", "Ellipse"],
-      "correct": 0,
-      "indice": "On nomme l'auteur pour désigner son œuvre."
-    },
-    {
-      "question": "La couronne a décidé de nouvelles lois.",
-      "reponses": ["Métonymie", "Ironie", "Gradation", "Hyperbole"],
-      "correct": 0,
-      "indice": "Un symbole ou un objet représente une institution ou une personne."
-    },
-    {
-      "question": "Il possède un Picasso.",
-      "reponses": ["Métonymie", "Métaphore", "Euphémisme", "Oxymore"],
-      "correct": 0,
-      "indice": "Le nom de l'artiste désigne son œuvre."
-    },
-    {
-      "question": "Les États-Unis ont réagi à la situation.",
-      "reponses": ["Métonymie", "Comparaison", "Personnification", "Ironie"],
-      "correct": 0,
-      "indice": "Le pays désigne ses représentants ou habitants."
-    },
+	"id": "metonymie",
+	"titre": "Métonymie",
+	"description": "Exerce-toi à reconnaître la métonymie à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Boire un verre.",
+			"reponses": ["Métonymie", "Métaphore", "Synecdoque", "Antiphrase"],
+			"correct": 0,
+			"indice": "On désigne le contenu par le contenant ou inversement."
+		},
+		{
+			"question": "Lire Victor Hugo.",
+			"reponses": ["Métonymie", "Comparaison", "Hyperbole", "Ellipse"],
+			"correct": 0,
+			"indice": "On nomme l'auteur pour désigner son œuvre."
+		},
+		{
+			"question": "La couronne a décidé de nouvelles lois.",
+			"reponses": ["Métonymie", "Ironie", "Gradation", "Hyperbole"],
+			"correct": 0,
+			"indice": "Un symbole ou un objet représente une institution ou une personne."
+		},
+		{
+			"question": "Il possède un Picasso.",
+			"reponses": ["Métonymie", "Métaphore", "Euphémisme", "Oxymore"],
+			"correct": 0,
+			"indice": "Le nom de l'artiste désigne son œuvre."
+		},
+		{
+			"question": "Les États-Unis ont réagi à la situation.",
+			"reponses": ["Métonymie", "Comparaison", "Personnification", "Ironie"],
+			"correct": 0,
+			"indice": "Le pays désigne ses représentants ou habitants."
+		},
 
-    {
-      "question": "La Maison-Blanche a communiqué.",
-      "reponses": ["Métonymie", "Oxymore", "Hyperbole", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Je mange trois assiettes.",
-      "reponses": ["Métonymie", "Gradation", "Ironie", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Il a lu tout Shakespeare.",
-      "reponses": ["Métonymie", "Comparaison", "Oxymore", "Personnification"],
-      "correct": 0
-    },
-    {
-      "question": "Le trône impose sa loi.",
-      "reponses": ["Métonymie", "Ellipse", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle aime le bon vin.",
-      "reponses": ["Métonymie", "Comparaison", "Gradation", "Oxymore"],
-      "correct": 0
-    },
+		{
+			"question": "La Maison-Blanche a communiqué.",
+			"reponses": ["Métonymie", "Oxymore", "Hyperbole", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Je mange trois assiettes.",
+			"reponses": ["Métonymie", "Gradation", "Ironie", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Il a lu tout Shakespeare.",
+			"reponses": ["Métonymie", "Comparaison", "Oxymore", "Personnification"],
+			"correct": 0
+		},
+		{
+			"question": "Le trône impose sa loi.",
+			"reponses": ["Métonymie", "Ellipse", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle aime le bon vin.",
+			"reponses": ["Métonymie", "Comparaison", "Gradation", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Le Kremlin a réagi aux événements.",
-      "reponses": ["Métonymie", "Personnification", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il a acheté un Monet.",
-      "reponses": ["Métonymie", "Gradation", "Hyperbole", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Le roi a promulgué un décret.",
-      "reponses": ["Métonymie", "Ironie", "Oxymore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "J’ai lu tout Balzac.",
-      "reponses": ["Métonymie", "Comparaison", "Gradation", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "La justice a parlé.",
-      "reponses": ["Métonymie", "Personnification", "Ironie", "Oxymore"],
-      "correct": 0
-    },
+		{
+			"question": "Le Kremlin a réagi aux événements.",
+			"reponses": ["Métonymie", "Personnification", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il a acheté un Monet.",
+			"reponses": ["Métonymie", "Gradation", "Hyperbole", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Le roi a promulgué un décret.",
+			"reponses": ["Métonymie", "Ironie", "Oxymore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "J’ai lu tout Balzac.",
+			"reponses": ["Métonymie", "Comparaison", "Gradation", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "La justice a parlé.",
+			"reponses": ["Métonymie", "Personnification", "Ironie", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "La cour a condamné le coupable.",
-      "reponses": ["Métonymie", "Gradation", "Comparaison", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il boit du Chablis.",
-      "reponses": ["Métonymie", "Hyperbole", "Oxymore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "La présidence a annoncé une réforme.",
-      "reponses": ["Métonymie", "Personnification", "Comparaison", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "J’ai adoré ce Van Gogh.",
-      "reponses": ["Métonymie", "Hyperbole", "Gradation", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Le gouvernement prend des mesures.",
-      "reponses": ["Métonymie", "Ellipse", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
+		{
+			"question": "La cour a condamné le coupable.",
+			"reponses": ["Métonymie", "Gradation", "Comparaison", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il boit du Chablis.",
+			"reponses": ["Métonymie", "Hyperbole", "Oxymore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "La présidence a annoncé une réforme.",
+			"reponses": ["Métonymie", "Personnification", "Comparaison", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "J’ai adoré ce Van Gogh.",
+			"reponses": ["Métonymie", "Hyperbole", "Gradation", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Le gouvernement prend des mesures.",
+			"reponses": ["Métonymie", "Ellipse", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Boire une bouteille.",
-      "reponses": ["Métonymie", "Hyperbole", "Gradation", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Lire du Balzac.",
-      "reponses": ["Métonymie", "Comparaison", "Oxymore", "Personnification"],
-      "correct": 0
-    },
-    {
-      "question": "Le Pentagone a réagi.",
-      "reponses": ["Métonymie", "Ironie", "Gradation", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il a acheté un Renoir.",
-      "reponses": ["Métonymie", "Comparaison", "Hyperbole", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "La couronne impose des règles.",
-      "reponses": ["Métonymie", "Ironie", "Personnification", "Gradation"],
-      "correct": 0
-    },
+		{
+			"question": "Boire une bouteille.",
+			"reponses": ["Métonymie", "Hyperbole", "Gradation", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Lire du Balzac.",
+			"reponses": ["Métonymie", "Comparaison", "Oxymore", "Personnification"],
+			"correct": 0
+		},
+		{
+			"question": "Le Pentagone a réagi.",
+			"reponses": ["Métonymie", "Ironie", "Gradation", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il a acheté un Renoir.",
+			"reponses": ["Métonymie", "Comparaison", "Hyperbole", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "La couronne impose des règles.",
+			"reponses": ["Métonymie", "Ironie", "Personnification", "Gradation"],
+			"correct": 0
+		},
 
-    {
-      "question": "J’ai mangé deux assiettes.",
-      "reponses": ["Métonymie", "Hyperbole", "Gradation", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il a lu tout Hugo.",
-      "reponses": ["Métonymie", "Comparaison", "Personnification", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Le Kremlin a réagi avec force.",
-      "reponses": ["Métonymie", "Hyperbole", "Gradation", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Elle aime le Bordeaux.",
-      "reponses": ["Métonymie", "Comparaison", "Oxymore", "Euphémisme"],
-      "correct": 0
-    },
-    {
-      "question": "Le tribunal a tranché.",
-      "reponses": ["Métonymie", "Personnification", "Hyperbole", "Oxymore"],
-      "correct": 0
-    },
+		{
+			"question": "J’ai mangé deux assiettes.",
+			"reponses": ["Métonymie", "Hyperbole", "Gradation", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il a lu tout Hugo.",
+			"reponses": ["Métonymie", "Comparaison", "Personnification", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Le Kremlin a réagi avec force.",
+			"reponses": ["Métonymie", "Hyperbole", "Gradation", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Elle aime le Bordeaux.",
+			"reponses": ["Métonymie", "Comparaison", "Oxymore", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "Le tribunal a tranché.",
+			"reponses": ["Métonymie", "Personnification", "Hyperbole", "Oxymore"],
+			"correct": 0
+		},
 
-    {
-      "question": "J’ai acheté un Picasso.",
-      "reponses": ["Métonymie", "Hyperbole", "Gradation", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "La présidence a pris position.",
-      "reponses": ["Métonymie", "Comparaison", "Ellipse", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il boit un Bourgogne.",
-      "reponses": ["Métonymie", "Gradation", "Ironie", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "J’ai lu tout Hugo.",
-      "reponses": ["Métonymie", "Comparaison", "Personnification", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "La justice a parlé en sa faveur.",
-      "reponses": ["Métonymie", "Ironie", "Hyperbole", "Ellipse"],
-      "correct": 0
-    },
+		{
+			"question": "J’ai acheté un Picasso.",
+			"reponses": ["Métonymie", "Hyperbole", "Gradation", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "La présidence a pris position.",
+			"reponses": ["Métonymie", "Comparaison", "Ellipse", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il boit un Bourgogne.",
+			"reponses": ["Métonymie", "Gradation", "Ironie", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "J’ai lu tout Hugo.",
+			"reponses": ["Métonymie", "Comparaison", "Personnification", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "La justice a parlé en sa faveur.",
+			"reponses": ["Métonymie", "Ironie", "Hyperbole", "Ellipse"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il possède un Rembrandt.",
-      "reponses": ["Métonymie", "Comparaison", "Oxymore", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Le gouvernement a communiqué.",
-      "reponses": ["Métonymie", "Personnification", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Boire une chope.",
-      "reponses": ["Métonymie", "Gradation", "Hyperbole", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Lire du Molière.",
-      "reponses": ["Métonymie", "Comparaison", "Personnification", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "La cour a jugé l’affaire.",
-      "reponses": ["Métonymie", "Ironie", "Oxymore", "Gradation"],
-      "correct": 0
-    },
+		{
+			"question": "Il possède un Rembrandt.",
+			"reponses": ["Métonymie", "Comparaison", "Oxymore", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Le gouvernement a communiqué.",
+			"reponses": ["Métonymie", "Personnification", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Boire une chope.",
+			"reponses": ["Métonymie", "Gradation", "Hyperbole", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Lire du Molière.",
+			"reponses": ["Métonymie", "Comparaison", "Personnification", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "La cour a jugé l’affaire.",
+			"reponses": ["Métonymie", "Ironie", "Oxymore", "Gradation"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il a acheté un Monet.",
-      "reponses": ["Métonymie", "Comparaison", "Gradation", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Le trône a tranché.",
-      "reponses": ["Métonymie", "Personnification", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "J’ai bu trois verres.",
-      "reponses": ["Métonymie", "Hyperbole", "Gradation", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Lire Victor Hugo est passionnant.",
-      "reponses": ["Métonymie", "Comparaison", "Oxymore", "Personnification"],
-      "correct": 0
-    },
-    {
-      "question": "Le roi a décidé de nouvelles lois.",
-      "reponses": ["Métonymie", "Ironie", "Hyperbole", "Ellipse"],
-      "correct": 0
-    }
-  ]
+		{
+			"question": "Il a acheté un Monet.",
+			"reponses": ["Métonymie", "Comparaison", "Gradation", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Le trône a tranché.",
+			"reponses": ["Métonymie", "Personnification", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "J’ai bu trois verres.",
+			"reponses": ["Métonymie", "Hyperbole", "Gradation", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Lire Victor Hugo est passionnant.",
+			"reponses": ["Métonymie", "Comparaison", "Oxymore", "Personnification"],
+			"correct": 0
+		},
+		{
+			"question": "Le roi a décidé de nouvelles lois.",
+			"reponses": ["Métonymie", "Ironie", "Hyperbole", "Ellipse"],
+			"correct": 0
+		}
+	]
 }

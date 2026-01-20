@@ -1,266 +1,266 @@
 {
-  "id": "hypallage",
-  "titre": "Hypallage",
-  "description": "Exerce-toi à reconnaître l’hypallage à travers 100 exemples variés.",
-  "questions": [
-    {
-      "question": "Il s’endormit d’un sommeil lourd sous la lampe fatiguée.",
-      "reponses": ["Hypallage", "Métaphore", "Personnification", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle traversa la rue dans un silence inquiet.",
-      "reponses": ["Hypallage", "Comparaison", "Anaphore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il errait dans la nuit hostile.",
-      "reponses": ["Hypallage", "Métaphore", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Nous avons partagé un repas joyeux sous un plafond bas.",
-      "reponses": ["Hypallage", "Oxymore", "Comparaison", "Asyndète"],
-      "correct": 0
-    },
-    {
-      "question": "Il s’assit sur un banc pensif.",
-      "reponses": ["Hypallage", "Personnification", "Métaphore", "Ellipse"],
-      "correct": 0
-    },
+	"id": "hypallage",
+	"titre": "Hypallage",
+	"description": "Exerce-toi à reconnaître l’hypallage à travers 100 exemples variés.",
+	"questions": [
+		{
+			"question": "Il s’endormit d’un sommeil lourd sous la lampe fatiguée.",
+			"reponses": ["Hypallage", "Métaphore", "Personnification", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle traversa la rue dans un silence inquiet.",
+			"reponses": ["Hypallage", "Comparaison", "Anaphore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il errait dans la nuit hostile.",
+			"reponses": ["Hypallage", "Métaphore", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Nous avons partagé un repas joyeux sous un plafond bas.",
+			"reponses": ["Hypallage", "Oxymore", "Comparaison", "Asyndète"],
+			"correct": 0
+		},
+		{
+			"question": "Il s’assit sur un banc pensif.",
+			"reponses": ["Hypallage", "Personnification", "Métaphore", "Ellipse"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle écrivit une lettre tremblante.",
-      "reponses": ["Hypallage", "Comparaison", "Hyperbole", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Ils avancèrent dans une foule indifférente.",
-      "reponses": ["Hypallage", "Métaphore", "Oxymore", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Il passa une nuit blanche et agitée.",
-      "reponses": ["Hypallage", "Gradation", "Comparaison", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Nous marchions sous un ciel menaçant.",
-      "reponses": ["Hypallage", "Personnification", "Métaphore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Elle répondit d’une voix hésitante.",
-      "reponses": ["Hypallage", "Comparaison", "Oxymore", "Anaphore"],
-      "correct": 0
-    },
+		{
+			"question": "Elle écrivit une lettre tremblante.",
+			"reponses": ["Hypallage", "Comparaison", "Hyperbole", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Ils avancèrent dans une foule indifférente.",
+			"reponses": ["Hypallage", "Métaphore", "Oxymore", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Il passa une nuit blanche et agitée.",
+			"reponses": ["Hypallage", "Gradation", "Comparaison", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Nous marchions sous un ciel menaçant.",
+			"reponses": ["Hypallage", "Personnification", "Métaphore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Elle répondit d’une voix hésitante.",
+			"reponses": ["Hypallage", "Comparaison", "Oxymore", "Anaphore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il s’enfonça dans un silence pesant.",
-      "reponses": ["Hypallage", "Métaphore", "Hyperbole", "Asyndète"],
-      "correct": 0
-    },
-    {
-      "question": "Ils vivaient dans une pauvreté honteuse.",
-      "reponses": ["Hypallage", "Oxymore", "Ironie", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Elle posa un regard inquiet sur la porte.",
-      "reponses": ["Hypallage", "Personnification", "Métaphore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il traversa une attente interminable.",
-      "reponses": ["Hypallage", "Hyperbole", "Comparaison", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Nous avons connu des jours heureux et insouciants.",
-      "reponses": ["Hypallage", "Oxymore", "Anaphore", "Ironie"],
-      "correct": 0
-    },
+		{
+			"question": "Il s’enfonça dans un silence pesant.",
+			"reponses": ["Hypallage", "Métaphore", "Hyperbole", "Asyndète"],
+			"correct": 0
+		},
+		{
+			"question": "Ils vivaient dans une pauvreté honteuse.",
+			"reponses": ["Hypallage", "Oxymore", "Ironie", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Elle posa un regard inquiet sur la porte.",
+			"reponses": ["Hypallage", "Personnification", "Métaphore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il traversa une attente interminable.",
+			"reponses": ["Hypallage", "Hyperbole", "Comparaison", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Nous avons connu des jours heureux et insouciants.",
+			"reponses": ["Hypallage", "Oxymore", "Anaphore", "Ironie"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle s’enveloppa dans un manteau triste.",
-      "reponses": ["Hypallage", "Personnification", "Métaphore", "Comparaison"],
-      "correct": 0
-    },
-    {
-      "question": "Il lança un sourire gêné.",
-      "reponses": ["Hypallage", "Oxymore", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Ils habitaient une maison silencieuse.",
-      "reponses": ["Hypallage", "Personnification", "Métaphore", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Elle relut ses pensées confuses.",
-      "reponses": ["Hypallage", "Comparaison", "Oxymore", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Il fit un pas hésitant.",
-      "reponses": ["Hypallage", "Gradation", "Comparaison", "Ironie"],
-      "correct": 0
-    },
+		{
+			"question": "Elle s’enveloppa dans un manteau triste.",
+			"reponses": ["Hypallage", "Personnification", "Métaphore", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "Il lança un sourire gêné.",
+			"reponses": ["Hypallage", "Oxymore", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Ils habitaient une maison silencieuse.",
+			"reponses": ["Hypallage", "Personnification", "Métaphore", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Elle relut ses pensées confuses.",
+			"reponses": ["Hypallage", "Comparaison", "Oxymore", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Il fit un pas hésitant.",
+			"reponses": ["Hypallage", "Gradation", "Comparaison", "Ironie"],
+			"correct": 0
+		},
 
-    {
-      "question": "Nous avons traversé une période sombre.",
-      "reponses": ["Hypallage", "Métaphore", "Oxymore", "Asyndète"],
-      "correct": 0
-    },
-    {
-      "question": "Elle dormait d’un sommeil paisible.",
-      "reponses": ["Hypallage", "Comparaison", "Hyperbole", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il se perdit dans une réflexion profonde.",
-      "reponses": ["Hypallage", "Métaphore", "Anaphore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Ils partagèrent un regard complice.",
-      "reponses": ["Hypallage", "Personnification", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle avança d’un pas décidé.",
-      "reponses": ["Hypallage", "Gradation", "Ironie", "Ellipse"],
-      "correct": 0
-    },
+		{
+			"question": "Nous avons traversé une période sombre.",
+			"reponses": ["Hypallage", "Métaphore", "Oxymore", "Asyndète"],
+			"correct": 0
+		},
+		{
+			"question": "Elle dormait d’un sommeil paisible.",
+			"reponses": ["Hypallage", "Comparaison", "Hyperbole", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il se perdit dans une réflexion profonde.",
+			"reponses": ["Hypallage", "Métaphore", "Anaphore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Ils partagèrent un regard complice.",
+			"reponses": ["Hypallage", "Personnification", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle avança d’un pas décidé.",
+			"reponses": ["Hypallage", "Gradation", "Ironie", "Ellipse"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il écrivit d’une main nerveuse.",
-      "reponses": ["Hypallage", "Comparaison", "Métaphore", "Hyperbole"],
-      "correct": 0
-    },
-    {
-      "question": "Nous vivions des jours difficiles.",
-      "reponses": ["Hypallage", "Oxymore", "Ironie", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle lança une réponse sèche.",
-      "reponses": ["Hypallage", "Personnification", "Comparaison", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il traversa une solitude immense.",
-      "reponses": ["Hypallage", "Hyperbole", "Métaphore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Ils partaient vers un avenir incertain.",
-      "reponses": ["Hypallage", "Comparaison", "Oxymore", "Anaphore"],
-      "correct": 0
-    },
+		{
+			"question": "Il écrivit d’une main nerveuse.",
+			"reponses": ["Hypallage", "Comparaison", "Métaphore", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "Nous vivions des jours difficiles.",
+			"reponses": ["Hypallage", "Oxymore", "Ironie", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle lança une réponse sèche.",
+			"reponses": ["Hypallage", "Personnification", "Comparaison", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il traversa une solitude immense.",
+			"reponses": ["Hypallage", "Hyperbole", "Métaphore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Ils partaient vers un avenir incertain.",
+			"reponses": ["Hypallage", "Comparaison", "Oxymore", "Anaphore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle s’enferma dans un mutisme obstiné.",
-      "reponses": ["Hypallage", "Personnification", "Métaphore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il répondit par un silence gêné.",
-      "reponses": ["Hypallage", "Oxymore", "Comparaison", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Nous avons connu une victoire amère.",
-      "reponses": ["Hypallage", "Oxymore", "Métaphore", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle parcourait une lecture difficile.",
-      "reponses": ["Hypallage", "Comparaison", "Hyperbole", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il entra dans une colère froide.",
-      "reponses": ["Hypallage", "Oxymore", "Métaphore", "Ironie"],
-      "correct": 0
-    },
+		{
+			"question": "Elle s’enferma dans un mutisme obstiné.",
+			"reponses": ["Hypallage", "Personnification", "Métaphore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il répondit par un silence gêné.",
+			"reponses": ["Hypallage", "Oxymore", "Comparaison", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Nous avons connu une victoire amère.",
+			"reponses": ["Hypallage", "Oxymore", "Métaphore", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle parcourait une lecture difficile.",
+			"reponses": ["Hypallage", "Comparaison", "Hyperbole", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il entra dans une colère froide.",
+			"reponses": ["Hypallage", "Oxymore", "Métaphore", "Ironie"],
+			"correct": 0
+		},
 
-    {
-      "question": "Ils vivaient sous une menace constante.",
-      "reponses": ["Hypallage", "Hyperbole", "Comparaison", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle fit une remarque blessante.",
-      "reponses": ["Hypallage", "Personnification", "Ironie", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il avançait dans une fatigue extrême.",
-      "reponses": ["Hypallage", "Hyperbole", "Comparaison", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Nous avons traversé une attente angoissée.",
-      "reponses": ["Hypallage", "Métaphore", "Ironie", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle posa un geste maladroit.",
-      "reponses": ["Hypallage", "Comparaison", "Ellipse", "Hyperbole"],
-      "correct": 0
-    },
+		{
+			"question": "Ils vivaient sous une menace constante.",
+			"reponses": ["Hypallage", "Hyperbole", "Comparaison", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle fit une remarque blessante.",
+			"reponses": ["Hypallage", "Personnification", "Ironie", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il avançait dans une fatigue extrême.",
+			"reponses": ["Hypallage", "Hyperbole", "Comparaison", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Nous avons traversé une attente angoissée.",
+			"reponses": ["Hypallage", "Métaphore", "Ironie", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle posa un geste maladroit.",
+			"reponses": ["Hypallage", "Comparaison", "Ellipse", "Hyperbole"],
+			"correct": 0
+		},
 
-    {
-      "question": "Il se réfugia dans un sommeil inquiet.",
-      "reponses": ["Hypallage", "Oxymore", "Métaphore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Ils vivaient une jeunesse insouciante.",
-      "reponses": ["Hypallage", "Comparaison", "Anaphore", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Elle lança une parole cruelle.",
-      "reponses": ["Hypallage", "Personnification", "Ironie", "Oxymore"],
-      "correct": 0
-    },
-    {
-      "question": "Il avançait dans une lenteur pesante.",
-      "reponses": ["Hypallage", "Hyperbole", "Comparaison", "Gradation"],
-      "correct": 0
-    },
-    {
-      "question": "Nous avons subi un échec cuisant.",
-      "reponses": ["Hypallage", "Métaphore", "Oxymore", "Anaphore"],
-      "correct": 0
-    },
+		{
+			"question": "Il se réfugia dans un sommeil inquiet.",
+			"reponses": ["Hypallage", "Oxymore", "Métaphore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Ils vivaient une jeunesse insouciante.",
+			"reponses": ["Hypallage", "Comparaison", "Anaphore", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Elle lança une parole cruelle.",
+			"reponses": ["Hypallage", "Personnification", "Ironie", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "Il avançait dans une lenteur pesante.",
+			"reponses": ["Hypallage", "Hyperbole", "Comparaison", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "Nous avons subi un échec cuisant.",
+			"reponses": ["Hypallage", "Métaphore", "Oxymore", "Anaphore"],
+			"correct": 0
+		},
 
-    {
-      "question": "Elle vécut des heures interminables.",
-      "reponses": ["Hypallage", "Hyperbole", "Comparaison", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il entra dans une stupeur glacée.",
-      "reponses": ["Hypallage", "Oxymore", "Métaphore", "Ironie"],
-      "correct": 0
-    },
-    {
-      "question": "Ils partagèrent une joie silencieuse.",
-      "reponses": ["Hypallage", "Oxymore", "Comparaison", "Anaphore"],
-      "correct": 0
-    },
-    {
-      "question": "Elle écrivit d’une plume hésitante.",
-      "reponses": ["Hypallage", "Personnification", "Comparaison", "Ellipse"],
-      "correct": 0
-    },
-    {
-      "question": "Il se perdit dans une réflexion anxieuse.",
-      "reponses": ["Hypallage", "Métaphore", "Ironie", "Anaphore"],
-      "correct": 0
-    }
-  ]
+		{
+			"question": "Elle vécut des heures interminables.",
+			"reponses": ["Hypallage", "Hyperbole", "Comparaison", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il entra dans une stupeur glacée.",
+			"reponses": ["Hypallage", "Oxymore", "Métaphore", "Ironie"],
+			"correct": 0
+		},
+		{
+			"question": "Ils partagèrent une joie silencieuse.",
+			"reponses": ["Hypallage", "Oxymore", "Comparaison", "Anaphore"],
+			"correct": 0
+		},
+		{
+			"question": "Elle écrivit d’une plume hésitante.",
+			"reponses": ["Hypallage", "Personnification", "Comparaison", "Ellipse"],
+			"correct": 0
+		},
+		{
+			"question": "Il se perdit dans une réflexion anxieuse.",
+			"reponses": ["Hypallage", "Métaphore", "Ironie", "Anaphore"],
+			"correct": 0
+		}
+	]
 }

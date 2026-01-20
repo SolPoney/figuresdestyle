@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
-import { LegalLayoutComponent } from './legal-layout.component';
+import { Component } from "@angular/core";
+import { LegalLayoutComponent } from "./legal-layout.component";
 
 @Component({
-  selector: 'app-accessibilite',
-  standalone: true,
-  imports: [LegalLayoutComponent],
-  template: `
+	selector: "app-accessibilite",
+	standalone: true,
+	imports: [LegalLayoutComponent],
+	template: `
     <app-legal>
       <h1 class="text-4xl font-bold text-dark-text mb-8">
         Déclaration d'accessibilité
