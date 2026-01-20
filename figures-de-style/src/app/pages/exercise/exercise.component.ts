@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, ActivatedRoute, Router } from '@angular/router';
-import { ModuleService } from '../../services/module.service';
+import { FormsModule } from '@angular/forms';
+import { ModuleDataService } from '../../services/module-data.service';
 import { Question, Module } from '../../models/module.model';
 
 @Component({
   selector: 'app-exercise',
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, FormsModule],
   templateUrl: './exercise.component.html',
   styleUrl: './exercise.component.css',
 })
@@ -15,6 +16,7 @@ export class ExerciseComponent implements OnInit {
   moduleId: string = '';
   module?: Module;
   questions: Question[] = [];
+  allQuestions: Question[] = [];
   currentQuestionIndex: number = 0;
   currentQuestion?: Question;
   selectedAnswer: string = '';
@@ -23,23 +25,77 @@ export class ExerciseComponent implements OnInit {
     new Map();
   showResult: boolean = false;
   score: number = 0;
+  modulesConfig: any[] = [];
+  nbQuestionsOptions: number[] = [5, 10, 20, 50, 100, 0];
+  nbQuestions: number = 10;
+  isRevision: boolean = false;
 
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private moduleService: ModuleService
+    private moduleDataService: ModuleDataService
   ) {}
 
   ngOnInit(): void {
-    this.route.params.subscribe((params) => {
+    this.route.params.subscribe(async (params) => {
       this.moduleId = params['id'];
-      this.module = this.moduleService.getModuleById(this.moduleId);
-      this.questions = this.moduleService.getExercicesByModuleId(this.moduleId);
-
-      if (this.questions.length > 0) {
-        this.currentQuestion = this.questions[0];
-      }
+      await this.loadModulesConfig();
+      await this.loadQuestionsFromConfig(this.moduleId);
     });
+  }
+
+  async loadModulesConfig() {
+    const resp = await fetch('assets/data/modules-config.json');
+    this.modulesConfig = await resp.json();
+  }
+
+  async loadQuestionsFromConfig(moduleId: string) {
+    const idx = parseInt(moduleId, 10) - 1;
+    const config = this.modulesConfig[idx];
+    if (!config) {
+      this.questions = [];
+      return;
+    }
+    this.isRevision = config.type === 'revision';
+    let allQuestions: Question[] = [];
+    for (const fig of config.figures) {
+      try {
+        const resp = await fetch(`assets/data/${fig}.json`);
+        const data = await resp.json();
+        if (data.questions) {
+          allQuestions = allQuestions.concat(data.questions);
+        }
+      } catch (e) {}
+    }
+    this.allQuestions = this.shuffleArray(allQuestions);
+    this.setNbQuestions(this.nbQuestions);
+  }
+
+  setNbQuestions(count: number) {
+    // 0 = tout
+    if (count === 0 || count > this.allQuestions.length) {
+      this.questions = [...this.allQuestions];
+    } else {
+      this.questions = this.allQuestions.slice(0, count);
+    }
+    this.currentQuestionIndex = 0;
+    this.currentQuestion = this.questions[0];
+    this.answeredQuestions.clear();
+    this.showResult = false;
+    this.score = 0;
+    this.selectedAnswer = '';
+    this.showHint = false;
+  }
+
+  // Ancienne méthode supprimée, tout est géré par loadQuestionsFromConfig et setNbQuestions
+
+  shuffleArray<T>(array: T[]): T[] {
+    const arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
   }
 
   selectAnswer(answer: string): void {
@@ -75,7 +131,7 @@ export class ExerciseComponent implements OnInit {
     } else {
       this.showResult = true;
       // Sauvegarder le score
-      this.moduleService.saveModuleScore(
+      this.moduleDataService.saveModuleScore(
         this.moduleId,
         this.score,
         this.questions.length
@@ -97,17 +153,7 @@ export class ExerciseComponent implements OnInit {
   }
 
   restartExercise(): void {
-    this.currentQuestionIndex = 0;
-    this.selectedAnswer = '';
-    this.showHint = false;
-    this.answeredQuestions.clear();
-    this.showResult = false;
-    this.score = 0;
-    // Recharger les questions (pour avoir une nouvelle randomisation)
-    this.questions = this.moduleService.getExercicesByModuleId(this.moduleId);
-    if (this.questions.length > 0) {
-      this.currentQuestion = this.questions[0];
-    }
+    this.setNbQuestions(this.nbQuestions);
   }
 
   goToModule(): void {

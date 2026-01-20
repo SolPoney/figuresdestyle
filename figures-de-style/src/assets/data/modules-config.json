@@ -1,0 +1,25 @@
+
+[
+  { "id": "1", "type": "apprentissage", "figures": ["comparaison", "metaphore", "allegorie", "personnification"], "titre": "Figures de ressemblance", "description": "Découvre les figures qui rapprochent ou personnifient." },
+  { "id": "2", "type": "apprentissage", "figures": ["anaphore", "epiphore", "gradation", "chiasme"], "titre": "Figures d’insistance et de répétition", "description": "Maîtrise les procédés de répétition et de progression." },
+  { "id": "3", "type": "revision", "figures": ["comparaison", "metaphore", "allegorie", "personnification", "anaphore", "epiphore", "gradation", "chiasme"], "titre": "Révision 1 : Les bases", "description": "Révise les 8 premières figures de style." },
+  { "id": "4", "type": "apprentissage", "figures": ["antithese", "oxymore", "paradoxe", "antiphrase"], "titre": "Figures d’opposition", "description": "Travaille les figures qui confrontent les idées." },
+  { "id": "5", "type": "apprentissage", "figures": ["hyperbole", "litote", "euphemisme", "anticlimax"], "titre": "Figures d’exagération et d’atténuation", "description": "Amplifie ou minimise le propos avec ces figures." },
+  { "id": "6", "type": "revision", "figures": ["antithese", "oxymore", "paradoxe", "antiphrase", "hyperbole", "litote", "euphemisme", "anticlimax"], "titre": "Révision 2 : Opposition et nuance", "description": "Consolide tes acquis sur l’opposition et l’atténuation." },
+  { "id": "7", "type": "apprentissage", "figures": ["metonymie", "synecdoque", "periphrase"], "titre": "Figures de substitution", "description": "Découvre les procédés de remplacement dans la langue." },
+  { "id": "8", "type": "apprentissage", "figures": ["alliteration", "assonance", "onomatopee", "synesthesie"], "titre": "Figures sonores", "description": "Joue avec les sons et la musicalité des mots." },
+  { "id": "9", "type": "revision", "figures": ["metonymie", "synecdoque", "periphrase", "alliteration", "assonance", "onomatopee", "synesthesie"], "titre": "Révision 3 : Substitution et sonorités", "description": "Teste-toi sur les figures de remplacement et de son." },
+  { "id": "10", "type": "apprentissage", "figures": ["ellipse", "zeugma", "parallellisme", "hyperbate"], "titre": "Figures de construction", "description": "Maîtrise les figures qui jouent sur la structure de la phrase." },
+  { "id": "11", "type": "apprentissage", "figures": ["animisme", "hypallage", "epanadiplose", "polysyndete", "asyndete", "climax"], "titre": "Figures rares et complexes", "description": "Découvre des figures moins courantes et plus subtiles." },
+  { "id": "12", "type": "revision", "figures": ["ellipse", "zeugma", "parallellisme", "hyperbate", "animisme", "hypallage", "epanadiplose", "polysyndete", "asyndete", "climax"], "titre": "Révision 4 : Construction et raretés", "description": "Révise les figures de structure et les plus rares." },
+  { "id": "13", "type": "piege", "figures": ["metaphore", "comparaison"], "titre": "Piège : Métaphore vs Comparaison", "description": "Distingue ces deux figures souvent confondues." },
+  { "id": "14", "type": "piege", "figures": ["metonymie", "synecdoque"], "titre": "Piège : Métonymie vs Synecdoque", "description": "Ne confonds plus ces deux procédés de substitution." },
+  { "id": "15", "type": "piege", "figures": ["assonance", "alliteration"], "titre": "Piège : Assonance vs Allitération", "description": "Fais la différence entre répétition de sons et de lettres." },
+  { "id": "16", "type": "thematique", "figures": ["hyperbole", "litote", "euphemisme", "anticlimax", "climax"], "titre": "Thématique : Exagération et atténuation", "description": "Travaille les figures qui amplifient ou minimisent le propos." },
+  { "id": "17", "type": "thematique", "figures": ["antithese", "oxymore", "paradoxe", "chiasme"], "titre": "Thématique : Opposition", "description": "Maîtrise les procédés qui confrontent les idées." },
+  { "id": "18", "type": "thematique", "figures": ["anaphore", "epiphore", "parallellisme", "epanadiplose"], "titre": "Thématique : Répétition et insistance", "description": "Repère les effets de répétition dans le texte." },
+  { "id": "19", "type": "thematique", "figures": ["alliteration", "assonance", "onomatopee", "synesthesie"], "titre": "Thématique : Sonorités et musicalité", "description": "Joue avec les sons et la musicalité de la langue." },
+  { "id": "20", "type": "express", "figures": ["random"], "titre": "Quiz express : 5 questions aléatoires", "description": "Un mini-challenge pour réviser rapidement." },
+  { "id": "21", "type": "aleatoire", "figures": ["random"], "titre": "Quiz aléatoire : toutes figures", "description": "Un module qui pioche dans toutes les figures pour un entraînement global." }
+
+

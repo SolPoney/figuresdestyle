@@ -1,0 +1,50 @@
+{
+  "id": "1",
+  "titre": "Quiz Mélangé : Métaphore, Hyperbole, Personnification, Comparaison",
+  "description": "Ce module pioche aléatoirement des questions parmi les figures de style : métaphore, hyperbole, personnification et comparaison.",
+  "figures": [
+    {
+      "nom": "Métaphore",
+      "definition": "Comparaison sans outil de comparaison.",
+      "exemple": "Cet homme est un lion."
+    },
+    {
+      "nom": "Hyperbole",
+      "definition": "Exagération volontaire de la réalité.",
+      "exemple": "Je meurs de faim."
+    },
+    {
+      "nom": "Personnification",
+      "definition": "Attribution de caractéristiques humaines à un objet ou un animal.",
+      "exemple": "Le vent hurlait dans les arbres."
+    },
+    {
+      "nom": "Comparaison",
+      "definition": "Rapprochement de deux éléments avec un outil de comparaison.",
+      "exemple": "Il est courageux comme un lion."
+    }
+  ],
+  "isRecap": false,
+  "questions": [
+    {
+      "question": "Je meurs de faim.",
+      "reponses": ["Hyperbole", "Euphémisme", "Ironie", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Le vent hurlait dans les arbres.",
+      "reponses": ["Personnification", "Métaphore", "Hyperbole", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Il est courageux comme un lion.",
+      "reponses": ["Comparaison", "Métaphore", "Hyperbole", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Cet homme est un lion.",
+      "reponses": ["Métaphore", "Comparaison", "Hyperbole", "Personnification"],
+      "correct": 0
+    }
+  ]
+}

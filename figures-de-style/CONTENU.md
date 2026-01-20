@@ -212,14 +212,40 @@ Les exemples proviennent de :
 
 ## Maintenir le contenu
 
-Pour ajouter ou modifier des figures de style :
+## Nouvelle architecture modulaire (2026)
 
-1. Ouvrir `/src/app/services/module.service.ts`
-2. Modifier l'array `modules` pour les définitions et exemples
-3. Modifier l'array `exercices` pour les questions
-4. Les exemples sont séparés par `|` (pipe avec espaces)
-5. Chaque figure doit avoir au minimum 15 exemples
+Pour ajouter ou modifier des figures de style ou des questions :
+
+1. Ouvre le dossier `src/assets/data/`.
+2. Chaque module possède son propre fichier JSON (ex : `module-1.json`).
+3. Structure d’un fichier JSON :
+
+```json
+{
+  "id": "1",
+  "titre": "Module 1 : Substitution et représentation",
+  "description": "Figures de style basées sur la substitution d’un terme par un autre.",
+  "figures": [
+    { "nom": "Métaphore", "definition": "...", "exemple": "..." },
+    { "nom": "Comparaison", "definition": "...", "exemple": "..." }
+  ],
+  "questions": [
+    {
+      "question": "Le vent hurle dans la nuit",
+      "reponses": ["Métaphore", "Personnification", "Hyperbole", "Comparaison"],
+      "correct": 1,
+      "explication": "Le vent reçoit une caractéristique humaine (hurler)",
+      "indice": "On attribue un comportement humain à un élément naturel."
+    }
+  ]
+}
+```
+
+4. Pour ajouter un module, crée un nouveau fichier `module-X.json` et remplis-le selon ce modèle.
+5. Pour modifier, édite simplement le fichier correspondant.
+
+> Plus besoin de recompiler l’application pour ajouter du contenu !
 
 ---
 
-Dernière mise à jour : 23 décembre 2025
+Dernière mise à jour : 30 décembre 2025

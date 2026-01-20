@@ -53,7 +53,7 @@ cp .env.example .env
 ```bash
 # Démarrer PostgreSQL
 docker run --name postgres-figures \
-  -e POSTGRES_PASSWORD=postgres \
+  -e POSTGRES_PASSWORD=<votre_mot_de_passe_postgres> \
   -e POSTGRES_DB=figures_db \
   -p 5432:5432 \
   -d postgres:16
@@ -109,7 +109,7 @@ Content-Type: application/json
 
 {
   "email": "user@example.com",
-  "password": "password123"
+  "password": "<votre_mot_de_passe>"
 }
 ```
 
@@ -128,15 +128,19 @@ Content-Type: application/json
 
 ## 🔐 Authentification
 
-Le système utilise **JWT** (JSON Web Tokens).
+Le système utilise **JWT** (JSON Web Tokens) et les mots de passe sont hashés avec **bcrypt** (paramétrable).
 
 ### Flow d'authentification
 
 1. **Signup/Login** → Le serveur retourne un token JWT
 2. **Requêtes protégées** → Envoyer le token dans le header :
    ```
-   Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+   Authorization: Bearer <VOTRE_JWT_TOKEN>
    ```
+
+## ⚠️ AVERTISSEMENT SÉCURITÉ
+
+Ne partagez jamais vos clés, tokens ou mots de passe sensibles. Utilisez les fichiers `.env.example` pour la configuration. Consultez le fichier `SECURITY.md` pour les bonnes pratiques et la gestion des secrets.
 
 ## 💳 Webhooks Stripe
 

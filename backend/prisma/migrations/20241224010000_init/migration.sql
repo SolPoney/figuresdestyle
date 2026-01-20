@@ -1,7 +1,7 @@
--- CreateEnum
 CREATE TYPE "PlanType" AS ENUM ('FREE', 'STUDENT', 'TEACHER');
+-- CreateEnum
+CREATE TYPE "ActivityType" AS ENUM ('signup', 'login', 'purchase', 'other');
 
--- CreateTable
 CREATE TABLE "User" (
     "id" TEXT NOT NULL,
     "email" TEXT NOT NULL,
@@ -53,10 +53,9 @@ CREATE TABLE "ContactMessage" (
     CONSTRAINT "ContactMessage_pkey" PRIMARY KEY ("id")
 );
 
--- CreateTable
 CREATE TABLE "ActivityLog" (
     "id" TEXT NOT NULL,
-    "type" TEXT NOT NULL,
+    "type" "ActivityType" NOT NULL,
     "userId" TEXT,
     "email" TEXT,
     "details" TEXT,

@@ -1,0 +1,151 @@
+{
+  "id": "synecdoque",
+  "titre": "Synecdoque",
+  "description": "Exerce-toi à reconnaître la synecdoque à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "Il a acheté un toit pour sa famille.",
+      "reponses": ["Synecdoque", "Métaphore", "Personnification", "Hyperbole"],
+      "correct": 0,
+      "indice": "On désigne une partie pour le tout ou inversement."
+    },
+    {
+      "question": "Toutes les voiles disparurent à l’horizon.",
+      "reponses": ["Synecdoque", "Métaphore", "Oxymore", "Comparaison"],
+      "correct": 0,
+      "indice": "Un élément (voile) représente l'ensemble (bateau)."
+    },
+    {
+      "question": "Il a mis les voiles pour partir en voyage.",
+      "reponses": ["Synecdoque", "Euphémisme", "Hyperbole", "Ironie"],
+      "correct": 0,
+      "indice": "On utilise une partie pour désigner l'ensemble."
+    },
+    {
+      "question": "Il a cent têtes à nourrir.",
+      "reponses": ["Synecdoque", "Hyperbole", "Gradation", "Parallélisme"],
+      "correct": 0,
+      "indice": "La partie (têtes) désigne l'ensemble des personnes."
+    },
+    {
+      "question": "Les États se sont entendus sur le commerce.",
+      "reponses": ["Synecdoque", "Métaphore", "Personnification", "Oxymore"],
+      "correct": 0,
+      "indice": "Le tout (États) désigne les représentants."
+    },
+
+    {
+      "question": "La France a remporté la coupe du monde.",
+      "reponses": ["Synecdoque", "Métaphore", "Hyperbole", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Les mains dans la salle ont applaudi.",
+      "reponses": [
+        "Synecdoque",
+        "Personnification",
+        "Gradation",
+        "Comparaison"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Il a mis un toit sur sa tête.",
+      "reponses": ["Synecdoque", "Euphémisme", "Oxymore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Les voiles glissaient sur la mer.",
+      "reponses": ["Synecdoque", "Onomatopée", "Comparaison", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il a cent âmes à protéger.",
+      "reponses": ["Synecdoque", "Gradation", "Hyperbole", "Oxymore"],
+      "correct": 0
+    },
+
+    {
+      "question": "Le fer gouverne le monde.",
+      "reponses": ["Synecdoque", "Métaphore", "Personnification", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Les voiles disparurent dans le lointain.",
+      "reponses": ["Synecdoque", "Gradation", "Comparaison", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Il a deux bras de plus pour le travail.",
+      "reponses": ["Synecdoque", "Hyperbole", "Parallélisme", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "La couronne a parlé.",
+      "reponses": ["Synecdoque", "Personnification", "Gradation", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Les roues ont quitté la route.",
+      "reponses": ["Synecdoque", "Comparaison", "Oxymore", "Onomatopée"],
+      "correct": 0
+    },
+
+    {
+      "question": "Il a un toit au-dessus de la tête.",
+      "reponses": ["Synecdoque", "Ironie", "Gradation", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Les voiles étaient nombreuses sur l’océan.",
+      "reponses": ["Synecdoque", "Oxymore", "Comparaison", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Il a cent yeux sur son domaine.",
+      "reponses": ["Synecdoque", "Hyperbole", "Gradation", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La couronne a pris une décision importante.",
+      "reponses": ["Synecdoque", "Personnification", "Comparaison", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Les voiles glissaient sur les flots.",
+      "reponses": ["Synecdoque", "Gradation", "Oxymore", "Onomatopée"],
+      "correct": 0
+    },
+
+    {
+      "question": "Le fer est puissant dans ce pays.",
+      "reponses": [
+        "Synecdoque",
+        "Hyperbole",
+        "Personnification",
+        "Comparaison"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Il a mis des bras à l’œuvre.",
+      "reponses": ["Synecdoque", "Gradation", "Oxymore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La couronne impose ses lois.",
+      "reponses": ["Synecdoque", "Personnification", "Ironie", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Les voiles naviguaient sur l’eau.",
+      "reponses": ["Synecdoque", "Gradation", "Oxymore", "Onomatopée"],
+      "correct": 0
+    },
+    {
+      "question": "Il a nourri cent bouches.",
+      "reponses": ["Synecdoque", "Hyperbole", "Gradation", "Ellipse"],
+      "correct": 0
+    }
+  ]
+}

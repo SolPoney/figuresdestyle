@@ -1,0 +1,31 @@
+{
+  "id": "metaphore",
+  "titre": "Métaphore",
+  "description": "Exerce-toi à reconnaître la métaphore à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "Cet homme est un lion.",
+      "reponses": ["Métaphore", "Comparaison", "Hyperbole", "Personnification"],
+      "correct": 0,
+      "indice": "Il n'y a pas d'outil de comparaison explicite."
+    },
+    {
+      "question": "La vie est un voyage.",
+      "reponses": ["Métaphore", "Comparaison", "Allégorie", "Oxymore"],
+      "correct": 0,
+      "indice": "On assimile la vie à un voyage sans 'comme'."
+    },
+    {
+      "question": "Le temps, ce voleur silencieux.",
+      "reponses": ["Métaphore", "Personnification", "Hyperbole", "Comparaison"],
+      "correct": 0,
+      "indice": "Le temps est comparé à un voleur."
+    },
+    {
+      "question": "Un océan de tristesse envahit son cœur.",
+      "reponses": ["Métaphore", "Hyperbole", "Comparaison", "Personnification"],
+      "correct": 0,
+      "indice": "La tristesse est assimilée à un océan."
+    }
+  ]
+}

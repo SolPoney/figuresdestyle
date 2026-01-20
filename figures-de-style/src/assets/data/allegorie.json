@@ -1,0 +1,487 @@
+{
+  "id": "allegorie",
+  "titre": "Allégorie",
+  "description": "Exerce-toi à reconnaître l'allégorie à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "La Justice est représentée les yeux bandés, tenant une balance et un glaive",
+      "reponses": ["Allégorie", "Symbole", "Personnification", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La Mort chevauche un cheval pâle",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le Temps est un vieillard ailé portant une faux",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Liberté guide le peuple, tenant le drapeau tricolore",
+      "reponses": ["Allégorie", "Personnification", "Symbole", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La Vérité sort nue du puits",
+      "reponses": ["Allégorie", "Métaphore", "Personnification", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Fortune tourne sa roue aveuglément",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Amour est un enfant ailé portant arc et flèches",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Guerre chevauche un cheval rouge, semant la destruction",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Paix est une colombe portant un rameau d'olivier",
+      "reponses": ["Allégorie", "Symbole", "Métaphore", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "La Prudence tient un miroir et un serpent",
+      "reponses": ["Allégorie", "Symbole", "Personnification", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "L'Espérance est représentée par une ancre",
+      "reponses": ["Allégorie", "Symbole", "Métaphore", "Métonymie"],
+      "correct": 0
+    },
+    {
+      "question": "La Foi tient une croix et lève les yeux vers le ciel",
+      "reponses": ["Allégorie", "Personnification", "Symbole", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La Charité nourrit des enfants et tend la main aux pauvres",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Vanité se mire dans un miroir entourée de richesses éphémères",
+      "reponses": ["Allégorie", "Personnification", "Symbole", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La Mélancolie est assise, la tête dans la main",
+      "reponses": ["Allégorie", "Personnification", "Symbole", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La Renommée sonne de la trompette et porte des ailes",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Victoire couronne les vainqueurs de lauriers",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Métonymie"],
+      "correct": 0
+    },
+    {
+      "question": "La Discorde jette une pomme d'or entre les déesses",
+      "reponses": ["Allégorie", "Personnification", "Allusion", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La Sagesse est une femme tenant un livre et une chouette",
+      "reponses": ["Allégorie", "Personnification", "Symbole", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La Luxure est représentée parmi des plaisirs sensuels",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Envie se ronge elle-même, dévorant son propre cœur",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Avarice compte et garde jalousement ses pièces d'or",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Colère se déchire les vêtements, le visage rouge de fureur",
+      "reponses": ["Allégorie", "Personnification", "Hyperbole", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La Paresse dort profondément, abandonnant tous ses devoirs",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Orgueil marche la tête haute, méprisant tout",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Gourmandise festoie sans retenue",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Mort fauche indistinctement riches et pauvres",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "Le Destin file le fil de nos vies",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Nuit déploie son voile étoilé sur le monde",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Poésie"],
+      "correct": 0
+    },
+    {
+      "question": "L'Aurore ouvre les portes du jour avec ses doigts de rose",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Poésie"],
+      "correct": 0
+    },
+    {
+      "question": "La Nature se réveille au printemps, parée de fleurs",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Tristesse voile de noir toute chose",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Joie danse et chante, illuminant tout",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Terreur glace le sang et paralyse les membres",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Pitié verse des larmes sur les malheureux",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "Le Remords ronge l'âme du coupable",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "La Haine distille son poison",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Tentation murmure à l'oreille du pécheur",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Religieux"],
+      "correct": 0
+    },
+    {
+      "question": "La Vertu brille d'une lumière pure",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le Vice rampe dans l'ombre",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Gloire distribue des couronnes aux héros",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Métonymie"],
+      "correct": 0
+    },
+    {
+      "question": "L'Honneur porte une épée sans tache",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Trahison plante un poignard dans le dos",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Fidélité est un chien qui ne quitte jamais son maître",
+      "reponses": ["Allégorie", "Métaphore", "Symbole", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "L'Ingratitude mord la main qui l'a nourrie",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Proverbe"],
+      "correct": 0
+    },
+    {
+      "question": "La Reconnaissance embrasse les bienfaiteurs",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Ambition escalade sans relâche",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Humilité s'agenouille et baisse les yeux",
+      "reponses": ["Allégorie", "Personnification", "Symbole", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La Générosité ouvre largement ses mains",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Égoïsme serre tout contre son cœur",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Patience attend sereinement",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Impatience trépigne et s'agite",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Jalousie a le teint verdâtre",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Confiance tend la main sans crainte",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le Soupçon épie derrière chaque porte",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Flatterie distille un miel empoisonné",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La Franchise parle sans détour",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le Mensonge tisse une toile de tromperie",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Duplicité montre deux visages",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Sincérité ouvre son cœur",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Prudence regarde où elle met les pieds",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Proverbe"],
+      "correct": 0
+    },
+    {
+      "question": "La Témérité se jette tête baissée",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le Courage affronte le danger sans trembler",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "La Lâcheté fuit et se cache",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Force brise les chaînes",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Faiblesse ploie sous le fardeau",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Innocence est vêtue de blanc immaculé",
+      "reponses": ["Allégorie", "Personnification", "Symbole", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La Culpabilité porte des vêtements tachés",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Clémence pardonne et console",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Sévérité punit sans pitié",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Douceur adoucit toute chose",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La Dureté blesse et repousse",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Jeunesse bondit pleine d'ardeur",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Vieillesse s'appuie sur un bâton",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Enfance joue insouciante",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Maturité réfléchit avant d'agir",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le Printemps répand des fleurs",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Été brûle de mille feux",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Automne récolte les fruits mûrs",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Hiver glace tout de son souffle",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Santé rayonne de vigueur",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Maladie affaiblit et consume",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Vie court sans jamais s'arrêter",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Mort attend au bout du chemin",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "L'Abondance verse sa corne pleine de fruits",
+      "reponses": ["Allégorie", "Personnification", "Symbole", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La Misère tend une main vide",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Richesse étale ses trésors",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Pauvreté se couvre de haillons",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le Bonheur sourit à tous",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le Malheur accable et brise",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le Plaisir enivre et séduit",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Douleur déchire le cœur",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le Rire chasse les soucis",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "Les Pleurs lavent l'âme",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'Oubli efface tout",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Mémoire conserve fidèlement",
+      "reponses": ["Allégorie", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "synesthesie",
+  "titre": "Synesthésie",
+  "description": "Exerce-toi à reconnaître la synesthésie à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "Une mélodie douce comme un parfum de fleurs.",
+      "reponses": ["Synesthésie", "Métaphore", "Oxymore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Ses paroles avaient un goût amer.",
+      "reponses": ["Synesthésie", "Personnification", "Ironie", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "La lumière avait une saveur sucrée.",
+      "reponses": ["Synesthésie", "Oxymore", "Hyperbole", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Un rouge criard résonnait dans la pièce.",
+      "reponses": [
+        "Synesthésie",
+        "Gradation",
+        "Personnification",
+        "Euphémisme"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Ses paroles étaient douces comme du velours.",
+      "reponses": ["Synesthésie", "Comparaison", "Hyperbole", "Oxymore"],
+      "correct": 0
+    },
+
+    {
+      "question": "Le parfum de la rose chantait dans l’air.",
+      "reponses": ["Synesthésie", "Personnification", "Gradation", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "La couleur du vin avait un goût amer.",
+      "reponses": ["Synesthésie", "Hyperbole", "Oxymore", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Le vent frais avait un parfum de lavande.",
+      "reponses": ["Synesthésie", "Personnification", "Ironie", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Sa voix rouge me faisait frissonner.",
+      "reponses": ["Synesthésie", "Oxymore", "Comparaison", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Une note douce flottait dans la lumière.",
+      "reponses": ["Synesthésie", "Personnification", "Gradation", "Litote"],
+      "correct": 0
+    },
+
+    {
+      "question": "Le parfum du jasmin était lumineux.",
+      "reponses": ["Synesthésie", "Oxymore", "Hyperbole", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Ses mots chauds me caressaient l’âme.",
+      "reponses": ["Synesthésie", "Personnification", "Gradation", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Une couleur douce s’échappait de la peinture.",
+      "reponses": ["Synesthésie", "Oxymore", "Comparaison", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le son des cloches était acide.",
+      "reponses": ["Synesthésie", "Hyperbole", "Gradation", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La musique avait un goût sucré.",
+      "reponses": ["Synesthésie", "Comparaison", "Personnification", "Litote"],
+      "correct": 0
+    },
+
+    {
+      "question": "Les couleurs parlaient à travers les parfums.",
+      "reponses": ["Synesthésie", "Gradation", "Oxymore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Le parfum de la mer chantait doucement.",
+      "reponses": ["Synesthésie", "Personnification", "Hyperbole", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La lumière avait un goût amer de nostalgie.",
+      "reponses": ["Synesthésie", "Gradation", "Comparaison", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Ses paroles chaudes brillaient dans l’air.",
+      "reponses": ["Synesthésie", "Personnification", "Oxymore", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Un parfum sucré flottait dans la musique.",
+      "reponses": ["Synesthésie", "Oxymore", "Comparaison", "Hyperbole"],
+      "correct": 0
+    },
+
+    {
+      "question": "Les couleurs murmuraient dans la lumière.",
+      "reponses": ["Synesthésie", "Personnification", "Gradation", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Le goût de ses mots était amer.",
+      "reponses": ["Synesthésie", "Hyperbole", "Comparaison", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Une note parfumée planait dans l’air.",
+      "reponses": ["Synesthésie", "Personnification", "Gradation", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La lumière rugissait avec un goût sucré.",
+      "reponses": ["Synesthésie", "Oxymore", "Ironie", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le parfum chaud de la fleur brillait.",
+      "reponses": [
+        "Synesthésie",
+        "Personnification",
+        "Gradation",
+        "Comparaison"
+      ],
+      "correct": 0
+    }
+  ]
+}

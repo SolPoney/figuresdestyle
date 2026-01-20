@@ -1,0 +1,146 @@
+{
+  "id": "parallelisme",
+  "titre": "Parallélisme",
+  "description": "Exerce-toi à reconnaître le parallélisme à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "Il aime courir, il aime sauter, il aime nager.",
+      "reponses": ["Parallélisme", "Gradation", "Oxymore", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "Je suis venu, j’ai vu, j’ai vaincu.",
+      "reponses": ["Parallélisme", "Hyperbole", "Ellipse", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Elle rit sans joie, elle parle sans cœur.",
+      "reponses": ["Parallélisme", "Antithèse", "Ironie", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Ils partaient à l’aube, ils rentraient au crépuscule.",
+      "reponses": ["Parallélisme", "Gradation", "Hyperbole", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Il rêve de gloire, il espère la fortune, il cherche la paix.",
+      "reponses": ["Parallélisme", "Euphémisme", "Oxymore", "Comparaison"],
+      "correct": 0
+    },
+
+    {
+      "question": "Elle court dans le parc, elle court sur la plage, elle court en ville.",
+      "reponses": ["Parallélisme", "Gradation", "Ellipse", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Il parle doucement, il écoute attentivement, il observe calmement.",
+      "reponses": [
+        "Parallélisme",
+        "Oxymore",
+        "Personnification",
+        "Comparaison"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Je chante la joie, je chante l’espoir, je chante l’amour.",
+      "reponses": ["Parallélisme", "Hyperbole", "Ironie", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Tu ris sans raison, tu pleures sans cause, tu parles sans fin.",
+      "reponses": ["Parallélisme", "Antithèse", "Oxymore", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "Il s’est levé tôt, il s’est couché tard, il a travaillé dur.",
+      "reponses": ["Parallélisme", "Gradation", "Hyperbole", "Ellipse"],
+      "correct": 0
+    },
+
+    {
+      "question": "Elle dessine avec soin, elle peint avec passion, elle crée avec talent.",
+      "reponses": ["Parallélisme", "Gradation", "Ironie", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Nous vivons pour aimer, nous aimons pour partager, nous partageons pour grandir.",
+      "reponses": ["Parallélisme", "Gradation", "Oxymore", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Il marche dans la nuit, il court dans le vent, il s’éveille au matin.",
+      "reponses": ["Parallélisme", "Personnification", "Hyperbole", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Elle chante des mots doux, elle chante des mots forts, elle chante des mots vrais.",
+      "reponses": ["Parallélisme", "Oxymore", "Gradation", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Il tombe, il se relève, il avance.",
+      "reponses": ["Parallélisme", "Hyperbole", "Ellipse", "Ironie"],
+      "correct": 0
+    },
+
+    {
+      "question": "Nous partons à l’est, nous marchons vers le nord, nous courons au sud.",
+      "reponses": ["Parallélisme", "Gradation", "Hyperbole", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Elle pleure de joie, elle rit de peine, elle chante de peur.",
+      "reponses": ["Parallélisme", "Oxymore", "Ironie", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Il aime les livres, il aime les films, il aime la musique.",
+      "reponses": ["Parallélisme", "Gradation", "Hyperbole", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Tu observes le ciel, tu observes la mer, tu observes la terre.",
+      "reponses": [
+        "Parallélisme",
+        "Personnification",
+        "Comparaison",
+        "Oxymore"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Nous pensons à l’avenir, nous rêvons du passé, nous vivons le présent.",
+      "reponses": ["Parallélisme", "Gradation", "Hyperbole", "Litote"],
+      "correct": 0
+    },
+
+    {
+      "question": "Il court sans s’arrêter, il travaille sans se reposer, il vit sans se plaindre.",
+      "reponses": ["Parallélisme", "Gradation", "Hyperbole", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Elle écrit avec patience, elle lit avec attention, elle réfléchit avec soin.",
+      "reponses": ["Parallélisme", "Oxymore", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Nous marchons ensemble, nous rêvons ensemble, nous vivons ensemble.",
+      "reponses": ["Parallélisme", "Gradation", "Hyperbole", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il pense à son passé, il vit son présent, il rêve de son futur.",
+      "reponses": ["Parallélisme", "Gradation", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Elle parle avec douceur, elle agit avec fermeté, elle aime avec sincérité.",
+      "reponses": ["Parallélisme", "Oxymore", "Hyperbole", "Gradation"],
+      "correct": 0
+    }
+  ]
+}

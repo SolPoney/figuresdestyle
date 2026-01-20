@@ -1,0 +1,492 @@
+{
+  "id": "animisme",
+  "titre": "Animisme",
+  "description": "Exerce-toi à reconnaître l'animisme à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "La maison me regardait tristement",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Les pierres pleurent leurs morts",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "L'arbre souffre en silence",
+      "reponses": ["Animisme", "Personnification", "Oxymore", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La montagne respire au rythme des saisons",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "Le mur a une âme",
+      "reponses": ["Animisme", "Métaphore", "Personnification", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La statue vivait dans mes rêves",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La porte refuse de s'ouvrir",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Le livre m'appelait depuis l'étagère",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La chaise attendait patiemment",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Le miroir garde mes secrets",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "La cloche pleure les défunts",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "Le piano soupire ses mélodies",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Synesthésie"],
+      "correct": 0
+    },
+    {
+      "question": "La table a vécu tant d'histoires",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le lit connaît tous mes chagrins",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "La lampe veille sur mon sommeil",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "L'horloge compte mes années",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Métonymie"],
+      "correct": 0
+    },
+    {
+      "question": "Le fauteuil m'embrasse doucement",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La fenêtre observe la rue",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Métonymie"],
+      "correct": 0
+    },
+    {
+      "question": "Le rideau danse avec le vent",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "La bougie lutte contre l'obscurité",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "Le vase pleure ses fleurs fanées",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "La pendule m'observe travailler",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le téléphone réclame mon attention",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'ordinateur refuse d'obéir",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "La voiture a rendu l'âme",
+      "reponses": ["Animisme", "Personnification", "Euphémisme", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Le stylo glisse sur le papier avec joie",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Synesthésie"],
+      "correct": 0
+    },
+    {
+      "question": "La guitare chante ma douleur",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "Le violon pleure des larmes de cristal",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La flûte rit dans l'air léger",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Synesthésie"],
+      "correct": 0
+    },
+    {
+      "question": "Le tambour bat comme un cœur",
+      "reponses": ["Animisme", "Personnification", "Comparaison", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Le pont enjambe la rivière avec grâce",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La tour surveille la ville",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Métonymie"],
+      "correct": 0
+    },
+    {
+      "question": "Le château garde ses mystères",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "L'église accueille les fidèles",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Métonymie"],
+      "correct": 0
+    },
+    {
+      "question": "Le phare guide les marins perdus",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "La fontaine murmure ses secrets",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "Le jardin rêve sous la lune",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Poésie"],
+      "correct": 0
+    },
+    {
+      "question": "La route serpente paresseusement",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Le chemin m'invite à le suivre",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "L'escalier grimpe vers le ciel",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le couteau a soif de sang",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'épée a connu mille batailles",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le bouclier protège fidèlement",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "La lance attend son heure",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "Le fusil dort dans son étui",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "La bombe rêve de destruction",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le canon tonne sa colère",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le drapeau claque fièrement",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Onomatopée"],
+      "correct": 0
+    },
+    {
+      "question": "La croix porte le poids du monde",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'autel attend les prières",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Religieux"],
+      "correct": 0
+    },
+    {
+      "question": "Le calice contient l'espoir",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "La Bible parle à mon cœur",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Métonymie"],
+      "correct": 0
+    },
+    {
+      "question": "Le chapelet égrène mes peines",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "La bouteille m'appelle du fond du bar",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le verre attend d'être rempli",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "La carafe pleure son vin",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "L'assiette réclame sa nourriture",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La fourchette danse dans mon assiette",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le couteau tranche avec joie",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Synesthésie"],
+      "correct": 0
+    },
+    {
+      "question": "La cuillère caresse le potage",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Synesthésie"],
+      "correct": 0
+    },
+    {
+      "question": "La marmite chante sur le feu",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Onomatopée"],
+      "correct": 0
+    },
+    {
+      "question": "Le four digère lentement",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le réfrigérateur ronronne paisiblement",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Onomatopée"],
+      "correct": 0
+    },
+    {
+      "question": "La machine à laver avale le linge",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le sèche-linge respire bruyamment",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Onomatopée"],
+      "correct": 0
+    },
+    {
+      "question": "L'aspirateur hurle sa faim",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le balai danse sur le sol",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le torchon essuie mes larmes",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "L'éponge boit l'eau sale",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le savon glisse entre mes doigts",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "La brosse à dents gratte furieusement",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le dentifrice sourit sur la brosse",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Synesthésie"],
+      "correct": 0
+    },
+    {
+      "question": "Le peigne démêle mes pensées",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "Le rasoir caresse ma peau",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "Le rouge à lèvres embrasse ma bouche",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Synesthésie"],
+      "correct": 0
+    },
+    {
+      "question": "Le parfum murmure des promesses",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "La crème hydrate ma vie",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le mouchoir sèche mes pleurs",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "La serviette m'enveloppe tendrement",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le drap me berce doucement",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Synesthésie"],
+      "correct": 0
+    },
+    {
+      "question": "L'oreiller connaît mes secrets",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "La couverture me protège du froid",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "Le matelas porte mes rêves",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "Le réveil me réveille brutalement",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La montre compte mes battements",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Métonymie"],
+      "correct": 0
+    },
+    {
+      "question": "Le collier embrasse mon cou",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Synesthésie"],
+      "correct": 0
+    },
+    {
+      "question": "La bague scelle mon destin",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "Les boucles d'oreilles dansent à mon oreille",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le bracelet enserre mon poignet jalousement",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "La chaussure épouse mon pied",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Synesthésie"],
+      "correct": 0
+    },
+    {
+      "question": "Le chapeau couronne ma tête",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Symbole"],
+      "correct": 0
+    },
+    {
+      "question": "L'écharpe caresse mon cou",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Synesthésie"],
+      "correct": 0
+    },
+    {
+      "question": "Les gants réchauffent mes mains gelées",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "Le manteau me protège du monde",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "La veste épouse mes épaules",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Synesthésie"],
+      "correct": 0
+    },
+    {
+      "question": "Le pantalon serre mes jambes",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "La robe me transforme",
+      "reponses": ["Animisme", "Personnification", "Métaphore", "Hyperbole"],
+      "correct": 0
+    }
+  ]
+}

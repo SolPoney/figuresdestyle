@@ -1,0 +1,240 @@
+{
+  "id": "asyndete",
+  "titre": "Asyndète",
+  "description": "Exerce-toi à reconnaître l'asyndète à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "Je suis venu, j’ai vu, j’ai vaincu.",
+      "reponses": ["Asyndète", "Polysyndète", "Anaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Il regarde, hésite, part.",
+      "reponses": ["Asyndète", "Coordination", "Comparaison", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La nuit tombe, le froid arrive, le silence s’installe.",
+      "reponses": ["Asyndète", "Polysyndète", "Allitération", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Elle pleure, crie, s’effondre.",
+      "reponses": ["Asyndète", "Gradation", "Anaphore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Le vent souffle, la pluie tombe, l’orage gronde.",
+      "reponses": ["Asyndète", "Comparaison", "Métaphore", "Personnification"],
+      "correct": 0
+    },
+
+    {
+      "question": "Il entre, s’assoit, attend.",
+      "reponses": ["Asyndète", "Polysyndète", "Anaphore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Le feu brûle, la fumée monte, les flammes gagnent.",
+      "reponses": ["Asyndète", "Hyperbole", "Comparaison", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Elle court, trébuche, tombe.",
+      "reponses": ["Asyndète", "Anaphore", "Métaphore", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "Il parle fort, gesticule, s’énerve.",
+      "reponses": ["Asyndète", "Ironie", "Polysyndète", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "Les heures passent, les jours fuient, les années s’effacent.",
+      "reponses": ["Asyndète", "Gradation", "Anaphore", "Hyperbole"],
+      "correct": 0
+    },
+
+    {
+      "question": "Il cherche, réfléchit, décide.",
+      "reponses": ["Asyndète", "Comparaison", "Polysyndète", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La foule crie, pousse, avance.",
+      "reponses": ["Asyndète", "Allitération", "Oxymore", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Elle sourit, rassure, console.",
+      "reponses": ["Asyndète", "Hyperbole", "Comparaison", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Le chien aboie, grogne, mord.",
+      "reponses": ["Asyndète", "Personnification", "Polysyndète", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Il ouvre la porte, regarde, comprend.",
+      "reponses": ["Asyndète", "Anaphore", "Métaphore", "Comparaison"],
+      "correct": 0
+    },
+
+    {
+      "question": "La neige tombe, recouvre, étouffe.",
+      "reponses": ["Asyndète", "Oxymore", "Hyperbole", "Polysyndète"],
+      "correct": 0
+    },
+    {
+      "question": "Elle lit, relit, apprend.",
+      "reponses": ["Asyndète", "Gradation", "Anaphore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il frappe, insiste, force.",
+      "reponses": ["Asyndète", "Comparaison", "Litote", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Le soleil se lève, éclaire, réchauffe.",
+      "reponses": ["Asyndète", "Personnification", "Oxymore", "Allitération"],
+      "correct": 0
+    },
+    {
+      "question": "Elle hésite, recule, renonce.",
+      "reponses": ["Asyndète", "Gradation", "Hyperbole", "Anaphore"],
+      "correct": 0
+    },
+
+    {
+      "question": "Il écoute, observe, comprend.",
+      "reponses": ["Asyndète", "Comparaison", "Polysyndète", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "La tempête approche, frappe, détruit.",
+      "reponses": ["Asyndète", "Hyperbole", "Oxymore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "Elle parle doucement, rassure, apaise.",
+      "reponses": ["Asyndète", "Métaphore", "Anaphore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Il se lève, marche, disparaît.",
+      "reponses": ["Asyndète", "Comparaison", "Polysyndète", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Les enfants rient, jouent, courent.",
+      "reponses": ["Asyndète", "Allitération", "Oxymore", "Anaphore"],
+      "correct": 0
+    },
+
+    {
+      "question": "La peur monte, envahit, paralyse.",
+      "reponses": ["Asyndète", "Gradation", "Hyperbole", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Il regarde le ciel, soupire, espère.",
+      "reponses": ["Asyndète", "Métaphore", "Anaphore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Elle prend son sac, sort, claque la porte.",
+      "reponses": ["Asyndète", "Comparaison", "Polysyndète", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Le silence s’installe, dure, oppresse.",
+      "reponses": ["Asyndète", "Personnification", "Hyperbole", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Il tente, échoue, recommence.",
+      "reponses": ["Asyndète", "Gradation", "Anaphore", "Ironie"],
+      "correct": 0
+    },
+
+    {
+      "question": "La guerre détruit, ruine, tue.",
+      "reponses": ["Asyndète", "Hyperbole", "Comparaison", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Elle observe, analyse, conclut.",
+      "reponses": ["Asyndète", "Anaphore", "Métaphore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il avance prudemment, glisse, chute.",
+      "reponses": ["Asyndète", "Comparaison", "Polysyndète", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "La musique commence, enfle, explose.",
+      "reponses": ["Asyndète", "Gradation", "Hyperbole", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Elle ferme les yeux, respire, se calme.",
+      "reponses": ["Asyndète", "Anaphore", "Métaphore", "Ironie"],
+      "correct": 0
+    },
+
+    {
+      "question": "Il ment, trahit, disparaît.",
+      "reponses": ["Asyndète", "Comparaison", "Polysyndète", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "La foule avance, crie, déborde.",
+      "reponses": ["Asyndète", "Hyperbole", "Oxymore", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Elle cherche une issue, hésite, renonce.",
+      "reponses": ["Asyndète", "Gradation", "Ironie", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Il court vite, transpire, s’essouffle.",
+      "reponses": ["Asyndète", "Polysyndète", "Anaphore", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Le jour naît, progresse, s’achève.",
+      "reponses": ["Asyndète", "Personnification", "Hyperbole", "Oxymore"],
+      "correct": 0
+    },
+
+    {
+      "question": "Elle écoute la pluie tomber, regarde, médite.",
+      "reponses": ["Asyndète", "Anaphore", "Comparaison", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il frappe à la porte, insiste, renonce.",
+      "reponses": ["Asyndète", "Gradation", "Polysyndète", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "La tension monte, persiste, éclate.",
+      "reponses": ["Asyndète", "Hyperbole", "Oxymore", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Elle se tait, écoute, comprend.",
+      "reponses": ["Asyndète", "Comparaison", "Métaphore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il regarde autour de lui, doute, fuit.",
+      "reponses": ["Asyndète", "Anaphore", "Polysyndète", "Oxymore"],
+      "correct": 0
+    }
+  ]
+}

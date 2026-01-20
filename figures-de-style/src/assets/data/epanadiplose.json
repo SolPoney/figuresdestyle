@@ -1,0 +1,312 @@
+{
+  "id": "epanadiplose",
+  "titre": "Épanadiplose",
+  "description": "Exerce-toi à reconnaître l’épanadiplose à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "La peur mène à la souffrance, la peur.",
+      "reponses": ["Épanadiplose", "Anaphore", "Chiasme", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Le silence parle du silence.",
+      "reponses": ["Épanadiplose", "Oxymore", "Comparaison", "Asyndète"],
+      "correct": 0
+    },
+    {
+      "question": "La nuit enveloppe tout, la nuit.",
+      "reponses": ["Épanadiplose", "Anaphore", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "L’amour peut blesser, l’amour.",
+      "reponses": ["Épanadiplose", "Ironie", "Chiasme", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Le temps efface les souvenirs, le temps.",
+      "reponses": [
+        "Épanadiplose",
+        "Personnification",
+        "Comparaison",
+        "Anaphore"
+      ],
+      "correct": 0
+    },
+
+    {
+      "question": "La guerre détruit tout, la guerre.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Oxymore", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "La liberté a un prix, la liberté.",
+      "reponses": ["Épanadiplose", "Anaphore", "Comparaison", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La colère consume l’âme, la colère.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Personnification", "Chiasme"],
+      "correct": 0
+    },
+    {
+      "question": "Le voyage change l’homme, le voyage.",
+      "reponses": ["Épanadiplose", "Comparaison", "Anaphore", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "La musique apaise les cœurs, la musique.",
+      "reponses": ["Épanadiplose", "Métaphore", "Hyperbole", "Oxymore"],
+      "correct": 0
+    },
+
+    {
+      "question": "La solitude pèse lourd, la solitude.",
+      "reponses": [
+        "Épanadiplose",
+        "Comparaison",
+        "Personnification",
+        "Anaphore"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "La vérité finit toujours par surgir, la vérité.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Ironie", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "La peur bloque l’esprit, la peur.",
+      "reponses": ["Épanadiplose", "Métaphore", "Chiasme", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "La haine détruit tout, la haine.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Oxymore", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La patience mène loin, la patience.",
+      "reponses": ["Épanadiplose", "Comparaison", "Métaphore", "Ellipse"],
+      "correct": 0
+    },
+
+    {
+      "question": "Le rêve nourrit l’espoir, le rêve.",
+      "reponses": ["Épanadiplose", "Métaphore", "Hyperbole", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La force naît du courage, la force.",
+      "reponses": ["Épanadiplose", "Comparaison", "Chiasme", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La fatigue gagne les corps, la fatigue.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Personnification", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "L’espoir éclaire la route, l’espoir.",
+      "reponses": ["Épanadiplose", "Métaphore", "Anaphore", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "La peur envahit tout, la peur.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Oxymore", "Chiasme"],
+      "correct": 0
+    },
+
+    {
+      "question": "La vie surprend toujours, la vie.",
+      "reponses": ["Épanadiplose", "Comparaison", "Ironie", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La mémoire conserve les instants, la mémoire.",
+      "reponses": ["Épanadiplose", "Métaphore", "Hyperbole", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "La peur paralyse l’action, la peur.",
+      "reponses": [
+        "Épanadiplose",
+        "Comparaison",
+        "Personnification",
+        "Anaphore"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "La foi déplace les montagnes, la foi.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Métaphore", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La colère aveugle l’homme, la colère.",
+      "reponses": ["Épanadiplose", "Comparaison", "Ironie", "Ellipse"],
+      "correct": 0
+    },
+
+    {
+      "question": "La joie illumine les visages, la joie.",
+      "reponses": ["Épanadiplose", "Métaphore", "Hyperbole", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La tristesse envahit le cœur, la tristesse.",
+      "reponses": [
+        "Épanadiplose",
+        "Personnification",
+        "Comparaison",
+        "Chiasme"
+      ],
+      "correct": 0
+    },
+    {
+      "question": "Le courage affronte la peur, le courage.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Oxymore", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La vérité libère l’esprit, la vérité.",
+      "reponses": ["Épanadiplose", "Métaphore", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "La fatigue ralentit les pas, la fatigue.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Personnification", "Anaphore"],
+      "correct": 0
+    },
+
+    {
+      "question": "La peur détruit la confiance, la peur.",
+      "reponses": ["Épanadiplose", "Comparaison", "Oxymore", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "La sagesse vient avec l’âge, la sagesse.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Métaphore", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La haine nourrit la haine, la haine.",
+      "reponses": ["Épanadiplose", "Chiasme", "Oxymore", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "La paix apaise les âmes, la paix.",
+      "reponses": ["Épanadiplose", "Métaphore", "Hyperbole", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "La peur revient toujours, la peur.",
+      "reponses": ["Épanadiplose", "Anaphore", "Ironie", "Comparaison"],
+      "correct": 0
+    },
+
+    {
+      "question": "La solitude enferme l’esprit, la solitude.",
+      "reponses": ["Épanadiplose", "Métaphore", "Hyperbole", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La confiance construit l’avenir, la confiance.",
+      "reponses": ["Épanadiplose", "Comparaison", "Ellipse", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La peur trouble la raison, la peur.",
+      "reponses": ["Épanadiplose", "Personnification", "Hyperbole", "Chiasme"],
+      "correct": 0
+    },
+    {
+      "question": "La liberté inspire le courage, la liberté.",
+      "reponses": ["Épanadiplose", "Métaphore", "Anaphore", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "La fatigue use le corps, la fatigue.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Ironie", "Ellipse"],
+      "correct": 0
+    },
+
+    {
+      "question": "La peur empêche d’avancer, la peur.",
+      "reponses": ["Épanadiplose", "Comparaison", "Anaphore", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La vie enseigne la patience, la vie.",
+      "reponses": ["Épanadiplose", "Métaphore", "Hyperbole", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "La colère détruit tout, la colère.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Chiasme", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "La joie donne de la force, la joie.",
+      "reponses": ["Épanadiplose", "Métaphore", "Anaphore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "La peur règne partout, la peur.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Oxymore", "Ellipse"],
+      "correct": 0
+    },
+
+    {
+      "question": "La vérité dérange parfois, la vérité.",
+      "reponses": ["Épanadiplose", "Ironie", "Comparaison", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La haine aveugle les hommes, la haine.",
+      "reponses": ["Épanadiplose", "Personnification", "Hyperbole", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La patience triomphe du temps, la patience.",
+      "reponses": ["Épanadiplose", "Métaphore", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "La peur s’installe durablement, la peur.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Anaphore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "La paix réunit les peuples, la paix.",
+      "reponses": ["Épanadiplose", "Métaphore", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+
+    {
+      "question": "La fatigue envahit l’esprit, la fatigue.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Personnification", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La liberté reste fragile, la liberté.",
+      "reponses": ["Épanadiplose", "Comparaison", "Ironie", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "La peur guide les choix, la peur.",
+      "reponses": ["Épanadiplose", "Métaphore", "Hyperbole", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La joie éclate soudainement, la joie.",
+      "reponses": ["Épanadiplose", "Hyperbole", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "La haine détruit les liens, la haine.",
+      "reponses": ["Épanadiplose", "Personnification", "Oxymore", "Anaphore"],
+      "correct": 0
+    }
+  ]
+}

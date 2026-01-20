@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, ActivatedRoute } from '@angular/router';
-import { ModuleService } from '../../services/module.service';
+import { ModuleDataService } from '../../services/module-data.service';
 import { Module } from '../../models/module.model';
 
 @Component({
@@ -15,15 +15,22 @@ export class ModuleComponent implements OnInit {
   module?: Module;
   moduleId: string = '';
 
+  isFigureObject(figure: any): boolean {
+    return figure && typeof figure === 'object' && 'nom' in figure;
+  }
+
   constructor(
     private route: ActivatedRoute,
-    private moduleService: ModuleService
+    private moduleDataService: ModuleDataService
   ) {}
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
       this.moduleId = params['id'];
-      this.module = this.moduleService.getModuleById(this.moduleId);
+      this.moduleDataService.getModuleById(this.moduleId).subscribe({
+        next: (mod) => (this.module = mod),
+        error: () => (this.module = undefined),
+      });
     });
   }
 }

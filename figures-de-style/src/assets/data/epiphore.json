@@ -1,0 +1,214 @@
+{
+  "id": "epiphore",
+  "titre": "Épiphore",
+  "description": "Exerce-toi à reconnaître l’épiphore à travers 50 exemples variés.",
+  "questions": [
+    {
+      "question": "Il lutte pour la liberté, il meurt pour la liberté.",
+      "reponses": ["Épiphore", "Anaphore", "Épanadiplose", "Chiasme"],
+      "correct": 0
+    },
+    {
+      "question": "Elle parle de justice, elle rêve de justice.",
+      "reponses": ["Épiphore", "Comparaison", "Ellipse", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Nous vivons dans la peur, nous avançons dans la peur.",
+      "reponses": ["Épiphore", "Anaphore", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Il agit par devoir, il souffre par devoir.",
+      "reponses": ["Épiphore", "Ironie", "Comparaison", "Asyndète"],
+      "correct": 0
+    },
+    {
+      "question": "Ils espèrent la paix, ils attendent la paix.",
+      "reponses": ["Épiphore", "Anaphore", "Ellipse", "Oxymore"],
+      "correct": 0
+    },
+
+    {
+      "question": "Elle pleure de tristesse, elle crie de tristesse.",
+      "reponses": ["Épiphore", "Métaphore", "Hyperbole", "Chiasme"],
+      "correct": 0
+    },
+    {
+      "question": "Il avance sans peur, il parle sans peur.",
+      "reponses": ["Épiphore", "Anaphore", "Comparaison", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Nous combattons pour l’avenir, nous sacrifions tout pour l’avenir.",
+      "reponses": ["Épiphore", "Hyperbole", "Oxymore", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Elle vit dans l’ombre, elle disparaît dans l’ombre.",
+      "reponses": ["Épiphore", "Métaphore", "Anaphore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Ils parlent avec colère, ils agissent avec colère.",
+      "reponses": ["Épiphore", "Comparaison", "Chiasme", "Asyndète"],
+      "correct": 0
+    },
+
+    {
+      "question": "Il marche vers la mort, il court vers la mort.",
+      "reponses": ["Épiphore", "Hyperbole", "Métaphore", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Elle se bat pour ses rêves, elle meurt pour ses rêves.",
+      "reponses": ["Épiphore", "Oxymore", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Nous avançons dans le silence, nous tombons dans le silence.",
+      "reponses": ["Épiphore", "Métaphore", "Anaphore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il vit sans espoir, il meurt sans espoir.",
+      "reponses": ["Épiphore", "Oxymore", "Hyperbole", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Elle grandit dans la douleur, elle vieillit dans la douleur.",
+      "reponses": ["Épiphore", "Anaphore", "Métaphore", "Ellipse"],
+      "correct": 0
+    },
+
+    {
+      "question": "Ils agissent par peur, ils se taisent par peur.",
+      "reponses": ["Épiphore", "Comparaison", "Ironie", "Asyndète"],
+      "correct": 0
+    },
+    {
+      "question": "Il vit pour l’honneur, il meurt pour l’honneur.",
+      "reponses": ["Épiphore", "Hyperbole", "Oxymore", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Elle rêve de liberté, elle se bat pour la liberté.",
+      "reponses": ["Épiphore", "Comparaison", "Métaphore", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Nous souffrons dans l’attente, nous vivons dans l’attente.",
+      "reponses": ["Épiphore", "Anaphore", "Hyperbole", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il marche vers l’inconnu, il plonge dans l’inconnu.",
+      "reponses": ["Épiphore", "Métaphore", "Comparaison", "Oxymore"],
+      "correct": 0
+    },
+
+    {
+      "question": "Elle agit sans regret, elle parle sans regret.",
+      "reponses": ["Épiphore", "Anaphore", "Ironie", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Ils combattent pour la survie, ils fuient pour la survie.",
+      "reponses": ["Épiphore", "Hyperbole", "Comparaison", "Chiasme"],
+      "correct": 0
+    },
+    {
+      "question": "Il vit dans le mensonge, il meurt dans le mensonge.",
+      "reponses": ["Épiphore", "Oxymore", "Anaphore", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Elle avance avec courage, elle parle avec courage.",
+      "reponses": ["Épiphore", "Comparaison", "Hyperbole", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Nous restons dans l’ombre, nous disparaissons dans l’ombre.",
+      "reponses": ["Épiphore", "Métaphore", "Anaphore", "Ironie"],
+      "correct": 0
+    },
+
+    {
+      "question": "Il lutte contre le temps, il cède au temps.",
+      "reponses": ["Épiphore", "Personnification", "Oxymore", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Elle souffre en silence, elle pleure en silence.",
+      "reponses": ["Épiphore", "Anaphore", "Hyperbole", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Ils marchent vers la victoire, ils tombent vers la victoire.",
+      "reponses": ["Épiphore", "Ironie", "Oxymore", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Il agit par amour, il souffre par amour.",
+      "reponses": ["Épiphore", "Métaphore", "Anaphore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Elle vit dans l’attente, elle meurt dans l’attente.",
+      "reponses": ["Épiphore", "Oxymore", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+
+    {
+      "question": "Nous parlons de vérité, nous fuyons la vérité.",
+      "reponses": ["Épiphore", "Ironie", "Anaphore", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Il se bat pour la justice, il tombe pour la justice.",
+      "reponses": ["Épiphore", "Hyperbole", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Elle avance dans la nuit, elle se perd dans la nuit.",
+      "reponses": ["Épiphore", "Métaphore", "Anaphore", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Ils vivent dans la peur, ils meurent dans la peur.",
+      "reponses": ["Épiphore", "Hyperbole", "Comparaison", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il marche vers le silence, il disparaît dans le silence.",
+      "reponses": ["Épiphore", "Métaphore", "Anaphore", "Ellipse"],
+      "correct": 0
+    },
+
+    {
+      "question": "Elle agit avec fierté, elle parle avec fierté.",
+      "reponses": ["Épiphore", "Comparaison", "Hyperbole", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Nous tombons dans l’oubli, nous vivons dans l’oubli.",
+      "reponses": ["Épiphore", "Anaphore", "Ironie", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Il combat sans relâche, il avance sans relâche.",
+      "reponses": ["Épiphore", "Hyperbole", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Elle pleure de joie, elle crie de joie.",
+      "reponses": ["Épiphore", "Oxymore", "Métaphore", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Ils vivent pour l’espoir, ils meurent pour l’espoir.",
+      "reponses": ["Épiphore", "Hyperbole", "Comparaison", "Ironie"],
+      "correct": 0
+    }
+  ]
+}

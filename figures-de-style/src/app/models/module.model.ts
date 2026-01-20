@@ -8,8 +8,8 @@ export interface Module {
   id: string;
   titre: string;
   description: string;
-  figures: FigureDeStyle[];
-  isRecap: boolean;
+  figures: (string | FigureDeStyle)[];
+  isRecap?: boolean;
   requiredModules?: string[];
   minPercentage?: number;
   isLocked?: boolean;

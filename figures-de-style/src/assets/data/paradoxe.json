@@ -1,0 +1,363 @@
+{
+  "id": "paradoxe",
+  "titre": "Paradoxe",
+  "description": "Exerce-toi à reconnaître le paradoxe à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "Moins je travaille, plus je réussis.",
+      "reponses": ["Paradoxe", "Oxymore", "Ironie", "Antiphrase"],
+      "correct": 0
+    },
+    {
+      "question": "Cette vérité est un mensonge.",
+      "reponses": ["Paradoxe", "Oxymore", "Litote", "Allitération"],
+      "correct": 0
+    },
+    {
+      "question": "Il est riche de pauvreté.",
+      "reponses": ["Paradoxe", "Antithèse", "Gradation", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Pour gagner du temps, il faut le perdre.",
+      "reponses": ["Paradoxe", "Litote", "Hyperbole", "Allitération"],
+      "correct": 0
+    },
+    {
+      "question": "Je sais que je ne sais rien.",
+      "reponses": ["Paradoxe", "Ironie", "Oxymore", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "La seule constante, c’est le changement.",
+      "reponses": ["Paradoxe", "Gradation", "Oxymore", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Il meurt pour vivre.",
+      "reponses": ["Paradoxe", "Oxymore", "Ironie", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Son silence disait tout.",
+      "reponses": ["Paradoxe", "Antithèse", "Ironie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Le sommeil de la mort est éveillé.",
+      "reponses": ["Paradoxe", "Oxymore", "Personnification", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Il est prisonnier de sa liberté.",
+      "reponses": ["Paradoxe", "Oxymore", "Ironie", "Litote"],
+      "correct": 0
+    },
+
+    {
+      "question": "L’obscurité éclaire l’esprit.",
+      "reponses": ["Paradoxe", "Allitération", "Oxymore", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Sa grandeur est sa faiblesse.",
+      "reponses": ["Paradoxe", "Antithèse", "Litote", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il est vivant dans sa mort.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Le chaos crée l’ordre.",
+      "reponses": ["Paradoxe", "Oxymore", "Antithèse", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Plus on partage, plus on possède.",
+      "reponses": ["Paradoxe", "Ironie", "Litote", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Sa force est dans sa faiblesse.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Il est seul parmi la foule.",
+      "reponses": ["Paradoxe", "Antithèse", "Oxymore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "La vérité est mensonge.",
+      "reponses": ["Paradoxe", "Oxymore", "Ironie", "Allitération"],
+      "correct": 0
+    },
+    {
+      "question": "Il court pour s’arrêter.",
+      "reponses": ["Paradoxe", "Gradation", "Oxymore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Le feu glacé de la passion.",
+      "reponses": ["Paradoxe", "Oxymore", "Personnification", "Hyperbole"],
+      "correct": 0
+    },
+
+    {
+      "question": "Il est mort de vivre.",
+      "reponses": ["Paradoxe", "Oxymore", "Ironie", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Le bruit du silence.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Plus je vis, moins je sais.",
+      "reponses": ["Paradoxe", "Litote", "Ironie", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Il est riche d’infortune.",
+      "reponses": ["Paradoxe", "Oxymore", "Personnification", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Sa sagesse est folie.",
+      "reponses": ["Paradoxe", "Oxymore", "Antithèse", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il avance en reculant.",
+      "reponses": ["Paradoxe", "Gradation", "Oxymore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "La mort vivante.",
+      "reponses": ["Paradoxe", "Oxymore", "Personnification", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Son bonheur fait mal.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il est faible dans sa force.",
+      "reponses": ["Paradoxe", "Oxymore", "Antithèse", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Le silence parle.",
+      "reponses": ["Paradoxe", "Personnification", "Oxymore", "Gradation"],
+      "correct": 0
+    },
+
+    {
+      "question": "Plus il perd, plus il gagne.",
+      "reponses": ["Paradoxe", "Gradation", "Ironie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Il est vivant dans l’absence.",
+      "reponses": ["Paradoxe", "Oxymore", "Personnification", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "La lumière sombre.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Sa liberté est sa prison.",
+      "reponses": ["Paradoxe", "Oxymore", "Antithèse", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Il tombe en se relevant.",
+      "reponses": ["Paradoxe", "Gradation", "Oxymore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il est mort de rire.",
+      "reponses": ["Paradoxe", "Hyperbole", "Oxymore", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Sa jeunesse est vieille.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "La douceur amère.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Il est seul au milieu des autres.",
+      "reponses": ["Paradoxe", "Antithèse", "Gradation", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Le calme violent.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Hyperbole"],
+      "correct": 0
+    },
+
+    {
+      "question": "Son amour tue.",
+      "reponses": ["Paradoxe", "Oxymore", "Personnification", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Plus il est faible, plus il est fort.",
+      "reponses": ["Paradoxe", "Gradation", "Oxymore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il est vivant dans la mémoire des morts.",
+      "reponses": ["Paradoxe", "Personnification", "Oxymore", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Le feu glacé.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Sa tristesse est joie.",
+      "reponses": ["Paradoxe", "Oxymore", "Antithèse", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Il gagne en perdant.",
+      "reponses": ["Paradoxe", "Gradation", "Oxymore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "La vie morte.",
+      "reponses": ["Paradoxe", "Oxymore", "Personnification", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Le bruit du silence est fort.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Il est riche de pauvreté.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Son ennemi est son ami.",
+      "reponses": ["Paradoxe", "Antithèse", "Gradation", "Ironie"],
+      "correct": 0
+    },
+
+    {
+      "question": "Plus je vieillis, plus je deviens jeune.",
+      "reponses": ["Paradoxe", "Gradation", "Oxymore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Son malheur est bonheur.",
+      "reponses": ["Paradoxe", "Oxymore", "Antithèse", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Il est mort en vivant.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Le silence est assourdissant.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il perd pour gagner.",
+      "reponses": ["Paradoxe", "Gradation", "Oxymore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Sa vérité est mensonge.",
+      "reponses": ["Paradoxe", "Oxymore", "Ironie", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "La guerre pacifique.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Il est faible mais puissant.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Son courage fait peur.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "La lumière obscure.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Personnification"],
+      "correct": 0
+    },
+
+    {
+      "question": "Il est mort pour vivre.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Son silence parle fort.",
+      "reponses": ["Paradoxe", "Personnification", "Oxymore", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Il est seul avec les autres.",
+      "reponses": ["Paradoxe", "Antithèse", "Gradation", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Le feu froid.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Sa joie est douleur.",
+      "reponses": ["Paradoxe", "Oxymore", "Antithèse", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Il vit en mourant.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Sa liberté est enfermement.",
+      "reponses": ["Paradoxe", "Oxymore", "Antithèse", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Le silence retentit.",
+      "reponses": ["Paradoxe", "Personnification", "Oxymore", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Son bonheur fait souffrir.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Il est prisonnier de sa liberté.",
+      "reponses": ["Paradoxe", "Oxymore", "Gradation", "Litote"],
+      "correct": 0
+    }
+  ]
+}

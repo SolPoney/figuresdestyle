@@ -1,0 +1,501 @@
+{
+  "id": "chiasme",
+  "titre": "Chiasme",
+  "description": "Exerce-toi à reconnaître le chiasme à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "Il faut manger pour vivre et non pas vivre pour manger",
+      "reponses": ["Chiasme", "Antithèse", "Parallélisme", "Répétition"],
+      "correct": 0,
+      "indice": "La structure inverse les termes pour créer un effet miroir."
+    },
+    {
+      "question": "Tel est pris qui croyait prendre",
+      "reponses": ["Chiasme", "Proverbe", "Ironie", "Antithèse"],
+      "correct": 0,
+      "indice": "Les éléments sont disposés en croix pour souligner le contraste."
+    },
+    {
+      "question": "Aimer la vie, vivre l'amour",
+      "reponses": ["Chiasme", "Parallélisme", "Répétition", "Antithèse"],
+      "correct": 0,
+      "indice": "Les mots sont inversés pour former une symétrie."
+    },
+    {
+      "question": "Les absents ont toujours tort, mais les présents n'ont pas toujours raison",
+      "reponses": ["Chiasme", "Antithèse", "Proverbe", "Parallélisme"],
+      "correct": 0,
+      "indice": "On retrouve une construction en miroir dans la phrase."
+    },
+    {
+      "question": "Un homme de paroles et des paroles d'homme",
+      "reponses": ["Chiasme", "Parallélisme", "Répétition", "Antithèse"],
+      "correct": 0,
+      "indice": "Les groupes de mots sont inversés pour créer un effet de croisement."
+    },
+    {
+      "question": "Travailler pour vivre, ne pas vivre pour travailler",
+      "reponses": ["Chiasme", "Antithèse", "Parallélisme", "Maxime"],
+      "correct": 0,
+      "indice": "La phrase utilise une inversion symétrique des termes."
+    },
+    {
+      "question": "L'homme propose et Dieu dispose",
+      "reponses": ["Chiasme", "Proverbe", "Antithèse", "Parallélisme"],
+      "correct": 0,
+      "indice": "Deux parties de la phrase sont construites en miroir."
+    },
+    {
+      "question": "Il faut boire pour vivre et non vivre pour boire",
+      "reponses": ["Chiasme", "Antithèse", "Parallélisme", "Proverbe"],
+      "correct": 0,
+      "indice": "La structure croisée met en valeur l'opposition."
+    },
+    {
+      "question": "Quand on aime, on ne compte pas ; quand on compte, on n'aime pas",
+      "reponses": ["Chiasme", "Antithèse", "Parallélisme", "Maxime"],
+      "correct": 0,
+      "indice": "Les éléments sont inversés pour créer un effet de chiasme."
+    },
+    {
+      "question": "Les premiers seront les derniers et les derniers seront les premiers",
+      "reponses": ["Chiasme", "Antithèse", "Parallélisme", "Citation"],
+      "correct": 0
+    },
+    {
+      "question": "L'argent ne fait pas le bonheur, mais le bonheur ne fait pas l'argent",
+      "reponses": ["Chiasme", "Antithèse", "Proverbe", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "Vivre sa vie ou vieillir sa vie",
+      "reponses": ["Chiasme", "Antithèse", "Parallélisme", "Rime"],
+      "correct": 0
+    },
+    {
+      "question": "Un pour tous, tous pour un",
+      "reponses": ["Chiasme", "Parallélisme", "Devise", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Oeil pour oeil, dent pour dent",
+      "reponses": ["Chiasme", "Parallélisme", "Proverbe", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Donnez-moi un point d'appui et je soulèverai le monde",
+      "reponses": ["Chiasme", "Hyperbole", "Citation", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "La vie est un sommeil, l'amour en est le rêve",
+      "reponses": ["Chiasme", "Métaphore", "Parallélisme", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Qui m'aime me suive, qui me suit m'aime",
+      "reponses": ["Chiasme", "Parallélisme", "Répétition", "Devise"],
+      "correct": 0
+    },
+    {
+      "question": "Partir c'est mourir un peu, mais mourir c'est partir tout à fait",
+      "reponses": ["Chiasme", "Antithèse", "Métaphore", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "Le bonheur n'est pas dans les choses, il est en nous",
+      "reponses": ["Chiasme", "Antithèse", "Maxime", "Philosophie"],
+      "correct": 0
+    },
+    {
+      "question": "Être ou ne pas être, telle est la question",
+      "reponses": ["Chiasme", "Alternative", "Citation", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "L'habit ne fait pas le moine, mais le moine fait l'habit",
+      "reponses": ["Chiasme", "Proverbe", "Antithèse", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "Aime ton prochain comme toi-même, aime-toi comme ton prochain",
+      "reponses": ["Chiasme", "Parallélisme", "Religieux", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Des mots dans les idées, des idées dans les mots",
+      "reponses": ["Chiasme", "Parallélisme", "Répétition", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Le monde est un théâtre, le théâtre est un monde",
+      "reponses": ["Chiasme", "Métaphore", "Parallélisme", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Qui vole un oeuf vole un boeuf",
+      "reponses": ["Chiasme", "Proverbe", "Gradation", "Rime"],
+      "correct": 0
+    },
+    {
+      "question": "Le coeur a ses raisons que la raison ne connaît point",
+      "reponses": ["Chiasme", "Citation", "Parallélisme", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Aimez ce que vous faites, faites ce que vous aimez",
+      "reponses": ["Chiasme", "Parallélisme", "Conseil", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "On vit pour manger ou on mange pour vivre",
+      "reponses": ["Chiasme", "Antithèse", "Alternative", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "La fin justifie les moyens, les moyens justifient la fin",
+      "reponses": ["Chiasme", "Parallélisme", "Maxime", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "L'art pour l'art, l'art par l'art",
+      "reponses": ["Chiasme", "Répétition", "Devise", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "Plus on est de fous, plus on rit ; plus on rit, plus on est fou",
+      "reponses": ["Chiasme", "Proverbe", "Parallélisme", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Rire de vivre, vivre de rire",
+      "reponses": ["Chiasme", "Parallélisme", "Répétition", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Le temps c'est de l'argent, l'argent c'est du temps",
+      "reponses": ["Chiasme", "Métaphore", "Parallélisme", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Voir c'est savoir, savoir c'est voir",
+      "reponses": ["Chiasme", "Parallélisme", "Répétition", "Philosophie"],
+      "correct": 0
+    },
+    {
+      "question": "Les paroles s'envolent, les écrits restent ; les écrits s'envolent, les paroles restent",
+      "reponses": ["Chiasme", "Antithèse", "Proverbe", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "Croire c'est pouvoir, pouvoir c'est croire",
+      "reponses": ["Chiasme", "Parallélisme", "Maxime", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Un roi sans divertissement est un homme plein de misères",
+      "reponses": ["Chiasme", "Citation", "Maxime", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Le maître instruit l'élève, l'élève instruit le maître",
+      "reponses": ["Chiasme", "Parallélisme", "Antithèse", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "L'amour fait passer le temps, le temps fait passer l'amour",
+      "reponses": ["Chiasme", "Parallélisme", "Proverbe", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La forme suit la fonction, la fonction suit la forme",
+      "reponses": ["Chiasme", "Parallélisme", "Design", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Penser global, agir local ; agir local, penser global",
+      "reponses": ["Chiasme", "Parallélisme", "Slogan", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "On écrit pour soi, on publie pour les autres",
+      "reponses": ["Chiasme", "Antithèse", "Parallélisme", "Maxime"],
+      "correct": 0
+    },
+    {
+      "question": "Donnant donnant, prenant prenant",
+      "reponses": ["Chiasme", "Parallélisme", "Expression", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Qui trop embrasse mal étreint, qui mal étreint trop embrasse",
+      "reponses": ["Chiasme", "Proverbe", "Parallélisme", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Riche en esprit, pauvre en biens ; pauvre en biens, riche en esprit",
+      "reponses": ["Chiasme", "Antithèse", "Parallélisme", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La musique adoucit les moeurs, les moeurs adoucissent la musique",
+      "reponses": ["Chiasme", "Proverbe", "Parallélisme", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Lire c'est voyager, voyager c'est lire",
+      "reponses": ["Chiasme", "Métaphore", "Parallélisme", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Tout comprendre c'est tout pardonner, tout pardonner c'est tout comprendre",
+      "reponses": ["Chiasme", "Parallélisme", "Maxime", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le style fait l'homme, l'homme fait le style",
+      "reponses": ["Chiasme", "Parallélisme", "Maxime", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "L'union fait la force, la force fait l'union",
+      "reponses": ["Chiasme", "Parallélisme", "Devise", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Du berceau à la tombe, de la tombe au berceau",
+      "reponses": ["Chiasme", "Parallélisme", "Métaphore", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "L'action suit la pensée, la pensée suit l'action",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le corps exprime l'âme, l'âme exprime le corps",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Rien de trop, trop de rien",
+      "reponses": ["Chiasme", "Parallélisme", "Maxime", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La pratique sans théorie est aveugle, la théorie sans pratique est vide",
+      "reponses": ["Chiasme", "Antithèse", "Parallélisme", "Maxime"],
+      "correct": 0
+    },
+    {
+      "question": "Le but du voyage est le voyage, le voyage est le but",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Qui sème le vent récolte la tempête",
+      "reponses": ["Chiasme", "Proverbe", "Métaphore", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "L'ordre naît du chaos, le chaos naît de l'ordre",
+      "reponses": ["Chiasme", "Parallélisme", "Antithèse", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le jour chasse la nuit, la nuit chasse le jour",
+      "reponses": ["Chiasme", "Parallélisme", "Personnification", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La question contient la réponse, la réponse contient la question",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "L'erreur est humaine, pardonner est divin ; pardonner est humain, l'erreur est divine",
+      "reponses": ["Chiasme", "Proverbe", "Parallélisme", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le présent crée le futur, le futur crée le présent",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Obéir pour commander, commander pour obéir",
+      "reponses": ["Chiasme", "Parallélisme", "Maxime", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le silence parle, la parole se tait",
+      "reponses": ["Chiasme", "Oxymore", "Parallélisme", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Nourrir le corps pour libérer l'esprit, libérer l'esprit pour nourrir le corps",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La poésie de la vie, la vie de la poésie",
+      "reponses": ["Chiasme", "Parallélisme", "Métaphore", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Combattre pour la paix, pacifier par le combat",
+      "reponses": ["Chiasme", "Parallélisme", "Oxymore", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le destin fait l'homme, l'homme fait le destin",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La parole engage, l'engagement libère la parole",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Créer pour exister, exister pour créer",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le doute mène à la vérité, la vérité mène au doute",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Enseigner c'est apprendre deux fois, apprendre c'est enseigner à soi-même",
+      "reponses": ["Chiasme", "Parallélisme", "Maxime", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le peuple fait la loi, la loi fait le peuple",
+      "reponses": ["Chiasme", "Parallélisme", "Politique", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "L'oeuvre crée l'artiste, l'artiste crée l'oeuvre",
+      "reponses": ["Chiasme", "Parallélisme", "Art", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La liberté engendre la responsabilité, la responsabilité engendre la liberté",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "L'espoir nourrit l'action, l'action nourrit l'espoir",
+      "reponses": ["Chiasme", "Parallélisme", "Maxime", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Vivre pour raconter, raconter pour revivre",
+      "reponses": ["Chiasme", "Parallélisme", "Métaphore", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le maître apprend de l'élève, l'élève enseigne au maître",
+      "reponses": ["Chiasme", "Parallélisme", "Sagesse", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La guerre fait les hommes, les hommes font la guerre",
+      "reponses": ["Chiasme", "Parallélisme", "Maxime", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le passé éclaire l'avenir, l'avenir éclaire le passé",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Souffrir pour grandir, grandir par la souffrance",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le rêve devient réalité, la réalité devient rêve",
+      "reponses": ["Chiasme", "Parallélisme", "Métaphore", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La sagesse vient de l'expérience, l'expérience vient de la folie",
+      "reponses": ["Chiasme", "Parallélisme", "Gradation", "Maxime"],
+      "correct": 0
+    },
+    {
+      "question": "L'art imite la vie, la vie imite l'art",
+      "reponses": ["Chiasme", "Parallélisme", "Citation", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le pouvoir corrompt, la corruption donne le pouvoir",
+      "reponses": ["Chiasme", "Parallélisme", "Maxime", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "L'échec mène au succès, le succès cache l'échec",
+      "reponses": ["Chiasme", "Parallélisme", "Antithèse", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le chemin est le but, le but est le chemin",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La beauté sauvera le monde, le monde sauvera la beauté",
+      "reponses": ["Chiasme", "Parallélisme", "Citation", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "L'ignorance est force, la force est ignorance",
+      "reponses": ["Chiasme", "Parallélisme", "Oxymore", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La peur donne du courage, le courage vainc la peur",
+      "reponses": ["Chiasme", "Parallélisme", "Antithèse", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le langage structure la pensée, la pensée structure le langage",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "L'amour tue la raison, la raison tue l'amour",
+      "reponses": ["Chiasme", "Parallélisme", "Antithèse", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "La mémoire invente le passé, le passé invente la mémoire",
+      "reponses": ["Chiasme", "Parallélisme", "Philosophie", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "L'écriture libère la parole, la parole libère l'écriture",
+      "reponses": ["Chiasme", "Parallélisme", "Métaphore", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le temps guérit les blessures, les blessures marquent le temps",
+      "reponses": ["Chiasme", "Parallélisme", "Métaphore", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "L'absence crée le manque, le manque crée la présence",
+      "reponses": ["Chiasme", "Parallélisme", "Paradoxe", "Répétition"],
+      "correct": 0
+    },
+    {
+      "question": "Le mensonge protège la vérité, la vérité dévoile le mensonge",
+      "reponses": ["Chiasme", "Parallélisme", "Antithèse", "Répétition"],
+      "correct": 0
+    }
+  ]
+}

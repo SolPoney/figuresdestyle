@@ -1,0 +1,33 @@
+{
+  "id": "1",
+  "titre": "Module 1 : Substitution et représentation",
+  "description": "Figures de style basées sur la substitution d’un terme par un autre.",
+  "figures": [
+    {
+      "nom": "Métaphore",
+      "definition": "Figure qui établit un parallèle sans terme de comparaison explicite.",
+      "exemple": "Les ailes du temps nous emportent."
+    },
+    {
+      "nom": "Comparaison",
+      "definition": "Figure qui établit un parallèle avec un terme de comparaison (comme, tel, semblable à).",
+      "exemple": "Elle est fragile comme un oiseau."
+    }
+  ],
+  "questions": [
+    {
+      "question": "Le vent hurle dans la nuit",
+      "reponses": ["Métaphore", "Personnification", "Hyperbole", "Comparaison"],
+      "correct": 1,
+      "explication": "Le vent reçoit une caractéristique humaine (hurler)",
+      "indice": "On attribue un comportement humain à un élément naturel."
+    },
+    {
+      "question": "Il pleut des cordes",
+      "reponses": ["Comparaison", "Métaphore", "Hyperbole", "Personnification"],
+      "correct": 1,
+      "explication": "Métaphore : il n’y a pas de mot de comparaison.",
+      "indice": "Pas de 'comme', mais une image."
+    }
+  ]
+}

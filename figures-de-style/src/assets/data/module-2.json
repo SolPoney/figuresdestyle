@@ -1,0 +1,27 @@
+{
+  "id": "2",
+  "titre": "Hyperbole",
+  "description": "Un module d'exemple sur l'hyperbole.",
+  "figures": [
+    {
+      "nom": "Hyperbole",
+      "definition": "Exagération volontaire de la réalité.",
+      "exemple": "Je meurs de faim."
+    }
+  ],
+  "isRecap": false,
+  "questions": [
+    {
+      "question": "Qu'est-ce qu'une hyperbole ?",
+      "reponses": [
+        "Une exagération",
+        "Une comparaison",
+        "Une répétition",
+        "Une atténuation"
+      ],
+      "correct": 0,
+      "explication": "L'hyperbole est une figure d'exagération.",
+      "indice": "On en fait trop exprès."
+    }
+  ]
+}

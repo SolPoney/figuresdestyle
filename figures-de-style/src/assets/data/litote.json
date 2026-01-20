@@ -1,0 +1,297 @@
+{
+  "id": "litote",
+  "titre": "Litote",
+  "description": "Exerce-toi à reconnaître la litote à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "Il n’est pas très intelligent.",
+      "reponses": ["Litote", "Ironie", "Euphémisme", "Hyperbole"],
+      "correct": 0,
+      "indice": "On atténue une idée pour mieux la faire comprendre."
+    },
+    {
+      "question": "Ce n’est pas mauvais.",
+      "reponses": ["Litote", "Euphémisme", "Hyperbole", "Comparaison"],
+      "correct": 0,
+      "indice": "On exprime une idée de façon atténuée, souvent pour renforcer le propos."
+    },
+    {
+      "question": "Je ne suis pas mécontent de ton travail.",
+      "reponses": ["Litote", "Ironie", "Hyperbole", "Antiphrase"],
+      "correct": 0,
+      "indice": "On dit moins pour suggérer plus."
+    },
+    {
+      "question": "Il n’est pas sans talent.",
+      "reponses": ["Litote", "Oxymore", "Comparaison", "Euphémisme"],
+      "correct": 0,
+      "indice": "On utilise une tournure négative pour exprimer une qualité."
+    },
+    {
+      "question": "Ce n’est pas la pire idée.",
+      "reponses": ["Litote", "Ironie", "Hyperbole", "Gradation"],
+      "correct": 0,
+      "indice": "L'expression atténue la réalité pour la renforcer."
+    },
+
+    {
+      "question": "Elle n’est pas ignorante en la matière.",
+      "reponses": ["Litote", "Comparaison", "Personnification", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas insensible à la beauté.",
+      "reponses": ["Litote", "Ironie", "Hyperbole", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Ce n’est pas une mince affaire.",
+      "reponses": ["Litote", "Comparaison", "Hyperbole", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Je ne te déteste pas.",
+      "reponses": ["Litote", "Ironie", "Euphémisme", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas étranger à ce problème.",
+      "reponses": ["Litote", "Gradation", "Comparaison", "Oxymore"],
+      "correct": 0
+    },
+
+    {
+      "question": "Ce n’est pas faux.",
+      "reponses": ["Litote", "Ironie", "Oxymore", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas pauvre en idées.",
+      "reponses": ["Litote", "Comparaison", "Gradation", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "Je ne suis pas insatisfait.",
+      "reponses": ["Litote", "Ironie", "Oxymore", "Antiphrase"],
+      "correct": 0
+    },
+    {
+      "question": "Ce n’est pas une surprise.",
+      "reponses": ["Litote", "Gradation", "Comparaison", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas mauvais joueur.",
+      "reponses": ["Litote", "Ironie", "Euphémisme", "Ellipse"],
+      "correct": 0
+    },
+
+    {
+      "question": "Je ne te blâme pas.",
+      "reponses": ["Litote", "Antiphrase", "Hyperbole", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Elle n’est pas sans mérite.",
+      "reponses": ["Litote", "Ironie", "Comparaison", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Ce n’est pas inutile.",
+      "reponses": ["Litote", "Oxymore", "Gradation", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas peu courageux.",
+      "reponses": ["Litote", "Ironie", "Comparaison", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "Je ne suis pas certain du tout.",
+      "reponses": ["Litote", "Hyperbole", "Gradation", "Oxymore"],
+      "correct": 0
+    },
+
+    {
+      "question": "Ce n’est pas à négliger.",
+      "reponses": ["Litote", "Euphémisme", "Ironie", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas insatisfait du résultat.",
+      "reponses": ["Litote", "Hyperbole", "Oxymore", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Je ne suis pas méfiant.",
+      "reponses": ["Litote", "Ironie", "Euphémisme", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Ce n’est pas sans intérêt.",
+      "reponses": ["Litote", "Comparaison", "Gradation", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas malheureux.",
+      "reponses": ["Litote", "Ironie", "Oxymore", "Euphémisme"],
+      "correct": 0
+    },
+
+    {
+      "question": "Je ne suis pas déçu.",
+      "reponses": ["Litote", "Hyperbole", "Gradation", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Ce n’est pas sans valeur.",
+      "reponses": ["Litote", "Comparaison", "Euphémisme", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas incapable.",
+      "reponses": ["Litote", "Ironie", "Hyperbole", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Je ne suis pas indifférent.",
+      "reponses": ["Litote", "Antiphrase", "Oxymore", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Ce n’est pas insignifiant.",
+      "reponses": ["Litote", "Ironie", "Hyperbole", "Euphémisme"],
+      "correct": 0
+    },
+
+    {
+      "question": "Il n’est pas sans expérience.",
+      "reponses": ["Litote", "Comparaison", "Gradation", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Je ne suis pas ignorant.",
+      "reponses": ["Litote", "Hyperbole", "Ironie", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Ce n’est pas une mauvaise idée.",
+      "reponses": ["Litote", "Euphémisme", "Comparaison", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas dénué de talent.",
+      "reponses": ["Litote", "Ironie", "Hyperbole", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Je ne suis pas insatisfait du tout.",
+      "reponses": ["Litote", "Oxymore", "Hyperbole", "Ironie"],
+      "correct": 0
+    },
+
+    {
+      "question": "Ce n’est pas sans danger.",
+      "reponses": ["Litote", "Euphémisme", "Comparaison", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas peu instruit.",
+      "reponses": ["Litote", "Hyperbole", "Gradation", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Je ne suis pas indifférent à cette question.",
+      "reponses": ["Litote", "Ironie", "Oxymore", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Ce n’est pas insignifiant comme effort.",
+      "reponses": ["Litote", "Hyperbole", "Gradation", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas sans courage.",
+      "reponses": ["Litote", "Oxymore", "Ironie", "Comparaison"],
+      "correct": 0
+    },
+
+    {
+      "question": "Je ne suis pas entièrement d’accord.",
+      "reponses": ["Litote", "Ironie", "Gradation", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Ce n’est pas inutile de tenter.",
+      "reponses": ["Litote", "Euphémisme", "Hyperbole", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas malheureux de la situation.",
+      "reponses": ["Litote", "Oxymore", "Ironie", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Je ne suis pas insatisfait de sa réponse.",
+      "reponses": ["Litote", "Hyperbole", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Ce n’est pas sans conséquence.",
+      "reponses": ["Litote", "Ironie", "Gradation", "Oxymore"],
+      "correct": 0
+    },
+
+    {
+      "question": "Il n’est pas peu soucieux de son avenir.",
+      "reponses": ["Litote", "Comparaison", "Hyperbole", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "Je ne suis pas insensible à ta gentillesse.",
+      "reponses": ["Litote", "Ironie", "Oxymore", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Ce n’est pas une mince réussite.",
+      "reponses": ["Litote", "Hyperbole", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas dépourvu de charisme.",
+      "reponses": ["Litote", "Ironie", "Oxymore", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Je ne suis pas totalement surpris.",
+      "reponses": ["Litote", "Comparaison", "Euphémisme", "Hyperbole"],
+      "correct": 0
+    },
+
+    {
+      "question": "Ce n’est pas la plus simple des solutions.",
+      "reponses": ["Litote", "Oxymore", "Hyperbole", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas sans qualité.",
+      "reponses": ["Litote", "Ironie", "Comparaison", "Ellipse"],
+      "correct": 0
+    },
+    {
+      "question": "Je ne suis pas tout à fait convaincu.",
+      "reponses": ["Litote", "Gradation", "Oxymore", "Euphémisme"],
+      "correct": 0
+    },
+    {
+      "question": "Ce n’est pas un mince exploit.",
+      "reponses": ["Litote", "Comparaison", "Hyperbole", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Il n’est pas dépourvu d’humour.",
+      "reponses": ["Litote", "Oxymore", "Gradation", "Euphémisme"],
+      "correct": 0
+    }
+  ]
+}

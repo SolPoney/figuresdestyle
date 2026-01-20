@@ -23,7 +23,17 @@ export class HomeComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.modules = this.moduleService.getModules();
+    this.moduleService.getModules().subscribe({
+      next: (modules) => {
+        console.log('Contenu brut reçu :', modules);
+        this.modules = modules && Array.isArray(modules) ? modules : [];
+        console.log('Modules utilisés :', this.modules);
+      },
+      error: () => {
+        this.modules = [];
+        console.log('Erreur de chargement des modules');
+      },
+    });
     this.authService.currentUser.subscribe((user: User | null) => {
       this.currentUser = user;
     });

@@ -86,56 +86,68 @@
       </h1>
       <p class="text-lg md:text-xl text-dark-textSecondary max-w-3xl mx-auto">
         Apprenez à reconnaître et différencier 33 figures de style à travers
-        plus de 500 exemples.
-      </p>
-    </header>
-
-    <!-- Liste des modules -->
-    <main class="grid gap-6 md:grid-cols-2 lg:grid-cols-3" role="main">
-      <article
-        *ngFor="let module of modules"
-        class="bg-dark-surface border border-dark-border rounded-lg p-6 transition-all duration-300"
-        [class.opacity-50]="module.isLocked"
-        [class.hover:border-blue-500]="!module.isLocked"
-        [class.focus-within:ring-2]="!module.isLocked"
-        [class.focus-within:ring-blue-500]="!module.isLocked"
-      >
-        <div class="flex items-start justify-between mb-3">
-          <h2 class="text-2xl font-bold text-dark-text">
-            {{ module.titre }}
-          </h2>
-          <div class="flex items-center gap-2">
-            <!-- Badge Premium si module verrouillé pour raison d'abonnement -->
-            <span
-              *ngIf="isPremiumModule(module.id) && !module.isLocked"
-              class="px-2 py-1 text-xs font-semibold rounded bg-yellow-600 text-white flex items-center"
-            >
-              <svg
-                class="w-3 h-3 mr-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                />
-              </svg>
-              Premium
-            </span>
-            <span
-              *ngIf="module.isRecap"
-              class="px-2 py-1 text-xs font-semibold rounded bg-purple-600 text-white"
-            >
-              Révision
-            </span>
-            <span
-              *ngIf="getModuleScore(module.id) !== null"
-              class="px-2 py-1 text-xs font-semibold rounded"
-              [class.bg-green-600]="getModuleScore(module.id)! >= 70"
-              [class.bg-yellow-600]="
+        <!-- Liste des modules -->
+        <main class="grid gap-6 md:grid-cols-2 lg:grid-cols-3" role="main">
+          <div *ngIf="modules.length === 0" class="text-center col-span-3 py-12">
+            <h2 class="text-2xl font-bold text-red-600">Aucun module chargé</h2>
+            <p class="text-dark-textSecondary">Vérifiez le chargement des données ou contactez le support.</p>
+            <pre class="bg-gray-900 text-green-400 p-4 mt-4 rounded">{{ modules | json }}</pre>
+          </div>
+          <ng-container *ngFor="let module of modules">
+            <article class="bg-dark-surface border border-dark-border rounded-lg p-6 transition-all duration-300"
+              [class.opacity-50]="module.isLocked"
+              [class.hover:border-blue-500]="!module.isLocked"
+              [class.focus-within:ring-2]="!module.isLocked"
+              [class.focus-within:ring-blue-500]="!module.isLocked">
+              <div class="flex items-start justify-between mb-3">
+                <h2 class="text-2xl font-bold text-dark-text">{{ module.titre }}</h2>
+                <div class="flex items-center gap-2">
+                  <span *ngIf="isPremiumModule(module.id) && !module.isLocked" class="px-2 py-1 text-xs font-semibold rounded bg-yellow-600 text-white flex items-center">
+                    <svg class="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                    Premium
+                  </span>
+                  <span *ngIf="module.isRecap" class="px-2 py-1 text-xs font-semibold rounded bg-purple-600 text-white">Révision</span>
+                  <span *ngIf="getModuleScore(module.id) !== null" class="px-2 py-1 text-xs font-semibold rounded"
+                    [class.bg-green-600]="getModuleScore(module.id)! >= 70"
+                    [class.bg-yellow-600]="getModuleScore(module.id)! >= 50 && getModuleScore(module.id)! < 70"
+                    [class.bg-red-600]="getModuleScore(module.id)! < 50"
+                    [class.text-white]="true">{{ getModuleScore(module.id) }}%</span>
+                </div>
+              </div>
+              <p class="text-dark-textSecondary mb-4 min-h-[3rem]">{{ module.description }}</p>
+              <!-- Bloc d'information Premium (affiché si module.isLocked et module premium) -->
+              <div *ngIf="module.isLocked && isPremiumModule(module.id)" class="flex items-center bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-4 rounded">
+                <svg class="w-6 h-6 mr-3 flex-shrink-0 text-yellow-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+                <div>
+                  <p class="text-yellow-400 font-semibold mb-1">Module Premium</p>
+                  <p class="text-sm text-dark-textSecondary">Passez Premium pour accéder à tous les modules</p>
+                </div>
+              </div>
+              <a *ngIf="!module.isLocked && canAccessModule(module.id)" [routerLink]="['/module', module.id]" class="inline-flex items-center justify-center w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-dark-bg" [attr.aria-label]="'Accéder au ' + module.titre + ' : ' + module.description">
+                <span>Commencer</span>
+                <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+              </a>
+              <a *ngIf="!canAccessModule(module.id)" routerLink="/auth" class="inline-flex items-center justify-center w-full px-6 py-3 bg-gradient-to-r from-yellow-600 to-orange-600 hover:from-yellow-700 hover:to-orange-700 text-white font-semibold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-yellow-500 focus:ring-offset-2 focus:ring-offset-dark-bg">
+                <svg class="mr-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+                <span>Passer Premium - 9,99€</span>
+              </a>
+              <button *ngIf="module.isLocked && canAccessModule(module.id)" disabled class="inline-flex items-center justify-center w-full px-6 py-3 bg-gray-600 text-gray-400 font-semibold rounded-lg cursor-not-allowed">
+                <svg class="mr-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+                <span>Verrouillé</span>
+              </button>
+            </article>
+          </ng-container>
+        </main>
                 getModuleScore(module.id)! >= 50 &&
                 getModuleScore(module.id)! < 70
               "
@@ -149,14 +161,13 @@
         <p class="text-dark-textSecondary mb-4 min-h-[3rem]">
           {{ module.description }}
         </p>
-
-        <!-- Message de verrouillage par progression -->
+        <!-- Bloc d'information Premium (affiché si module.isLocked et module premium) -->
         <div
-          *ngIf="module.isLocked && canAccessModule(module.id)"
-          class="text-sm text-yellow-400 mb-4 flex items-start"
+          *ngIf="module.isLocked && isPremiumModule(module.id)"
+          class="flex items-center bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-4 rounded"
         >
           <svg
-            class="w-5 h-5 mr-2 flex-shrink-0"
+            class="w-6 h-6 mr-3 flex-shrink-0 text-yellow-400"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -168,34 +179,11 @@
               d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
             />
           </svg>
-          <span>Obtenez 70% ou plus aux modules précédents pour débloquer</span>
-        </div>
-
-        <!-- Message de verrouillage Premium -->
-        <div
-          *ngIf="!canAccessModule(module.id)"
-          class="bg-gradient-to-r from-yellow-600/20 to-orange-600/20 border border-yellow-600/50 rounded-lg p-4 mb-4"
-        >
-          <div class="flex items-start">
-            <svg
-              class="w-6 h-6 mr-3 flex-shrink-0 text-yellow-400"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-              />
-            </svg>
-            <div>
-              <p class="text-yellow-400 font-semibold mb-1">Module Premium</p>
-              <p class="text-sm text-dark-textSecondary">
-                Passez Premium pour accéder à tous les modules
-              </p>
-            </div>
+          <div>
+            <p class="text-yellow-400 font-semibold mb-1">Module Premium</p>
+            <p class="text-sm text-dark-textSecondary">
+              Passez Premium pour accéder à tous les modules
+            </p>
           </div>
         </div>
 

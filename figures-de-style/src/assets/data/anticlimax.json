@@ -1,0 +1,481 @@
+{
+  "id": "anticlimax",
+  "titre": "Anticlimax",
+  "description": "Exerce-toi à reconnaître l'anticlimax à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "Il a perdu sa fortune, sa famille, sa réputation... et ses clés",
+      "reponses": ["Anticlimax", "Gradation", "Énumération", "Ironie"],
+      "correct": 0,
+      "indice": "La chute finale contraste fortement avec l'accumulation précédente."
+    },
+    {
+      "question": "Je suis venu, j'ai vu, j'ai fait une sieste",
+      "reponses": ["Anticlimax", "Parodie", "Ironie", "Gradation"],
+      "correct": 0,
+      "indice": "La fin banale casse l'attente créée par le début."
+    },
+    {
+      "question": "L'empereur, le roi, le duc, le valet",
+      "reponses": ["Anticlimax", "Gradation", "Énumération", "Hiérarchie"],
+      "correct": 0,
+      "indice": "On passe d'un niveau élevé à un niveau très bas."
+    },
+    {
+      "question": "Ils ont conquis des empires, traversé des océans, gravi des montagnes... et raté le bus",
+      "reponses": ["Anticlimax", "Ironie", "Gradation", "Hyperbole"],
+      "correct": 0,
+      "indice": "La dernière action est dérisoire par rapport aux précédentes."
+    },
+    {
+      "question": "La vie, la mort, le goûter",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0,
+      "indice": "Le dernier élément est trivial après des notions graves."
+    },
+    {
+      "question": "Dieu, les anges, les saints, mon chat",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Hiérarchie"],
+      "correct": 0,
+      "indice": "On termine par un élément inattendu et banal."
+    },
+    {
+      "question": "Il affronta la tempête, défia les dieux, vainquit les monstres... et trébucha sur une pierre",
+      "reponses": ["Anticlimax", "Ironie", "Hyperbole", "Gradation"],
+      "correct": 0,
+      "indice": "La fin est ridicule après des exploits héroïques."
+    },
+    {
+      "question": "Le héros sauva le monde, puis se fit mal au petit doigt",
+      "reponses": ["Anticlimax", "Ironie", "Antithèse", "Litote"],
+      "correct": 0,
+      "indice": "L'exploit est suivi d'un détail insignifiant."
+    },
+    {
+      "question": "Sublime, magnifique, extraordinaire, pas mal",
+      "reponses": ["Anticlimax", "Gradation", "Litote", "Ironie"],
+      "correct": 0,
+      "indice": "La progression positive s'achève sur une appréciation banale."
+    },
+    {
+      "question": "Un génie, un sage, un philosophe, un type",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Il brûle de passion, d'amour, de désir... et de fièvre",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "La gloire, l'honneur, le courage, et aussi Netflix",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Il pleura de joie, de bonheur, d'émotion... et d'allergie aux pollens",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "L'univers, le cosmos, l'infini, ma chambre",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le titan s'écroula, foudroyé par... un rhume",
+      "reponses": ["Anticlimax", "Ironie", "Hyperbole", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Mourir pour la patrie, pour l'honneur, pour la gloire... ou de vieillesse",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Le soleil, la lune, les étoiles, cette lampe",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "L'art, la beauté, la vérité, le prix",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Matérialisme"],
+      "correct": 0
+    },
+    {
+      "question": "Il lutta contre les dragons, les démons, les tyrans... et sa belle-mère",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "L'âme, l'esprit, le cœur, le portefeuille",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Matérialisme"],
+      "correct": 0
+    },
+    {
+      "question": "Un tremblement de terre, un tsunami, une tornade... et une amende de stationnement",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Le courage, la bravoure, l'héroïsme, la chance",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Il conquit Rome, Paris, Londres... et un cœur",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Des années de préparation, des mois d'entraînement, des heures d'attente... cinq minutes de gloire",
+      "reponses": ["Anticlimax", "Ironie", "Gradation", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Le président, le ministre, le député, le stagiaire",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Hiérarchie"],
+      "correct": 0
+    },
+    {
+      "question": "Des milliers de fans, des centaines de journalistes, des dizaines de caméras... et ma mère",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Il dompta les lions, affronta les gladiateurs, charma l'empereur... et perdit son pantalon",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "La sagesse ancestrale, la connaissance universelle, la vérité éternelle... Wikipedia",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Le Père Noël, la fée des dents, le lapin de Pâques, mon comptable",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Napoléon, César, Alexandre... et moi",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Elle possédait la beauté, l'intelligence, la richesse... et un chat",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Des siècles de civilisation, des décennies de progrès, des années d'évolution... cette application",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Le feu, l'eau, la terre, l'air... et le wifi",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Shakespeare, Molière, Racine, moi en CM2",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Il parla aux rois, aux papes, aux empereurs... et au chat du voisin",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Le bien, le mal, et le tiède",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "La guerre, la famine, la peste... et les embouteillages",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Des pyramides d'Égypte, la muraille de Chine, le Colisée... mon Lego",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Einstein, Newton, Galilée, mon prof de maths",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Il gravit l'Everest, traversa le Sahara, nagea l'Atlantique... et prit le métro",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "L'amour éternel, la passion dévorante, le désir ardent... et l'habitude",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Michelangel, Léonard de Vinci, Raphaël... et mon neveu de 5 ans",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Il vécut cent aventures, mille dangers, dix mille péripéties... et une vie normale",
+      "reponses": ["Anticlimax", "Ironie", "Hyperbole", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Mozart, Beethoven, Bach, la radio",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Il domina le feu, maîtrisa l'eau, commanda le vent... et rata son gâteau",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Des palais, des châteaux, des cathédrales... un studio",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "L'Olympe, le Valhalla, le Paradis, le canapé",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Il écrivit des épopées, des tragédies, des poèmes... et un texto",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "La création du monde, le déluge, l'exode... et mon anniversaire",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Des lions, des tigres, des ours... oh mon dieu",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Citation"],
+      "correct": 0
+    },
+    {
+      "question": "Il possédait l'or, l'argent, les diamants... et un euro",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Homer, Virgile, Dante, Twitter",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Des années-lumière, des parsecs, des unités astronomiques... trois mètres",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Il vainquit l'impossible, défia l'inimaginable, réalisa l'irréalisable... et oublia son parapluie",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Des trésors inestimables, des richesses infinies, des fortunes colossales... dix euros",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Hyperbole"],
+      "correct": 0
+    },
+    {
+      "question": "Socrate, Platon, Aristote, Google",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Il reçut des médailles, des trophées, des distinctions... et une tape dans le dos",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Des orages, des tempêtes, des ouragans... une averse",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Le génie, le talent, l'inspiration... et beaucoup de chance",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Voltaire, Rousseau, Diderot, mon blog",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Il étudia la physique quantique, la relativité, la cosmologie... et rata son permis",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Des applaudissements, des ovations, des hourras... et un silence gêné",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Le Louvre, le Prado, l'Ermitage, mon frigo",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Il combattit des armées, déjoua des complots, évita des pièges... et marcha sur un Lego",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Des millions d'années d'évolution, des siècles de progrès, des décennies de recherche... ce selfie",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Le courage d'un lion, la ruse d'un renard, la force d'un taureau... et la flemme d'un chat",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "La gloire immortelle, la renommée éternelle, la postérité... et ses quinze minutes",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Des titans, des dieux, des héros... et Kevin",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Il maîtrisait dix langues, jouait de vingt instruments, pratiquait trente sports... et ne savait pas cuisiner",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "La bibliothèque d'Alexandrie, la Grande Bibliothèque de Bagdad, le British Museum... mon Kindle",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Il affronta la mort, défia le destin, brava l'impossible... et annula son abonnement",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Des années de sacrifice, des mois d'efforts, des semaines de préparation... deux secondes de concentration",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Le feu de Prométhée, la sagesse d'Athéna, la force d'Hercule... et mon WiFi",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Il découvrit l'Amérique, inventa la roue, domestiqua le feu... et perdit ses lunettes",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Churchill, De Gaulle, Roosevelt, mon oncle Jean",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Il atteignit le nirvana, l'éveil spirituel, l'illumination... et s'endormit",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Des licornes, des dragons, des phénix... et un pigeon",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Il parcourut le monde, explora les continents, visita les merveilles... et préféra son canapé",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "L'infini, l'éternité, l'absolu... et puis voilà",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Il sauva des vies, changea le monde, inspira des millions... et oublia son anniversaire",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Des merveilles architecturales, des prouesses techniques, des chefs-d'œuvre artistiques... ce meuble Ikea",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Il affronta ses démons, vainquit ses peurs, surmonta ses doutes... et loupa le train",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Cléopâtre, Jeanne d'Arc, Marie Curie, ma voisine",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Il créa des empires, bâtit des dynasties, fonda des civilisations... et fit un gâteau",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Des montres de luxe, des voitures de sport, des yachts privés... et ce stylo Bic",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Il plongea dans les abysses, escalada les sommets, traversa les déserts... et glissa sur une peau de banane",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Des pouvoirs surhumains, une force colossale, une intelligence supérieure... et une mauvaise vue",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Il déchiffra les hiéroglyphes, décoda les manuscrits, traduisit les prophéties... et rata le métro",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Le Saint Graal, l'Arche d'Alliance, la Pierre Philosophale... mes clés",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Des batailles épiques, des duels légendaires, des combats titanesques... une partie de cartes",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Antithèse"],
+      "correct": 0
+    },
+    {
+      "question": "Il possédait la beauté d'Apollon, la sagesse de Salomon, la force de Samson... et des chaussettes trouées",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Humour"],
+      "correct": 0
+    },
+    {
+      "question": "Des siècles d'histoire, des générations de savoir, des millénaires de culture... ce mème",
+      "reponses": ["Anticlimax", "Énumération", "Ironie", "Absurde"],
+      "correct": 0
+    },
+    {
+      "question": "Il contempla l'univers, comprit l'existence, perça les mystères... et se demanda ce qu'il allait manger",
+      "reponses": ["Anticlimax", "Ironie", "Énumération", "Antithèse"],
+      "correct": 0
+    }
+  ]
+}

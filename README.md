@@ -69,9 +69,9 @@ Créez un fichier `backend/.env` :
 
 ```env
 DATABASE_URL="file:./dev.db"
-JWT_SECRET="votre_secret_jwt_changez_en_production"
-STRIPE_SECRET_KEY="sk_test_votre_cle_stripe"
-STRIPE_WEBHOOK_SECRET="whsec_votre_secret_webhook"
+JWT_SECRET="<votre_jwt_secret>"
+STRIPE_SECRET_KEY="<votre_stripe_secret_key>"
+STRIPE_WEBHOOK_SECRET="<votre_stripe_webhook_secret>"
 FRONTEND_URL="http://localhost:4200"
 ```
 
@@ -179,20 +179,21 @@ cd backend
 
 ## 🔐 Sécurité
 
-- ✅ Mots de passe hashés avec bcrypt (10 rounds)
-- ✅ JWT avec expiration 7 jours
+- ✅ Mots de passe hashés avec bcrypt (paramétrable)
+- ✅ JWT avec expiration paramétrable
+
+# ⚠️ AVERTISSEMENT SÉCURITÉ
+
+Ne partagez jamais vos fichiers `.env` ou toute clé/API sensible. Utilisez les fichiers `.env.example` fournis pour la configuration. Consultez le fichier `SECURITY.md` pour les bonnes pratiques et la gestion des secrets.
+
 - ✅ CORS configuré
 - ✅ Validation des données avec class-validator
 - ✅ Protection CSRF pour Stripe webhooks
 
 ## 📝 Licence
 
-MIT
+All Rights Reserved License
 
 ## 👨‍💻 Auteur
 
 Votre nom - [Votre GitHub](https://github.com/VOTRE_USERNAME)
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.

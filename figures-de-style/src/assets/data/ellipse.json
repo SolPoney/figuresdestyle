@@ -1,0 +1,292 @@
+{
+  "id": "ellipse",
+  "titre": "Ellipse",
+  "description": "Exerce-toi à reconnaître l’ellipse à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "Moi fatigué, toi heureux.",
+      "reponses": ["Ellipse", "Comparaison", "Asyndète", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Lui parti, tout fini.",
+      "reponses": ["Ellipse", "Hyperbole", "Métaphore", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Un pas dehors, la liberté.",
+      "reponses": ["Ellipse", "Comparaison", "Personnification", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Elle silencieuse, la salle aussi.",
+      "reponses": ["Ellipse", "Anaphore", "Allitération", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Le travail terminé, la fête.",
+      "reponses": ["Ellipse", "Comparaison", "Hyperbole", "Métaphore"],
+      "correct": 0
+    },
+
+    {
+      "question": "Plus de mots, seulement des regards.",
+      "reponses": ["Ellipse", "Anaphore", "Ironie", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La porte fermée, le silence.",
+      "reponses": ["Ellipse", "Personnification", "Hyperbole", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "Un geste, la panique.",
+      "reponses": ["Ellipse", "Métaphore", "Allégorie", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "La nuit tombée, le froid.",
+      "reponses": ["Ellipse", "Comparaison", "Oxymore", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Un regard échangé, tout compris.",
+      "reponses": ["Ellipse", "Ironie", "Métaphore", "Hyperbole"],
+      "correct": 0
+    },
+
+    {
+      "question": "Le repas fini, chacun dehors.",
+      "reponses": ["Ellipse", "Comparaison", "Anaphore", "Allitération"],
+      "correct": 0
+    },
+    {
+      "question": "Elle en colère, moi muet.",
+      "reponses": ["Ellipse", "Oxymore", "Ironie", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Un cri, puis le noir.",
+      "reponses": ["Ellipse", "Hyperbole", "Comparaison", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "La décision prise, plus de retour.",
+      "reponses": ["Ellipse", "Anaphore", "Litote", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Le danger partout, aucune issue.",
+      "reponses": ["Ellipse", "Hyperbole", "Comparaison", "Allégorie"],
+      "correct": 0
+    },
+
+    {
+      "question": "Les yeux fermés, le rêve.",
+      "reponses": ["Ellipse", "Métaphore", "Ironie", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Le temps passé, les regrets.",
+      "reponses": ["Ellipse", "Hyperbole", "Comparaison", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Un mot de trop, la rupture.",
+      "reponses": ["Ellipse", "Ironie", "Anaphore", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "La guerre finie, les ruines.",
+      "reponses": ["Ellipse", "Hyperbole", "Comparaison", "Métaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Le cœur brisé, plus d’espoir.",
+      "reponses": ["Ellipse", "Métaphore", "Oxymore", "Ironie"],
+      "correct": 0
+    },
+
+    {
+      "question": "Un pas de plus, la chute.",
+      "reponses": ["Ellipse", "Hyperbole", "Comparaison", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La peur installée, plus de sommeil.",
+      "reponses": ["Ellipse", "Personnification", "Oxymore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Le choix fait, le destin scellé.",
+      "reponses": ["Ellipse", "Métaphore", "Hyperbole", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Les valises prêtes, le départ.",
+      "reponses": ["Ellipse", "Comparaison", "Anaphore", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La lumière éteinte, la nuit.",
+      "reponses": ["Ellipse", "Personnification", "Hyperbole", "Ironie"],
+      "correct": 0
+    },
+
+    {
+      "question": "Un sourire perdu, la tristesse.",
+      "reponses": ["Ellipse", "Métaphore", "Comparaison", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Le silence imposé, la tension.",
+      "reponses": ["Ellipse", "Hyperbole", "Oxymore", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "La faute avouée, le pardon.",
+      "reponses": ["Ellipse", "Ironie", "Comparaison", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La vérité dite, le choc.",
+      "reponses": ["Ellipse", "Hyperbole", "Métaphore", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Le danger passé, le soulagement.",
+      "reponses": ["Ellipse", "Comparaison", "Personnification", "Ironie"],
+      "correct": 0
+    },
+
+    {
+      "question": "Les années écoulées, la sagesse.",
+      "reponses": ["Ellipse", "Hyperbole", "Anaphore", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Un regard en arrière, les souvenirs.",
+      "reponses": ["Ellipse", "Métaphore", "Ironie", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "La confiance brisée, la distance.",
+      "reponses": ["Ellipse", "Oxymore", "Hyperbole", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La promesse rompue, la colère.",
+      "reponses": ["Ellipse", "Ironie", "Comparaison", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "Le danger imminent, la fuite.",
+      "reponses": ["Ellipse", "Hyperbole", "Anaphore", "Métaphore"],
+      "correct": 0
+    },
+
+    {
+      "question": "Le rideau levé, le spectacle.",
+      "reponses": ["Ellipse", "Comparaison", "Ironie", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "La pluie tombée, la boue.",
+      "reponses": ["Ellipse", "Personnification", "Hyperbole", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La nuit passée, l’aube.",
+      "reponses": ["Ellipse", "Métaphore", "Comparaison", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Le combat fini, le silence.",
+      "reponses": ["Ellipse", "Hyperbole", "Oxymore", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La décision annoncée, la stupeur.",
+      "reponses": ["Ellipse", "Ironie", "Comparaison", "Personnification"],
+      "correct": 0
+    },
+
+    {
+      "question": "Les mots manquants, le malaise.",
+      "reponses": ["Ellipse", "Oxymore", "Hyperbole", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La vérité cachée, le mensonge.",
+      "reponses": ["Ellipse", "Ironie", "Comparaison", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "Le regard fuyant, la peur.",
+      "reponses": ["Ellipse", "Métaphore", "Hyperbole", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La page tournée, l’oubli.",
+      "reponses": ["Ellipse", "Comparaison", "Ironie", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Le verdict rendu, la fin.",
+      "reponses": ["Ellipse", "Hyperbole", "Anaphore", "Métaphore"],
+      "correct": 0
+    },
+
+    {
+      "question": "Les forces épuisées, l’abandon.",
+      "reponses": ["Ellipse", "Hyperbole", "Comparaison", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "La peur dissipée, le calme.",
+      "reponses": ["Ellipse", "Oxymore", "Personnification", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "Le masque tombé, la vérité.",
+      "reponses": ["Ellipse", "Métaphore", "Ironie", "Comparaison"],
+      "correct": 0
+    },
+    {
+      "question": "La confiance retrouvée, l’espoir.",
+      "reponses": ["Ellipse", "Hyperbole", "Anaphore", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Le passé oublié, l’avenir.",
+      "reponses": ["Ellipse", "Comparaison", "Ironie", "Métaphore"],
+      "correct": 0
+    },
+
+    {
+      "question": "La peur vaincue, la victoire.",
+      "reponses": ["Ellipse", "Hyperbole", "Anaphore", "Allégorie"],
+      "correct": 0
+    },
+    {
+      "question": "Les yeux ouverts, la réalité.",
+      "reponses": ["Ellipse", "Métaphore", "Oxymore", "Ironie"],
+      "correct": 0
+    },
+    {
+      "question": "Le silence rompu, la dispute.",
+      "reponses": ["Ellipse", "Hyperbole", "Comparaison", "Anaphore"],
+      "correct": 0
+    },
+    {
+      "question": "La nuit finie, le jour.",
+      "reponses": ["Ellipse", "Personnification", "Ironie", "Oxymore"],
+      "correct": 0
+    },
+    {
+      "question": "Le dernier mot dit, le départ.",
+      "reponses": ["Ellipse", "Hyperbole", "Anaphore", "Métaphore"],
+      "correct": 0
+    }
+  ]
+}

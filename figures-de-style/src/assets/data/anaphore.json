@@ -1,0 +1,507 @@
+{
+  "id": "anaphore",
+  "titre": "Anaphore",
+  "description": "Exerce-toi à reconnaître l'anaphore à travers 100 exemples variés.",
+  "questions": [
+    {
+      "question": "Paris ! Paris outragé ! Paris brisé ! Paris martyrisé ! Mais Paris libéré !",
+      "reponses": ["Anaphore", "Répétition", "Gradation", "Accumulation"],
+      "correct": 0
+    },
+    {
+      "question": "Je veux vivre. Je veux aimer. Je veux être libre.",
+      "reponses": ["Anaphore", "Répétition", "Parallélisme", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Toujours le même. Toujours seul. Toujours triste.",
+      "reponses": ["Anaphore", "Répétition", "Gradation", "Accumulation"],
+      "correct": 0
+    },
+    {
+      "question": "Jamais je n'ai vu cela. Jamais je ne l'oublierai.",
+      "reponses": ["Anaphore", "Répétition", "Emphase", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Qui es-tu ? Qui t'envoie ? Qui te protège ?",
+      "reponses": ["Anaphore", "Interrogation", "Répétition", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Comme il fait beau ! Comme le ciel est bleu ! Comme je suis heureux !",
+      "reponses": ["Anaphore", "Exclamation", "Répétition", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Tout est perdu. Tout est fini. Tout est mort.",
+      "reponses": ["Anaphore", "Répétition", "Gradation", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "Rien ne bouge. Rien ne parle. Rien ne vit.",
+      "reponses": ["Anaphore", "Répétition", "Gradation", "Accumulation"],
+      "correct": 0
+    },
+    {
+      "question": "Il court, il court le furet",
+      "reponses": ["Anaphore", "Répétition", "Chanson", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "Partir, c'est mourir un peu. Partir, c'est laisser derrière soi.",
+      "reponses": ["Anaphore", "Répétition", "Métaphore", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "Où sont les neiges d'antan ? Où sont les amours perdus ?",
+      "reponses": ["Anaphore", "Interrogation", "Répétition", "Nostalgie"],
+      "correct": 0
+    },
+    {
+      "question": "Pourquoi partir ? Pourquoi fuir ? Pourquoi abandonner ?",
+      "reponses": ["Anaphore", "Interrogation", "Répétition", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Chaque jour est un combat. Chaque heure est une épreuve.",
+      "reponses": ["Anaphore", "Métaphore", "Répétition", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "Partout la misère. Partout la souffrance. Partout le désespoir.",
+      "reponses": ["Anaphore", "Répétition", "Gradation", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "Toujours plus haut. Toujours plus fort. Toujours plus loin.",
+      "reponses": ["Anaphore", "Gradation", "Répétition", "Devise"],
+      "correct": 0
+    },
+    {
+      "question": "Peut-être demain. Peut-être après-demain. Peut-être jamais.",
+      "reponses": ["Anaphore", "Répétition", "Gradation", "Litote"],
+      "correct": 0
+    },
+    {
+      "question": "Sans toi, sans espoir. Sans toi, sans vie.",
+      "reponses": ["Anaphore", "Répétition", "Pathétique", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Hier encore, j'avais vingt ans. Hier encore, j'étais vivant.",
+      "reponses": ["Anaphore", "Nostalgie", "Répétition", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "Plus jamais ça. Plus jamais la guerre.",
+      "reponses": ["Anaphore", "Répétition", "Serment", "Emphase"],
+      "correct": 0
+    },
+    {
+      "question": "Demain sera meilleur. Demain sera différent.",
+      "reponses": ["Anaphore", "Répétition", "Espoir", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "C'est l'histoire d'un homme. C'est l'histoire d'une vie. C'est l'histoire de nous tous.",
+      "reponses": ["Anaphore", "Répétition", "Gradation", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "Je me souviens de tout. Je me souviens de chaque instant. Je me souviens de chaque mot.",
+      "reponses": ["Anaphore", "Répétition", "Gradation", "Nostalgie"],
+      "correct": 0
+    },
+    {
+      "question": "Rome, l'unique objet de mon ressentiment ! Rome, à qui vient ton bras d'immoler mon amant !",
+      "reponses": ["Anaphore", "Apostrophe", "Répétition", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "Si tu m'aimes, dis-le. Si tu me quittes, pars. Si tu m'oublies, tais-toi.",
+      "reponses": ["Anaphore", "Parallélisme", "Répétition", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Quand vous serez vieux. Quand vous serez sage. Quand vous serez seul.",
+      "reponses": ["Anaphore", "Répétition", "Parallélisme", "Prophétie"],
+      "correct": 0
+    },
+    {
+      "question": "Nous irons là-bas. Nous vivrons ensemble. Nous serons heureux.",
+      "reponses": ["Anaphore", "Répétition", "Parallélisme", "Espoir"],
+      "correct": 0
+    },
+    {
+      "question": "C'était mieux avant. C'était plus simple avant. C'était plus beau avant.",
+      "reponses": ["Anaphore", "Répétition", "Nostalgie", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Il faut avancer. Il faut continuer. Il faut survivre.",
+      "reponses": ["Anaphore", "Répétition", "Injonction", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Marcher encore. Marcher toujours. Marcher jusqu'au bout.",
+      "reponses": ["Anaphore", "Répétition", "Gradation", "Infinitif"],
+      "correct": 0
+    },
+    {
+      "question": "Dans mes rêves, je te vois. Dans mes rêves, je te parle. Dans mes rêves, je t'aime.",
+      "reponses": ["Anaphore", "Répétition", "Parallélisme", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "Que tu sois roi. Que tu sois prince. Que tu sois mendiant.",
+      "reponses": ["Anaphore", "Subjonctif", "Répétition", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "On verra bien. On verra demain. On verra après.",
+      "reponses": ["Anaphore", "Répétition", "Litote", "Parallélisme"],
+      "correct": 0
+    },
+    {
+      "question": "Dis-moi qui tu es. Dis-moi d'où tu viens. Dis-moi pourquoi tu es là.",
+      "reponses": ["Anaphore", "Interrogation", "Répétition", "Injonction"],
+      "correct": 0
+    },
+    {
+      "question": "Là où tu vas, j'irai. Là où tu dors, je dormirai. Là où tu meurs, je mourrai.",
+      "reponses": ["Anaphore", "Répétition", "Parallélisme", "Serment"],
+      "correct": 0
+    },
+    {
+      "question": "N'oublie jamais. N'oublie pas d'où tu viens. N'oublie pas qui tu es.",
+      "reponses": ["Anaphore", "Répétition", "Impératif", "Conseil"],
+      "correct": 0
+    },
+    {
+      "question": "Maintenant ou jamais. Maintenant avant qu'il soit trop tard. Maintenant tout de suite.",
+      "reponses": ["Anaphore", "Répétition", "Urgence", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Un jour, tu comprendras. Un jour, tu verras. Un jour, tu sauras.",
+      "reponses": ["Anaphore", "Répétition", "Parallélisme", "Prophétie"],
+      "correct": 0
+    },
+    {
+      "question": "Loin de toi, loin du monde. Loin de toi, loin de tout. Loin de toi, loin de moi.",
+      "reponses": ["Anaphore", "Répétition", "Pathétique", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Crois-moi. Crois en toi. Crois en nous.",
+      "reponses": ["Anaphore", "Répétition", "Impératif", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Souviens-toi de moi. Souviens-toi de nous. Souviens-toi de ce jour.",
+      "reponses": ["Anaphore", "Répétition", "Impératif", "Nostalgie"],
+      "correct": 0
+    },
+    {
+      "question": "Heureux qui, comme Ulysse, a fait un beau voyage",
+      "reponses": ["Anaphore", "Allusion", "Comparaison", "Sonnet"],
+      "correct": 0
+    },
+    {
+      "question": "France, mère des arts, des armes et des lois",
+      "reponses": ["Anaphore", "Apostrophe", "Énumération", "Périphrase"],
+      "correct": 0
+    },
+    {
+      "question": "Mon bras qu'avec respect toute l'Espagne admire, Mon bras qui tant de fois a sauvé cet empire",
+      "reponses": ["Anaphore", "Répétition", "Hyperbole", "Métonymie"],
+      "correct": 0
+    },
+    {
+      "question": "Qu'il mourût ! Qu'il vécût ! Qu'il triomphât !",
+      "reponses": ["Anaphore", "Subjonctif", "Exclamation", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Je suis venu, j'ai vu, j'ai vaincu",
+      "reponses": ["Anaphore", "Parallélisme", "Gradation", "Citation"],
+      "correct": 0
+    },
+    {
+      "question": "Ô rage ! Ô désespoir ! Ô vieillesse ennemie !",
+      "reponses": ["Anaphore", "Exclamation", "Apostrophe", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Liberté, liberté chérie",
+      "reponses": ["Anaphore", "Apostrophe", "Répétition", "Hymne"],
+      "correct": 0
+    },
+    {
+      "question": "Que ma joie demeure. Que mon âme s'envole. Que mon cœur s'ouvre.",
+      "reponses": ["Anaphore", "Subjonctif", "Répétition", "Souhait"],
+      "correct": 0
+    },
+    {
+      "question": "De l'audace, encore de l'audace, toujours de l'audace",
+      "reponses": ["Anaphore", "Répétition", "Gradation", "Citation"],
+      "correct": 0
+    },
+    {
+      "question": "Ils ne mouraient pas tous, mais tous étaient frappés",
+      "reponses": ["Anaphore", "Antithèse", "Parallélisme", "Fable"],
+      "correct": 0
+    },
+    {
+      "question": "Combien de marins, combien de capitaines",
+      "reponses": ["Anaphore", "Interrogation", "Répétition", "Poésie"],
+      "correct": 0
+    },
+    {
+      "question": "Si c'est un homme celui qui vit sans but. Si c'est un homme celui qui ne lutte pas.",
+      "reponses": ["Anaphore", "Condition", "Répétition", "Philosophie"],
+      "correct": 0
+    },
+    {
+      "question": "Moi, je sais. Moi, j'ai vu. Moi, je témoigne.",
+      "reponses": ["Anaphore", "Emphase", "Répétition", "Témoignage"],
+      "correct": 0
+    },
+    {
+      "question": "Vous qui vivez, que nous ont-ils fait ? Vous qui riez, que nous ont-ils pris ?",
+      "reponses": ["Anaphore", "Apostrophe", "Interrogation", "Pathétique"],
+      "correct": 0
+    },
+    {
+      "question": "Au commencement était le Verbe. Au commencement était la Parole. Au commencement était Dieu.",
+      "reponses": ["Anaphore", "Répétition", "Citation", "Religieux"],
+      "correct": 0
+    },
+    {
+      "question": "Pendant que je dormais. Pendant que je rêvais. Pendant que j'oubliais.",
+      "reponses": ["Anaphore", "Répétition", "Parallélisme", "Imparfait"],
+      "correct": 0
+    },
+    {
+      "question": "Voici venir les temps. Voici venir l'heure. Voici venir le jour.",
+      "reponses": ["Anaphore", "Répétition", "Prophétie", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Ainsi parlait Zarathoustra. Ainsi parlent les prophètes. Ainsi parle la sagesse.",
+      "reponses": ["Anaphore", "Répétition", "Allusion", "Philosophie"],
+      "correct": 0
+    },
+    {
+      "question": "C'en est fait. C'en est fini. C'en est terminé.",
+      "reponses": ["Anaphore", "Répétition", "Gradation", "Résignation"],
+      "correct": 0
+    },
+    {
+      "question": "Que reste-t-il de nos amours ? Que reste-t-il de nos serments ? Que reste-t-il de tout cela ?",
+      "reponses": ["Anaphore", "Interrogation", "Répétition", "Nostalgie"],
+      "correct": 0
+    },
+    {
+      "question": "Sous le pont Mirbeau coule la Seine. Sous le pont coule notre amour.",
+      "reponses": ["Anaphore", "Répétition", "Métaphore", "Poésie"],
+      "correct": 0
+    },
+    {
+      "question": "Heureux celui qui meurt. Heureux celui qui vit. Heureux celui qui aime.",
+      "reponses": ["Anaphore", "Répétition", "Parallélisme", "Béatitude"],
+      "correct": 0
+    },
+    {
+      "question": "Tant que les hommes mourront. Tant que les enfants pleureront. Tant que les femmes souffriront.",
+      "reponses": ["Anaphore", "Répétition", "Parallélisme", "Serment"],
+      "correct": 0
+    },
+    {
+      "question": "Je vous salue, ma France. Je vous salue, mon pays. Je vous salue, ma terre.",
+      "reponses": ["Anaphore", "Apostrophe", "Répétition", "Patriotique"],
+      "correct": 0
+    },
+    {
+      "question": "Vienne la nuit sonne l'heure. Vienne le jour de la vengeance. Vienne le temps de la justice.",
+      "reponses": ["Anaphore", "Subjonctif", "Répétition", "Imprécation"],
+      "correct": 0
+    },
+    {
+      "question": "Fais ce que dois, advienne que pourra. Fais ce que tu aimes. Fais ce qui est juste.",
+      "reponses": ["Anaphore", "Impératif", "Répétition", "Proverbe"],
+      "correct": 0
+    },
+    {
+      "question": "Sois sage, ô ma Douleur, et tiens-toi plus tranquille",
+      "reponses": ["Anaphore", "Apostrophe", "Impératif", "Poésie"],
+      "correct": 0
+    },
+    {
+      "question": "Terre, tu n'engloutiras pas mon sang. Terre, tu ne cacheras pas mes morts.",
+      "reponses": ["Anaphore", "Apostrophe", "Répétition", "Imprécation"],
+      "correct": 0
+    },
+    {
+      "question": "Ils ont dit. Ils ont menti. Ils ont trahi.",
+      "reponses": ["Anaphore", "Répétition", "Gradation", "Accusation"],
+      "correct": 0
+    },
+    {
+      "question": "Quoi qu'il arrive. Quoi qu'il en coûte. Quoi qu'on en dise.",
+      "reponses": ["Anaphore", "Répétition", "Concession", "Détermination"],
+      "correct": 0
+    },
+    {
+      "question": "Béni soit celui qui vient. Béni soit celui qui part. Béni soit celui qui reste.",
+      "reponses": ["Anaphore", "Répétition", "Bénédiction", "Religieux"],
+      "correct": 0
+    },
+    {
+      "question": "Maudit soit le jour. Maudit soit l'heure. Maudit soit l'instant.",
+      "reponses": ["Anaphore", "Répétition", "Malédiction", "Gradation"],
+      "correct": 0
+    },
+    {
+      "question": "Plus d'esclaves. Plus de maîtres. Plus de chaînes.",
+      "reponses": ["Anaphore", "Répétition", "Négation", "Liberté"],
+      "correct": 0
+    },
+    {
+      "question": "Ni dieu ni maître. Ni roi ni empereur. Ni pape ni césar.",
+      "reponses": ["Anaphore", "Répétition", "Négation", "Anarchie"],
+      "correct": 0
+    },
+    {
+      "question": "Donnez-nous notre pain quotidien. Donnez-nous la force. Donnez-nous le courage.",
+      "reponses": ["Anaphore", "Impératif", "Répétition", "Prière"],
+      "correct": 0
+    },
+    {
+      "question": "Délivrez-nous du mal. Délivrez-nous de la tentation. Délivrez-nous du péché.",
+      "reponses": ["Anaphore", "Impératif", "Répétition", "Prière"],
+      "correct": 0
+    },
+    {
+      "question": "Pardonnez-leur car ils ne savent pas. Pardonnez-leur car ils sont aveugles.",
+      "reponses": ["Anaphore", "Impératif", "Répétition", "Pardon"],
+      "correct": 0
+    },
+    {
+      "question": "Écoutez la chanson bien douce. Écoutez le vent qui pleure. Écoutez la mer qui gronde.",
+      "reponses": ["Anaphore", "Impératif", "Répétition", "Personnification"],
+      "correct": 0
+    },
+    {
+      "question": "Voyez comme ils courent. Voyez comme ils fuient. Voyez comme ils tombent.",
+      "reponses": ["Anaphore", "Impératif", "Répétition", "Spectacle"],
+      "correct": 0
+    },
+    {
+      "question": "Regarde-moi dans les yeux. Regarde-moi sans mentir. Regarde-moi et dis la vérité.",
+      "reponses": ["Anaphore", "Impératif", "Répétition", "Injonction"],
+      "correct": 0
+    },
+    {
+      "question": "Français, Françaises, je vous ai compris",
+      "reponses": ["Anaphore", "Apostrophe", "Discours", "Politique"],
+      "correct": 0
+    },
+    {
+      "question": "Peuple français, peuple de frères",
+      "reponses": ["Anaphore", "Apostrophe", "Répétition", "Révolution"],
+      "correct": 0
+    },
+    {
+      "question": "Citoyens, citoyennes, levez-vous",
+      "reponses": ["Anaphore", "Apostrophe", "Impératif", "Révolution"],
+      "correct": 0
+    },
+    {
+      "question": "Hommes libres, femmes libres, enfants libres",
+      "reponses": ["Anaphore", "Répétition", "Énumération", "Liberté"],
+      "correct": 0
+    },
+    {
+      "question": "Ami, entends-tu le vol noir des corbeaux sur nos plaines ? Ami, entends-tu ces cris sourds du pays qu'on enchaîne ?",
+      "reponses": ["Anaphore", "Apostrophe", "Interrogation", "Résistance"],
+      "correct": 0
+    },
+    {
+      "question": "Soldats, songez que du haut de ces pyramides quarante siècles vous contemplent",
+      "reponses": ["Anaphore", "Apostrophe", "Impératif", "Discours"],
+      "correct": 0
+    },
+    {
+      "question": "Mes frères, mes sœurs, mes enfants",
+      "reponses": ["Anaphore", "Apostrophe", "Répétition", "Familial"],
+      "correct": 0
+    },
+    {
+      "question": "Ô temps, suspends ton vol ! Ô heures propices, suspendez votre cours !",
+      "reponses": ["Anaphore", "Apostrophe", "Impératif", "Poésie"],
+      "correct": 0
+    },
+    {
+      "question": "Peuples, écoutez le poète. Peuples, respectez les rêveurs. Peuples, aimez vos artistes.",
+      "reponses": ["Anaphore", "Apostrophe", "Impératif", "Romantisme"],
+      "correct": 0
+    },
+    {
+      "question": "Allons enfants de la Patrie",
+      "reponses": ["Anaphore", "Apostrophe", "Impératif", "Hymne"],
+      "correct": 0
+    },
+    {
+      "question": "Entendez-vous dans les campagnes mugir ces féroces soldats",
+      "reponses": ["Anaphore", "Interrogation", "Métaphore", "Hymne"],
+      "correct": 0
+    },
+    {
+      "question": "Prolétaires de tous les pays, unissez-vous",
+      "reponses": ["Anaphore", "Apostrophe", "Impératif", "Politique"],
+      "correct": 0
+    },
+    {
+      "question": "Travailleurs, travailleuses, camarades",
+      "reponses": ["Anaphore", "Apostrophe", "Énumération", "Politique"],
+      "correct": 0
+    },
+    {
+      "question": "Ô mort, vieux capitaine, il est temps, levons l'ancre",
+      "reponses": ["Anaphore", "Apostrophe", "Métaphore", "Poésie"],
+      "correct": 0
+    },
+    {
+      "question": "Ô toi que j'eusse aimée, ô toi qui le savais",
+      "reponses": ["Anaphore", "Apostrophe", "Répétition", "Poésie"],
+      "correct": 0
+    },
+    {
+      "question": "Insensé qui crois que je ne suis pas toi",
+      "reponses": ["Anaphore", "Apostrophe", "Philosophie", "Poésie"],
+      "correct": 0
+    },
+    {
+      "question": "Moi qui ai connu. Moi qui ai vécu. Moi qui ai souffert.",
+      "reponses": ["Anaphore", "Emphase", "Répétition", "Témoignage"],
+      "correct": 0
+    },
+    {
+      "question": "Toi qui passes sans me voir. Toi qui m'ignores. Toi qui m'oublies.",
+      "reponses": ["Anaphore", "Apostrophe", "Répétition", "Reproché"],
+      "correct": 0
+    },
+    {
+      "question": "Lui qui savait tout. Lui qui pouvait tout. Lui qui était tout.",
+      "reponses": ["Anaphore", "Répétition", "Hyperbole", "Portrait"],
+      "correct": 0
+    },
+    {
+      "question": "Elle qui fut si belle. Elle qui fut si douce. Elle qui fut si aimée.",
+      "reponses": ["Anaphore", "Répétition", "Nostalgie", "Élégie"],
+      "correct": 0
+    }
+  ]
+}

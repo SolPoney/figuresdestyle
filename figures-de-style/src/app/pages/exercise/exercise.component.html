@@ -3,7 +3,25 @@
   *ngIf="questions.length > 0 && currentQuestion && !showResult"
 >
   <div class="max-w-4xl mx-auto">
-    <!-- Navigation et progression compactes -->
+    <!-- Sélecteur du nombre de questions -->
+    <div class="mb-4 flex items-center gap-2">
+      <label for="nbQuestions" class="text-dark-textSecondary text-sm"
+        >Nombre de questions :</label
+      >
+      <select
+        id="nbQuestions"
+        class="px-2 py-1 rounded border border-dark-border bg-dark-surface text-dark-text"
+        [(ngModel)]="nbQuestions"
+        (change)="setNbQuestions(nbQuestions)"
+      >
+        <option *ngFor="let n of nbQuestionsOptions" [ngValue]="n">
+          {{ n === 0 ? "Tout" : n }}
+        </option>
+      </select>
+      <span *ngIf="isRevision" class="ml-2 text-yellow-400 text-xs"
+        >Module de révision</span
+      >
+    </div>
     <nav class="mb-3 flex justify-between items-center" role="navigation">
       <a
         [routerLink]="['/module', moduleId]"

@@ -117,14 +117,14 @@ export class TeacherDashboardComponent implements OnInit {
 
   viewStudentDetails(student: StudentWithProgress): void {
     this.selectedStudent = student;
-
-    // Charger les scores par module
-    const modules = this.moduleService.getModules();
-    this.studentModuleScores = modules.map((module) => ({
-      moduleId: module.id,
-      moduleName: module.titre,
-      score: this.teacherService.getStudentModuleScore(student.id, module.id),
-    }));
+    // Charger les scores par module (asynchrone)
+    this.moduleService.getModules().subscribe((modules: any[]) => {
+      this.studentModuleScores = modules.map((module: any) => ({
+        moduleId: module.id,
+        moduleName: module.titre,
+        score: this.teacherService.getStudentModuleScore(student.id, module.id),
+      }));
+    });
   }
 
   closeStudentDetails(): void {

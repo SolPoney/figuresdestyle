@@ -1,0 +1,507 @@
+  {
+    "id": "periphrase",
+    "titre": "Périphrase",
+    "description": "Exerce-toi à reconnaître la périphrase à travers 100 exemples variés.",
+    "questions": [
+      {
+        "question": "La Ville Lumière",
+        "reponses": ["Périphrase", "Métaphore", "Métonymie", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le Roi Soleil",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "L'auteur de La Comédie Humaine",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le pays du Soleil Levant",
+        "reponses": ["Périphrase", "Métaphore", "Comparaison", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "Le septième art",
+        "reponses": ["Périphrase", "Métonymie", "Synecdoque", "Métaphore"],
+        "correct": 0
+      },
+      {
+        "question": "L'astre du jour",
+        "reponses": ["Périphrase", "Métaphore", "Personnification", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "Le toit du monde",
+        "reponses": ["Périphrase", "Hyperbole", "Métaphore", "Comparaison"],
+        "correct": 0
+      },
+      {
+        "question": "La langue de Molière",
+        "reponses": ["Périphrase", "Métonymie", "Synecdoque", "Antonomase"],
+        "correct": 0
+      },
+      {
+        "question": "Le pays de l'Oncle Sam",
+        "reponses": ["Périphrase", "Métonymie", "Personnification", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "La dame de fer",
+        "reponses": ["Périphrase", "Métaphore", "Métonymie", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "L'île de beauté",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Euphémisme"],
+        "correct": 0
+      },
+      {
+        "question": "Le prince des poètes",
+        "reponses": ["Périphrase", "Hyperbole", "Métaphore", "Antonomase"],
+        "correct": 0
+      },
+      {
+        "question": "La cité des Doges",
+        "reponses": ["Périphrase", "Métonymie", "Synecdoque", "Métaphore"],
+        "correct": 0
+      },
+      {
+        "question": "Le dieu du stade",
+        "reponses": ["Périphrase", "Hyperbole", "Métaphore", "Personnification"],
+        "correct": 0
+      },
+      {
+        "question": "L'empire du Milieu",
+        "reponses": ["Périphrase", "Métaphore", "Métonymie", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "Le créateur de Mickey",
+        "reponses": ["Périphrase", "Métonymie", "Synecdoque", "Antonomase"],
+        "correct": 0
+      },
+      {
+        "question": "La reine des fleurs",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Personnification"],
+        "correct": 0
+      },
+      {
+        "question": "Le roi des animaux",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Personnification"],
+        "correct": 0
+      },
+      {
+        "question": "Le pays des mille collines",
+        "reponses": ["Périphrase", "Hyperbole", "Métaphore", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "La perle des Antilles",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Comparaison"],
+        "correct": 0
+      },
+      {
+        "question": "Le petit écran",
+        "reponses": ["Périphrase", "Métonymie", "Synecdoque", "Litote"],
+        "correct": 0
+      },
+      {
+        "question": "Les forces de l'ordre",
+        "reponses": ["Périphrase", "Métonymie", "Euphémisme", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le meilleur ami de l'homme",
+        "reponses": ["Périphrase", "Hyperbole", "Métaphore", "Personnification"],
+        "correct": 0
+      },
+      {
+        "question": "L'or noir",
+        "reponses": ["Périphrase", "Métaphore", "Métonymie", "Oxymore"],
+        "correct": 0
+      },
+      {
+        "question": "Le quatrième pouvoir",
+        "reponses": ["Périphrase", "Métonymie", "Métaphore", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "Le dernier voyage",
+        "reponses": ["Périphrase", "Euphémisme", "Métaphore", "Litote"],
+        "correct": 0
+      },
+      {
+        "question": "Le bel âge",
+        "reponses": ["Périphrase", "Euphémisme", "Litote", "Antiphrase"],
+        "correct": 0
+      },
+      {
+        "question": "Les gens du voyage",
+        "reponses": ["Périphrase", "Euphémisme", "Métonymie", "Litote"],
+        "correct": 0
+      },
+      {
+        "question": "Le troisième âge",
+        "reponses": ["Périphrase", "Euphémisme", "Métonymie", "Litote"],
+        "correct": 0
+      },
+      {
+        "question": "L'or blanc",
+        "reponses": ["Périphrase", "Métaphore", "Métonymie", "Comparaison"],
+        "correct": 0
+      },
+      {
+        "question": "La grande faucheuse",
+        "reponses": ["Périphrase", "Personnification", "Métaphore", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "Le noble art",
+        "reponses": ["Périphrase", "Métonymie", "Antiphrase", "Litote"],
+        "correct": 0
+      },
+      {
+        "question": "L'homme au double menton",
+        "reponses": ["Périphrase", "Métonymie", "Synecdoque", "Antonomase"],
+        "correct": 0
+      },
+      {
+        "question": "Le mal du siècle",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "Le cinquième élément",
+        "reponses": ["Périphrase", "Métaphore", "Allégorie", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "La planète bleue",
+        "reponses": ["Périphrase", "Métaphore", "Métonymie", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le fruit défendu",
+        "reponses": ["Périphrase", "Allégorie", "Métaphore", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "L'éternel retour",
+        "reponses": ["Périphrase", "Métaphore", "Oxymore", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "Le Grand Siècle",
+        "reponses": ["Périphrase", "Métonymie", "Antonomase", "Métaphore"],
+        "correct": 0
+      },
+      {
+        "question": "Le siècle des Lumières",
+        "reponses": ["Périphrase", "Métaphore", "Métonymie", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "Celui qui a dit 'Je pense donc je suis'",
+        "reponses": ["Périphrase", "Métonymie", "Antonomase", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le sport roi",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "La langue de Shakespeare",
+        "reponses": ["Périphrase", "Métonymie", "Synecdoque", "Antonomase"],
+        "correct": 0
+      },
+      {
+        "question": "Le père de la psychanalyse",
+        "reponses": ["Périphrase", "Métonymie", "Antonomase", "Métaphore"],
+        "correct": 0
+      },
+      {
+        "question": "Le berceau de l'humanité",
+        "reponses": ["Périphrase", "Métaphore", "Allégorie", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "Le pays du matin calme",
+        "reponses": ["Périphrase", "Métaphore", "Oxymore", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "La Belle Province",
+        "reponses": ["Périphrase", "Métaphore", "Antonomase", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "Le châtiment suprême",
+        "reponses": ["Périphrase", "Euphémisme", "Litote", "Hyperbole"],
+        "correct": 0
+      },
+      {
+        "question": "L'affaire de tous",
+        "reponses": ["Périphrase", "Métonymie", "Synecdoque", "Litote"],
+        "correct": 0
+      },
+      {
+        "question": "Le poumon vert de la planète",
+        "reponses": ["Périphrase", "Métaphore", "Personnification", "Hyperbole"],
+        "correct": 0
+      },
+      {
+        "question": "Le toit de l'Europe",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "L'inventeur de l'ampoule électrique",
+        "reponses": ["Périphrase", "Métonymie", "Antonomase", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le pays aux trois religions",
+        "reponses": ["Périphrase", "Métonymie", "Synecdoque", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "Le géant américain",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "La cité interdite",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Métaphore"],
+        "correct": 0
+      },
+      {
+        "question": "Le berceau de la Renaissance",
+        "reponses": ["Périphrase", "Métaphore", "Métonymie", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "La capitale du Royaume-Uni",
+        "reponses": ["Périphrase", "Métonymie", "Synecdoque", "Antonomase"],
+        "correct": 0
+      },
+      {
+        "question": "Le successeur de Pierre",
+        "reponses": ["Périphrase", "Métonymie", "Antonomase", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "Le pays du cèdre",
+        "reponses": ["Périphrase", "Métonymie", "Métaphore", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le maître du suspense",
+        "reponses": ["Périphrase", "Antonomase", "Hyperbole", "Métaphore"],
+        "correct": 0
+      },
+      {
+        "question": "Celui qui a peint La Joconde",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "La mère de tous les vices",
+        "reponses": ["Périphrase", "Hyperbole", "Métaphore", "Personnification"],
+        "correct": 0
+      },
+      {
+        "question": "Le fléau de Dieu",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Personnification"],
+        "correct": 0
+      },
+      {
+        "question": "Le chantre de la liberté",
+        "reponses": ["Périphrase", "Métaphore", "Antonomase", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "L'héritier du trône",
+        "reponses": ["Périphrase", "Métonymie", "Synecdoque", "Métaphore"],
+        "correct": 0
+      },
+      {
+        "question": "Le continent noir",
+        "reponses": ["Périphrase", "Métaphore", "Métonymie", "Euphémisme"],
+        "correct": 0
+      },
+      {
+        "question": "Le nouveau monde",
+        "reponses": ["Périphrase", "Antonomase", "Métaphore", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "Le vieux continent",
+        "reponses": ["Périphrase", "Métaphore", "Personnification", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "Le pays des droits de l'homme",
+        "reponses": ["Périphrase", "Métonymie", "Synecdoque", "Hyperbole"],
+        "correct": 0
+      },
+      {
+        "question": "Le destructeur de Carthage",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Hyperbole"],
+        "correct": 0
+      },
+      {
+        "question": "L'empereur des Français",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le vainqueur d'Austerlitz",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le barde de Stratford",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Métaphore"],
+        "correct": 0
+      },
+      {
+        "question": "Le sage de Ferney",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le philosophe de Genève",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le maître de l'horreur",
+        "reponses": ["Périphrase", "Hyperbole", "Métaphore", "Antonomase"],
+        "correct": 0
+      },
+      {
+        "question": "Le peintre de la lumière",
+        "reponses": ["Périphrase", "Métaphore", "Antonomase", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "Le coryphée du romantisme",
+        "reponses": ["Périphrase", "Antonomase", "Métaphore", "Hyperbole"],
+        "correct": 0
+      },
+      {
+        "question": "Le chevalier de la Triste Figure",
+        "reponses": ["Périphrase", "Antonomase", "Métaphore", "Antiphrase"],
+        "correct": 0
+      },
+      {
+        "question": "Le génie de Malte",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le fondateur de la médecine moderne",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Hyperbole"],
+        "correct": 0
+      },
+      {
+        "question": "Le père de la tragédie grecque",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Métaphore"],
+        "correct": 0
+      },
+      {
+        "question": "Le chef de la Révolution bolchevique",
+        "reponses": ["Périphrase", "Antonomase", "Métonymie", "Synecdoque"],
+        "correct": 0
+      },
+      {
+        "question": "Le libérateur de l'Amérique du Sud",
+        "reponses": ["Périphrase", "Antonomase", "Hyperbole", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "L'architecte de la victoire",
+        "reponses": ["Périphrase", "Métaphore", "Antonomase", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "Le dompteur de foules",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Personnification"],
+        "correct": 0
+      },
+      {
+        "question": "Le chantre des opprimés",
+        "reponses": ["Périphrase", "Métaphore", "Antonomase", "Hyperbole"],
+        "correct": 0
+      },
+      {
+        "question": "Le héraut de la modernité",
+        "reponses": ["Périphrase", "Métaphore", "Antonomase", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "Le titan de la Renaissance",
+        "reponses": ["Périphrase", "Hyperbole", "Métaphore", "Antonomase"],
+        "correct": 0
+      },
+      {
+        "question": "L'aigle de Meaux",
+        "reponses": ["Périphrase", "Métaphore", "Antonomase", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "Le cygne de Mantoue",
+        "reponses": ["Périphrase", "Métaphore", "Antonomase", "Personnification"],
+        "correct": 0
+      },
+      {
+        "question": "Le phénix des hôtes de ces bois",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Antonomase"],
+        "correct": 0
+      },
+      {
+        "question": "Le conquérant de l'inutile",
+        "reponses": ["Périphrase", "Oxymore", "Métaphore", "Antiphrase"],
+        "correct": 0
+      },
+      {
+        "question": "Le voyageur sur la terre",
+        "reponses": ["Périphrase", "Métaphore", "Euphémisme", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "Le législateur de l'Olympe",
+        "reponses": ["Périphrase", "Métaphore", "Antonomase", "Métonymie"],
+        "correct": 0
+      },
+      {
+        "question": "Le messager des dieux",
+        "reponses": ["Périphrase", "Métonymie", "Antonomase", "Métaphore"],
+        "correct": 0
+      },
+      {
+        "question": "Le prince de la dialectique",
+        "reponses": ["Périphrase", "Antonomase", "Métaphore", "Hyperbole"],
+        "correct": 0
+      },
+      {
+        "question": "L'architecte de l'univers",
+        "reponses": ["Périphrase", "Métaphore", "Hyperbole", "Allégorie"],
+        "correct": 0
+      },
+      {
+        "question": "Le forgeron du verbe",
+        "reponses": ["Périphrase", "Métaphore", "Personnification", "Antonomase"],
+        "correct": 0
+      },
+      {
+        "question": "Le navigateur solitaire",
+        "reponses": ["Périphrase", "Métaphore", "Antonomase", "Litote"],
+        "correct": 0
+      }
+    ]
+  },
