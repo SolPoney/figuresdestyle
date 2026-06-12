@@ -197,3 +197,550 @@ All Rights Reserved License
 ## 👨‍💻 Auteur
 
 Votre nom - [Votre GitHub](https://github.com/VOTRE_USERNAME)
+
+```
+Figures de style
+├─ .env.example
+├─ CONNEXION_FRONTEND_BACKEND.md
+├─ DEPLOIEMENT.md
+├─ README.md
+├─ SECURITY.md
+├─ backend
+│  ├─ .env.example
+│  ├─ .prettierrc
+│  ├─ Dockerfile
+│  ├─ README.md
+│  ├─ SUPABASE_CONNECTION.md
+│  ├─ api-tests.http
+│  ├─ eslint.config.mjs
+│  ├─ nest-cli.json
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ prisma
+│  │  ├─ migrations
+│  │  │  ├─ 20241224010000_init
+│  │  │  │  └─ migration.sql
+│  │  │  └─ migration_lock.toml
+│  │  └─ schema.prisma
+│  ├─ src
+│  │  ├─ app.controller.spec.ts
+│  │  ├─ app.controller.ts
+│  │  ├─ app.module.ts
+│  │  ├─ app.service.ts
+│  │  ├─ auth
+│  │  │  ├─ auth.controller.spec.ts
+│  │  │  ├─ auth.controller.ts
+│  │  │  ├─ auth.module.ts
+│  │  │  ├─ auth.service.spec.ts
+│  │  │  ├─ auth.service.ts
+│  │  │  ├─ dto
+│  │  │  │  └─ auth.dto.ts
+│  │  │  ├─ guards
+│  │  │  │  └─ jwt-auth.guard.ts
+│  │  │  └─ strategies
+│  │  │     └─ jwt.strategy.ts
+│  │  ├─ main.ts
+│  │  ├─ prisma
+│  │  │  ├─ prisma.module.ts
+│  │  │  ├─ prisma.service.spec.ts
+│  │  │  └─ prisma.service.ts
+│  │  └─ stripe
+│  │     ├─ dto
+│  │     │  └─ stripe.dto.ts
+│  │     ├─ stripe.controller.spec.ts
+│  │     ├─ stripe.controller.ts
+│  │     ├─ stripe.module.ts
+│  │     ├─ stripe.service.spec.ts
+│  │     └─ stripe.service.ts
+│  ├─ start.sh
+│  ├─ test
+│  │  ├─ app.e2e-spec.ts
+│  │  └─ jest-e2e.json
+│  ├─ test-api.sh
+│  ├─ test-simple.sh
+│  ├─ tsconfig.build.json
+│  └─ tsconfig.json
+├─ biome.json
+├─ figures-de-style
+│  ├─ .angular
+│  │  └─ cache
+│  │     └─ 17.3.17
+│  │        ├─ figures-de-style
+│  │        │  └─ .tsbuildinfo
+│  │        └─ vite
+│  │           └─ deps
+│  │              ├─ @angular_common.js
+│  │              ├─ @angular_common.js.map
+│  │              ├─ @angular_common_http.js
+│  │              ├─ @angular_common_http.js.map
+│  │              ├─ @angular_core.js
+│  │              ├─ @angular_core.js.map
+│  │              ├─ @angular_forms.js
+│  │              ├─ @angular_forms.js.map
+│  │              ├─ @angular_platform-browser.js
+│  │              ├─ @angular_platform-browser.js.map
+│  │              ├─ @angular_router.js
+│  │              ├─ @angular_router.js.map
+│  │              ├─ _metadata.json
+│  │              ├─ chunk-2DJJH5CC.js
+│  │              ├─ chunk-2DJJH5CC.js.map
+│  │              ├─ chunk-APQJ6POP.js
+│  │              ├─ chunk-APQJ6POP.js.map
+│  │              ├─ chunk-CONQKHOI.js
+│  │              ├─ chunk-CONQKHOI.js.map
+│  │              ├─ chunk-FGIJWRIL.js
+│  │              ├─ chunk-FGIJWRIL.js.map
+│  │              ├─ chunk-GC5FLHL6.js
+│  │              ├─ chunk-GC5FLHL6.js.map
+│  │              ├─ chunk-IGJZNA3K.js
+│  │              ├─ chunk-IGJZNA3K.js.map
+│  │              ├─ chunk-V4GYEGQC.js
+│  │              ├─ chunk-V4GYEGQC.js.map
+│  │              ├─ package.json
+│  │              ├─ rxjs.js
+│  │              ├─ rxjs.js.map
+│  │              ├─ rxjs_operators.js
+│  │              └─ rxjs_operators.js.map
+│  ├─ .editorconfig
+│  ├─ .env.example
+│  ├─ 4
+│  ├─ CONTENU.md
+│  ├─ DASHBOARD_ENSEIGNANT.md
+│  ├─ DEPLOIEMENT_PRODUCTION.md
+│  ├─ MONETISATION_PASSIVE.md
+│  ├─ README.md
+│  ├─ angular.json
+│  ├─ config.production.ts
+│  ├─ data
+│  │  └─ module-1.json
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ src
+│  │  ├─ app
+│  │  │  ├─ app.component.css
+│  │  │  ├─ app.component.html
+│  │  │  ├─ app.component.spec.ts
+│  │  │  ├─ app.component.ts
+│  │  │  ├─ app.config.ts
+│  │  │  ├─ app.routes.ts
+│  │  │  ├─ components
+│  │  │  │  └─ footer
+│  │  │  │     └─ footer.component.ts
+│  │  │  ├─ guards
+│  │  │  │  ├─ premium.guard.ts
+│  │  │  │  └─ teacher.guard.ts
+│  │  │  ├─ interceptors
+│  │  │  │  └─ auth.interceptor.ts
+│  │  │  ├─ models
+│  │  │  │  ├─ module.model.ts
+│  │  │  │  ├─ student.model.ts
+│  │  │  │  └─ user.model.ts
+│  │  │  ├─ pages
+│  │  │  │  ├─ admin
+│  │  │  │  │  ├─ admin.component.css
+│  │  │  │  │  ├─ admin.component.html
+│  │  │  │  │  └─ admin.component.ts
+│  │  │  │  ├─ auth
+│  │  │  │  │  ├─ auth.component.css
+│  │  │  │  │  ├─ auth.component.html
+│  │  │  │  │  └─ auth.component.ts
+│  │  │  │  ├─ contact
+│  │  │  │  │  ├─ contact.component.css
+│  │  │  │  │  ├─ contact.component.html
+│  │  │  │  │  └─ contact.component.ts
+│  │  │  │  ├─ exercise
+│  │  │  │  │  ├─ exercise.component.css
+│  │  │  │  │  ├─ exercise.component.html
+│  │  │  │  │  ├─ exercise.component.old.html
+│  │  │  │  │  └─ exercise.component.ts
+│  │  │  │  ├─ home
+│  │  │  │  │  ├─ home.component.css
+│  │  │  │  │  ├─ home.component.html
+│  │  │  │  │  └─ home.component.ts
+│  │  │  │  ├─ legal
+│  │  │  │  │  ├─ accessibilite.component.ts
+│  │  │  │  │  ├─ cgv.component.ts
+│  │  │  │  │  ├─ legal-layout.component.ts
+│  │  │  │  │  ├─ mentions-legales.component.ts
+│  │  │  │  │  └─ politique-confidentialite.component.ts
+│  │  │  │  ├─ module
+│  │  │  │  │  ├─ module.component.css
+│  │  │  │  │  ├─ module.component.html
+│  │  │  │  │  └─ module.component.ts
+│  │  │  │  └─ teacher-dashboard
+│  │  │  │     ├─ teacher-dashboard.component.css
+│  │  │  │     ├─ teacher-dashboard.component.html
+│  │  │  │     └─ teacher-dashboard.component.ts
+│  │  │  └─ services
+│  │  │     ├─ api-auth.service.ts
+│  │  │     ├─ api-payment.service.ts
+│  │  │     ├─ auth.service.ts
+│  │  │     ├─ module-data.service.ts
+│  │  │     ├─ module.service.ts
+│  │  │     ├─ monitoring.service.ts
+│  │  │     ├─ payment.service.ts
+│  │  │     └─ teacher.service.ts
+│  │  ├─ assets
+│  │  │  └─ data
+│  │  │     ├─ allegorie.json
+│  │  │     ├─ alliteration.json
+│  │  │     ├─ anaphore.json
+│  │  │     ├─ animisme.json
+│  │  │     ├─ anticlimax.json
+│  │  │     ├─ antiphrase.json
+│  │  │     ├─ antithese.json
+│  │  │     ├─ assonance.json
+│  │  │     ├─ asyndete.json
+│  │  │     ├─ chiasme.json
+│  │  │     ├─ climax.json
+│  │  │     ├─ comparaison.json
+│  │  │     ├─ ellipse.json
+│  │  │     ├─ epanadiplose.json
+│  │  │     ├─ epiphore.json
+│  │  │     ├─ euphemisme.json
+│  │  │     ├─ gradation.json
+│  │  │     ├─ hypallage.json
+│  │  │     ├─ hyperbate.json
+│  │  │     ├─ hyperbole.json
+│  │  │     ├─ ironie.json
+│  │  │     ├─ litote.json
+│  │  │     ├─ metaphore.json
+│  │  │     ├─ metonymie.json
+│  │  │     ├─ module-1.json
+│  │  │     ├─ module-2.json
+│  │  │     ├─ modules-config.json
+│  │  │     ├─ onomatopee.json
+│  │  │     ├─ oxymore.json
+│  │  │     ├─ paradoxe.json
+│  │  │     ├─ parallellisme.json
+│  │  │     ├─ periphrase.json
+│  │  │     ├─ personnification.json
+│  │  │     ├─ polysyndete.json
+│  │  │     ├─ synecdoque.json
+│  │  │     ├─ synesthesie.json
+│  │  │     └─ zeugma.json
+│  │  ├─ environments
+│  │  │  ├─ environment.prod.ts
+│  │  │  └─ environment.ts
+│  │  ├─ favicon.ico
+│  │  ├─ googlea6bde28068c7e4c4.html
+│  │  ├─ index.html
+│  │  ├─ main.ts
+│  │  ├─ manifest.json
+│  │  ├─ robots.txt
+│  │  ├─ sitemap.xml
+│  │  └─ styles.css
+│  ├─ tailwind.config.js
+│  ├─ tsconfig.app.json
+│  ├─ tsconfig.json
+│  └─ tsconfig.spec.json
+├─ flavicon
+│  ├─ android-icon-144x144.png
+│  ├─ android-icon-192x192.png
+│  ├─ android-icon-36x36.png
+│  ├─ android-icon-48x48.png
+│  ├─ android-icon-72x72.png
+│  ├─ android-icon-96x96.png
+│  ├─ apple-icon-114x114.png
+│  ├─ apple-icon-120x120.png
+│  ├─ apple-icon-144x144.png
+│  ├─ apple-icon-152x152.png
+│  ├─ apple-icon-180x180.png
+│  ├─ apple-icon-57x57.png
+│  ├─ apple-icon-60x60.png
+│  ├─ apple-icon-72x72.png
+│  ├─ apple-icon-76x76.png
+│  ├─ apple-icon-precomposed.png
+│  ├─ apple-icon.png
+│  ├─ browserconfig.xml
+│  ├─ favicon-16x16.png
+│  ├─ favicon-32x32.png
+│  ├─ favicon-96x96.png
+│  ├─ favicon.ico
+│  ├─ manifest.json
+│  ├─ ms-icon-144x144.png
+│  ├─ ms-icon-150x150.png
+│  ├─ ms-icon-310x310.png
+│  └─ ms-icon-70x70.png
+├─ netlify.toml
+├─ package-lock.json
+├─ package.json
+├─ railway.yml
+├─ render.yaml
+├─ start-all.sh
+└─ vercel.json
+
+```
+```
+Figures de style
+├─ .env.example
+├─ CONNEXION_FRONTEND_BACKEND.md
+├─ DEPLOIEMENT.md
+├─ README.md
+├─ SECURITY.md
+├─ backend
+│  ├─ .env.example
+│  ├─ .prettierrc
+│  ├─ Dockerfile
+│  ├─ README.md
+│  ├─ SUPABASE_CONNECTION.md
+│  ├─ api-tests.http
+│  ├─ eslint.config.mjs
+│  ├─ nest-cli.json
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ prisma
+│  │  ├─ migrations
+│  │  │  ├─ 20241224010000_init
+│  │  │  │  └─ migration.sql
+│  │  │  └─ migration_lock.toml
+│  │  └─ schema.prisma
+│  ├─ src
+│  │  ├─ app.controller.spec.ts
+│  │  ├─ app.controller.ts
+│  │  ├─ app.module.ts
+│  │  ├─ app.service.ts
+│  │  ├─ auth
+│  │  │  ├─ auth.controller.spec.ts
+│  │  │  ├─ auth.controller.ts
+│  │  │  ├─ auth.module.ts
+│  │  │  ├─ auth.service.spec.ts
+│  │  │  ├─ auth.service.ts
+│  │  │  ├─ dto
+│  │  │  │  └─ auth.dto.ts
+│  │  │  ├─ guards
+│  │  │  │  └─ jwt-auth.guard.ts
+│  │  │  └─ strategies
+│  │  │     └─ jwt.strategy.ts
+│  │  ├─ main.ts
+│  │  ├─ prisma
+│  │  │  ├─ prisma.module.ts
+│  │  │  ├─ prisma.service.spec.ts
+│  │  │  └─ prisma.service.ts
+│  │  └─ stripe
+│  │     ├─ dto
+│  │     │  └─ stripe.dto.ts
+│  │     ├─ stripe.controller.spec.ts
+│  │     ├─ stripe.controller.ts
+│  │     ├─ stripe.module.ts
+│  │     ├─ stripe.service.spec.ts
+│  │     └─ stripe.service.ts
+│  ├─ start.sh
+│  ├─ test
+│  │  ├─ app.e2e-spec.ts
+│  │  └─ jest-e2e.json
+│  ├─ test-api.sh
+│  ├─ test-simple.sh
+│  ├─ tsconfig.build.json
+│  └─ tsconfig.json
+├─ biome.json
+├─ figures-de-style
+│  ├─ .angular
+│  │  └─ cache
+│  │     └─ 17.3.17
+│  │        ├─ figures-de-style
+│  │        │  └─ .tsbuildinfo
+│  │        └─ vite
+│  │           └─ deps
+│  │              ├─ @angular_common.js
+│  │              ├─ @angular_common.js.map
+│  │              ├─ @angular_common_http.js
+│  │              ├─ @angular_common_http.js.map
+│  │              ├─ @angular_core.js
+│  │              ├─ @angular_core.js.map
+│  │              ├─ @angular_forms.js
+│  │              ├─ @angular_forms.js.map
+│  │              ├─ @angular_platform-browser.js
+│  │              ├─ @angular_platform-browser.js.map
+│  │              ├─ @angular_router.js
+│  │              ├─ @angular_router.js.map
+│  │              ├─ _metadata.json
+│  │              ├─ chunk-2DJJH5CC.js
+│  │              ├─ chunk-2DJJH5CC.js.map
+│  │              ├─ chunk-APQJ6POP.js
+│  │              ├─ chunk-APQJ6POP.js.map
+│  │              ├─ chunk-CONQKHOI.js
+│  │              ├─ chunk-CONQKHOI.js.map
+│  │              ├─ chunk-FGIJWRIL.js
+│  │              ├─ chunk-FGIJWRIL.js.map
+│  │              ├─ chunk-GC5FLHL6.js
+│  │              ├─ chunk-GC5FLHL6.js.map
+│  │              ├─ chunk-IGJZNA3K.js
+│  │              ├─ chunk-IGJZNA3K.js.map
+│  │              ├─ chunk-V4GYEGQC.js
+│  │              ├─ chunk-V4GYEGQC.js.map
+│  │              ├─ package.json
+│  │              ├─ rxjs.js
+│  │              ├─ rxjs.js.map
+│  │              ├─ rxjs_operators.js
+│  │              └─ rxjs_operators.js.map
+│  ├─ .editorconfig
+│  ├─ .env.example
+│  ├─ 4
+│  ├─ CONTENU.md
+│  ├─ DASHBOARD_ENSEIGNANT.md
+│  ├─ DEPLOIEMENT_PRODUCTION.md
+│  ├─ MONETISATION_PASSIVE.md
+│  ├─ README.md
+│  ├─ angular.json
+│  ├─ config.production.ts
+│  ├─ data
+│  │  └─ module-1.json
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ src
+│  │  ├─ app
+│  │  │  ├─ app.component.css
+│  │  │  ├─ app.component.html
+│  │  │  ├─ app.component.spec.ts
+│  │  │  ├─ app.component.ts
+│  │  │  ├─ app.config.ts
+│  │  │  ├─ app.routes.ts
+│  │  │  ├─ components
+│  │  │  │  └─ footer
+│  │  │  │     └─ footer.component.ts
+│  │  │  ├─ guards
+│  │  │  │  ├─ premium.guard.ts
+│  │  │  │  └─ teacher.guard.ts
+│  │  │  ├─ interceptors
+│  │  │  │  └─ auth.interceptor.ts
+│  │  │  ├─ models
+│  │  │  │  ├─ module.model.ts
+│  │  │  │  ├─ student.model.ts
+│  │  │  │  └─ user.model.ts
+│  │  │  ├─ pages
+│  │  │  │  ├─ admin
+│  │  │  │  │  ├─ admin.component.css
+│  │  │  │  │  ├─ admin.component.html
+│  │  │  │  │  └─ admin.component.ts
+│  │  │  │  ├─ auth
+│  │  │  │  │  ├─ auth.component.css
+│  │  │  │  │  ├─ auth.component.html
+│  │  │  │  │  └─ auth.component.ts
+│  │  │  │  ├─ contact
+│  │  │  │  │  ├─ contact.component.css
+│  │  │  │  │  ├─ contact.component.html
+│  │  │  │  │  └─ contact.component.ts
+│  │  │  │  ├─ exercise
+│  │  │  │  │  ├─ exercise.component.css
+│  │  │  │  │  ├─ exercise.component.html
+│  │  │  │  │  ├─ exercise.component.old.html
+│  │  │  │  │  └─ exercise.component.ts
+│  │  │  │  ├─ home
+│  │  │  │  │  ├─ home.component.css
+│  │  │  │  │  ├─ home.component.html
+│  │  │  │  │  └─ home.component.ts
+│  │  │  │  ├─ legal
+│  │  │  │  │  ├─ accessibilite.component.ts
+│  │  │  │  │  ├─ cgv.component.ts
+│  │  │  │  │  ├─ legal-layout.component.ts
+│  │  │  │  │  ├─ mentions-legales.component.ts
+│  │  │  │  │  └─ politique-confidentialite.component.ts
+│  │  │  │  ├─ module
+│  │  │  │  │  ├─ module.component.css
+│  │  │  │  │  ├─ module.component.html
+│  │  │  │  │  └─ module.component.ts
+│  │  │  │  └─ teacher-dashboard
+│  │  │  │     ├─ teacher-dashboard.component.css
+│  │  │  │     ├─ teacher-dashboard.component.html
+│  │  │  │     └─ teacher-dashboard.component.ts
+│  │  │  └─ services
+│  │  │     ├─ api-auth.service.ts
+│  │  │     ├─ api-payment.service.ts
+│  │  │     ├─ auth.service.ts
+│  │  │     ├─ module-data.service.ts
+│  │  │     ├─ module.service.ts
+│  │  │     ├─ monitoring.service.ts
+│  │  │     ├─ payment.service.ts
+│  │  │     └─ teacher.service.ts
+│  │  ├─ assets
+│  │  │  └─ data
+│  │  │     ├─ allegorie.json
+│  │  │     ├─ alliteration.json
+│  │  │     ├─ anaphore.json
+│  │  │     ├─ animisme.json
+│  │  │     ├─ anticlimax.json
+│  │  │     ├─ antiphrase.json
+│  │  │     ├─ antithese.json
+│  │  │     ├─ assonance.json
+│  │  │     ├─ asyndete.json
+│  │  │     ├─ chiasme.json
+│  │  │     ├─ climax.json
+│  │  │     ├─ comparaison.json
+│  │  │     ├─ ellipse.json
+│  │  │     ├─ epanadiplose.json
+│  │  │     ├─ epiphore.json
+│  │  │     ├─ euphemisme.json
+│  │  │     ├─ gradation.json
+│  │  │     ├─ hypallage.json
+│  │  │     ├─ hyperbate.json
+│  │  │     ├─ hyperbole.json
+│  │  │     ├─ ironie.json
+│  │  │     ├─ litote.json
+│  │  │     ├─ metaphore.json
+│  │  │     ├─ metonymie.json
+│  │  │     ├─ module-1.json
+│  │  │     ├─ module-2.json
+│  │  │     ├─ modules-config.json
+│  │  │     ├─ onomatopee.json
+│  │  │     ├─ oxymore.json
+│  │  │     ├─ paradoxe.json
+│  │  │     ├─ parallellisme.json
+│  │  │     ├─ periphrase.json
+│  │  │     ├─ personnification.json
+│  │  │     ├─ polysyndete.json
+│  │  │     ├─ synecdoque.json
+│  │  │     ├─ synesthesie.json
+│  │  │     └─ zeugma.json
+│  │  ├─ environments
+│  │  │  ├─ environment.prod.ts
+│  │  │  └─ environment.ts
+│  │  ├─ favicon.ico
+│  │  ├─ googlea6bde28068c7e4c4.html
+│  │  ├─ index.html
+│  │  ├─ main.ts
+│  │  ├─ manifest.json
+│  │  ├─ robots.txt
+│  │  ├─ sitemap.xml
+│  │  └─ styles.css
+│  ├─ tailwind.config.js
+│  ├─ tsconfig.app.json
+│  ├─ tsconfig.json
+│  └─ tsconfig.spec.json
+├─ flavicon
+│  ├─ android-icon-144x144.png
+│  ├─ android-icon-192x192.png
+│  ├─ android-icon-36x36.png
+│  ├─ android-icon-48x48.png
+│  ├─ android-icon-72x72.png
+│  ├─ android-icon-96x96.png
+│  ├─ apple-icon-114x114.png
+│  ├─ apple-icon-120x120.png
+│  ├─ apple-icon-144x144.png
+│  ├─ apple-icon-152x152.png
+│  ├─ apple-icon-180x180.png
+│  ├─ apple-icon-57x57.png
+│  ├─ apple-icon-60x60.png
+│  ├─ apple-icon-72x72.png
+│  ├─ apple-icon-76x76.png
+│  ├─ apple-icon-precomposed.png
+│  ├─ apple-icon.png
+│  ├─ browserconfig.xml
+│  ├─ favicon-16x16.png
+│  ├─ favicon-32x32.png
+│  ├─ favicon-96x96.png
+│  ├─ favicon.ico
+│  ├─ manifest.json
+│  ├─ ms-icon-144x144.png
+│  ├─ ms-icon-150x150.png
+│  ├─ ms-icon-310x310.png
+│  └─ ms-icon-70x70.png
+├─ netlify.toml
+├─ package-lock.json
+├─ package.json
+├─ railway.yml
+├─ render.yaml
+├─ start-all.sh
+└─ vercel.json
+
+```

@@ -1,8 +1,24 @@
 {
-  "dependencies": {
-    "compression": "^1.8.1"
+  "name": "figures-de-style-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start": "npm run start:backend & npm run start:frontend",
+    "start:frontend": "npm run start --workspace=frontend",
+    "start:backend": "npm run start:dev --workspace=backend",
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:frontend": "npm run build --workspace=frontend",
+    "build:backend": "npm run build --workspace=backend",
+    "test": "npm run test --workspace=backend",
+    "lint": "npm run lint --workspace=backend",
+    "format": "npx biome format --write ."
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.3.11",
     "webpack-bundle-analyzer": "^5.1.0"
   }
 }

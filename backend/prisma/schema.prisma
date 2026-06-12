@@ -16,22 +16,22 @@ model User {
   name      String
   password  String
   plan      PlanType @default(FREE)
-  
+
   // Stripe
-  stripeCustomerId       String?   @unique
-  stripeSubscriptionId   String?   @unique
-  premiumUntil          DateTime?
-  
+  stripeCustomerId     String?  @unique
+  stripeSubscriptionId String?  @unique
+  premiumUntil         DateTime?
+
   // Timestamps
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
   lastActive DateTime @default(now())
-  
+
   // Relations
-  scores    Score[]
-  students  Student[]
-  referral  Referral?
-  
+  scores   Score[]
+  students Student[]
+  referral Referral?
+
   @@index([email])
   @@index([stripeCustomerId])
 }
@@ -43,48 +43,60 @@ enum PlanType {
 }
 
 model Score {
-  id              String   @id @default(uuid())
-  userId          String
-  moduleId        String
-  score           Int
-  totalQuestions  Int
-  percentage      Float
-  attempts        Int      @default(1)
-  completedAt     DateTime @default(now())
-  
+  id             String   @id @default(uuid())
+  userId         String
+  moduleId       String
+  score          Int
+  totalQuestions Int
+  percentage     Float
+  attempts       Int      @default(1)
+  completedAt    DateTime @default(now())
+
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
-  
+
   @@index([userId, moduleId])
   @@index([completedAt])
 }
 
 model Student {
-  id         String   @id @default(uuid())
+  id         String    @id @default(uuid())
   teacherId  String
   email      String
   name       String
-  createdAt  DateTime @default(now())
+  createdAt  DateTime  @default(now())
   lastActive DateTime?
-  
-  teacher  User               @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+
+  teacher  User              @relation(fields: [teacherId], references: [id], onDelete: Cascade)
   progress StudentProgress[]
-  
+
   @@unique([teacherId, email])
   @@index([teacherId])
 }
 
 model StudentProgress {
-  id              String   @id @default(uuid())
-  studentId       String
-  moduleId        String
-  score           Int
-  totalQuestions  Int
-  percentage      Float
-  completedAt     DateTime @default(now())
-  
+  id             String   @id @default(uuid())
+  studentId      String
+  moduleId       String
+  score          Int
+  totalQuestions Int
+  percentage     Float
+  completedAt    DateTime @default(now())
+
   student Student @relation(fields: [studentId], references: [id], onDelete: Cascade)
-  
+
   @@index([studentId, moduleId])
+}
+
+model Devis {
+  id               String   @id @default(uuid())
+  nomEtablissement String
+  contact          String
+  email            String
+  telephone        String?
+  nombreEleves     Int
+  options          String   // JSON.stringify d'un tableau d'options
+  prix             Float
+  createdAt        DateTime @default(now())
 }
 
 model ContactMessage {
@@ -95,7 +107,7 @@ model ContactMessage {
   message   String
   read      Boolean  @default(false)
   createdAt DateTime @default(now())
-  
+
   @@index([read, createdAt])
 }
 
@@ -106,7 +118,7 @@ model ActivityLog {
   email     String?
   details   Json?
   createdAt DateTime     @default(now())
-  
+
   @@index([type, createdAt])
   @@index([userId])
 }
@@ -130,20 +142,20 @@ model PromoCode {
   usageCount      Int      @default(0)
   maxUsage        Int?
   active          Boolean  @default(true)
-  
+
   @@index([code, active])
 }
 
 model Referral {
-  id                String   @id @default(uuid())
-  userId            String   @unique
-  code              String   @unique
-  commissionPercent Float    @default(20.0)
-  totalSales        Float    @default(0)
-  totalCommission   Float    @default(0)
+  id                String @id @default(uuid())
+  userId            String @unique
+  code              String @unique
+  commissionPercent Float  @default(20.0)
+  totalSales        Float  @default(0)
+  totalCommission   Float  @default(0)
   createdAt         DateTime @default(now())
-  
+
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
-  
+
   @@index([code])
 }

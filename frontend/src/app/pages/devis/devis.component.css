@@ -1,0 +1,11 @@
+/* Styles simples pour le formulaire de devis */
+form label {
+  color: #222;
+}
+form input,
+form select {
+  margin-bottom: 8px;
+}
+form button {
+  margin-top: 12px;
+}

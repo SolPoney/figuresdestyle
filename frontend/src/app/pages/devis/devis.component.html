@@ -1,0 +1,137 @@
+import { Component } from '@angular/core';
+import jsPDF from 'jspdf';
+import { HttpClient } from '@angular/common/http';
+
+@Component({
+  selector: 'app-devis',
+  templateUrl: './devis.component.html',
+  styleUrls: ['./devis.component.css'],
+})
+export class DevisComponent {
+  prixTotal: number | null = null;
+  dernierFormulaire: any = null;
+  messageEmail: string = '';
+  
+  // Variables pour les checkboxes
+  optionPremium: boolean = false;
+  optionAccompagnement: boolean = false;
+  optionAtelier: boolean = false;
+
+  constructor(private http: HttpClient) {}
+
+  onSubmit(form?: any) {
+    // Récupération des données du formulaire
+    const nombreEleves = form?.value?.nombreEleves || 0;
+    
+    // Construction du tableau des options sélectionnées
+    const options: string[] = [];
+    if (this.optionPremium) options.push('premium');
+    if (this.optionAccompagnement) options.push('accompagnement');
+    if (this.optionAtelier) options.push('atelier');
+    
+    // Calcul automatique du prix
+    let prix = 100 + nombreEleves * 2;
+    
+    if (options.includes('premium')) prix += 200;
+    if (options.includes('accompagnement')) prix += 150;
+    if (options.includes('atelier')) prix += 300;
+    
+    this.prixTotal = prix;
+    
+    // Sauvegarde du formulaire avec les options
+    this.dernierFormulaire = {
+      ...form?.value,
+      options: options
+    };
+    
+    this.messageEmail = '';
+  }
+
+  genererPDF() {
+    if (!this.dernierFormulaire) {
+      return;
+    }
+    
+    const doc = new jsPDF();
+    const f = this.dernierFormulaire;
+
+    // En-tête
+    doc.setFontSize(18);
+    doc.text('Devis établissement scolaire', 10, 15);
+    
+    // Informations de l'établissement
+    doc.setFontSize(12);
+    doc.text(`Nom de l'établissement : ${f.nomEtablissement || 'N/A'}`, 10, 30);
+    doc.text(`Contact : ${f.contact || 'N/A'}`, 10, 40);
+    doc.text(`Email : ${f.email || 'N/A'}`, 10, 50);
+    doc.text(`Téléphone : ${f.telephone || 'N/A'}`, 10, 60);
+    doc.text(`Nombre d'élèves : ${f.nombreEleves || 0}`, 10, 70);
+    
+    // Options
+    const optionsTexte = (f.options && f.options.length > 0) 
+      ? f.options.map((opt: string) => {
+          switch(opt) {
+            case 'premium': return 'Accès Premium (+200€)';
+            case 'accompagnement': return 'Accompagnement pédagogique (+150€)';
+            case 'atelier': return 'Atelier en classe (+300€)';
+            default: return opt;
+          }
+        }).join(', ')
+      : 'Aucune option';
+    
+    doc.text(`Options : ${optionsTexte}`, 10, 80);
+    
+    // Détail du calcul
+    doc.text('--- Détail du calcul ---', 10, 95);
+    doc.text(`Prix de base : 100€`, 10, 105);
+    doc.text(`Élèves (${f.nombreEleves} × 2€) : ${(f.nombreEleves || 0) * 2}€`, 10, 115);
+    
+    let yPosition = 125;
+    if (f.options && f.options.includes('premium')) {
+      doc.text('Option Premium : +200€', 10, yPosition);
+      yPosition += 10;
+    }
+    if (f.options && f.options.includes('accompagnement')) {
+      doc.text('Accompagnement pédagogique : +150€', 10, yPosition);
+      yPosition += 10;
+    }
+    if (f.options && f.options.includes('atelier')) {
+      doc.text('Atelier en classe : +300€', 10, yPosition);
+      yPosition += 10;
+    }
+    
+    // Prix total
+    doc.setFontSize(14);
+    doc.text(`PRIX TOTAL : ${this.prixTotal}€`, 10, yPosition + 10);
+    
+    // Note de bas de page
+    doc.setFontSize(10);
+    doc.text('Prix indicatif hors taxes. Devis valable 30 jours.', 10, yPosition + 25);
+    
+    // Sauvegarde du PDF
+    doc.save('devis-ecole.pdf');
+  }
+
+  envoyerDevisParEmail() {
+    if (!this.dernierFormulaire || !this.prixTotal) {
+      this.messageEmail = 'Veuillez d\'abord remplir le formulaire.';
+      return;
+    }
+
+    this.messageEmail = 'Envoi en cours...';
+    
+    this.http
+      .post('/api/devis', { ...this.dernierFormulaire, prix: this.prixTotal })
+      .subscribe({
+        next: () => {
+          this.messageEmail =
+            'Votre demande de devis a bien été envoyée. Vous recevrez un email sous peu.';
+        },
+        error: (err) => {
+          console.error('Erreur lors de l\'envoi:', err);
+          this.messageEmail =
+            'Erreur lors de l\'envoi du devis. Veuillez réessayer plus tard.';
+        },
+      });
+  }
+}
