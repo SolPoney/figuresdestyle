@@ -14,7 +14,7 @@ export class StripeService {
     this.stripe = new Stripe(
       this.configService.get('STRIPE_SECRET_KEY') || 'sk_test_YOUR_KEY',
       {
-        apiVersion: '2025-12-15.clover',
+        apiVersion: '2026-02-25.clover',
       },
     );
   }
@@ -145,10 +145,10 @@ export class StripeService {
         type: 'UPGRADE',
         userId: user.id,
         email: user.email,
-        details: {
+        details: JSON.stringify({
           plan: subscription.metadata?.plan,
           subscriptionId: subscription.id,
-        },
+        }),
       },
     });
   }
@@ -180,9 +180,9 @@ export class StripeService {
           type: 'DOWNGRADE',
           userId: user.id,
           email: user.email,
-          details: {
+          details: JSON.stringify({
             reason: subscription.status,
-          },
+          }),
         },
       });
     }
@@ -202,11 +202,11 @@ export class StripeService {
         type: 'ERROR',
         userId: user.id,
         email: user.email,
-        details: {
+        details: JSON.stringify({
           error: 'payment_failed',
           invoiceId: invoice.id,
           amount: invoice.amount_due,
-        },
+        }),
       },
     });
 

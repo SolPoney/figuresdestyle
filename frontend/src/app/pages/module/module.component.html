@@ -1,149 +1,92 @@
-<div class="min-h-screen bg-dark-bg px-4 py-8" *ngIf="module">
-  <div class="max-w-5xl mx-auto">
-    <!-- Navigation retour -->
-    <nav class="mb-8" role="navigation" aria-label="Fil d'ariane">
-      <a
-        routerLink="/"
-        class="inline-flex items-center text-blue-500 hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-2 py-1"
-        aria-label="Retour à la page d'accueil"
-      >
-        <svg
-          class="w-5 h-5 mr-2"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          aria-hidden="true"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M10 19l-7-7m0 0l7-7m-7 7h18"
-          />
+<!-- Module trouvé -->
+<div class="page" *ngIf="module" id="main-content">
+  <div class="container-lg animate-slide-up">
+
+    <!-- Breadcrumb -->
+    <nav class="mb-10" aria-label="Fil d'Ariane">
+      <a routerLink="/" class="inline-flex items-center gap-2 text-dark-textSecondary hover:text-dark-text text-sm transition-colors">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
         </svg>
-        <span>Retour à l'accueil</span>
+        Tous les modules
       </a>
     </nav>
 
-    <!-- En-tête du module -->
-    <header class="mb-10" role="banner">
-      <h1 class="text-4xl md:text-5xl font-bold text-dark-text mb-4">
-        Figures de style – {{ module.titre }} – Défi
-      </h1>
-      <p
-        class="text-lg text-dark-textSecondary bg-dark-surface border border-dark-border rounded-lg p-6"
-        *ngIf="!module.isRecap"
-      >
-        Lisez la définition proposée pour chacune des figures de style
-        suivantes, puis démontrez votre maîtrise en atteignant un score de 70 %
-        à la fin du module.
-      </p>
-      <p
-        class="text-lg text-dark-textSecondary bg-dark-surface border border-dark-border rounded-lg p-6"
-        *ngIf="module.isRecap"
-      >
-        Ce module récapitulatif vous permet de réviser toutes les figures de
-        style des modules précédents.
-      </p>
+    <!-- En-tête -->
+    <header class="mb-10">
+      <h1 class="page-title mb-5">{{ module.titre }}</h1>
+      <div class="card p-5 surface-shine">
+        <p class="text-dark-textSecondary leading-relaxed" *ngIf="!module.isRecap">
+          Lisez la définition de chaque figure de style, puis démontrez votre maîtrise en atteignant un score de 70&nbsp;% à la fin du module.
+        </p>
+        <p class="text-dark-textSecondary leading-relaxed" *ngIf="module.isRecap">
+          Ce module récapitulatif vous permet de réviser toutes les figures des modules précédents.
+        </p>
+      </div>
     </header>
 
-    <!-- Liste des figures de style -->
-    <section
-      class="space-y-6 mb-10"
-      *ngIf="!module.isRecap && module.figures.length > 0"
-      aria-labelledby="figures-title"
-    >
-      <h2 id="figures-title" class="text-3xl font-bold text-dark-text mb-6">
-        Figures de style du module
+    <!-- Liste des figures -->
+    <section *ngIf="!module.isRecap && module.figures.length > 0" aria-labelledby="figures-title" class="mb-12">
+      <h2 id="figures-title" class="section-title mb-6">
+        Figures du module
+        <span class="ml-2 badge-free">{{ module.figures.length }}</span>
       </h2>
 
-      <article
-        *ngFor="let figure of module.figures; let i = index"
-        class="bg-dark-surface border border-dark-border rounded-lg p-6"
-      >
-        <!-- Si figure est un objet (FigureDeStyle), affiche tout. Sinon, affiche juste le nom -->
-        <ng-container *ngIf="isFigureObject(figure); else simpleFigure">
-          <h3 class="text-2xl font-bold text-blue-400 mb-3">
-            {{ i + 1 }}. {{ $any(figure).nom }}
-          </h3>
-          <div class="space-y-4">
-            <div>
-              <h4
-                class="text-sm font-semibold text-dark-textSecondary uppercase tracking-wide mb-2"
-              >
-                Définition
-              </h4>
-              <p class="text-dark-text text-lg">
-                {{ $any(figure).definition }}
-              </p>
+      <div class="flex flex-col gap-4">
+        <article
+          *ngFor="let figure of module.figures; let i = index"
+          class="card p-6 surface-shine"
+        >
+          <ng-container *ngIf="isFigureObject(figure); else simpleFigure">
+            <h3 class="text-lg font-bold text-indigo-300 mb-4">
+              <span class="text-dark-textSecondary font-normal text-sm mr-2">{{ i + 1 }}.</span>{{ $any(figure).nom }}
+            </h3>
+            <div class="flex flex-col gap-5">
+              <div>
+                <h4 class="text-xs font-semibold text-dark-textSecondary uppercase tracking-widest mb-2">Définition</h4>
+                <p class="text-dark-text leading-relaxed">{{ $any(figure).definition }}</p>
+              </div>
+              <div>
+                <h4 class="text-xs font-semibold text-dark-textSecondary uppercase tracking-widest mb-2">Exemple</h4>
+                <blockquote class="text-dark-text italic border-l-2 border-indigo-500/50 pl-4 leading-relaxed">
+                  « {{ $any(figure).exemple }} »
+                </blockquote>
+              </div>
             </div>
-            <div>
-              <h4
-                class="text-sm font-semibold text-dark-textSecondary uppercase tracking-wide mb-2"
-              >
-                Exemple
-              </h4>
-              <p
-                class="text-dark-text text-lg italic border-l-4 border-blue-500 pl-4"
-              >
-                « {{ $any(figure).exemple }} »
-              </p>
-            </div>
-          </div>
-        </ng-container>
-        <ng-template #simpleFigure>
-          <h3 class="text-2xl font-bold text-blue-400 mb-3">
-            {{ i + 1 }}. {{ figure }}
-          </h3>
-        </ng-template>
-      </article>
+          </ng-container>
+          <ng-template #simpleFigure>
+            <h3 class="text-lg font-bold text-indigo-300">
+              <span class="text-dark-textSecondary font-normal text-sm mr-2">{{ i + 1 }}.</span>{{ figure }}
+            </h3>
+          </ng-template>
+        </article>
+      </div>
     </section>
 
-    <!-- Bouton commencer l'exercice -->
-    <div class="flex justify-center mt-12">
+    <!-- CTA exercice -->
+    <div class="flex justify-center">
       <a
         [routerLink]="['/exercise', moduleId]"
-        class="inline-flex items-center px-8 py-4 bg-green-600 hover:bg-green-700 text-white text-xl font-bold rounded-lg transition-colors duration-200 focus:outline-none focus:ring-4 focus:ring-green-500 focus:ring-offset-2 focus:ring-offset-dark-bg"
-        [attr.aria-label]="'Commencer l\'exercice du ' + module.titre"
+        class="btn btn-primary btn-lg"
+        [attr.aria-label]="'Commencer l\'exercice du module ' + module.titre"
       >
-        <span>Commencer l'exercice</span>
-        <svg
-          class="ml-3 w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          aria-hidden="true"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
-          />
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
         </svg>
+        Commencer l'exercice
       </a>
     </div>
+
   </div>
 </div>
 
-<!-- Message si module non trouvé -->
-<div
-  class="min-h-screen bg-dark-bg px-4 py-8 flex items-center justify-center"
-  *ngIf="!module"
->
-  <div class="text-center">
-    <h1 class="text-3xl font-bold text-dark-text mb-4">Module non trouvé</h1>
-    <a
-      routerLink="/"
-      class="inline-flex items-center text-blue-500 hover:text-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500 rounded px-4 py-2"
-    >
-      <span>Retour à l'accueil</span>
-    </a>
+<!-- Module non trouvé -->
+<div class="page flex items-center justify-center" *ngIf="!module">
+  <div class="text-center animate-fade-in">
+    <p class="text-dark-textSecondary text-6xl mb-6" aria-hidden="true">404</p>
+    <h1 class="section-title mb-4">Module introuvable</h1>
+    <a routerLink="/" class="btn btn-primary">Retour à l'accueil</a>
   </div>
 </div>

@@ -1,10 +1,251 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* ─── Base ─────────────────────────────────────────────── */
 @layer base {
+  :root {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    @apply bg-dark-bg text-dark-text font-sans;
+  }
+
   body {
     @apply bg-dark-bg text-dark-text;
+  }
+
+  /* Focus visible uniquement au clavier (WCAG AAA) */
+  *:focus {
+    outline: none;
+  }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-indigo-400 ring-offset-2 ring-offset-dark-bg;
+  }
+
+  /* Scrollbar discrète */
+  ::-webkit-scrollbar               { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track         { background: transparent; }
+  ::-webkit-scrollbar-thumb         { @apply bg-dark-border rounded-full; }
+  ::-webkit-scrollbar-thumb:hover   { @apply bg-dark-borderHover; }
+
+  /* Sélection de texte */
+  ::selection {
+    @apply bg-indigo-700/50 text-white;
+  }
+
+  /* Typographie de base */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight text-dark-text;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+/* ─── Composants réutilisables ────────────────────────── */
+@layer components {
+
+  /* Skip link (accessibilité clavier) */
+  .skip-link {
+    @apply sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:top-4 focus-visible:left-4
+           focus-visible:z-50 focus-visible:px-4 focus-visible:py-2 focus-visible:bg-indigo-700
+           focus-visible:text-white focus-visible:rounded-lg focus-visible:font-semibold
+           focus-visible:shadow-glow focus-visible:no-underline;
+  }
+
+  /* ── Boutons ── */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2
+           px-5 py-2.5 text-sm font-semibold rounded-xl
+           transition-all duration-200 cursor-pointer
+           disabled:opacity-40 disabled:cursor-not-allowed
+           select-none;
+  }
+
+  .btn-primary {
+    @apply btn bg-indigo-700 hover:bg-indigo-600 active:bg-indigo-800
+           text-white shadow-card hover:shadow-glow
+           focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-dark-bg;
+  }
+
+  .btn-secondary {
+    @apply btn bg-dark-surface border border-dark-border hover:border-dark-borderHover
+           text-dark-text hover:bg-dark-elevated
+           focus-visible:ring-2 focus-visible:ring-dark-borderHover focus-visible:ring-offset-2 focus-visible:ring-offset-dark-bg;
+  }
+
+  .btn-danger {
+    @apply btn bg-red-800 hover:bg-red-700 active:bg-red-900
+           text-white
+           focus-visible:ring-2 focus-visible:ring-red-400 focus-visible:ring-offset-2 focus-visible:ring-offset-dark-bg;
+  }
+
+  .btn-ghost {
+    @apply btn text-indigo-300 hover:text-indigo-200 hover:bg-indigo-700/10
+           focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-dark-bg;
+  }
+
+  .btn-premium {
+    @apply btn bg-amber-600 hover:bg-amber-500 active:bg-amber-700
+           text-white shadow-card
+           focus-visible:ring-2 focus-visible:ring-amber-400 focus-visible:ring-offset-2 focus-visible:ring-offset-dark-bg;
+  }
+
+  .btn-school {
+    @apply btn bg-violet-700 hover:bg-violet-600 active:bg-violet-800
+           text-white shadow-card
+           focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-dark-bg;
+  }
+
+  .btn-lg {
+    @apply px-7 py-3.5 text-base rounded-2xl;
+  }
+
+  .btn-sm {
+    @apply px-3.5 py-1.5 text-xs rounded-lg;
+  }
+
+  /* ── Cartes ── */
+  .card {
+    @apply bg-dark-surface border border-dark-border rounded-2xl shadow-card
+           bg-[image:var(--tw-bg-surface-shine)]
+           transition-all duration-300;
+  }
+
+  .card-interactive {
+    @apply card hover:border-dark-borderHover hover:shadow-card-lg hover:-translate-y-0.5
+           focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-dark-bg;
+  }
+
+  .card-elevated {
+    @apply bg-dark-elevated border border-dark-border rounded-2xl shadow-card;
+  }
+
+  /* ── Formulaires ── */
+  .field-group {
+    @apply flex flex-col gap-1.5;
+  }
+
+  .label {
+    @apply text-sm font-medium text-dark-textSecondary;
+  }
+
+  .input {
+    @apply w-full px-4 py-3 bg-dark-bg border border-dark-border rounded-xl
+           text-dark-text placeholder-dark-textSecondary/40
+           transition-all duration-200
+           focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-indigo-500/25
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  /* ── Badges ── */
+  .badge {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold;
+  }
+
+  .badge-premium {
+    @apply badge bg-amber-500/10 text-amber-300 border border-amber-500/25;
+  }
+
+  .badge-school {
+    @apply badge bg-violet-500/10 text-violet-300 border border-violet-500/25;
+  }
+
+  .badge-free {
+    @apply badge bg-dark-elevated text-dark-textSecondary border border-dark-border;
+  }
+
+  .badge-success {
+    @apply badge bg-emerald-500/10 text-emerald-300 border border-emerald-500/25;
+  }
+
+  .badge-warning {
+    @apply badge bg-amber-500/10 text-amber-300 border border-amber-500/25;
+  }
+
+  .badge-error {
+    @apply badge bg-red-500/10 text-red-300 border border-red-500/25;
+  }
+
+  /* ── Alertes ── */
+  .alert {
+    @apply flex items-start gap-3 rounded-xl p-4 border;
+  }
+
+  .alert-error {
+    @apply alert bg-red-500/10 border-red-500/30 text-red-300;
+  }
+
+  .alert-success {
+    @apply alert bg-emerald-500/10 border-emerald-500/30 text-emerald-300;
+  }
+
+  .alert-warning {
+    @apply alert bg-amber-500/10 border-amber-500/30 text-amber-300;
+  }
+
+  .alert-info {
+    @apply alert bg-indigo-500/10 border-indigo-500/30 text-indigo-300;
+  }
+
+  /* ── Layout pages ── */
+  .page {
+    @apply min-h-screen bg-dark-bg px-4 py-10 animate-fade-in;
+  }
+
+  .container-md   { @apply max-w-3xl mx-auto; }
+  .container-lg   { @apply max-w-5xl mx-auto; }
+  .container-xl   { @apply max-w-7xl mx-auto; }
+
+  /* ── Separateur ── */
+  .divider {
+    @apply border-t border-dark-border my-6;
+  }
+
+  /* ── Section heading ── */
+  .section-title {
+    @apply text-2xl font-bold text-dark-text tracking-tight;
+  }
+
+  .page-title {
+    @apply text-4xl md:text-5xl font-extrabold text-dark-text tracking-tight leading-tight;
+  }
+
+  .page-subtitle {
+    @apply text-lg text-dark-textSecondary leading-relaxed;
+  }
+
+  /* ── Lien texte ── */
+  .link {
+    @apply text-indigo-300 hover:text-indigo-200 underline-offset-4 hover:underline
+           focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-dark-bg
+           rounded-sm;
+  }
+}
+
+/* ─── Utilitaires ─────────────────────────────────────── */
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-indigo-300 to-violet-300 bg-clip-text text-transparent;
+  }
+
+  .surface-shine {
+    background-image: linear-gradient(135deg, rgba(255,255,255,0.03) 0%, transparent 60%);
+  }
+
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
   }
 }
