@@ -1,73 +1,99 @@
-import { Component } from '@angular/core';
-import jsPDF from 'jspdf';
-import { HttpClient } from '@angular/common/http';
+import { CommonModule } from "@angular/common";
+import { HttpClient } from "@angular/common/http";
+import { Component } from "@angular/core";
+import { FormsModule } from "@angular/forms";
+import { RouterModule } from "@angular/router";
+import jsPDF from "jspdf";
 
 @Component({
-  selector: 'app-devis',
-  templateUrl: './devis.component.html',
-  styleUrls: ['./devis.component.css'],
+	selector: "app-devis",
+	standalone: true,
+	imports: [CommonModule, FormsModule, RouterModule],
+	templateUrl: "./devis.component.html",
+	styleUrls: ["./devis.component.css"],
 })
 export class DevisComponent {
-  prixTotal: number | null = null;
-  dernierFormulaire: any = null;
-  messageEmail: string = '';
+	// Champs du formulaire
+	nomEtablissement = "";
+	contact = "";
+	email = "";
+	telephone = "";
+	nombreEleves = 30;
+	optionPremium = false;
+	optionAccompagnement = false;
+	optionAtelier = false;
 
-  constructor(private http: HttpClient) {}
+	// État
+	prixTotal: number | null = null;
+	messageEmail = "";
+	isLoading = false;
+	isSuccess = false;
+	isError = false;
 
-  onSubmit(form?: any) {
-    // Calcul automatique du prix
-    const nombreEleves = form?.value?.nombreEleves || 0;
-    const options = form?.value?.options || [];
+	constructor(private http: HttpClient) {}
 
-    let prix = 100 + nombreEleves * 2;
+	get prixEstime(): number {
+		let prix = 100 + (this.nombreEleves || 0) * 2;
+		if (this.optionPremium) prix += 200;
+		if (this.optionAccompagnement) prix += 150;
+		if (this.optionAtelier) prix += 300;
+		return prix;
+	}
 
-    if (options.includes('premium')) prix += 200;
-    if (options.includes('accompagnement')) prix += 150;
-    if (options.includes('atelier')) prix += 300;
+	private get formData() {
+		const options: string[] = [];
+		if (this.optionPremium) options.push("premium");
+		if (this.optionAccompagnement) options.push("accompagnement");
+		if (this.optionAtelier) options.push("atelier");
+		return {
+			nomEtablissement: this.nomEtablissement,
+			contact: this.contact,
+			email: this.email,
+			telephone: this.telephone,
+			nombreEleves: this.nombreEleves,
+			options,
+		};
+	}
 
-    this.prixTotal = prix;
-    this.dernierFormulaire = form?.value;
-    this.messageEmail = '';
-  }
+	onSubmit() {
+		this.prixTotal = this.prixEstime;
+		this.isLoading = true;
+		this.isSuccess = false;
+		this.isError = false;
+		this.messageEmail = "";
 
-  genererPDF() {
-    const doc = new jsPDF();
-    const f = this.dernierFormulaire || {};
+		this.http
+			.post("/api/devis", { ...this.formData, prix: this.prixTotal })
+			.subscribe({
+				next: () => {
+					this.isLoading = false;
+					this.isSuccess = true;
+					this.messageEmail =
+						"Votre demande de devis a bien été envoyée. Vous recevrez un email de confirmation sous peu.";
+				},
+				error: () => {
+					this.isLoading = false;
+					this.isError = true;
+					this.messageEmail =
+						"Erreur lors de l'envoi. Contactez-nous directement à contact@figures-de-style.fr";
+				},
+			});
+	}
 
-    doc.setFontSize(18);
-    doc.text('Devis établissement scolaire', 10, 15);
-
-    doc.setFontSize(12);
-    doc.text(`Nom de l'établissement : ${f.nomEtablissement || ''}`, 10, 30);
-    doc.text(`Contact : ${f.contact || ''}`, 10, 40);
-    doc.text(`Email : ${f.email || ''}`, 10, 50);
-    doc.text(`Téléphone : ${f.telephone || ''}`, 10, 60);
-    doc.text(`Nombre d'élèves : ${f.nombreEleves || ''}`, 10, 70);
-    doc.text(`Options : ${(f.options || []).join(', ')}`, 10, 80);
-    doc.text(`Prix estimé : ${this.prixTotal ?? ''} €`, 10, 100);
-
-    doc.save('devis-ecole.pdf');
-  }
-
-  envoyerDevisParEmail() {
-    if (!this.dernierFormulaire || !this.prixTotal) {
-      this.messageEmail = "Veuillez d'abord remplir le formulaire.";
-      return;
-    }
-
-    this.messageEmail = 'Envoi en cours...';
-
-    this.http
-      .post('/api/devis', { ...this.dernierFormulaire, prix: this.prixTotal })
-      .subscribe({
-        next: () => {
-          this.messageEmail =
-            'Votre demande de devis a bien été envoyée. Vous recevrez un email sous peu.';
-        },
-        error: () => {
-          this.messageEmail =
-            "Erreur lors de l'envoi du devis. Veuillez réessayer plus tard.";
-        },
-      });
-  }
+	genererPDF() {
+		if (!this.prixTotal) return;
+		const doc = new jsPDF();
+		const f = this.formData;
+		doc.setFontSize(18);
+		doc.text("Devis établissement scolaire", 10, 15);
+		doc.setFontSize(12);
+		doc.text(`Nom de l'établissement : ${f.nomEtablissement}`, 10, 30);
+		doc.text(`Contact : ${f.contact}`, 10, 40);
+		doc.text(`Email : ${f.email}`, 10, 50);
+		doc.text(`Téléphone : ${f.telephone}`, 10, 60);
+		doc.text(`Nombre d'élèves : ${f.nombreEleves}`, 10, 70);
+		doc.text(`Options : ${f.options.join(", ")}`, 10, 80);
+		doc.text(`Prix estimé : ${this.prixTotal} €`, 10, 100);
+		doc.save("devis-ecole.pdf");
+	}
 }

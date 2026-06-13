@@ -83,7 +83,7 @@ import { LegalLayoutComponent } from "./legal-layout.component";
             Pour exercer ce droit, contactez-nous à :
             <a
               href="mailto:contact&#64;figures-de-style.fr"
-              class="text-blue-400"
+              class="link"
               >contact&#64;figures-de-style.fr</a
             >
           </p>

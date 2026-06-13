@@ -1,137 +1,243 @@
-import { Component } from '@angular/core';
-import jsPDF from 'jspdf';
-import { HttpClient } from '@angular/common/http';
+<div class="page" id="main-content">
+  <div class="max-w-2xl mx-auto animate-slide-up">
 
-@Component({
-  selector: 'app-devis',
-  templateUrl: './devis.component.html',
-  styleUrls: ['./devis.component.css'],
-})
-export class DevisComponent {
-  prixTotal: number | null = null;
-  dernierFormulaire: any = null;
-  messageEmail: string = '';
-  
-  // Variables pour les checkboxes
-  optionPremium: boolean = false;
-  optionAccompagnement: boolean = false;
-  optionAtelier: boolean = false;
+    <a routerLink="/" class="inline-flex items-center gap-2 text-dark-textSecondary hover:text-dark-text text-sm mb-10 transition-colors">
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+      </svg>
+      Accueil
+    </a>
 
-  constructor(private http: HttpClient) {}
+    <header class="mb-10">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-violet-700/15 border border-violet-500/25 text-violet-300 text-sm font-medium mb-4">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+        </svg>
+        Plan École
+      </div>
+      <h1 class="page-title mb-3">Demande de devis</h1>
+      <p class="page-subtitle">
+        Obtenez un devis personnalisé pour votre établissement scolaire.
+        Accès pour 30 élèves, tableau de bord enseignant et export CSV inclus.
+      </p>
+    </header>
 
-  onSubmit(form?: any) {
-    // Récupération des données du formulaire
-    const nombreEleves = form?.value?.nombreEleves || 0;
-    
-    // Construction du tableau des options sélectionnées
-    const options: string[] = [];
-    if (this.optionPremium) options.push('premium');
-    if (this.optionAccompagnement) options.push('accompagnement');
-    if (this.optionAtelier) options.push('atelier');
-    
-    // Calcul automatique du prix
-    let prix = 100 + nombreEleves * 2;
-    
-    if (options.includes('premium')) prix += 200;
-    if (options.includes('accompagnement')) prix += 150;
-    if (options.includes('atelier')) prix += 300;
-    
-    this.prixTotal = prix;
-    
-    // Sauvegarde du formulaire avec les options
-    this.dernierFormulaire = {
-      ...form?.value,
-      options: options
-    };
-    
-    this.messageEmail = '';
-  }
+    <!-- Succès -->
+    <div *ngIf="isSuccess" class="alert-success mb-8" role="alert" aria-live="polite">
+      <svg class="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+      </svg>
+      <div>
+        <p class="font-semibold text-sm">Demande envoyée !</p>
+        <p class="text-sm opacity-80 mt-0.5">{{ messageEmail }}</p>
+      </div>
+    </div>
 
-  genererPDF() {
-    if (!this.dernierFormulaire) {
-      return;
-    }
-    
-    const doc = new jsPDF();
-    const f = this.dernierFormulaire;
+    <!-- Formulaire -->
+    <div *ngIf="!isSuccess" class="card p-8 surface-shine">
+      <form (submit)="$event.preventDefault(); onSubmit()" novalidate>
+        <div class="flex flex-col gap-5">
 
-    // En-tête
-    doc.setFontSize(18);
-    doc.text('Devis établissement scolaire', 10, 15);
-    
-    // Informations de l'établissement
-    doc.setFontSize(12);
-    doc.text(`Nom de l'établissement : ${f.nomEtablissement || 'N/A'}`, 10, 30);
-    doc.text(`Contact : ${f.contact || 'N/A'}`, 10, 40);
-    doc.text(`Email : ${f.email || 'N/A'}`, 10, 50);
-    doc.text(`Téléphone : ${f.telephone || 'N/A'}`, 10, 60);
-    doc.text(`Nombre d'élèves : ${f.nombreEleves || 0}`, 10, 70);
-    
-    // Options
-    const optionsTexte = (f.options && f.options.length > 0) 
-      ? f.options.map((opt: string) => {
-          switch(opt) {
-            case 'premium': return 'Accès Premium (+200€)';
-            case 'accompagnement': return 'Accompagnement pédagogique (+150€)';
-            case 'atelier': return 'Atelier en classe (+300€)';
-            default: return opt;
-          }
-        }).join(', ')
-      : 'Aucune option';
-    
-    doc.text(`Options : ${optionsTexte}`, 10, 80);
-    
-    // Détail du calcul
-    doc.text('--- Détail du calcul ---', 10, 95);
-    doc.text(`Prix de base : 100€`, 10, 105);
-    doc.text(`Élèves (${f.nombreEleves} × 2€) : ${(f.nombreEleves || 0) * 2}€`, 10, 115);
-    
-    let yPosition = 125;
-    if (f.options && f.options.includes('premium')) {
-      doc.text('Option Premium : +200€', 10, yPosition);
-      yPosition += 10;
-    }
-    if (f.options && f.options.includes('accompagnement')) {
-      doc.text('Accompagnement pédagogique : +150€', 10, yPosition);
-      yPosition += 10;
-    }
-    if (f.options && f.options.includes('atelier')) {
-      doc.text('Atelier en classe : +300€', 10, yPosition);
-      yPosition += 10;
-    }
-    
-    // Prix total
-    doc.setFontSize(14);
-    doc.text(`PRIX TOTAL : ${this.prixTotal}€`, 10, yPosition + 10);
-    
-    // Note de bas de page
-    doc.setFontSize(10);
-    doc.text('Prix indicatif hors taxes. Devis valable 30 jours.', 10, yPosition + 25);
-    
-    // Sauvegarde du PDF
-    doc.save('devis-ecole.pdf');
-  }
+          <div class="field-group">
+            <label for="nom-etab" class="label">Nom de l'établissement <span class="text-red-400" aria-hidden="true">*</span></label>
+            <input
+              id="nom-etab"
+              type="text"
+              [(ngModel)]="nomEtablissement"
+              name="nomEtablissement"
+              placeholder="Lycée Victor Hugo"
+              class="input"
+              required
+              [disabled]="isLoading"
+            />
+          </div>
 
-  envoyerDevisParEmail() {
-    if (!this.dernierFormulaire || !this.prixTotal) {
-      this.messageEmail = 'Veuillez d\'abord remplir le formulaire.';
-      return;
-    }
+          <div class="field-group">
+            <label for="contact" class="label">Nom du contact <span class="text-red-400" aria-hidden="true">*</span></label>
+            <input
+              id="contact"
+              type="text"
+              [(ngModel)]="contact"
+              name="contact"
+              placeholder="Mme Dupont"
+              class="input"
+              required
+              [disabled]="isLoading"
+              autocomplete="name"
+            />
+          </div>
 
-    this.messageEmail = 'Envoi en cours...';
-    
-    this.http
-      .post('/api/devis', { ...this.dernierFormulaire, prix: this.prixTotal })
-      .subscribe({
-        next: () => {
-          this.messageEmail =
-            'Votre demande de devis a bien été envoyée. Vous recevrez un email sous peu.';
-        },
-        error: (err) => {
-          console.error('Erreur lors de l\'envoi:', err);
-          this.messageEmail =
-            'Erreur lors de l\'envoi du devis. Veuillez réessayer plus tard.';
-        },
-      });
-  }
-}
+          <div class="grid sm:grid-cols-2 gap-5">
+            <div class="field-group">
+              <label for="email" class="label">Email <span class="text-red-400" aria-hidden="true">*</span></label>
+              <input
+                id="email"
+                type="email"
+                [(ngModel)]="email"
+                name="email"
+                placeholder="contact@lycee.fr"
+                class="input"
+                required
+                [disabled]="isLoading"
+                autocomplete="email"
+              />
+            </div>
+
+            <div class="field-group">
+              <label for="telephone" class="label">Téléphone</label>
+              <input
+                id="telephone"
+                type="tel"
+                [(ngModel)]="telephone"
+                name="telephone"
+                placeholder="01 23 45 67 89"
+                class="input"
+                [disabled]="isLoading"
+                autocomplete="tel"
+              />
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label for="nb-eleves" class="label">Nombre d'élèves <span class="text-red-400" aria-hidden="true">*</span></label>
+            <input
+              id="nb-eleves"
+              type="number"
+              [(ngModel)]="nombreEleves"
+              name="nombreEleves"
+              min="1"
+              max="500"
+              class="input"
+              required
+              [disabled]="isLoading"
+            />
+          </div>
+
+          <!-- Options -->
+          <fieldset class="flex flex-col gap-3">
+            <legend class="label mb-1">Options supplémentaires</legend>
+
+            <label class="flex items-start gap-3 card p-4 cursor-pointer hover:border-dark-borderHover transition-colors">
+              <input
+                type="checkbox"
+                [(ngModel)]="optionPremium"
+                name="optionPremium"
+                class="mt-0.5 w-4 h-4 accent-indigo-500 flex-shrink-0"
+                [disabled]="isLoading"
+              />
+              <div>
+                <span class="font-semibold text-dark-text text-sm">Accès Premium élèves</span>
+                <span class="badge-premium ml-2">+200 €</span>
+                <p class="text-dark-textSecondary text-xs mt-0.5">Tous les modules et exercices illimités pour chaque élève</p>
+              </div>
+            </label>
+
+            <label class="flex items-start gap-3 card p-4 cursor-pointer hover:border-dark-borderHover transition-colors">
+              <input
+                type="checkbox"
+                [(ngModel)]="optionAccompagnement"
+                name="optionAccompagnement"
+                class="mt-0.5 w-4 h-4 accent-indigo-500 flex-shrink-0"
+                [disabled]="isLoading"
+              />
+              <div>
+                <span class="font-semibold text-dark-text text-sm">Accompagnement pédagogique</span>
+                <span class="badge-school ml-2">+150 €</span>
+                <p class="text-dark-textSecondary text-xs mt-0.5">Session de formation de 2h pour l'enseignant</p>
+              </div>
+            </label>
+
+            <label class="flex items-start gap-3 card p-4 cursor-pointer hover:border-dark-borderHover transition-colors">
+              <input
+                type="checkbox"
+                [(ngModel)]="optionAtelier"
+                name="optionAtelier"
+                class="mt-0.5 w-4 h-4 accent-indigo-500 flex-shrink-0"
+                [disabled]="isLoading"
+              />
+              <div>
+                <span class="font-semibold text-dark-text text-sm">Atelier classe</span>
+                <span class="badge-warning ml-2">+300 €</span>
+                <p class="text-dark-textSecondary text-xs mt-0.5">Intervention d'une demi-journée en classe avec les élèves</p>
+              </div>
+            </label>
+          </fieldset>
+
+          <!-- Récapitulatif prix -->
+          <div class="bg-dark-elevated border border-dark-border rounded-xl p-5 flex items-center justify-between">
+            <div>
+              <p class="text-dark-textSecondary text-sm">Estimation annuelle</p>
+              <p class="text-2xl font-bold text-dark-text mt-0.5">{{ prixEstime }} €</p>
+            </div>
+            <div class="text-right text-xs text-dark-textSecondary space-y-0.5">
+              <p>Base : 100 € + {{ nombreEleves || 0 }} × 2 €</p>
+              <p *ngIf="optionPremium" class="text-indigo-400">+ 200 € (Premium)</p>
+              <p *ngIf="optionAccompagnement" class="text-violet-400">+ 150 € (Accompagnement)</p>
+              <p *ngIf="optionAtelier" class="text-amber-400">+ 300 € (Atelier)</p>
+            </div>
+          </div>
+
+          <!-- Erreur -->
+          <div *ngIf="isError" class="alert-error" role="alert" aria-live="assertive">
+            <svg class="w-4 h-4 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+            </svg>
+            <p class="text-sm">{{ messageEmail }}</p>
+          </div>
+
+          <button
+            type="submit"
+            [disabled]="isLoading || !nomEtablissement || !contact || !email"
+            class="btn btn-school btn-lg w-full mt-2"
+            [attr.aria-busy]="isLoading"
+          >
+            <svg *ngIf="isLoading" class="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24" aria-hidden="true">
+              <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+              <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
+            </svg>
+            <span>{{ isLoading ? "Envoi en cours…" : "Envoyer la demande de devis" }}</span>
+          </button>
+
+          <p class="text-dark-textSecondary text-xs text-center">
+            Nous vous répondrons sous 48h ouvrées. Aucun engagement.
+          </p>
+
+        </div>
+      </form>
+    </div>
+
+    <!-- Récap + PDF après soumission -->
+    <div *ngIf="isSuccess" class="card p-6 surface-shine mt-6">
+      <h2 class="section-title mb-4">Récapitulatif du devis</h2>
+      <dl class="flex flex-col gap-2.5 text-sm mb-6">
+        <div class="flex justify-between">
+          <dt class="text-dark-textSecondary">Établissement</dt>
+          <dd class="text-dark-text font-medium">{{ nomEtablissement }}</dd>
+        </div>
+        <div class="flex justify-between">
+          <dt class="text-dark-textSecondary">Contact</dt>
+          <dd class="text-dark-text font-medium">{{ contact }}</dd>
+        </div>
+        <div class="flex justify-between">
+          <dt class="text-dark-textSecondary">Nombre d'élèves</dt>
+          <dd class="text-dark-text font-medium">{{ nombreEleves }}</dd>
+        </div>
+        <div class="divider my-2"></div>
+        <div class="flex justify-between">
+          <dt class="text-dark-textSecondary">Prix estimé</dt>
+          <dd class="text-dark-text font-bold text-lg">{{ prixTotal }} € / an</dd>
+        </div>
+      </dl>
+      <button (click)="genererPDF()" class="btn btn-secondary w-full">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+        </svg>
+        Télécharger le devis PDF
+      </button>
+    </div>
+
+  </div>
+</div>

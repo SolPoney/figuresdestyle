@@ -4,6 +4,7 @@ import { teacherGuard } from "./guards/teacher.guard";
 import { AdminComponent } from "./pages/admin/admin.component";
 import { AuthComponent } from "./pages/auth/auth.component";
 import { ContactComponent } from "./pages/contact/contact.component";
+import { DevisComponent } from "./pages/devis/devis.component";
 import { ExerciseComponent } from "./pages/exercise/exercise.component";
 import { HomeComponent } from "./pages/home/home.component";
 import { AccessibiliteComponent } from "./pages/legal/accessibilite.component";
@@ -11,12 +12,14 @@ import { CgvComponent } from "./pages/legal/cgv.component";
 import { MentionsLegalesComponent } from "./pages/legal/mentions-legales.component";
 import { PolitiqueConfidentialiteComponent } from "./pages/legal/politique-confidentialite.component";
 import { ModuleComponent } from "./pages/module/module.component";
+import { NotFoundComponent } from "./pages/not-found/not-found.component";
 import { TeacherDashboardComponent } from "./pages/teacher-dashboard/teacher-dashboard.component";
 
 export const routes: Routes = [
 	{ path: "", component: HomeComponent },
 	{ path: "auth", component: AuthComponent },
 	{ path: "contact", component: ContactComponent },
+	{ path: "devis", component: DevisComponent },
 	{ path: "admin", component: AdminComponent },
 	{ path: "mentions-legales", component: MentionsLegalesComponent },
 	{
@@ -40,5 +43,5 @@ export const routes: Routes = [
 		component: ExerciseComponent,
 		canActivate: [premiumGuard],
 	},
-	{ path: "**", redirectTo: "" },
+	{ path: "**", component: NotFoundComponent },
 ];
