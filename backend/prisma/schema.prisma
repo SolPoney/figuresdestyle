@@ -159,3 +159,44 @@ model Referral {
 
   @@index([code])
 }
+
+// ─── Contenu pédagogique ────────────────────────────────
+
+model Module {
+  id          String   @id  // ex: "1", "2"
+  titre       String
+  description String
+  type        String   // "apprentissage" | "revision"
+  ordre       Int
+  figures     ModuleFigure[]
+}
+
+model Figure {
+  id          String   @id  // ex: "anaphore", "metaphore"
+  titre       String
+  description String
+  questions   Question[]
+  modules     ModuleFigure[]
+}
+
+model ModuleFigure {
+  moduleId  String
+  figureId  String
+  ordre     Int
+  module    Module @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  figure    Figure @relation(fields: [figureId], references: [id], onDelete: Cascade)
+
+  @@id([moduleId, figureId])
+  @@index([moduleId])
+}
+
+model Question {
+  id       String @id @default(uuid())
+  figureId String
+  question String
+  reponses String  // JSON.stringify(string[])
+  correct  Int
+  figure   Figure @relation(fields: [figureId], references: [id], onDelete: Cascade)
+
+  @@index([figureId])
+}

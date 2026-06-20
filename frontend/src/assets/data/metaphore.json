@@ -1,31 +1,277 @@
 {
 	"id": "metaphore",
 	"titre": "Métaphore",
-	"description": "Exerce-toi à reconnaître la métaphore à travers 100 exemples variés.",
+	"description": "Exerce-toi à reconnaître la métaphore : une comparaison implicite, sans outil comparatif (comme, tel, ainsi que...).",
 	"questions": [
 		{
-			"question": "Cet homme est un lion.",
-			"reponses": ["Métaphore", "Comparaison", "Hyperbole", "Personnification"],
-			"correct": 0,
-			"indice": "Il n'y a pas d'outil de comparaison explicite."
+			"question": "« La vie est un long fleuve tranquille. »",
+			"reponses": ["Métaphore", "Comparaison", "Personnification", "Allégorie"],
+			"correct": 0
 		},
 		{
-			"question": "La vie est un voyage.",
-			"reponses": ["Métaphore", "Comparaison", "Allégorie", "Oxymore"],
-			"correct": 0,
-			"indice": "On assimile la vie à un voyage sans 'comme'."
+			"question": "« Il est un lion sur le champ de bataille. »",
+			"reponses": ["Métaphore", "Comparaison", "Hyperbole", "Périphrase"],
+			"correct": 0
 		},
 		{
-			"question": "Le temps, ce voleur silencieux.",
+			"question": "« Le temps est de l'argent. »",
+			"reponses": ["Métaphore", "Métonymie", "Comparaison", "Antithèse"],
+			"correct": 0
+		},
+		{
+			"question": "« Ses yeux sont des étoiles. »",
+			"reponses": ["Métaphore", "Comparaison", "Hyperbole", "Synesthésie"],
+			"correct": 0
+		},
+		{
+			"question": "« Cette salle est un four. »",
+			"reponses": ["Métaphore", "Hyperbole", "Comparaison", "Synecdoque"],
+			"correct": 0
+		},
+		{
+			"question": "« La colère est un feu qui consume. »",
+			"reponses": ["Métaphore", "Personnification", "Allégorie", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "« Le monde est un théâtre et les hommes des acteurs. »",
+			"reponses": ["Métaphore", "Comparaison", "Allégorie", "Allusion"],
+			"correct": 0
+		},
+		{
+			"question": "« La mer est un miroir poli. »",
+			"reponses": ["Métaphore", "Comparaison", "Personnification", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« Il broie du noir depuis la mort de sa mère. »",
+			"reponses": ["Métaphore", "Synesthésie", "Hyperbole", "Métonymie"],
+			"correct": 0
+		},
+		{
+			"question": "« Ma jeunesse ne fut qu'un ténébreux orage. » (Baudelaire)",
+			"reponses": ["Métaphore", "Comparaison", "Antithèse", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "« Ce diplomate est un renard. »",
+			"reponses": ["Métaphore", "Comparaison", "Personnification", "Allégorie"],
+			"correct": 0
+		},
+		{
+			"question": "« La nuit déployait ses voiles sombres. »",
+			"reponses": ["Métaphore", "Personnification", "Comparaison", "Allégorie"],
+			"correct": 0
+		},
+		{
+			"question": "« La parole est d'argent, le silence est d'or. »",
+			"reponses": ["Métaphore", "Antithèse", "Comparaison", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« Ses paroles sont du miel pour les oreilles. »",
+			"reponses": ["Métaphore", "Synesthésie", "Comparaison", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "« La vie est un combat. »",
+			"reponses": ["Métaphore", "Hyperbole", "Comparaison", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« Il pleut des cordes. »",
+			"reponses": ["Métaphore", "Hyperbole", "Comparaison", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "« Le printemps de sa vie venait à peine de commencer. »",
+			"reponses": ["Métaphore", "Métonymie", "Personnification", "Allusion"],
+			"correct": 0
+		},
+		{
+			"question": "« Cet homme est un mur. Impossible de lui faire changer d'avis. »",
+			"reponses": ["Métaphore", "Comparaison", "Antithèse", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "« Versailles est le soleil de la monarchie française. »",
+			"reponses": ["Métaphore", "Allégorie", "Comparaison", "Périphrase"],
+			"correct": 0
+		},
+		{
+			"question": "« Le chagrin est un océan dans lequel on se noie. »",
+			"reponses": ["Métaphore", "Comparaison", "Hyperbole", "Allégorie"],
+			"correct": 0
+		},
+		{
+			"question": "« Ses mains sont des serres d'acier. »",
+			"reponses": ["Métaphore", "Comparaison", "Hyperbole", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "« Ses cheveux sont une cascade de feu. »",
+			"reponses": ["Métaphore", "Hyperbole", "Comparaison", "Synesthésie"],
+			"correct": 0
+		},
+		{
+			"question": "« La ville s'endort sous un manteau de brume. »",
+			"reponses": ["Métaphore", "Personnification", "Comparaison", "Allégorie"],
+			"correct": 0
+		},
+		{
+			"question": "« Cet élève est une éponge : il absorbe tout. »",
+			"reponses": ["Métaphore", "Comparaison", "Hyperbole", "Allusion"],
+			"correct": 0
+		},
+		{
+			"question": "« Le soleil couchant était une blessure rouge dans le ciel. »",
+			"reponses": ["Métaphore", "Comparaison", "Synesthésie", "Personnification"],
+			"correct": 0
+		},
+		{
+			"question": "« Cette idée est une graine qui doit germer. »",
+			"reponses": ["Métaphore", "Comparaison", "Allégorie", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "« Il nage dans le bonheur depuis sa promotion. »",
+			"reponses": ["Métaphore", "Hyperbole", "Comparaison", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« Les mots sont des flèches. »",
+			"reponses": ["Métaphore", "Comparaison", "Hyperbole", "Métonymie"],
+			"correct": 0
+		},
+		{
+			"question": "« Le silence était un couteau. »",
+			"reponses": ["Métaphore", "Comparaison", "Synesthésie", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "« Sa voix est un torrent impétueux. »",
+			"reponses": ["Métaphore", "Comparaison", "Hyperbole", "Synesthésie"],
+			"correct": 0
+		},
+		{
+			"question": "« Il est le pilier de son équipe. »",
+			"reponses": ["Métaphore", "Métonymie", "Hyperbole", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "« Ton sourire est un rayon de soleil dans ma journée. »",
+			"reponses": ["Métaphore", "Comparaison", "Hyperbole", "Antithèse"],
+			"correct": 0
+		},
+		{
+			"question": "« La mémoire est une cicatrice. »",
+			"reponses": ["Métaphore", "Comparaison", "Synesthésie", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "« Ce roman est une fenêtre ouverte sur le monde. »",
+			"reponses": ["Métaphore", "Comparaison", "Allégorie", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« L'espoir est une ancre pour l'âme. »",
+			"reponses": ["Métaphore", "Comparaison", "Allégorie", "Personnification"],
+			"correct": 0
+		},
+		{
+			"question": "« Il a un cœur de pierre. »",
+			"reponses": ["Métaphore", "Hyperbole", "Comparaison", "Synecdoque"],
+			"correct": 0
+		},
+		{
+			"question": "« La haine est un poison qui ronge de l'intérieur. »",
+			"reponses": ["Métaphore", "Comparaison", "Personnification", "Allégorie"],
+			"correct": 0
+		},
+		{
+			"question": "« Cet argument est un château de cartes. »",
+			"reponses": ["Métaphore", "Comparaison", "Hyperbole", "Allusion"],
+			"correct": 0
+		},
+		{
+			"question": "« Il a les pieds sur terre. »",
+			"reponses": ["Métaphore", "Comparaison", "Litote", "Synecdoque"],
+			"correct": 0
+		},
+		{
+			"question": "« Ses rêves sont des papillons qu'on ne peut attraper. »",
+			"reponses": ["Métaphore", "Comparaison", "Allégorie", "Personnification"],
+			"correct": 0
+		},
+		{
+			"question": "« Le travail est le sel de la vie. »",
+			"reponses": ["Métaphore", "Comparaison", "Métonymie", "Synesthésie"],
+			"correct": 0
+		},
+		{
+			"question": "« Cette ville est un monstre qui dévore ses habitants. »",
 			"reponses": ["Métaphore", "Personnification", "Hyperbole", "Comparaison"],
-			"correct": 0,
-			"indice": "Le temps est comparé à un voleur."
+			"correct": 0
 		},
 		{
-			"question": "Un océan de tristesse envahit son cœur.",
-			"reponses": ["Métaphore", "Hyperbole", "Comparaison", "Personnification"],
-			"correct": 0,
-			"indice": "La tristesse est assimilée à un océan."
+			"question": "« Son regard était une lame. »",
+			"reponses": ["Métaphore", "Comparaison", "Hyperbole", "Synesthésie"],
+			"correct": 0
+		},
+		{
+			"question": "« La vieillesse est un naufrage. » (de Gaulle)",
+			"reponses": ["Métaphore", "Comparaison", "Allégorie", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« L'amour est un oiseau rebelle que nul ne peut apprivoiser. » (Carmen)",
+			"reponses": ["Métaphore", "Comparaison", "Allégorie", "Personnification"],
+			"correct": 0
+		},
+		{
+			"question": "« Le doute est le sel de l'intelligence. »",
+			"reponses": ["Métaphore", "Comparaison", "Métonymie", "Antithèse"],
+			"correct": 0
+		},
+		{
+			"question": "« Cet homme est un volcan prêt à exploser. »",
+			"reponses": ["Métaphore", "Comparaison", "Hyperbole", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "« La bureaucratie est un labyrinthe sans issue. »",
+			"reponses": ["Métaphore", "Allégorie", "Comparaison", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "« Le courage est une flamme qu'il faut entretenir. »",
+			"reponses": ["Métaphore", "Comparaison", "Personnification", "Allégorie"],
+			"correct": 0
+		},
+		{
+			"question": "« Il portait le poids du monde sur ses épaules. »",
+			"reponses": ["Métaphore", "Hyperbole", "Comparaison", "Synecdoque"],
+			"correct": 0
+		},
+		{
+			"question": "« Ses yeux brillaient comme des étoiles. »",
+			"reponses": ["Comparaison", "Métaphore", "Hyperbole", "Synesthésie"],
+			"correct": 0
+		},
+		{
+			"question": "« Il court comme le vent. »",
+			"reponses": ["Comparaison", "Métaphore", "Hyperbole", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "« Elle est douce comme un agneau. »",
+			"reponses": ["Comparaison", "Métaphore", "Personnification", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« Tel un aigle, il planait au-dessus de la mêlée. »",
+			"reponses": ["Comparaison", "Métaphore", "Allégorie", "Hyperbole"],
+			"correct": 0
 		}
 	]
 }

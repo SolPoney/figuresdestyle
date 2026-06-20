@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
+import { Title } from "@angular/platform-browser";
 import { LegalLayoutComponent } from "./legal-layout.component";
 
 @Component({
@@ -136,4 +137,10 @@ import { LegalLayoutComponent } from "./legal-layout.component";
     </app-legal>
   `,
 })
-export class CgvComponent {}
+export class CgvComponent implements OnInit {
+  constructor(private titleService: Title) {}
+
+  ngOnInit(): void {
+    this.titleService.setTitle('Conditions générales de vente — Figures de style');
+  }
+}

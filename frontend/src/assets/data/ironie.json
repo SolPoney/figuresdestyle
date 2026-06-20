@@ -1,1 +1,262 @@
-{ "questions": [] }
+{
+	"id": "ironie",
+	"titre": "Ironie",
+	"description": "L'ironie dit le contraire de ce qu'elle pense, mais le contexte le révèle. Entraîne-toi à la reconnaître parmi d'autres figures du second degré.",
+	"questions": [
+		{
+			"question": "« C'est vraiment un génie : il a encore oublié ses clés. »",
+			"reponses": ["Ironie", "Antiphrase", "Hyperbole", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« Quelle belle journée ! » (dit-il sous une pluie battante)",
+			"reponses": ["Ironie", "Hyperbole", "Antithèse", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "« Bravo ! Tu as encore réussi à tout rater. »",
+			"reponses": ["Ironie", "Hyperbole", "Antiphrase", "Paradoxe"],
+			"correct": 0
+		},
+		{
+			"question": "« Comme c'est original de ta part d'arriver en retard. »",
+			"reponses": ["Ironie", "Litote", "Antithèse", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "« Il est d'une discrétion remarquable » (à propos d'un bavard notoire)",
+			"reponses": ["Ironie", "Antiphrase", "Euphémisme", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "« Voltaire écrit dans Candide : 'Tout est pour le mieux dans le meilleur des mondes possibles' face aux catastrophes qui s'accumulent. »",
+			"reponses": ["Ironie", "Hyperbole", "Paradoxe", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« Quel talent ! Il a mis trois heures à écrire deux lignes. »",
+			"reponses": ["Ironie", "Hyperbole", "Antithèse", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "« Merci de ta générosité » (dit-il à celui qui lui a volé sa part)",
+			"reponses": ["Ironie", "Antiphrase", "Litote", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "« C'est un modèle de ponctualité : il arrive toujours le dernier. »",
+			"reponses": ["Ironie", "Antithèse", "Hyperbole", "Paradoxe"],
+			"correct": 0
+		},
+		{
+			"question": "« Ah oui, c'est exactement ce qu'il fallait faire ! » (après une catastrophe)",
+			"reponses": ["Ironie", "Litote", "Comparaison", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "« Quel orateur magnifique ! Il a endormi la moitié de la salle. »",
+			"reponses": ["Ironie", "Hyperbole", "Antiphrase", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "« Je suis ravi de payer encore plus d'impôts cette année. »",
+			"reponses": ["Ironie", "Antiphrase", "Litote", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "« Bien sûr, c'est une excellente idée de partir sans carte par temps de brouillard. »",
+			"reponses": ["Ironie", "Euphémisme", "Hyperbole", "Antithèse"],
+			"correct": 0
+		},
+		{
+			"question": "« On voit que tu t'es vraiment donné du mal. » (face à un travail bâclé)",
+			"reponses": ["Ironie", "Litote", "Gradation", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "« Franchement, manger des frites tous les jours, c'est très sain. »",
+			"reponses": ["Ironie", "Hyperbole", "Antithèse", "Paradoxe"],
+			"correct": 0
+		},
+		{
+			"question": "« Il fait une chaleur délicieuse ! » (à -10 degrés)",
+			"reponses": ["Ironie", "Antiphrase", "Hyperbole", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« On voit que tu as beaucoup travaillé ce semestre. » (à l'élève qui a raté tous ses examens)",
+			"reponses": ["Ironie", "Euphémisme", "Hyperbole", "Antithèse"],
+			"correct": 0
+		},
+		{
+			"question": "« Quel courage d'avoir fui avant la fin de la réunion ! »",
+			"reponses": ["Ironie", "Antiphrase", "Gradation", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "« C'est un chef magnifique : il brûle même les pâtes. »",
+			"reponses": ["Ironie", "Hyperbole", "Litote", "Antithèse"],
+			"correct": 0
+		},
+		{
+			"question": "« Bien sûr, ne te dérange pas, je vais tout porter seul. »",
+			"reponses": ["Ironie", "Litote", "Antiphrase", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "« Quelle modestie ! Il ne rate jamais une occasion de parler de lui. »",
+			"reponses": ["Ironie", "Antithèse", "Hyperbole", "Paradoxe"],
+			"correct": 0
+		},
+		{
+			"question": "« Oh, comme c'est amusant d'attendre deux heures dans les embouteillages. »",
+			"reponses": ["Ironie", "Hyperbole", "Antiphrase", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« C'est clair comme du jus de chaussette. »",
+			"reponses": ["Ironie", "Métaphore", "Comparaison", "Antithèse"],
+			"correct": 0
+		},
+		{
+			"question": "« Il a du style : il porte des chaussettes avec des sandales. »",
+			"reponses": ["Ironie", "Hyperbole", "Litote", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "« Très belle idée d'envoyer un email à toute la boîte pour ça. »",
+			"reponses": ["Ironie", "Antiphrase", "Gradation", "Métonymie"],
+			"correct": 0
+		},
+		{
+			"question": "« Comme c'est passionnant, la réunion de 3 heures sur les stylos. »",
+			"reponses": ["Ironie", "Hyperbole", "Antithèse", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "« Tu es d'une intelligence rare. » (à quelqu'un qui vient de commettre une bêtise)",
+			"reponses": ["Ironie", "Litote", "Comparaison", "Antiphrase"],
+			"correct": 0
+		},
+		{
+			"question": "« Quelle surprise de te voir ici ! » (en voyant quelqu'un que l'on attendait)",
+			"reponses": ["Ironie", "Hyperbole", "Litote", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "« C'est un expert : il s'est trompé cinq fois de suite. »",
+			"reponses": ["Ironie", "Antithèse", "Hyperbole", "Paradoxe"],
+			"correct": 0
+		},
+		{
+			"question": "« Comme je suis chanceux d'habiter à côté d'une autoroute. »",
+			"reponses": ["Ironie", "Antiphrase", "Litote", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "« C'est un vrai paradis, cet open space de 200 personnes. »",
+			"reponses": ["Ironie", "Métaphore", "Hyperbole", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "« Félicitations pour cette décision totalement réfléchie ! » (après une impulsion désastreuse)",
+			"reponses": ["Ironie", "Antithèse", "Litote", "Paradoxe"],
+			"correct": 0
+		},
+		{
+			"question": "« On ne peut pas dire que tu te sois foulé. »",
+			"reponses": ["Litote", "Ironie", "Antiphrase", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "« Il est parti en claquant la porte. C'est sa façon discrète de dire au revoir. »",
+			"reponses": ["Ironie", "Antiphrase", "Euphémisme", "Métonymie"],
+			"correct": 0
+		},
+		{
+			"question": "« Comme il est agréable de travailler le dimanche. »",
+			"reponses": ["Ironie", "Antiphrase", "Litote", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "« Superbe coiffure ! » (à quelqu'un qui sort du lit)",
+			"reponses": ["Ironie", "Hyperbole", "Antithèse", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« Ah oui, encore une réforme, quelle bonne nouvelle ! »",
+			"reponses": ["Ironie", "Antiphrase", "Hyperbole", "Paradoxe"],
+			"correct": 0
+		},
+		{
+			"question": "« C'est malin. » (à quelqu'un qui vient de se blesser par imprudence)",
+			"reponses": ["Ironie", "Litote", "Euphémisme", "Antithèse"],
+			"correct": 0
+		},
+		{
+			"question": "« Vraiment, il fallait toute ton intelligence pour trouver ça. »",
+			"reponses": ["Ironie", "Antiphrase", "Hyperbole", "Comparaison"],
+			"correct": 0
+		},
+		{
+			"question": "« Ce film est d'une originalité totale. » (à propos d'un navet vu cent fois)",
+			"reponses": ["Ironie", "Hyperbole", "Antithèse", "Paradoxe"],
+			"correct": 0
+		},
+		{
+			"question": "« C'est bon, merci : vous m'aviez dit dix minutes et voilà trois heures. »",
+			"reponses": ["Ironie", "Hyperbole", "Litote", "Gradation"],
+			"correct": 0
+		},
+		{
+			"question": "« Bien sûr, mettre du sel dans le café au lieu du sucre, c'est une excellente idée. »",
+			"reponses": ["Ironie", "Antiphrase", "Euphémisme", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "« On ne peut pas dire que le service soit rapide ici. »",
+			"reponses": ["Litote", "Ironie", "Antithèse", "Métaphore"],
+			"correct": 0
+		},
+		{
+			"question": "« Il est d'une bonté exemplaire. » (à propos d'un homme connu pour sa cruauté)",
+			"reponses": ["Ironie", "Antithèse", "Hyperbole", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "« Ah oui, c'est simple comme bonjour ! » (devant un problème impossible à résoudre)",
+			"reponses": ["Ironie", "Litote", "Comparaison", "Antiphrase"],
+			"correct": 0
+		},
+		{
+			"question": "« Ce n'est pas tout à fait ce que j'appellerais une réussite. »",
+			"reponses": ["Litote", "Ironie", "Antiphrase", "Euphémisme"],
+			"correct": 0
+		},
+		{
+			"question": "« Très utile, ton conseil : j'avais déjà essayé exactement ça. »",
+			"reponses": ["Ironie", "Antiphrase", "Gradation", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "« Comme j'aime les lundis matins. »",
+			"reponses": ["Ironie", "Antiphrase", "Litote", "Hyperbole"],
+			"correct": 0
+		},
+		{
+			"question": "« Évidemment, c'est moi qui vais ranger. Comme d'habitude. »",
+			"reponses": ["Ironie", "Hyperbole", "Antithèse", "Litote"],
+			"correct": 0
+		},
+		{
+			"question": "« Quelle joie d'apprendre qu'on va encore faire des heures supplémentaires ! »",
+			"reponses": ["Ironie", "Antiphrase", "Gradation", "Oxymore"],
+			"correct": 0
+		},
+		{
+			"question": "« C'est d'une limpidité absolue. » (à propos d'une explication incompréhensible)",
+			"reponses": ["Ironie", "Hyperbole", "Antithèse", "Comparaison"],
+			"correct": 0
+		}
+	]
+}

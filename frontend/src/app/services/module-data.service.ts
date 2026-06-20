@@ -1,52 +1,75 @@
-import { HttpClient } from "@angular/common/http";
-import { Injectable } from "@angular/core";
-import { Observable } from "rxjs";
-import { Module } from "../models/module.model";
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { Observable, firstValueFrom } from 'rxjs';
 
-@Injectable({ providedIn: "root" })
+export interface FigureDetail {
+  id: string;
+  titre: string;
+  description: string;
+  questions: Array<{
+    id: string;
+    question: string;
+    reponses: string[];
+    correct: number;
+  }>;
+}
+
+export interface ModuleSummary {
+  id: string;
+  titre: string;
+  description: string;
+  type: string;
+  ordre: number;
+  figures: string[];
+}
+
+export interface ModuleDetail {
+  id: string;
+  titre: string;
+  description: string;
+  type: string;
+  figures: FigureDetail[];
+}
+
+@Injectable({ providedIn: 'root' })
 export class ModuleDataService {
-	constructor(private http: HttpClient) {}
+  private readonly api = '/api/modules';
 
-	/**
-	 * Charge dynamiquement un module par son id (ex: '1')
-	 */
-	getModuleById(id: string): Observable<Module | undefined> {
-		// Si le module-X.json existe, on le charge, sinon on retourne undefined
-		return new Observable<Module | undefined>((observer) => {
-			this.http.get<Module>(`assets/data/module-${id}.json`).subscribe({
-				next: (mod) => observer.next(mod),
-				error: () => observer.next(undefined),
-				complete: () => observer.complete(),
-			});
-		});
-	}
+  constructor(private http: HttpClient) {}
 
-	/**
-	 * Charge la liste des modules disponibles (à adapter si besoin)
-	 */
-	getAllModules(ids: string[]): Observable<Module[]> {
-		return new Observable<Module[]>((observer) => {
-			const requests = ids.map((id) => this.getModuleById(id));
-			Promise.all(requests.map((req) => req.toPromise()))
-				.then((modules) => {
-					observer.next(modules.filter((m): m is Module => m !== undefined));
-					observer.complete();
-				})
-				.catch((err) => observer.error(err));
-		});
-	}
+  /** Liste tous les modules (pour la page d'accueil, etc.) */
+  getAllModulesSummary(): Observable<ModuleSummary[]> {
+    return this.http.get<ModuleSummary[]>(this.api);
+  }
 
-	// Ajout d'une méthode pour sauvegarder le score d'un module
-	saveModuleScore(moduleId: string, score: number, totalQuestions: number) {
-		// À adapter selon la logique de sauvegarde souhaitée (localStorage, backend, etc.)
-		const scores = JSON.parse(localStorage.getItem("moduleScores") || "[]");
-		const existing = scores.find((s: any) => s.moduleId === moduleId);
-		if (existing) {
-			existing.score = score;
-			existing.totalQuestions = totalQuestions;
-		} else {
-			scores.push({ moduleId, score, totalQuestions });
-		}
-		localStorage.setItem("moduleScores", JSON.stringify(scores));
-	}
+  /** Détail d'un module avec ses figures et questions */
+  getModuleById(id: string): Observable<ModuleDetail> {
+    return this.http.get<ModuleDetail>(`${this.api}/${id}`);
+  }
+
+  /** Une figure seule avec ses questions */
+  getFigure(slug: string): Observable<FigureDetail> {
+    return this.http.get<FigureDetail>(`${this.api}/figures/${slug}`);
+  }
+
+  /** Charge toutes les questions d'un module (pour l'exercise component) */
+  async getQuestionsForModule(moduleId: string) {
+    const mod = await firstValueFrom(this.getModuleById(moduleId));
+    const questions = mod.figures.flatMap((fig) => fig.questions);
+    return { module: mod, questions };
+  }
+
+  saveModuleScore(moduleId: string, score: number, totalQuestions: number) {
+    const key = 'figures_de_style_scores';
+    const scores = JSON.parse(localStorage.getItem(key) || '[]');
+    const percentage = Math.round((score / totalQuestions) * 100);
+    const existing = scores.find((s: any) => s.moduleId === moduleId);
+    const entry = { moduleId, score, totalQuestions, percentage, date: new Date() };
+    if (existing) {
+      Object.assign(existing, entry);
+    } else {
+      scores.push(entry);
+    }
+    localStorage.setItem(key, JSON.stringify(scores));
+  }
 }

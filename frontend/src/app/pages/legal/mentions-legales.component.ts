@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
+import { Title } from "@angular/platform-browser";
 import { LegalLayoutComponent } from "./legal-layout.component";
 
 @Component({
@@ -82,4 +83,10 @@ import { LegalLayoutComponent } from "./legal-layout.component";
     </app-legal>
   `,
 })
-export class MentionsLegalesComponent {}
+export class MentionsLegalesComponent implements OnInit {
+  constructor(private titleService: Title) {}
+
+  ngOnInit(): void {
+    this.titleService.setTitle('Mentions légales — Figures de style');
+  }
+}

@@ -7,7 +7,7 @@ import { RouterModule } from "@angular/router";
 	standalone: true,
 	imports: [CommonModule, RouterModule],
 	template: `
-    <div class="page" id="main-content">
+    <div class="page">
       <div class="container-md animate-slide-up">
         <a routerLink="/" class="inline-flex items-center gap-2 text-dark-textSecondary hover:text-dark-text text-sm mb-10 transition-colors">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
