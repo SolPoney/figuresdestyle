@@ -19,7 +19,7 @@
     </header>
 
     <!-- Grille de modules -->
-    <main id="main-content" class="grid gap-5 md:grid-cols-2 lg:grid-cols-3" role="main" aria-label="Modules d'apprentissage">
+    <main class="grid gap-5 md:grid-cols-2 lg:grid-cols-3" role="main" aria-label="Modules d'apprentissage">
 
       <div *ngIf="modules.length === 0" class="col-span-3 text-center py-16">
         <p class="text-dark-textSecondary text-lg">Chargement des modules…</p>
@@ -27,11 +27,7 @@
 
       <ng-container *ngFor="let module of modules">
         <article
-          class="card surface-shine flex flex-col"
-          [class.opacity-50]="module.isLocked && !isPremiumModule(module.id)"
-          [class.hover:border-dark-borderHover]="!module.isLocked"
-          [class.hover:-translate-y-0.5]="!module.isLocked"
-          [class.hover:shadow-card-lg]="!module.isLocked"
+          class="card surface-shine flex flex-col transition-all duration-200 hover:border-dark-borderHover hover:-translate-y-0.5 hover:shadow-card-lg"
           [attr.aria-label]="'Module : ' + module.titre"
         >
           <div class="p-6 flex flex-col flex-1">
@@ -40,45 +36,33 @@
             <div class="flex items-start justify-between mb-3">
               <h2 class="text-lg font-bold text-dark-text leading-snug">{{ module.titre }}</h2>
               <div class="flex items-center gap-1.5 ml-2 flex-shrink-0">
-                <span *ngIf="isPremiumModule(module.id) && !module.isLocked" class="badge-premium">Premium</span>
-                <span *ngIf="module.isRecap" class="badge-school">Révision</span>
+                <span *ngIf="isPremiumModule(module.id)" class="badge-premium">Premium</span>
+                <span *ngIf="isRevision(module)" class="badge-school">Révision</span>
                 <span
                   *ngIf="getModuleScore(module.id) !== null"
-                  class="badge"
-                  [class.badge-success]="getModuleScore(module.id)! >= 70"
-                  [class.badge-warning]="getModuleScore(module.id)! >= 50 && getModuleScore(module.id)! < 70"
-                  [class.badge-error]="getModuleScore(module.id)! < 50"
-                  [attr.aria-label]="'Score : ' + getModuleScore(module.id) + '%'"
-                >{{ getModuleScore(module.id) }}%</span>
+                  class="text-xs font-bold px-2 py-0.5 rounded-full"
+                  [class.bg-emerald-500]="getModuleScore(module.id)! >= 70"
+                  [class.text-white]="getModuleScore(module.id)! >= 70"
+                  [class.bg-amber-400]="getModuleScore(module.id)! >= 50 && getModuleScore(module.id)! < 70"
+                  [class.text-dark-bg]="getModuleScore(module.id)! >= 50 && getModuleScore(module.id)! < 70"
+                  [class.bg-red-500]="getModuleScore(module.id)! < 50"
+                  [class.text-white]="getModuleScore(module.id)! < 50"
+                  [attr.aria-label]="'Score : ' + getModuleScore(module.id) + '% — ' + (getModuleScore(module.id)! >= 70 ? 'Bon résultat' : getModuleScore(module.id)! >= 50 ? 'Résultat moyen' : 'À améliorer')"
+                >{{ getModuleScore(module.id)! >= 70 ? '✓' : getModuleScore(module.id)! >= 50 ? '~' : '✗' }} {{ getModuleScore(module.id) }}%</span>
               </div>
             </div>
 
             <!-- Description -->
             <p class="text-dark-textSecondary text-sm leading-relaxed mb-5 flex-1">{{ module.description }}</p>
 
-            <!-- Message Premium verrouillé -->
-            <div
-              *ngIf="module.isLocked && isPremiumModule(module.id)"
-              class="alert-warning mb-4 text-sm"
-              role="status"
-            >
-              <svg class="w-4 h-4 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
-              </svg>
-              <div>
-                <p class="font-semibold">Module Premium</p>
-                <p class="text-amber-300/70 text-xs mt-0.5">Passez Premium pour débloquer</p>
-              </div>
-            </div>
-
             <!-- CTA -->
             <a
-              *ngIf="!module.isLocked && canAccessModule(module.id)"
+              *ngIf="canAccessModule(module.id)"
               [routerLink]="['/module', module.id]"
               class="btn btn-primary w-full"
+              [attr.aria-label]="(getModuleScore(module.id) !== null ? 'Recommencer' : 'Commencer') + ' : ' + module.titre"
             >
-              Commencer
+              {{ getModuleScore(module.id) !== null ? 'Recommencer' : 'Commencer' }}
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
               </svg>
@@ -96,19 +80,6 @@
               </svg>
               Passer Premium — 9,99 €
             </a>
-
-            <button
-              *ngIf="module.isLocked && canAccessModule(module.id)"
-              disabled
-              class="btn w-full bg-dark-elevated text-dark-textSecondary/50 cursor-not-allowed"
-              aria-disabled="true"
-            >
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
-              </svg>
-              Verrouillé
-            </button>
 
           </div>
         </article>

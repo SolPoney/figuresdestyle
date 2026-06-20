@@ -1,5 +1,5 @@
 <!-- ── Écran d'exercice ── -->
-<div class="page" *ngIf="questions.length > 0 && currentQuestion && !showResult" id="main-content">
+<div class="page" *ngIf="questions.length > 0 && currentQuestion && !showResult">
   <div class="container-lg">
 
     <!-- Barre du haut -->
@@ -62,7 +62,8 @@
         *ngFor="let option of currentQuestion.reponses"
         (click)="selectAnswer(option)"
         [disabled]="isAnswered()"
-        [attr.aria-pressed]="selectedAnswer === option"
+        role="radio"
+        [attr.aria-checked]="selectedAnswer === option"
         [ngClass]="{
           'ring-2 ring-indigo-400': selectedAnswer === option && !isAnswered(),
           'bg-emerald-500/15 border-emerald-500/60 text-emerald-200': isAnswered() && option === currentQuestion.reponses[currentQuestion.correct],
@@ -142,7 +143,7 @@
 </div>
 
 <!-- ── Écran de résultat ── -->
-<div class="page" *ngIf="showResult" id="main-content">
+<div class="page" *ngIf="showResult">
   <div class="container-md animate-scale-in">
 
     <header class="text-center mb-10">

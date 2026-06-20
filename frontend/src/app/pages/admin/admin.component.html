@@ -30,7 +30,7 @@
 </div>
 
 <!-- ── Dashboard admin ── -->
-<div class="page" *ngIf="isAuthenticated" id="main-content">
+<div class="page" *ngIf="isAuthenticated">
   <div class="container-xl">
 
     <header class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-10">
@@ -81,14 +81,14 @@
       <div class="card surface-shine p-5">
         <p class="text-dark-textSecondary text-xs font-medium mb-2">Messages non lus</p>
         <p class="text-3xl font-bold text-indigo-400 mb-3">{{ stats.contactMessages }}</p>
-        <button (click)="showContacts = !showContacts" class="btn-ghost btn-sm text-xs">
+        <button (click)="showContacts = !showContacts" class="btn-ghost btn-sm text-xs" [attr.aria-expanded]="showContacts" aria-controls="contacts-section">
           {{ showContacts ? "Masquer" : "Voir les messages" }} →
         </button>
       </div>
     </div>
 
     <!-- Messages de contact -->
-    <div *ngIf="showContacts" class="card surface-shine p-6 mb-6">
+    <div id="contacts-section" *ngIf="showContacts" class="card surface-shine p-6 mb-6">
       <h2 class="section-title mb-5">Messages de contact</h2>
       <div *ngIf="contactMessages.length === 0" class="text-center py-8 text-dark-textSecondary">
         Aucun message
@@ -122,11 +122,11 @@
     <div *ngIf="errors.length > 0" class="card border-red-500/30 p-6 mb-6">
       <div class="flex items-center justify-between mb-4">
         <h2 class="section-title text-red-300">Erreurs récentes ({{ errors.length }})</h2>
-        <button (click)="showErrors = !showErrors" class="btn btn-secondary btn-sm">
+        <button (click)="showErrors = !showErrors" class="btn btn-secondary btn-sm" [attr.aria-expanded]="showErrors" aria-controls="errors-section">
           {{ showErrors ? "Masquer" : "Afficher" }}
         </button>
       </div>
-      <div *ngIf="showErrors" class="flex flex-col gap-2">
+      <div id="errors-section" *ngIf="showErrors" class="flex flex-col gap-2">
         <div *ngFor="let error of errors" class="alert-error text-xs">
           <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
@@ -145,12 +145,12 @@
         <h2 class="section-title">Activité récente</h2>
         <div class="flex gap-2">
           <button (click)="cleanOldLogs()" class="btn btn-secondary btn-sm">Nettoyer</button>
-          <button (click)="showLogs = !showLogs" class="btn btn-secondary btn-sm">
+          <button (click)="showLogs = !showLogs" class="btn btn-secondary btn-sm" [attr.aria-expanded]="showLogs" aria-controls="logs-section">
             {{ showLogs ? "Masquer" : "Afficher" }}
           </button>
         </div>
       </div>
-      <div *ngIf="showLogs" class="flex flex-col gap-2 max-h-96 overflow-y-auto scrollbar-none">
+      <div id="logs-section" *ngIf="showLogs" class="flex flex-col gap-2 max-h-96 overflow-y-auto scrollbar-none">
         <div
           *ngFor="let log of recentLogs"
           class="card-elevated rounded-xl px-4 py-3 hover:border-dark-borderHover transition-colors"

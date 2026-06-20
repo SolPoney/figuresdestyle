@@ -21,13 +21,23 @@
     @apply bg-dark-bg text-dark-text;
   }
 
-  /* Focus visible uniquement au clavier (WCAG AAA) */
-  *:focus {
+  /* Focus : masqué à la souris, visible au clavier (WCAG 2.4.7 / RGAA 10.7) */
+  *:focus:not(:focus-visible) {
     outline: none;
   }
 
   *:focus-visible {
     @apply outline-none ring-2 ring-indigo-400 ring-offset-2 ring-offset-dark-bg;
+  }
+
+  /* Respect de prefers-reduced-motion (RGAA 13.12) */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 
   /* Scrollbar discrète */
@@ -44,6 +54,10 @@
   /* Typographie de base */
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold tracking-tight text-dark-text;
+  }
+
+  label, legend {
+    @apply text-dark-text;
   }
 
   a {
@@ -136,7 +150,7 @@
   }
 
   .label {
-    @apply text-sm font-medium text-dark-textSecondary;
+    @apply text-sm font-medium text-dark-text;
   }
 
   .input {

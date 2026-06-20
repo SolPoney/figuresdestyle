@@ -19,7 +19,7 @@
 </div>
 
 <!-- ── Dashboard enseignant ── -->
-<div class="page" *ngIf="currentUser && currentUser.plan === 'school'" id="main-content">
+<div class="page" *ngIf="currentUser && currentUser.plan === 'school'">
   <div class="container-xl">
 
     <header class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-10">
@@ -151,7 +151,7 @@
             <p class="text-xs text-dark-textSecondary">{{ student.completedModules }} module(s) complété(s)</p>
           </div>
           <div class="flex gap-2 flex-shrink-0">
-            <button (click)="viewStudentDetails(student)" class="btn btn-secondary btn-sm">Détails</button>
+            <button (click)="viewStudentDetails(student, $event)" class="btn btn-secondary btn-sm" [attr.aria-label]="'Voir les détails de ' + student.name">Détails</button>
             <button (click)="removeStudent(student.id)" class="btn btn-danger btn-sm">Supprimer</button>
           </div>
         </div>
@@ -164,10 +164,13 @@
 <!-- ── Modal détails élève ── -->
 <div
   *ngIf="selectedStudent"
+  id="student-modal"
   class="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center z-50 p-4"
   (click)="closeStudentDetails()"
+  (keydown)="onModalKeydown($event)"
   role="dialog"
-  [attr.aria-label]="'Détails de ' + selectedStudent.name"
+  aria-modal="true"
+  aria-labelledby="student-modal-title"
 >
   <div
     class="card surface-shine max-w-2xl w-full max-h-[90vh] overflow-y-auto animate-scale-in"
@@ -176,13 +179,14 @@
     <div class="p-6">
       <div class="flex items-start justify-between mb-6">
         <div>
-          <h2 class="text-2xl font-bold text-dark-text">{{ selectedStudent.name }}</h2>
+          <h2 id="student-modal-title" class="text-2xl font-bold text-dark-text">{{ selectedStudent.name }}</h2>
           <p class="text-dark-textSecondary text-sm mt-0.5">{{ selectedStudent.email }}</p>
         </div>
         <button
           (click)="closeStudentDetails()"
           class="btn btn-ghost btn-sm p-2"
-          aria-label="Fermer"
+          aria-label="Fermer la fenêtre de détails"
+          data-modal-close
         >
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>

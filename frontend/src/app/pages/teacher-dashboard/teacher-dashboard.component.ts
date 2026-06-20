@@ -1,7 +1,9 @@
 import { CommonModule } from "@angular/common";
-import { Component, type OnInit } from "@angular/core";
+import { Component, ElementRef, type OnInit, ViewChild } from "@angular/core";
 import { FormsModule } from "@angular/forms";
+import { Title } from "@angular/platform-browser";
 import { RouterModule } from "@angular/router";
+import { ConfirmDialogService } from "../../components/confirm-dialog/confirm-dialog.service";
 import { Student, StudentProgress } from "../../models/student.model";
 import { User } from "../../models/user.model";
 import { AuthService } from "../../services/auth.service";
@@ -42,10 +44,13 @@ export class TeacherDashboardComponent implements OnInit {
 		moduleName: string;
 	}[] = [];
 
+	private modalTrigger: HTMLElement | null = null;
+
 	constructor(
 		private authService: AuthService,
 		private teacherService: TeacherService,
 		private moduleService: ModuleService,
+		private confirmDialog: ConfirmDialogService,
 	) {}
 
 	ngOnInit(): void {
@@ -83,13 +88,19 @@ export class TeacherDashboardComponent implements OnInit {
 		});
 	}
 
-	addStudent(): void {
+	async addStudent(): Promise<void> {
 		if (!this.currentUser || !this.newStudentEmail || !this.newStudentName)
 			return;
 
 		// Vérifier la limite de 30 élèves
 		if (this.students.length >= 30) {
-			alert("Limite de 30 élèves atteinte pour le plan École");
+			await this.confirmDialog.open({
+				title: "Limite atteinte",
+				message: "Vous avez atteint la limite de 30 élèves pour le plan École.",
+				confirmLabel: "OK",
+				cancelLabel: "",
+				variant: "primary",
+			});
 			return;
 		}
 
@@ -105,8 +116,15 @@ export class TeacherDashboardComponent implements OnInit {
 		this.loadDashboardData();
 	}
 
-	removeStudent(studentId: string): void {
-		if (confirm("Êtes-vous sûr de vouloir supprimer cet élève ?")) {
+	async removeStudent(studentId: string): Promise<void> {
+		const ok = await this.confirmDialog.open({
+			title: "Supprimer l'élève",
+			message: "Cette action est irréversible. Êtes-vous sûr de vouloir supprimer cet élève ?",
+			confirmLabel: "Supprimer",
+			cancelLabel: "Annuler",
+			variant: "danger",
+		});
+		if (ok) {
 			this.teacherService.removeStudent(studentId);
 			this.loadDashboardData();
 			if (this.selectedStudent?.id === studentId) {
@@ -115,7 +133,8 @@ export class TeacherDashboardComponent implements OnInit {
 		}
 	}
 
-	viewStudentDetails(student: StudentWithProgress): void {
+	viewStudentDetails(student: StudentWithProgress, event?: MouseEvent): void {
+		this.modalTrigger = event?.currentTarget as HTMLElement ?? null;
 		this.selectedStudent = student;
 		// Charger les scores par module (asynchrone)
 		this.moduleService.getModules().subscribe((modules: any[]) => {
@@ -125,11 +144,51 @@ export class TeacherDashboardComponent implements OnInit {
 				score: this.teacherService.getStudentModuleScore(student.id, module.id),
 			}));
 		});
+		// Focus le bouton de fermeture après rendu
+		setTimeout(() => {
+			const closeBtn = document.querySelector<HTMLElement>('#student-modal [data-modal-close]');
+			closeBtn?.focus();
+		}, 50);
 	}
 
 	closeStudentDetails(): void {
 		this.selectedStudent = null;
 		this.studentModuleScores = [];
+		this.modalTrigger?.focus();
+		this.modalTrigger = null;
+	}
+
+	onModalKeydown(event: KeyboardEvent): void {
+		if (event.key === 'Escape') {
+			this.closeStudentDetails();
+			return;
+		}
+		if (event.key !== 'Tab') return;
+
+		const modal = document.getElementById('student-modal');
+		if (!modal) return;
+
+		const focusable = Array.from(
+			modal.querySelectorAll<HTMLElement>(
+				'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
+			)
+		);
+		if (focusable.length === 0) return;
+
+		const first = focusable[0];
+		const last = focusable[focusable.length - 1];
+
+		if (event.shiftKey) {
+			if (document.activeElement === first) {
+				event.preventDefault();
+				last.focus();
+			}
+		} else {
+			if (document.activeElement === last) {
+				event.preventDefault();
+				first.focus();
+			}
+		}
 	}
 
 	exportResults(): void {

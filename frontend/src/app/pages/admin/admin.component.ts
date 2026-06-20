@@ -1,6 +1,7 @@
 import { CommonModule } from "@angular/common";
 import { Component, type OnInit } from "@angular/core";
 import { FormsModule } from "@angular/forms";
+import { Title } from "@angular/platform-browser";
 import { Router, RouterModule } from "@angular/router";
 import { AuthService } from "../../services/auth.service";
 import {

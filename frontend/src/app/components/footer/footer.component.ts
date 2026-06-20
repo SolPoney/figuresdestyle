@@ -29,6 +29,7 @@ import { RouterModule } from '@angular/router';
               <li><a routerLink="/mentions-legales"            class="text-sm text-dark-textSecondary hover:text-dark-text transition-colors">Mentions légales</a></li>
               <li><a routerLink="/politique-confidentialite"   class="text-sm text-dark-textSecondary hover:text-dark-text transition-colors">Politique de confidentialité</a></li>
               <li><a routerLink="/accessibilite"               class="text-sm text-dark-textSecondary hover:text-dark-text transition-colors">Déclaration d'accessibilité</a></li>
+              <li><a routerLink="/plan-du-site"                class="text-sm text-dark-textSecondary hover:text-dark-text transition-colors">Plan du site</a></li>
               <li><a routerLink="/cgv"                         class="text-sm text-dark-textSecondary hover:text-dark-text transition-colors">CGV</a></li>
             </ul>
           </nav>

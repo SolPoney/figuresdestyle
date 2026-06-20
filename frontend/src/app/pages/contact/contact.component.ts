@@ -17,11 +17,24 @@ export class ContactComponent {
 	message = "";
 	submitted = false;
 
+	nameError = "";
+	emailError = "";
+	messageError = "";
+
 	onSubmit(): void {
-		if (!this.name || !this.email || !this.message) {
-			alert("Veuillez remplir tous les champs obligatoires");
-			return;
+		this.nameError = "";
+		this.emailError = "";
+		this.messageError = "";
+
+		if (!this.name.trim()) this.nameError = "Le nom est requis.";
+		if (!this.email.trim()) {
+			this.emailError = "L'adresse e-mail est requise.";
+		} else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.email)) {
+			this.emailError = "L'adresse e-mail n'est pas valide.";
 		}
+		if (!this.message.trim()) this.messageError = "Le message est requis.";
+
+		if (this.nameError || this.emailError || this.messageError) return;
 
 		// Simulation d'envoi (en production, envoyer vers un backend)
 		console.log("Message de contact:", {
@@ -43,6 +56,9 @@ export class ContactComponent {
 			this.email = "";
 			this.subject = "";
 			this.message = "";
+			this.nameError = "";
+			this.emailError = "";
+			this.messageError = "";
 			this.submitted = false;
 		}, 3000);
 	}

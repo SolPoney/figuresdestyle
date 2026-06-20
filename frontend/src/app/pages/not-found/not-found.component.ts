@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
+import { Title } from "@angular/platform-browser";
 import { RouterModule } from "@angular/router";
 
 @Component({
@@ -7,7 +8,7 @@ import { RouterModule } from "@angular/router";
 	imports: [RouterModule],
 	template: `
     <div class="page flex items-center justify-center min-h-[80vh]">
-      <div class="max-w-lg mx-auto text-center animate-slide-up" id="main-content">
+      <div class="max-w-lg mx-auto text-center animate-slide-up">
         <div class="text-[8rem] font-extrabold leading-none text-gradient mb-2" aria-hidden="true">404</div>
         <h1 class="page-title mb-4">Page introuvable</h1>
         <p class="page-subtitle mb-10">
@@ -26,4 +27,10 @@ import { RouterModule } from "@angular/router";
     </div>
   `,
 })
-export class NotFoundComponent {}
+export class NotFoundComponent implements OnInit {
+  constructor(private titleService: Title) {}
+
+  ngOnInit(): void {
+    this.titleService.setTitle('Page introuvable (404) — Figures de style');
+  }
+}

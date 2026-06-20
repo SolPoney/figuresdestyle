@@ -11,6 +11,7 @@ import { AccessibiliteComponent } from "./pages/legal/accessibilite.component";
 import { CgvComponent } from "./pages/legal/cgv.component";
 import { MentionsLegalesComponent } from "./pages/legal/mentions-legales.component";
 import { PolitiqueConfidentialiteComponent } from "./pages/legal/politique-confidentialite.component";
+import { SitemapComponent } from "./pages/legal/sitemap.component";
 import { ModuleComponent } from "./pages/module/module.component";
 import { NotFoundComponent } from "./pages/not-found/not-found.component";
 import { TeacherDashboardComponent } from "./pages/teacher-dashboard/teacher-dashboard.component";
@@ -27,6 +28,7 @@ export const routes: Routes = [
 		component: PolitiqueConfidentialiteComponent,
 	},
 	{ path: "accessibilite", component: AccessibiliteComponent },
+	{ path: "plan-du-site", component: SitemapComponent },
 	{ path: "cgv", component: CgvComponent },
 	{
 		path: "teacher-dashboard",

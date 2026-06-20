@@ -1,7 +1,9 @@
 import { CommonModule } from "@angular/common";
 import { Component, type OnInit } from "@angular/core";
 import { FormsModule } from "@angular/forms";
+import { Title } from "@angular/platform-browser";
 import { Router, RouterModule } from "@angular/router";
+import { ConfirmDialogService } from "../../components/confirm-dialog/confirm-dialog.service";
 import { User } from "../../models/user.model";
 import { ApiAuthService } from "../../services/api-auth.service";
 import { AuthService } from "../../services/auth.service";
@@ -28,6 +30,7 @@ export class AuthComponent implements OnInit {
 		private apiAuthService: ApiAuthService,
 		private paymentService: PaymentService,
 		private router: Router,
+		private confirmDialog: ConfirmDialogService,
 	) {}
 
 	ngOnInit(): void {
@@ -103,8 +106,15 @@ export class AuthComponent implements OnInit {
 			});
 	}
 
-	logout(): void {
-		if (confirm("Êtes-vous sûr de vouloir vous déconnecter ?")) {
+	async logout(): Promise<void> {
+		const ok = await this.confirmDialog.open({
+			title: "Déconnexion",
+			message: "Êtes-vous sûr de vouloir vous déconnecter ?",
+			confirmLabel: "Se déconnecter",
+			cancelLabel: "Annuler",
+			variant: "danger",
+		});
+		if (ok) {
 			this.authService.logout();
 			this.router.navigate(["/"]);
 		}

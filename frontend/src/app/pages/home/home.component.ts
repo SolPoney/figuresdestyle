@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { Module } from '../../models/module.model';
 import { User } from '../../models/user.model';
 import { AuthService } from '../../services/auth.service';
+import { ModuleDataService, ModuleSummary } from '../../services/module-data.service';
 import { ModuleService } from '../../services/module.service';
 
 @Component({
@@ -14,25 +15,21 @@ import { ModuleService } from '../../services/module.service';
   styleUrl: './home.component.css',
 })
 export class HomeComponent implements OnInit {
-  modules: Module[] = [];
+  modules: ModuleSummary[] = [];
   currentUser: User | null = null;
 
   constructor(
+    private moduleDataService: ModuleDataService,
     private moduleService: ModuleService,
-    private authService: AuthService
+    private authService: AuthService,
+    private titleService: Title
   ) {}
 
   ngOnInit(): void {
-    this.moduleService.getModules().subscribe({
-      next: (modules) => {
-        console.log('Contenu brut reçu :', modules);
-        this.modules = modules && Array.isArray(modules) ? modules : [];
-        console.log('Modules utilisés :', this.modules);
-      },
-      error: () => {
-        this.modules = [];
-        console.log('Erreur de chargement des modules');
-      },
+    this.titleService.setTitle('Accueil — Figures de style');
+    this.moduleDataService.getAllModulesSummary().subscribe({
+      next: (modules) => (this.modules = modules),
+      error: () => (this.modules = []),
     });
     this.authService.currentUser.subscribe((user: User | null) => {
       this.currentUser = user;
@@ -42,6 +39,10 @@ export class HomeComponent implements OnInit {
   getModuleScore(moduleId: string): number | null {
     const score = this.moduleService.getModuleScore(moduleId);
     return score ? score.percentage : null;
+  }
+
+  isRevision(module: ModuleSummary): boolean {
+    return module.type === 'revision';
   }
 
   canAccessModule(moduleId: string): boolean {

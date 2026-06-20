@@ -1,9 +1,18 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
-import { Module, Question } from '../../models/module.model';
 import { ModuleDataService } from '../../services/module-data.service';
+
+export interface Question {
+  id?: string;
+  question: string;
+  reponses: string[];
+  correct: number;
+  indice?: string;
+  explication?: string;
+}
 
 @Component({
   selector: 'app-exercise',
@@ -14,65 +23,62 @@ import { ModuleDataService } from '../../services/module-data.service';
 })
 export class ExerciseComponent implements OnInit {
   moduleId: string = '';
-  module?: Module;
-  questions: Question[] = [];
+  moduleTitre: string = '';
+  moduleType: string = '';
+
   allQuestions: Question[] = [];
+  questions: Question[] = [];
   currentQuestionIndex: number = 0;
   currentQuestion?: Question;
   selectedAnswer: string = '';
   showHint: boolean = false;
-  answeredQuestions: Map<number, { answer: string; isCorrect: boolean }> =
-    new Map();
+  answeredQuestions: Map<number, { answer: string; isCorrect: boolean }> = new Map();
   showResult: boolean = false;
   score: number = 0;
-  modulesConfig: any[] = [];
+
   nbQuestionsOptions: number[] = [5, 10, 20, 50, 100, 0];
   nbQuestions: number = 10;
-  isRevision: boolean = false;
+  isLoading: boolean = false;
+  errorMessage: string = '';
+
+  get isRevision(): boolean {
+    return this.moduleType === 'revision';
+  }
 
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private moduleDataService: ModuleDataService
+    private moduleDataService: ModuleDataService,
+    private titleService: Title
   ) {}
 
   ngOnInit(): void {
+    this.titleService.setTitle('Exercice — Figures de style');
     this.route.params.subscribe(async (params) => {
       this.moduleId = params['id'];
-      await this.loadModulesConfig();
-      await this.loadQuestionsFromConfig(this.moduleId);
+      await this.loadModule(this.moduleId);
     });
   }
 
-  async loadModulesConfig() {
-    const resp = await fetch('assets/data/modules-config.json');
-    this.modulesConfig = await resp.json();
-  }
-
-  async loadQuestionsFromConfig(moduleId: string) {
-    const idx = parseInt(moduleId, 10) - 1;
-    const config = this.modulesConfig[idx];
-    if (!config) {
+  async loadModule(moduleId: string) {
+    this.isLoading = true;
+    this.errorMessage = '';
+    try {
+      const { module, questions } = await this.moduleDataService.getQuestionsForModule(moduleId);
+      this.moduleTitre = module.titre;
+      this.moduleType = module.type;
+      this.titleService.setTitle(`Exercice : ${module.titre} — Figures de style`);
+      this.allQuestions = this.shuffleArray(questions);
+      this.setNbQuestions(this.nbQuestions);
+    } catch (e) {
+      this.errorMessage = 'Impossible de charger le module. Le serveur est peut-être hors ligne.';
       this.questions = [];
-      return;
+    } finally {
+      this.isLoading = false;
     }
-    this.isRevision = config.type === 'revision';
-    let allQuestions: Question[] = [];
-    for (const fig of config.figures) {
-      try {
-        const resp = await fetch(`assets/data/${fig}.json`);
-        const data = await resp.json();
-        if (data.questions) {
-          allQuestions = allQuestions.concat(data.questions);
-        }
-      } catch (e) {}
-    }
-    this.allQuestions = this.shuffleArray(allQuestions);
-    this.setNbQuestions(this.nbQuestions);
   }
 
   setNbQuestions(count: number) {
-    // 0 = tout
     if (count === 0 || count > this.allQuestions.length) {
       this.questions = [...this.allQuestions];
     } else {
@@ -86,8 +92,6 @@ export class ExerciseComponent implements OnInit {
     this.selectedAnswer = '';
     this.showHint = false;
   }
-
-  // Ancienne méthode supprimée, tout est géré par loadQuestionsFromConfig et setNbQuestions
 
   shuffleArray<T>(array: T[]): T[] {
     const arr = [...array];
@@ -108,18 +112,9 @@ export class ExerciseComponent implements OnInit {
 
   submitAnswer(): void {
     if (!this.selectedAnswer || !this.currentQuestion) return;
-
-    const isCorrect =
-      this.selectedAnswer ===
-      this.currentQuestion.reponses[this.currentQuestion.correct];
-    this.answeredQuestions.set(this.currentQuestionIndex, {
-      answer: this.selectedAnswer,
-      isCorrect,
-    });
-
-    if (isCorrect) {
-      this.score++;
-    }
+    const isCorrect = this.selectedAnswer === this.currentQuestion.reponses[this.currentQuestion.correct];
+    this.answeredQuestions.set(this.currentQuestionIndex, { answer: this.selectedAnswer, isCorrect });
+    if (isCorrect) this.score++;
   }
 
   nextQuestion(): void {
@@ -130,12 +125,7 @@ export class ExerciseComponent implements OnInit {
       this.showHint = false;
     } else {
       this.showResult = true;
-      // Sauvegarder le score
-      this.moduleDataService.saveModuleScore(
-        this.moduleId,
-        this.score,
-        this.questions.length
-      );
+      this.moduleDataService.saveModuleScore(this.moduleId, this.score, this.questions.length);
     }
   }
 
